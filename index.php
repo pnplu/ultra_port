@@ -17,6 +17,18 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
+
+    <!-- Creator count animation -->
+    <link rel="stylesheet" href="stylesheet/css/odometer-theme-minimal.css" />
+    <script src="js/odometer.min.js"></script>
+    <script>
+    window.odometerOptions = {
+      format: '(ddd).dd'
+    };
+    </script>
+
+    <!-- Hover menu bar -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
   </head>
   <body>
 <div id="large-header" class="large-header">
@@ -47,9 +59,10 @@
           </p>
         </article> <!-- Side L -->
         <article class="col-sm-10 menu">
-          <span>CREATOR</span>
-          <span>THANK YOU</span>
-          <span>CONTACT</span>
+
+          <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
+          <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
+          <span><a class="link link--kukuri" href="#" data-letters="CONTACT">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
 
@@ -57,8 +70,19 @@
           <article class="row">
             <article class="col-sm-12 topic_top">
               <article class="col-sm-4 topic_box_l">
-                <p class="p_l_topic">
-                  40 CREATOR<br>
+                <p class="p_l_topic" style="float:left;">
+                  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                  <script src="../js/odometer.js"></script>
+                  <div class="odometer" style="font-size:78px;">11 </div>
+
+                  <script>
+                    setTimeout(function(){
+                      $('.odometer').html(40);
+                    }, 1000);
+                  </script>
+
+                  <p class="p_l_topic">
+                    CREATOR<br>
                 </p>
                 <span class="color_green">SENIOR PROJECT</span><br>
                 <span class="color_green">2017</span>
@@ -104,14 +128,14 @@
               </article>
             </article>
               <article class="col-sm-10 menu_r">
-                <ul>
-                  <li>APPLICATION IOS</li> /
-                  <li>BASE ON DESKTOP</li> /
-                  <li>WEB MOBILE</li> /
-                  <li>ANDRIOD</li> /
-                  <li>ON TABLET</li> /
-                  <li>UNITY KINECT</li> /
-                  <li>UNITY ARDUINO</li>
+                <ul style="color:#fff;">
+                  <li><a class="link link--kumya" href="#" data-letters="APPLICATION IOS">APPLICATION IOS</a></li> /
+                  <li><a class="link link--kumya" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
+                  <li><a class="link link--kumya" href="#" data-letters="ANDRIOD">ANDRIOD</a></li> /
+                  <li><a class="link link--kumya" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
+                  <li><a class="link link--kumya" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
+                  <li><a class="link link--kumya" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
                 </ul>
               </article>
             </article>
@@ -129,6 +153,8 @@
     </section> <!-- container-fluid -->
 </div> <!-- large-header -->
 <script>
+var a=0;
+
 var delayMillis = 4000;
 var x2 = document.getElementById('logo_2');
     x2.style.display = 'none';

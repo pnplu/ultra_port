@@ -1,12 +1,12 @@
 $bg_main: #250F59;
-$border_1: #59595D;
+$border_1: #422192;
 $btn_menu: #04F3C4;
 $color_green: #04F3C4;
 html, body {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background-color: $bg_main;
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(72,36,163,1) 0%, rgba(37,15,89,1) 63%, rgba(37,15,89,1) 100%);
 }
 
 .row{
@@ -21,7 +21,7 @@ html, body {
     filter: alpha(opacity=50);
 }
 #large-header{
-    background-color: $bg_main;
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(72,36,163,1) 0%, rgba(37,15,89,1) 63%, rgba(37,15,89,1) 100%);
 }
 // bg-dot-line-effect
 
@@ -30,7 +30,7 @@ html, body {
 }
 
 // logo-effect
-  
+
 // logo-effect
 
 .side_l_page{
@@ -90,11 +90,12 @@ html, body {
         margin: 0;
         padding: 0;
         border: 0;
+        z-index: 999999;
       }
       span{
         font-family: 'Titillium Web', sans-serif;
         font-weight: 600;
-        font-size: 2em;
+        font-size: 1em;
         margin: 0px;
         padding: 0px;
         border: 0;
@@ -127,13 +128,13 @@ html, body {
   }
 
   .box_wrap_work{
-    background-color: #333333;
+    // background-color: #333333;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     width: 2000px;
     .box_a{
-      background-color: #ffcc00;
+      background-image: url("../../image_web/creator_bg.jpg");
       width: 240px;
       height: 240px;
       margin-top: 30px;
