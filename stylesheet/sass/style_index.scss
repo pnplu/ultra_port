@@ -8,14 +8,34 @@ html, body {
   border: 0px;
   background-color: $bg_main;
 }
+
 .row{
-  background-color: $bg_main;
 }
+
+// bg-dot-line-effect
+#demo-canvas{
+  float: left;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#large-header{
+    background-color: $bg_main;
+}
+// bg-dot-line-effect
+
+.color_green{
+  color: $color_green;
+}
+
+// logo-effect
+  
+// logo-effect
 
 .side_l_page{
   height: 86vh;
-  background-color: $bg_main;
-  img{
+  svg{
     max-width: 100%;
     margin-top: 20px;
     margin-left: 40px;
@@ -36,7 +56,6 @@ html, body {
   letter-spacing: 2px;
   width: 100%;
   height: 80px;
-  background-color: $bg_main;
   text-align: center;
   color: #FFFFFF;
   span{
@@ -58,7 +77,6 @@ html, body {
 .discription{
   // height: 500px;
   height: 100%;
-  background-color: $bg_main;
   .topic_top{
     height: 120px;
     // background-color: #ffcc00;
@@ -138,7 +156,6 @@ html, body {
   width: 100%;
   .main_menu{
     height: 14vh;
-    background-color: $bg_main;
     border-top: 2px solid $border_1;
     .btn_menu{
       width: 60px;

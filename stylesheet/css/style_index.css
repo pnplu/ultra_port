@@ -4,13 +4,22 @@ html, body {
   border: 0px;
   background-color: #250F59; }
 
-.row {
+#demo-canvas {
+  float: left;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+
+#large-header {
   background-color: #250F59; }
 
+.color_green {
+  color: #04F3C4; }
+
 .side_l_page {
-  height: 86vh;
-  background-color: #250F59; }
-  .side_l_page img {
+  height: 86vh; }
+  .side_l_page svg {
     max-width: 100%;
     margin-top: 20px;
     margin-left: 40px; }
@@ -29,7 +38,6 @@ html, body {
   letter-spacing: 2px;
   width: 100%;
   height: 80px;
-  background-color: #250F59;
   text-align: center;
   color: #FFFFFF; }
   .menu span {
@@ -46,8 +54,7 @@ html, body {
     border-bottom: 1px solid #59595D; }
 
 .discription {
-  height: 100%;
-  background-color: #250F59; }
+  height: 100%; }
   .discription .topic_top {
     height: 120px; }
     .discription .topic_top .topic_box_l {
@@ -107,7 +114,6 @@ html, body {
   width: 100%; }
   .pos_fix .main_menu {
     height: 14vh;
-    background-color: #250F59;
     border-top: 2px solid #59595D; }
     .pos_fix .main_menu .btn_menu {
       width: 60px;
