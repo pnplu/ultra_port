@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Ultraline\\": "src"
+    }
+  },
+  "require": {
+    "twbs/bootstrap": "^3.3"
+  }
+}
