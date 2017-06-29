@@ -1,0 +1,75 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #250F59; }
+
+.wrap_nav_top {
+  background-color: #250F59;
+  height: 100px; }
+  .wrap_nav_top .box_nav_top_l, .wrap_nav_top .box_nav_top_r {
+    height: 100px; }
+    .wrap_nav_top .box_nav_top_l img, .wrap_nav_top .box_nav_top_r img {
+      max-width: 80%;
+      margin-top: 12px; }
+  .wrap_nav_top .box_nav_top_r img {
+    max-width: 70%;
+    float: right;
+    margin-top: 30px; }
+  .wrap_nav_top hr {
+    width: 100%;
+    margin-top: 5px;
+    border-color: #422192; }
+
+.wrap_footer {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0; }
+  .wrap_footer .wrap_r_footer {
+    background-color: #000000;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), #000000);
+    height: 100px; }
+    .wrap_footer .wrap_r_footer .wrap_footer_l {
+      height: 100px;
+      margin: 0px;
+      padding: 0px; }
+      .wrap_footer .wrap_r_footer .wrap_footer_l button {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 10px;
+        border: none;
+        background-color: #04F3C4; }
+    .wrap_footer .wrap_r_footer .wrap_footer_r {
+      height: 100px; }
+      .wrap_footer .wrap_r_footer .wrap_footer_r p {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 0.8em;
+        margin-top: 25px;
+        color: #FFFFFF; }
+      .wrap_footer .wrap_r_footer .wrap_footer_r .wrap_topic_footer {
+        float: left; }
+        .wrap_footer .wrap_r_footer .wrap_footer_r .wrap_topic_footer .topic_footer {
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 1.2em;
+          font-weight: 600;
+          color: #FFFFFF; }
+      .wrap_footer .wrap_r_footer .wrap_footer_r .wrap_user_footer {
+        float: left;
+        width: 80px;
+        height: 0;
+        margin-left: 10px;
+        border-right: 10px solid transparent;
+        border-top: 25px solid #FFFFFF;
+        position: relative; }
+        .wrap_footer .wrap_r_footer .wrap_footer_r .wrap_user_footer .user_footer {
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 0.7em;
+          font-weight: 600;
+          position: absolute;
+          top: -19px;
+          left: 3px; }
+
+/*# sourceMappingURL=style_port.css.map */

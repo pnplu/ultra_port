@@ -1,0 +1,101 @@
+$bg_main: #250F59;
+$border_1: #422192;
+$btn_menu: #04F3C4;
+$color_green: #04F3C4;
+
+html, body{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: $bg_main;
+}
+
+.wrap_nav_top{
+  background-color: $bg_main;
+  height: 100px;
+  .box_nav_top_l{
+    height: 100px;
+    img{
+      max-width: 80%;
+      margin-top: 12px;
+    }
+  }
+  .box_nav_top_r{
+    @extend .box_nav_top_l;
+    img{
+      max-width: 70%;
+      float: right;
+      margin-top: 30px;
+    }
+  }
+  hr{
+    width: 100%;
+    margin-top: 5px;
+    border-color: $border_1;
+  }
+}
+
+// footer
+.wrap_footer{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  .wrap_r_footer{
+    background-color: #000000;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), #000000);
+    // -webkit-filter: blur(5px);
+
+    height: 100px;
+    .wrap_footer_l{
+      height: 100px;
+      margin: 0px;
+      padding: 0px;
+      button{
+        width: 70px;
+        height: 70px;
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 10px;
+        border: none;
+        background-color: $color_green;
+      }
+    }
+    .wrap_footer_r{
+      height: 100px;
+      p{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 0.8em;
+        margin-top: 25px;
+        color: #FFFFFF;
+      }
+      .wrap_topic_footer{
+        float: left;
+        .topic_footer{
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 1.2em;
+          font-weight: 600;
+          color: #FFFFFF;
+        }
+      }
+      .wrap_user_footer{
+        float: left;
+        width: 80px;
+        height: 0;
+        // background-color: #FFFFFF;
+        margin-left: 10px;
+        border-right: 10px solid transparent;
+        border-top: 25px solid #FFFFFF;
+        position: relative;
+        .user_footer{
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 0.7em;
+          font-weight: 600;
+          position: absolute;
+          top: -19px;
+          left: 3px;
+        }
+      }
+    }
+  }
+}
