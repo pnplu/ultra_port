@@ -43,6 +43,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/01.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -57,6 +58,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/02.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -71,6 +73,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/03.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -85,6 +88,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/04.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -99,6 +103,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/05.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -113,6 +118,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/06.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -127,6 +133,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/07.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -141,6 +148,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/08.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -155,6 +163,7 @@
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_people/09.jpg" alt="Ultraline 11.3">
+                  <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->

@@ -51,13 +51,51 @@ html, body{
       .image_people{
         height: 100%;
         overflow: hidden;
+        position: relative;
         img{
           max-width: 100%;
-          transform: scale(2.6) translate(8px,0px);;
+          transform: scale(2.6) translate(8px,0px);
+          transition: 0.3s ease;
 
         }
+        button{
+          display: none;
+          background-color: rgba(0, 0, 0, 0.5);
+          border: 1px solid #333333;
+          transition: 1s ease-in-out;
+          cursor: pointer;
+        }
       }
+      .image_people:hover{
+        transition: 0.3s ease;
+        background-image: url("../../image_web/mockup_work.png");
+        img{
+          opacity: 0;
+        }
+        button{
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 1em;
+          width: 60%;
+          height: 40px;
+          display: block;
+          position: absolute;
+          top: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          right: 0;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #FFFFFF;
+          border: none;
+        }
+        button:hover{
+          background-color: $color_green;
+          color: #333333;
+        }
+      }
+
     }
+
     .discription_people{
       height: 50px;
       // background-color: red;
@@ -76,6 +114,7 @@ html, body{
         font-size: 1em;
       }
     }
+
   }
 
 

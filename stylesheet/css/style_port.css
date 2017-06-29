@@ -35,10 +35,41 @@ html, body {
       margin-top: 10px; }
       .wrap_people .wrap_box_people .image_people {
         height: 100%;
-        overflow: hidden; }
+        overflow: hidden;
+        position: relative; }
         .wrap_people .wrap_box_people .image_people img {
           max-width: 100%;
-          transform: scale(2.6) translate(8px, 0px); }
+          transform: scale(2.6) translate(8px, 0px);
+          transition: 0.3s ease; }
+        .wrap_people .wrap_box_people .image_people button {
+          display: none;
+          background-color: rgba(0, 0, 0, 0.5);
+          border: 1px solid #333333;
+          transition: 1s ease-in-out;
+          cursor: pointer; }
+      .wrap_people .wrap_box_people .image_people:hover {
+        transition: 0.3s ease;
+        background-image: url("../../image_web/mockup_work.png"); }
+        .wrap_people .wrap_box_people .image_people:hover img {
+          opacity: 0; }
+        .wrap_people .wrap_box_people .image_people:hover button {
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 1em;
+          width: 60%;
+          height: 40px;
+          display: block;
+          position: absolute;
+          top: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          right: 0;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #FFFFFF;
+          border: none; }
+        .wrap_people .wrap_box_people .image_people:hover button:hover {
+          background-color: #04F3C4;
+          color: #333333; }
     .wrap_people .discription_people {
       height: 50px; }
       .wrap_people .discription_people .topic_user, .wrap_people .discription_people .name_user {
