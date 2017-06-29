@@ -70,6 +70,8 @@ html, body {
         .wrap_people .wrap_box_people .image_people:hover button:hover {
           background-color: #04F3C4;
           color: #333333; }
+        .wrap_people .wrap_box_people .image_people:hover button:focus {
+          outline: none; }
     .wrap_people .discription_people {
       height: 50px; }
       .wrap_people .discription_people .topic_user, .wrap_people .discription_people .name_user {

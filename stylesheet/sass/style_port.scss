@@ -92,6 +92,9 @@ html, body{
           background-color: $color_green;
           color: #333333;
         }
+        button:focus{
+          outline: none;
+        }
       }
 
     }
