@@ -156,6 +156,17 @@
       <section class="row">
         <section class="col-xs-12 wrap_dev_by">
           <h3>DEVELOPED BY</h3>
+          <section class="row">
+            <article class="col-xs-12 img_dev_user">
+              <img src="image_web/mock_dev_user.jpg" alt="img_user">
+            </article>
+          </section>
+          <article class="col-xs-offset-1 col-xs-10 wrap_quote_user">
+            <h4>"MOTIVATION <br> QUOTE</h4>
+            <p>
+              	Be careful what you believe because that is what you will experience. Your belief
+            </p>
+          </article>
         </section>
       </section><!-- Develop by -->
 

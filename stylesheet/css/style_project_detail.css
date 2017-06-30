@@ -130,8 +130,41 @@ html, body {
       text-align: left;
       margin-left: -10px; }
 
-  .wrap_dev_by {
-    background-color: #ffcc00; }
+  .wrap_dev_by .img_dev_user {
+    min-height: 250px;
+    background-color: #333333;
+    overflow: hidden;
+    position: relative; }
+    .wrap_dev_by .img_dev_user img {
+      max-width: 160%;
+      position: absolute;
+      height: auto;
+      right: -60px; }
+  .wrap_dev_by .wrap_quote_user {
+    background-color: #EF4350;
+    height: 60%;
+    margin-top: 30px;
+    padding-bottom: 80px; }
+    .wrap_dev_by .wrap_quote_user h4 {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      font-size: 2em;
+      letter-spacing: 2px;
+      text-align: left;
+      color: #FFFFFF;
+      margin-top: 30px;
+      margin-left: 20px; }
+    .wrap_dev_by .wrap_quote_user p {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      font-size: 1em;
+      letter-spacing: 2px;
+      text-align: left;
+      text-indent: 3em;
+      text-transform: uppercase;
+      margin-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px; }
 
   .wrap_footer {
     height: 100px;
