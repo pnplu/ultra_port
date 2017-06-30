@@ -75,7 +75,7 @@
           <article class="col-xs-12 mockup_nb">
 
           </article>
-          <article class="col-xs-offset-1 col-xs-10 func_a func_active">
+          <article class="row col-xs-offset-1 col-xs-10 func_a">
             <article class="row col-xs-4 func_number">
               <h4>01</h4>
             </article>
@@ -83,7 +83,25 @@
               <h4>GENERATE PDF</h4>
               <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
             </article>
-          </article>
+          </article> <!-- function 1 -->
+          <article class="row col-xs-offset-1 col-xs-10 func_a func_active">
+            <article class="row col-xs-4 func_number">
+              <h4>02</h4>
+            </article>
+            <article class="col-xs-9 func_discription">
+              <h4>GENERATE PDF</h4>
+              <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+            </article>
+          </article> <!-- function 2 -->
+          <article class="row col-xs-offset-1 col-xs-10 func_a">
+            <article class="row col-xs-4 func_number">
+              <h4>03</h4>
+            </article>
+            <article class="col-xs-9 func_discription">
+              <h4>GENERATE PDF</h4>
+              <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+            </article>
+          </article> <!-- function 3 -->
         </section>
       </section> <!-- function -->
 

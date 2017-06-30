@@ -75,7 +75,8 @@ html, body {
     background-size: cover;
     background-position: center 30px; }
   .wrap_function .func_a {
-    min-height: 100px; }
+    min-height: 100px;
+    cursor: pointer; }
     .wrap_function .func_a .func_number {
       background-color: transparent;
       background-image: url("../../image_web/func_element.png");
@@ -98,15 +99,21 @@ html, body {
       border: 0px; }
       .wrap_function .func_a .func_discription h4 {
         font-family: 'Titillium Web', sans-serif;
+        font-weight: 600;
         letter-spacing: 2px;
-        font-weight: 400;
         color: #FFFFFF; }
       .wrap_function .func_a .func_discription p {
         text-indent: 0px;
         font-size: 0.8em; }
   .wrap_function .func_active {
-    background-color: gray;
+    background-color: #04F3C4;
     border-radius: 0 10px 10px 0; }
+    .wrap_function .func_active .func_number h4 {
+      color: #333333; }
+    .wrap_function .func_active .func_discription h4 {
+      color: #333333; }
+    .wrap_function .func_active .func_discription p {
+      color: #333333; }
 
   .wrap_footer {
     height: 100px;

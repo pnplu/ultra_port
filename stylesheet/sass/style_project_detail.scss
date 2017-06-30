@@ -113,6 +113,7 @@ display: none;
     }
     .func_a{
       min-height: 100px;
+      cursor: pointer;
       .func_number{
         background-color: transparent;
         background-image: url("../../image_web/func_element.png");
@@ -139,8 +140,8 @@ display: none;
         border: 0px;
         h4{
           font-family: 'Titillium Web', sans-serif;
+          font-weight: 600;
           letter-spacing: 2px;
-          font-weight: 400;
           color: #FFFFFF;
         }
         p{
@@ -150,8 +151,21 @@ display: none;
       }
     }
     .func_active{
-      background-color: gray;
+      background-color: $color_green;
       border-radius: 0 10px 10px 0;
+      .func_number{
+        h4{
+          color: #333333;
+        }
+      }
+      .func_discription{
+        h4{
+          color: #333333;
+        }
+        p{
+          color: #333333;
+        }
+      }
     }
   }
 
