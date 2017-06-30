@@ -152,6 +152,12 @@
           </article> <!--skill 4-->
         </section>
       </section> <!-- tool develop -->
+      <!-- Develop by -->
+      <section class="row">
+        <section class="col-xs-12 wrap_dev_by">
+          <h3>DEVELOPED BY</h3>
+        </section>
+      </section><!-- Develop by -->
 
       <!-- footer -->
       <footer class="row">

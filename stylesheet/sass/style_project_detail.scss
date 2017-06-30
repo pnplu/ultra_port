@@ -174,6 +174,7 @@ display: none;
     @extend .wrap_concept;
     background-color: transparent;
     .c100{
+      font-size: 65px;
       span{
         font-family: 'Titillium Web', sans-serif;
         font-weight: 600;
@@ -185,8 +186,16 @@ display: none;
       font-weight: 600;
       letter-spacing: 2px;
       text-align: left;
+      margin-left: -10px;
     }
   }
+
+  //Develop by
+  .wrap_dev_by{
+    @extend .wrap_concept;
+    background-color: #ffcc00;
+  }
+
 
   // footer
   .wrap_footer{

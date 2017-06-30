@@ -36,10 +36,10 @@ html, body {
     background-color: #ffcc00;
     height: 200px; }
 
-  .wrap_concept, .wrap_design_process, .wrap_function, .wrap_tool {
+  .wrap_concept, .wrap_design_process, .wrap_function, .wrap_tool, .wrap_dev_by {
     height: auto;
     padding-bottom: 30px; }
-    .wrap_concept h3, .wrap_design_process h3, .wrap_function h3, .wrap_tool h3 {
+    .wrap_concept h3, .wrap_design_process h3, .wrap_function h3, .wrap_tool h3, .wrap_dev_by h3 {
       font-family: 'Titillium Web', sans-serif;
       font-weight: 600;
       font-size: 2.2em;
@@ -47,7 +47,7 @@ html, body {
       margin-top: 30px;
       margin-bottom: 20px;
       letter-spacing: 3px; }
-    .wrap_concept p, .wrap_design_process p, .wrap_function p, .wrap_tool p {
+    .wrap_concept p, .wrap_design_process p, .wrap_function p, .wrap_tool p, .wrap_dev_by p {
       text-indent: 2em;
       font-size: 0.9em;
       color: #FFFFFF; }
@@ -117,15 +117,21 @@ html, body {
 
   .wrap_tool {
     background-color: transparent; }
-    .wrap_tool .c100 span {
-      font-family: 'Titillium Web', sans-serif;
-      font-weight: 600;
-      letter-spacing: 2px; }
+    .wrap_tool .c100 {
+      font-size: 65px; }
+      .wrap_tool .c100 span {
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px; }
     .wrap_tool p {
       font-family: 'Titillium Web', sans-serif;
       font-weight: 600;
       letter-spacing: 2px;
-      text-align: left; }
+      text-align: left;
+      margin-left: -10px; }
+
+  .wrap_dev_by {
+    background-color: #ffcc00; }
 
   .wrap_footer {
     height: 100px;
