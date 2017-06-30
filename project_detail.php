@@ -66,6 +66,9 @@
               <li class="col-xs-5 dp_img_user_b">
 
               </li>
+              <li class="col-xs-5 dp_img_user_b">
+
+              </li>
             </ul>
           </article>
         </article>
