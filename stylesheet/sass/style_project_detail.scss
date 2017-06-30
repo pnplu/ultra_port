@@ -169,6 +169,25 @@ display: none;
     }
   }
 
+  //tool develop
+  .wrap_tool{
+    @extend .wrap_concept;
+    background-color: transparent;
+    .c100{
+      span{
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+    }
+    p{
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-align: left;
+    }
+  }
+
   // footer
   .wrap_footer{
     height: 100px;

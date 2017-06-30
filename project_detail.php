@@ -12,6 +12,8 @@
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <!-- circle css -->
+    <link rel="stylesheet" href="stylesheet/css/circle.css">
   </head>
   <body>
     <section class="container-fluid">
@@ -104,6 +106,52 @@
           </article> <!-- function 3 -->
         </section>
       </section> <!-- function -->
+      <!-- tool develop -->
+      <section class="row">
+        <section class="col-xs-12 wrap_tool">
+          <h3>TOOL DEVELOP</h3>
+          <article class="col-xs-3">
+            <article class="c100 p78 small purple">
+                <span>78%</span>
+                <article class="slice">
+                    <article class="bar"></article>
+                    <article class="fill"></article>
+                </article>
+            </article>
+            <p>PHP</p>
+          </article> <!--skill 1-->
+          <article class="col-xs-3">
+            <article class="c100 p82 small white">
+                <span>82%</span>
+                <article class="slice">
+                    <article class="bar"></article>
+                    <article class="fill"></article>
+                </article>
+            </article>
+            <p>SWIFT</p>
+          </article> <!--skill 2-->
+          <article class="col-xs-3">
+            <article class="c100 p92 small green_r">
+                <span>92%</span>
+                <article class="slice">
+                    <article class="bar"></article>
+                    <article class="fill"></article>
+                </article>
+            </article>
+            <p>MYSQL</p>
+          </article> <!--skill 3-->
+          <article class="col-xs-3">
+            <article class="c100 p68 small red_r">
+                <span>68%</span>
+                <article class="slice">
+                    <article class="bar"></article>
+                    <article class="fill"></article>
+                </article>
+            </article>
+            <p>JSON</p>
+          </article> <!--skill 4-->
+        </section>
+      </section> <!-- tool develop -->
 
       <!-- footer -->
       <footer class="row">
