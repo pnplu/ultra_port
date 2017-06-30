@@ -15,7 +15,6 @@ html, body {
 
 @media screen and (min-width: 319px) {
   .wrap_nav_top {
-    background-color: #250F59;
     height: 136px; }
     .wrap_nav_top .box_nav_top_l, .wrap_nav_top .box_nav_top_r {
       height: 100px; }
@@ -33,8 +32,15 @@ html, body {
       float: left; }
 
   .wrap_banner {
-    background-color: #ffcc00;
-    height: 200px; }
+    background-color: #04F3C4;
+    height: 200px;
+    overflow: hidden;
+    position: relative; }
+    .wrap_banner img {
+      position: absolute;
+      left: -100px;
+      width: 1100px;
+      height: auto; }
 
   .wrap_concept, .wrap_design_process, .wrap_function, .wrap_tool, .wrap_dev_by {
     height: auto;
@@ -130,41 +136,46 @@ html, body {
       text-align: left;
       margin-left: -10px; }
 
-  .wrap_dev_by .img_dev_user {
-    min-height: 250px;
-    background-color: #333333;
-    overflow: hidden;
-    position: relative; }
-    .wrap_dev_by .img_dev_user img {
-      max-width: 160%;
-      position: absolute;
-      height: auto;
-      right: -60px; }
-  .wrap_dev_by .wrap_quote_user {
-    background-color: #EF4350;
-    height: 60%;
-    margin-top: 30px;
-    padding-bottom: 80px; }
-    .wrap_dev_by .wrap_quote_user h4 {
-      font-family: 'Titillium Web', sans-serif;
-      font-weight: 400;
-      font-size: 2em;
-      letter-spacing: 2px;
-      text-align: left;
-      color: #FFFFFF;
+  .wrap_dev_by {
+    margin: 0px;
+    padding: 0px;
+    border: 0px; }
+    .wrap_dev_by .img_dev_user {
+      min-height: 250px;
+      background-color: #333333;
+      overflow: hidden;
+      position: relative; }
+      .wrap_dev_by .img_dev_user img {
+        max-width: 160%;
+        position: absolute;
+        height: auto;
+        right: -60px; }
+    .wrap_dev_by .wrap_quote_user {
+      background-color: #EF4350;
+      height: 60%;
       margin-top: 30px;
-      margin-left: 20px; }
-    .wrap_dev_by .wrap_quote_user p {
-      font-family: 'Titillium Web', sans-serif;
-      font-weight: 400;
-      font-size: 1em;
-      letter-spacing: 2px;
-      text-align: left;
-      text-indent: 3em;
-      text-transform: uppercase;
-      margin-top: 40px;
-      padding-left: 20px;
-      padding-right: 20px; }
+      margin-bottom: 20px;
+      padding-bottom: 80px; }
+      .wrap_dev_by .wrap_quote_user h4 {
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400;
+        font-size: 2em;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-top: 30px;
+        margin-left: 20px; }
+      .wrap_dev_by .wrap_quote_user p {
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        letter-spacing: 2px;
+        text-align: left;
+        text-indent: 3em;
+        text-transform: uppercase;
+        margin-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px; }
 
   .wrap_footer {
     height: 100px;
@@ -246,7 +257,59 @@ html, body {
     height: 1px;
     float: none;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+
+  .wrap_banner {
+    background-color: #250F59; }
+    .wrap_banner img {
+      left: 60px; }
+
+  .wrap_dev_by .img_dev_user {
+    min-height: 330px; }
+    .wrap_dev_by .img_dev_user img {
+      max-width: 100%;
+      left: 0; }
+
+  .wrap_footer .wrap_r_footer {
+    padding-right: 0px; }
+    .wrap_footer .wrap_r_footer .wrap_footer_r p {
+      margin-top: 10px; }
+    .wrap_footer .wrap_r_footer .foot_email, .wrap_footer .wrap_r_footer .foot_fb {
+      background-color: #34353C;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), #34353C);
+      height: 100px; }
+      .wrap_footer .wrap_r_footer .foot_email h4, .wrap_footer .wrap_r_footer .foot_fb h4 {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 0.7em;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-top: 30px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 40px;
+        margin-left: 20px; }
+      .wrap_footer .wrap_r_footer .foot_email p, .wrap_footer .wrap_r_footer .foot_fb p {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 0.9em;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 20px; }
+    .wrap_footer .wrap_r_footer .foot_fb {
+      background-color: #4862A2;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), #4862A2); }
+      .wrap_footer .wrap_r_footer .foot_fb .wrap_logo_face {
+        background-color: transparent; }
+        .wrap_footer .wrap_r_footer .foot_fb .wrap_logo_face img {
+          float: right;
+          display: block;
+          max-width: 90%;
+          margin-top: 35px;
+          padding: 0px; }
+      .wrap_footer .wrap_r_footer .foot_fb h4 {
+        margin-left: 0px; }
+      .wrap_footer .wrap_r_footer .foot_fb p {
+        margin-left: 0px; } }
 @media screen and (min-width: 959px) {
   .wrap_nav_top .wrap_menu_top_text {
     font-family: 'Titillium Web', sans-serif;

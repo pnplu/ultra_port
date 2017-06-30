@@ -21,7 +21,6 @@ display: none;
 
 @media screen and (min-width: 319px) {
   .wrap_nav_top{
-    background-color: $bg_main;
     height: 136px;
     .box_nav_top_l{
       height: 100px;
@@ -48,8 +47,16 @@ display: none;
 
   //banner
   .wrap_banner{
-    background-color: #ffcc00;
+    background-color: $color_green;
     height: 200px;
+    overflow: hidden;
+    position: relative;
+    img{
+      position: absolute;
+      left: -100px;
+      width: 1100px;
+      height: auto;
+    }
   }
 
   //concept
@@ -193,6 +200,9 @@ display: none;
   //Develop by
   .wrap_dev_by{
     @extend .wrap_concept;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     // background-color: #ffcc00;
     .img_dev_user{
       min-height: 250px;
@@ -211,6 +221,7 @@ display: none;
       background-color: #EF4350;
       height: 60%;
       margin-top: 30px;
+      margin-bottom: 20px;
       padding-bottom: 80px;
       h4{
         font-family: 'Titillium Web', sans-serif;
@@ -353,6 +364,83 @@ display: none;
         margin-right: auto;
       }
     }
+    //banner
+    .wrap_banner{
+      background-color: $bg_main;
+      img{
+        left: 60px;
+      }
+    }
+    //Develop by
+    .wrap_dev_by{
+      .img_dev_user{
+        min-height: 330px;
+        img{
+          max-width: 100%;
+          left: 0;
+        }
+      }
+    }
+
+    //Footer
+    .wrap_footer{
+      .wrap_r_footer{
+        padding-right: 0px;
+        .wrap_footer_r{
+          p{
+            margin-top: 10px;
+          }
+        }
+        .foot_email{
+          background-color: #34353C;
+          background: linear-gradient(rgba(0, 0, 0, 0.5), #34353C);
+          height: 100px;
+          h4{
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 0.7em;
+            font-weight: 400;
+            color: #FFFFFF;
+            margin-top: 30px;
+            padding: 0px;
+            margin: 0px;
+            margin-top: 40px;
+            margin-left: 20px;
+          }
+          p{
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 0.9em;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-left: 20px;
+
+          }
+        }
+        .foot_fb{
+          @extend .foot_email;
+          background-color: #4862A2;
+          background: linear-gradient(rgba(0, 0, 0, 0.5), #4862A2);
+          .wrap_logo_face{
+            background-color: transparent;
+            img{
+              float: right;
+              display: block;
+              max-width: 90%;
+              margin-top: 35px;
+              padding: 0px;
+            }
+          }
+          h4{
+            margin-left: 0px;
+          }
+          p{
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+
+
 }
 
 @media screen and (min-width: 959px) {
