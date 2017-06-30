@@ -182,14 +182,14 @@
             <article class="col-xs-3 col-sm-2 col-md-1 wrap_footer_l">
               <button type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
-            <article class="col-xs-9 col-sm-3 wrap_footer_r">
+            <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
               <p>เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
             </article> <!-- wrap_footer_r -->
-            <article class="col-sm-4 foot_email tablet">
+            <article class="col-sm-4 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
               <p>worawaluns.k@gmail.com</p>
             </article>
-            <article class="col-sm-3 foot_fb tablet">
+            <article class="col-sm-3 col-md-2 foot_fb tablet">
               <article class="row col-sm-4 wrap_logo_face">
                 <img src="image_web/logo_facebook.png" alt="facebook">
               </article>
