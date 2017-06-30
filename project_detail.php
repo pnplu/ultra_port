@@ -111,7 +111,7 @@
         <section class="col-xs-12 wrap_tool">
           <h3>TOOL DEVELOP</h3>
           <article class="col-xs-3">
-            <article class="c100 p78 small purple">
+            <article class="c100 p78 purple">
                 <span>78%</span>
                 <article class="slice">
                     <article class="bar"></article>
@@ -121,7 +121,7 @@
             <p>PHP</p>
           </article> <!--skill 1-->
           <article class="col-xs-3">
-            <article class="c100 p82 small white">
+            <article class="c100 p82 white">
                 <span>82%</span>
                 <article class="slice">
                     <article class="bar"></article>
@@ -131,7 +131,7 @@
             <p>SWIFT</p>
           </article> <!--skill 2-->
           <article class="col-xs-3">
-            <article class="c100 p92 small green_r">
+            <article class="c100 p92 green_r">
                 <span>92%</span>
                 <article class="slice">
                     <article class="bar"></article>
@@ -141,7 +141,7 @@
             <p>MYSQL</p>
           </article> <!--skill 3-->
           <article class="col-xs-3">
-            <article class="c100 p68 small red_r">
+            <article class="c100 p68 red_r">
                 <span>68%</span>
                 <article class="slice">
                     <article class="bar"></article>
