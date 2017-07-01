@@ -7,10 +7,16 @@ html, body {
   padding: 0px;
   border: 0px;
   background: -webkit-radial-gradient(center, ellipse cover, rgba(72,36,163,1) 0%, rgba(37,15,89,1) 63%, rgba(37,15,89,1) 100%);
+  cursor: none;
+}
+body{
+    background-color: #04F3C4 !important;
 }
 
 .row{
+
 }
+
 
 // bg-dot-line-effect
 #demo-canvas{
@@ -29,9 +35,15 @@ html, body {
   color: $color_green;
 }
 
-// logo-effect
+// scroll
+  .scrolls {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 80px;
+    white-space:nowrap
+    }
 
-// logo-effect
+// scroll
 
 .side_l_page{
   height: 86vh;
@@ -91,6 +103,8 @@ html, body {
         padding: 0;
         border: 0;
         z-index: 999999;
+        margin-top:-30px;
+
       }
       span{
         font-family: 'Titillium Web', sans-serif;
@@ -132,9 +146,8 @@ html, body {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    width: 2000px;
+    width: 980px;
     .box_a{
-      background-image: url("../../image_web/creator_bg.jpg");
       width: 240px;
       height: 240px;
       margin-top: 30px;

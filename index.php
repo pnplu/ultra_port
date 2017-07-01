@@ -29,9 +29,11 @@
 
     <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
+
   </head>
   <body>
-<div id="large-header" class="large-header">
+    <?php include 'src/cursor.php';?>
+    <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
     <section class="container-fluid">
       <section class="row">
@@ -58,8 +60,8 @@
             ICTSILPAKORN
           </p>
         </article> <!-- Side L -->
-        <article class="col-sm-10 menu">
 
+        <article class="col-sm-10 menu" style="margin-top:-20px;">
           <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="CONTACT">CONTACT</a></span>
@@ -73,7 +75,7 @@
                 <p class="p_l_topic" style="float:left;">
                   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                   <script src="../js/odometer.js"></script>
-                  <div class="odometer" style="font-size:78px;">11 </div>
+                  <div class="odometer" style="font-size:78px;">11.3 </div>
 
                   <script>
                     setTimeout(function(){
@@ -81,7 +83,7 @@
                     }, 1000);
                   </script>
 
-                  <p class="p_l_topic">
+                  <p class="p_l_topic" style="margin-top:-30px; z-index:99999;">
                     CREATOR<br>
                 </p>
                 <span class="color_green">SENIOR PROJECT</span><br>
@@ -99,8 +101,10 @@
               </article> <!-- side text -->
             </article>
           </article> <!-- row -->
+
           <!-- <article class="row"> -->
           <article class="box_wrap_work">
+
             <article class="col-sm-3 box_a">
 
             </article>
@@ -113,9 +117,8 @@
             <article class="col-sm-3 box_b">
 
             </article>
-          </article>
-
-          <!-- </article> -->
+          </article> -->
+          <!-- </article>
 
         </article> <!-- discription -->
       </section>
@@ -152,6 +155,11 @@
 
     </section> <!-- container-fluid -->
 </div> <!-- large-header -->
+
+<!-- Creator hover -->
+<script src="js/anime.min.js"></script>
+<script src="js/main.js"></script>
+
 <script>
 var a=0;
 
@@ -176,6 +184,40 @@ function myFunction() {
            }, 2000);
 
       }
+
+
+      (function() {
+        [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
+          new VegaFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function(stackEl) {
+          new CastorFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+          new HamalFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function(stackEl) {
+          new PolarisFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function(stackEl) {
+          new AlphardFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function(stackEl) {
+          new AltairFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+          new RigelFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function(stackEl) {
+          new CanopusFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function(stackEl) {
+          new PolluxFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function(stackEl) {
+          new DenebFx(stackEl);
+        });
+      })();
 
 </script>
   </body>

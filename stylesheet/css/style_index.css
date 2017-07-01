@@ -4,6 +4,50 @@ html, body {
   border: 0px;
   background: -webkit-radial-gradient(center, ellipse cover, #4824a3 0%, #250f59 63%, #250f59 100%); }
 
+  * {	cursor:none !important; }
+  .cursor{
+  	/*background:rgba(255,255,255,1);
+  	border-radius:100%;*/
+    z-index: 99999;
+  	cursor:none;
+  	width:20px;
+  	height:20px;
+    /*-webkit-animation: pulso .8s linear infinite;
+  	        animation: pulso .8s linear infinite;*/
+
+
+  }
+
+  .cursor:active{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+
+  .cursor:hover{
+  	background:rgba(150,255,180,.5);
+  	border:0px solid rgba(50,255,80,.5);
+  	-webkit-animation: pulso .8s linear infinite;
+  	        animation: pulso .8s linear infinite;
+  }
+
+  @-webkit-keyframes pulso{
+  	0%, 100% {
+  		border:1px solid rgba(50,255,80,.8);
+  	}
+  	50%, 70% {
+  		border:5px solid rgba(50,255,80,.8);
+  	}
+  }
+
+  @keyframes pulso{
+  	0%, 100% {
+  		border:1px solid rgba(50,255,80,.8);
+  	}
+  	50%, 70% {
+  		border:5px solid rgba(50,255,80,.8);
+  	}
+  }
+
 #demo-canvas {
   float: left;
   position: absolute;
