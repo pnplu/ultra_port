@@ -333,6 +333,45 @@ html, body {
     height: 1px;
     float: none;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+
+  .wrap_banner {
+    height: 300px; }
+    .wrap_banner img {
+      left: 0px;
+      width: 2000px; }
+
+  .wrap_design_process h3 {
+    margin-left: 19%; }
+  .wrap_design_process .wrap_dp_user {
+    margin-left: -120px; }
+    .wrap_design_process .wrap_dp_user .up_hig_dp {
+      height: 180px; }
+
+  .wrap_function .mockup_nb {
+    padding-right: 0px;
+    border-right: 0px;
+    margin-right: 0px;
+    background-size: 120%;
+    background-repeat: no-repeat; }
+  .wrap_function .posi_function_number {
+    margin-left: -48px;
+    background-color: transparent;
+    position: relative;
+    z-index: 100; }
+    .wrap_function .posi_function_number .func_a {
+      background-color: transparent; }
+    .wrap_function .posi_function_number .func_active {
+      background-color: #04F3C4; }
+
+  .wrap_tool .c100 {
+    font-size: 130px; }
+
+  .wrap_dev_by .img_dev_user {
+    min-height: 500px;
+    position: relative; }
+  .wrap_dev_by .wrap_quote_user {
+    position: absolute;
+    top: 130px; } }
 
 /*# sourceMappingURL=style_project_detail.css.map */

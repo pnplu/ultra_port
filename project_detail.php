@@ -64,7 +64,7 @@
       </section> <!-- banner -->
       <!-- concept -->
       <section class="row">
-        <section class="col-xs-12 col-sm-offset-1 col-sm-10 wrap_concept">
+        <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>CONCEPT</h3>
           <p>
             	Travelmate แอปพลิเคชันส่งเสริมกิจกรรมและการท่องเที่ยวสำหรับครอบครัวและเด็ก ที่จะคอยเป็นคู่หูให้คำแนะนำครอบครัวที่ต้องการพาลูกๆออกไปทำกิจกรรมและท่องเที่ยวร่วมกัน ดังนั้น คุณจึงไม่ต้องกังวลเกี่ยวกับการเดินทางเลย เพราะคุณมี "Travelmate คู่หูการท่องเที่ยวสำหรับครอบครัว"
@@ -76,17 +76,17 @@
         <article class="col-xs-12 col-sm-offset-1 col-sm-11 wrap_design_process">
           <h3>DESIGN PROCESS</h3>
           <article class="row wrap_dp_user">
-            <ul class="row col-sm-10">
-              <li class="col-xs-5 col-sm-3 dp_img_user_a">
+            <ul class="row col-sm-10 col-md-11">
+              <li class="col-xs-5 col-sm-3 dp_img_user_a up_hig_dp">
 
               </li>
-              <li class="col-xs-5 col-sm-3 dp_img_user_b">
+              <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
 
               </li>
-              <li class="col-xs-5 col-sm-3 dp_img_user_b">
+              <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
 
               </li>
-              <li class="col-xs-5 col-sm-3 dp_img_user_b">
+              <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
 
               </li>
             </ul>
@@ -95,12 +95,12 @@
       </section><!-- design process -->
       <!-- function -->
       <section class="row">
-        <section class="col-xs-12 col-sm-offset-1 col-sm-10 wrap_function">
-          <h3>FUNCTION</h3>
+        <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-8 wrap_function">
+          <h3 class="col-md-offset-3 col-md-6">FUNCTION</h3>
           <article class="col-xs-12 col-sm-6 mockup_nb">
 
           </article>
-          <article class="col-sm-6">
+          <article class="col-sm-6 posi_function_number">
             <article class="row col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 func_a">
               <article class="row col-xs-4 func_number">
                 <h4>01</h4>
@@ -186,7 +186,7 @@
               <img src="image_web/mock_dev_user.jpg" alt="img_user">
             </article>
           </section>
-          <article class="col-xs-offset-1 col-xs-10 wrap_quote_user">
+          <article class="col-xs-offset-1 col-xs-10 col-md-4 wrap_quote_user">
             <h4>"MOTIVATION <br> QUOTE</h4>
             <p>
               	Be careful what you believe because that is what you will experience. Your belief
