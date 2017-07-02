@@ -12,15 +12,21 @@
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <!-- circle css -->
     <link rel="stylesheet" href="stylesheet/css/circle.css">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
   <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
-
+    <!-- animate.css -->
+    <link rel="stylesheet" href="stylesheet/css/animate.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   </head>
   <body>
+    <div id="large-header" class="large-header">
+      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg');">
+      </canvas>
     <section class="container-fluid">
       <!-- nav -->
       <section class="row">
@@ -45,17 +51,30 @@
               </svg><!-- logo-effect -->
             </a>
           </article>
-          <article class="col-sm-5 wrap_menu_top_text tablet">
-              <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
-              <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
-              <span><a class="link link--kukuri" href="#" data-letters="CONTACT">CONTACT</a></span>
-          </article>
-          <article class="col-xs-8 col-sm-3 box_nav_top_r">
+          <article class="col-sm-9 menu">
+            <span><a class="link link--kukuri" href="index.php" data-letters="HOME">HOME</a></span>
+            <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a></span>
+            <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a></span>
+            <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a></span>
+          </article> <!-- menu -->
+          <!-- <article class="col-xs-8 col-sm-3 box_nav_top_r">
             <img src="image_web/logo_ict.png" alt="ictsu_logo">
-          </article>
+          </article> -->
           <hr>
         </nav> <!-- nav -->
       </section>
+        <article class="row">
+          <article class="col-xs-12 info">
+          <h3>CREATOR</h3>
+          <h2>นายวรวลัญช์ ขันตี</h2>
+          <p>WORAWALUN KHANTEE</p>
+          <article class="wrap_sec_user_pin">
+                  <article class="wrap_user_pinterest">
+                    <span class="user_pinterest">WEB APPLICATION</span>
+                  </article> <!-- wrap_user_footer -->
+          </article>
+          </article>
+        </article>
       <!-- banner -->
       <section class="row">
         <article class="col-xs-12 wrap_banner">
@@ -221,6 +240,12 @@
           </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
       </footer>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
+
+      <script src="js/background_line.js"></script>
+    </div>
     </section> <!-- container-fluid -->
   </body>
   <!-- Creator hover -->
@@ -285,6 +310,10 @@
             new DenebFx(stackEl);
           });
         })();
+
+        // animate.css
+
+        $('.menu').addClass('animated fadeInDown');
 
   </script>
 </html>

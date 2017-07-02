@@ -64,10 +64,10 @@
         </article> <!-- Side L -->
 
         <article class="col-sm-10 menu">
-          <span><a class="link link--kukuri" href="#" data-letters="HOME">HOME</a></span>
-          <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
-          <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
-          <span><a class="link link--kukuri" href="#" data-letters="CONTACT">CONTACT</a></span>
+          <span><a class="link link--kukuri" href="index.php" data-letters="HOME">HOME</a></span>
+          <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a></span>
+          <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
 
