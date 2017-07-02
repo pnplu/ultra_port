@@ -35,7 +35,6 @@
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
   </head>
   <body>
-    <?php include 'src/cursor.php';?>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
     <section class="container-fluid">
@@ -64,7 +63,7 @@
           </p>
         </article> <!-- Side L -->
 
-        <article class="col-sm-10 menu" style="margin-top:-20px;">
+        <article class="col-sm-10 menu">
           <span><a class="link link--kukuri" href="#" data-letters="HOME">HOME</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
@@ -136,13 +135,13 @@
             </article>
               <article class="col-sm-10 menu_r">
                 <ul style="color:#fff;">
-                  <li><a class="link link--kumya" href="#" data-letters="APPLICATION IOS">APPLICATION IOS</a></li> /
-                  <li><a class="link link--kumya" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
-                  <li><a class="link link--kumya" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
-                  <li><a class="link link--kumya" href="#" data-letters="ANDRIOD">ANDRIOD</a></li> /
-                  <li><a class="link link--kumya" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
-                  <li><a class="link link--kumya" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
-                  <li><a class="link link--kumya" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
+                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS">APPLICATION IOS</a></li> /
+                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
+                  <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDRIOD</a></li> /
+                  <li><a class="link link--kumya e" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
+                  <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
+                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
                 </ul>
               </article>
             </article>
@@ -229,6 +228,10 @@ $('.menu_r').addClass('animated fadeInUp');
 $('.menu').addClass('animated fadeInDown');
 $('.box_a').addClass('animated fadeInRight');
 $('.box_b').addClass('animated fadeInUp');
+$('.a').addClass('animated flash');
+$('.c').addClass('animated flash');
+$('.d').addClass('animated flash');
+$('.f').addClass('animated flash');
 </script>
   </body>
 </html>
