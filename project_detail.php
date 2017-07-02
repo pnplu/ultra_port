@@ -51,7 +51,7 @@
               </svg><!-- logo-effect -->
             </a>
           </article>
-          <article class="col-sm-9 menu">
+          <article class="col-sm-9 menu tablet">
             <span><a class="link link--kukuri" href="index.php" data-letters="HOME">HOME</a></span>
             <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a></span>
             <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a></span>
