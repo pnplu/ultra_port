@@ -6,7 +6,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width,initial-scale=1.0">
-    <title>Web 11 Portfolio</title>
+    <title>ULTRA LINE 11.3 Graduate Exhibition </title>
+    <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_index.css">
     <!-- bootstrap -->
@@ -30,6 +31,8 @@
     <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
 
+    <!-- animate.css -->
+    <link rel="stylesheet" href="stylesheet/css/animate.css" />
   </head>
   <body>
     <?php include 'src/cursor.php';?>
@@ -62,6 +65,7 @@
         </article> <!-- Side L -->
 
         <article class="col-sm-10 menu" style="margin-top:-20px;">
+          <span><a class="link link--kukuri" href="#" data-letters="HOME">HOME</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="CONTACT">CONTACT</a></span>
@@ -103,11 +107,11 @@
           </article> <!-- row -->
 
           <!-- <article class="row"> -->
-          <article class="box_wrap_work">
-
-            <article class="col-sm-3 box_a">
-
+            <article class="box_wrap_work">
+          <a href="project_detail.php">
+              <article class="col-sm-3 box_a">
             </article>
+          </a>
             <article class="col-sm-3 box_b">
 
             </article>
@@ -117,7 +121,7 @@
             <article class="col-sm-3 box_b">
 
             </article>
-          </article> -->
+          </article>
           <!-- </article>
 
         </article> <!-- discription -->
@@ -161,6 +165,7 @@
 <script src="js/main.js"></script>
 
 <script>
+// logo
 var a=0;
 
 var delayMillis = 4000;
@@ -173,8 +178,6 @@ var x2 = document.getElementById('logo_2');
   }).draw();
   myFunction();
 
-
-
 function myFunction() {
           setTimeout(function(){
             var x = document.getElementById('logo');
@@ -184,8 +187,10 @@ function myFunction() {
            }, 2000);
 
       }
+// logo
 
 
+// hover menu
       (function() {
         [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
           new VegaFx(stackEl);
@@ -219,6 +224,11 @@ function myFunction() {
         });
       })();
 
+// animate.css
+$('.menu_r').addClass('animated fadeInUp');
+$('.menu').addClass('animated fadeInDown');
+$('.box_a').addClass('animated fadeInRight');
+$('.box_b').addClass('animated fadeInUp');
 </script>
   </body>
 </html>
