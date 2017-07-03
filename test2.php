@@ -33,5 +33,9 @@ foreach ($app_decode as $key => $value) {
       <source src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDVVZ1Z3l5b1RLcFU" type="video/mp4">
     </video>
     <!-- <iframe src="https://drive.google.com/file/d/0B7gXLk9j1SkDVVZ1Z3l5b1RLcFU/preview" width="640" height="480"></iframe> -->
+    <img src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDNVhOM29BNWFOS3M">
+    <!-- <iframe src="https://drive.google.com/file/d/0B7gXLk9j1SkDNVhOM29BNWFOS3M/preview" width="400"></iframe> -->
   </body>
 </html>
+
+<!-- https://drive.google.com/open?id=0B0avKLb7IjwaWk9uVjdYbm1ZWHc -->
