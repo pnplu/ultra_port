@@ -28,6 +28,9 @@
     <div id="large-header" class="large-header">
       <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg');">
       </canvas>
+
+    <section id="browse_wrap"></section> <!-- section -->
+    
     <section class="container-fluid">
       <!-- nav -->
       <section class="row">
@@ -249,8 +252,7 @@
     </div>
     </section> <!-- container-fluid -->
 
-    <section id="browse_wrap">
-    </section> <!-- section -->
+    <section id="browse_wrap"></section> <!-- section -->
   </body>
   <!-- Creator hover -->
   <script src="js/anime.min.js"></script>

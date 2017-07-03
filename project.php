@@ -16,6 +16,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   </head>
   <body>
+
+    <section id="browse_wrap"></section> <!-- section -->
     <section class="container-fluid">
       <section class="row">
         <nav class="col-sm-12 wrap_nav_top">
@@ -201,8 +203,7 @@
       </footer>
     </section> <!-- container-fluid -->
 
-    <section id="browse_wrap">
-    </section> <!-- section -->
+    <section id="browse_wrap"></section> <!-- section -->
 
   <!-- Creator hover -->
   <script src="js/anime.min.js"></script>

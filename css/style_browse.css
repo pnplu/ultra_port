@@ -1,10 +1,211 @@
 #browse_wrap {
 	display: none;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 9999;
 	background: #1d1d25;
+}
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
+.header, .menu_list {
+	background: none;
+	padding: 24px 28px;
+}
+.header-right {
+	text-align: right;
+}
+.menu_list {
+	padding-left: 120px;
+}
+p.title {
+	font-size: 48px;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: -60px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 24px;
+}
+a.a_list {
+	display: inline-block;
+	padding-top: 8px;
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	position: relative;
+	line-height: 1.2;
+}
+a.a_footer_list {
+	display: inline-block;
+	padding-top: 8px;
+	font-size: 1em;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	position: relative;
+	line-height: 100px;
+	margin-left: 32px;
+}
+.ict_logo {
+	display: none;
+}
+.browse_right {
+	position: absolute;
+	right: 0;
+	top: 4%;
+	color: #fff;
+}
+.browse_album {
+	width: 840px;
+	margin-top: -100px;
+}
+.browse_list {
+	float: right;
+	width: 200px;
+	height: 200px;
+	background: #222;
+	margin-left: 1%;
+	margin-top: 1%;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.browse_list > p.title {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 0;
+	position: absolute;
+	bottom: 32px;
+	left: 16px;
+	z-index: 99;
+}
+.browse_list > span.cover {
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background: linear-gradient(to top, rgba(137, 151, 222,1),rgba(137, 151, 222,0));
+}
+.browse_list:hover > span.cover {
+	background: rgba(137, 151, 222,1);
+}
+.browse_list > span.tag {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	z-index: 99;
+	background: #1e1d25;
+	font-size: 12px;
+	padding: 4px 12px;
+}
+.sponsor_desktop {
+	display: block;
+	line-height: 100px;
+	position: absolute;
+	top: 0;
+	right: 4%;
+}
+.sponsor_desktop img {
+	display: inline;
+	height: 64px;
+	margin-left: 32px;
+}
+.sponsor_mobile {
+	display: none;
+}
+
+.footer {
+	height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+	background-color: #000000;
+    background: linear-gradient(to right, #211440, #1d1b26, #211440);
+}
+.footer button {
+	width: 70px;
+    height: 70px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: -5px;
+    border: none;
+    background-color: #04F3C4;
+    opacity: 1;
+}
+#browse_icon_close > img {
+    animation-name: browse_icon_close;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes browse_icon_close {
+    from { transform: rotate(0deg);  }
+    to { transform: rotate(45deg); }
+}
+
+@media screen and (max-width: 768px) {
+.header {
+	padding-left: 0;
+	padding-right: 0;
+}
+.main-logo {
+	max-width: 20%;
+}
+.ict_logo {
+	width: 120px;
+	display: block;
+	position: absolute;
+	right: 4%;
+	top: 0;
+}
+.menu_list {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+p.title {
+	display: none;
+}
+a.a_list {
+	font-size: 16px;
+}
+a.a_footer_list {
+	font-size: 16px;
+	margin-left: 24px;
+}
+a.a_footer_list:first-child {
+	margin-left: 56px;
+}
+.footer {
+	zoom:0.6;
+}
+.browse_album {
+	display: none;
+}
+.sponsor_desktop {
+	display: none;
+}
+.sponsor_mobile {
+	display: block;
+}
+.sponsor_mobile img {
+	height: 48px;
+	margin-top: 36px;
+}
 }

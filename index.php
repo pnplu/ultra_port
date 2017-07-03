@@ -41,6 +41,9 @@
   <body>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
+
+    <section id="browse_wrap"></section> <!-- section -->
+    
     <section class="container-fluid">
       <section class="row">
         <article class="col-sm-2 side_l_page">
@@ -162,9 +165,6 @@
 
     </section> <!-- container-fluid -->
 </div> <!-- large-header -->
-
-    <section id="browse_wrap">
-    </section> <!-- section -->
 
 <!-- Creator hover -->
 <script src="js/anime.min.js"></script>
