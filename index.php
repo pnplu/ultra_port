@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_index.css">
+    <link rel="stylesheet" href="stylesheet/css/style_browse.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
