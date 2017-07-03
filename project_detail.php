@@ -106,6 +106,11 @@
     </section>
     <script src="js/video.js"></script>
 
+    <article class="row">
+    <article class="col-xs-12 video_showreel">
+      sdsdsdsd
+    </article>
+    </article>
       <!-- banner -->
       <section class="row">
         <article class="col-xs-12 wrap_banner">
