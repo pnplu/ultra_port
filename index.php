@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_index.css">
+    <link rel="stylesheet" href="css/style_browse.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
@@ -32,12 +33,18 @@
     <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
 
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
   </head>
   <body>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
+
+    <section id="browse_wrap"></section> <!-- section -->
+    
     <section class="container-fluid">
       <section class="row">
         <article class="col-sm-2 side_l_page">
@@ -131,7 +138,7 @@
           <article class="row">
             <article class="col-sm-2">
               <article class="btn_menu">
-                <img src="image_web/btn_hamberger.png">
+                <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
               </article>
             </article>
               <article class="col-sm-10 menu_r">

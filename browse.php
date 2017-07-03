@@ -1,43 +1,57 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width= device-width, initial-scale=1.0">
-    <title>Project Student</title>
-    <!-- css -->
-    <link rel="stylesheet" href="stylesheet/css/style_port.css">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
-    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
-  </head>
-  <body>
+
     <section class="container-fluid">
-      <section class="row">
-        <nav class="col-sm-12 wrap_nav_top">
-          <article class="col-xs-4 col-sm-2 box_nav_top_l">
-            <img src="image_web/logo_ultraline.png" alt="Ultraline11.3_logo">
+      <section class="row header">
+        <nav class="col-xs-12">
+          <article class="col-xs-12">
+            <img src="image_web/logo_ultraline.png" alt="Ultraline11.3_logo" class="main-logo">
+            <img src="image_web/logo_ict.png" alt="ictsu_logo" class="ict_logo">
           </article>
-
-
-
         </nav> <!-- nav -->
+      </section>
 
-        <section class="col-xs-12 col-sm-11 wrap_people">
-
-        </section> <!-- wrap_people -->
-      </section> <!-- row -->
+      <section class="row menu_list">
+        <nav class="col-xs-12">
+          <article class="col-xs-12">
+            <p class="title animated fadeInDown">WHAT WE DO</p>
+            <p><a href="" class="a_list link--kukuri" data-letters="APPLICATION iOS">APPLICATION iOS</a></p>
+            <p><a href="" class="a_list link--kukuri" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></p>
+            <p><a href="" class="a_list link--kukuri" data-letters="UNITY KINECT">UNITY KINECT</a></p>
+            <p><a href="" class="a_list link--kukuri" data-letters="ON TABLET">ON TABLET</a></p>
+            <p><a href="" class="a_list link--kukuri" data-letters="ANDROID">ANDROID</a></p>
+            <p><a href="" class="a_list link--kukuri" data-letters="WEB MOBILE">WEB MOBILE</a></p>
+            <p><a href="" class="a_list link--kukuri" data-letters="WEB BASE ON DESKTOP">WEB BASE ON DESKTOP</a></p>
+            <p class="sponsor_mobile"><img src="banner/all.png"></p>
+          </article>
+          <article class="browse_right">
+            <article class="browse_album">
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+            </article>
+          </article>
+        </nav> 
+      </section>
 
       <!-- footer -->
       <footer class="row">
-        <section class="footer_active">
-          
+        <section class="footer">
+          <article class="col-sm-12 wrap_r_footer">
+            <article class="col-xs-1 wrap_footer_l">
+              <button id="browse_icon_close" type="button" name="button"><img src="image_web/btn_close.png"></button>
+            </article> <!-- wrap_footer_l -->
+            <article class="col-xs-11 animated fadeInUp">
+              <a class="a_footer_list link--kukuri" href="index.php" data-letters="HOME">HOME</a>
+              <a class="a_footer_list link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a>
+              <a class="a_footer_list link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a>
+              <a class="a_footer_list link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a>
+          </article>
+          <article class="sponsor_desktop"><img src="banner/all.png"></article>
+          </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
       </footer>
     </section> <!-- container-fluid -->
-
-
-  </body>
-</html>
