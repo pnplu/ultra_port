@@ -6,7 +6,7 @@
     <title>Project Detail</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_project_detail.css">
-    <link rel="stylesheet" href="stylesheet/css/style_browse.css">
+    <link rel="stylesheet" href="css/style_browse.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
