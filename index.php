@@ -31,6 +31,9 @@
     <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
 
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
   </head>
@@ -130,7 +133,7 @@
           <article class="row">
             <article class="col-sm-2">
               <article class="btn_menu">
-                <img src="image_web/btn_hamberger.png">
+                <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
               </article>
             </article>
               <article class="col-sm-10 menu_r">
@@ -158,6 +161,9 @@
 
     </section> <!-- container-fluid -->
 </div> <!-- large-header -->
+
+    <section id="browse_wrap">
+    </section> <!-- section -->
 
 <!-- Creator hover -->
 <script src="js/anime.min.js"></script>
