@@ -30,7 +30,7 @@
       </canvas>
 
     <section id="browse_wrap"></section> <!-- section -->
-    
+
     <section class="container-fluid">
       <!-- nav -->
       <section class="row">
@@ -69,16 +69,42 @@
       </section>
         <article class="row">
           <article class="col-xs-12 info">
-          <h3>CREATOR</h3>
-          <h2>นายวรวลัญช์ ขันตี</h2>
-          <p>WORAWALUN KHANTEE</p>
-          <article class="wrap_sec_user_pin">
+          <h3 class="heading">CREATOR</h3>
+          <h2 class="name_thai">นายวรวลัญช์ ขันตี</h2>
+          <p class="name_eng">WORAWALUN KHANTEE</p>
+          <article class="wrap_sec_user_pin cate">
                   <article class="wrap_user_pinterest">
                     <span class="user_pinterest">WEB APPLICATION</span>
                   </article> <!-- wrap_user_footer -->
           </article>
           </article>
         </article>
+
+        <div class="video-wrap js-video-wrap">
+            <div class="video-inner">
+                <video class="video-player js-video" preload="auto" muted>
+                <source src="https://d8d913s460fub.cloudfront.net/videoserver/cat-test-video-320x240.mp4" type="video/mp4" />
+                <p>Sorry, but your browser does not support this video format.</p>
+            </video>
+                <button class="action action--close js-close-video">
+                <i class="fa fa-close"></i>
+                <span class="action__label action__label--hidden">Close preview</span>
+            </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="loader">
+                <i class="fa fa-spinner fa-pulse"></i>
+            </div>
+            <button class="action action--hidden action--play js-play-video">
+            <i class="fa fa-play"></i>
+            <span class="action__label">Watch the video</span>
+        </button>
+        </div>
+    </section>
+    <script src="js/video.js"></script>
+
       <!-- banner -->
       <section class="row">
         <article class="col-xs-12 wrap_banner">
@@ -219,6 +245,7 @@
       </section><!-- Develop by -->
 
       <!-- footer -->
+      <div id="myID" class="bottomMenu hide">
       <footer class="row">
         <section class="wrap_footer">
           <article class="col-xs-12 wrap_r_footer">
@@ -244,6 +271,7 @@
           </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
       </footer>
+      </div>
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
@@ -320,6 +348,24 @@
         // animate.css
 
         $('.menu').addClass('animated fadeInDown');
+        $('.heading').addClass('animated fadeInLeft');
+        $('.name_thai').addClass('animated flip');
+        $('.name_eng').addClass('animated fadeInLeft');
+        $('.cate').addClass('animated flipInX');
+
+//
+myID = document.getElementById("myID");
+
+var myScrollFunc = function () {
+    var y = window.scrollY;
+    if (y >= 100) {
+        myID.className = "bottomMenu show"
+    } else {
+        myID.className = "bottomMenu hide"
+    }
+};
+
+window.addEventListener("scroll", myScrollFunc);
 
   </script>
 </html>
