@@ -29,8 +29,8 @@ foreach ($app_decode as $key => $value) {
     <title>test2</title>
   </head>
   <body>
-    <video controls="controls" autoplay>
-      <source src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDbVpmOUFkcVF6T1E" type="video/mp4">
+    <video controls="controls" autoplay loop>
+      <source src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDVVZ1Z3l5b1RLcFU" type="video/mp4">
     </video>
   </body>
 </html>
