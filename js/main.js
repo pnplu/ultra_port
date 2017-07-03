@@ -1326,3 +1326,8 @@
 	window.DenebFx = DenebFx;
 
 })(window);
+
+$('#browse_icon').click(function() {
+  $('#browse_wrap').css('display','block');
+  $('#browse_wrap').load('browse.php');
+});
