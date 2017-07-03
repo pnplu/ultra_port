@@ -1,6 +1,6 @@
 <?php
 
-$application_json = file_get_contents("data/db_application.json");
+$application_json = file_get_contents("data/db_application_ios.json");
 
 $app_decode = json_decode($application_json, TRUE);
 
@@ -22,3 +22,15 @@ foreach ($app_decode as $key => $value) {
 }
 
 ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test2</title>
+  </head>
+  <body>
+    <video controls="controls" autoplay>
+      <source src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDbVpmOUFkcVF6T1E" type="video/mp4">
+    </video>
+  </body>
+</html>
