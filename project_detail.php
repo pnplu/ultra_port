@@ -6,6 +6,7 @@
     <title>Project Detail</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_project_detail.css">
+    <link rel="stylesheet" href="stylesheet/css/style_browse.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
@@ -219,7 +220,7 @@
         <section class="wrap_footer">
           <article class="col-xs-12 wrap_r_footer">
             <article class="col-xs-3 col-sm-2 col-md-1 wrap_footer_l">
-              <button type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
+              <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
               <p>เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
@@ -247,6 +248,9 @@
       <script src="js/background_line.js"></script>
     </div>
     </section> <!-- container-fluid -->
+
+    <section id="browse_wrap">
+    </section> <!-- section -->
   </body>
   <!-- Creator hover -->
   <script src="js/anime.min.js"></script>
