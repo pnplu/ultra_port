@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width= device-width, initial-scale=1.0">
-    <title>Project Student</title>
-    <!-- css -->
-    <link rel="stylesheet" href="stylesheet/css/style_port.css">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
-    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
-  </head>
-  <body>
+
     <section class="container-fluid">
       <section class="row">
         <nav class="col-sm-12 wrap_nav_top">
@@ -37,7 +22,3 @@
         </section> <!-- wrap_footer -->
       </footer>
     </section> <!-- container-fluid -->
-
-
-  </body>
-</html>
