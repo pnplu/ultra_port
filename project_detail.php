@@ -264,9 +264,10 @@
               <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
-              <p>เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
+              <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;">VIEW PORT | เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
+              <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > APPLICATION IOS<p>
             </article> <!-- wrap_footer_r -->
-            <article class="col-sm-4 col-md-3 foot_email tablet">
+            <article class="col-sm-2 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
               <p>worawaluns.k@gmail.com</p>
             </article>

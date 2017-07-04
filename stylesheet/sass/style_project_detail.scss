@@ -82,6 +82,7 @@ html, body{
 #large-header{
   background: -webkit-radial-gradient(center, ellipse cover, rgba(72,36,163,1) 0%, rgba(37,15,89,1) 63%, rgba(37,15,89,1) 100%);
 }
+
 // bg-dot-line-effect
 .container-fluid{
   margin-bottom: 100px;
@@ -675,7 +676,7 @@ display: none;
   // footer
   .wrap_footer{
     height: 100px;
-    width: 100%;
+    width: 104%;
     position: fixed;
     bottom: 0;
     // background-color: $bg_main;
@@ -817,11 +818,12 @@ display: none;
         .wrap_footer_r{
           p{
             margin-top: 10px;
+            font-size: 1.1em;
+            padding-top: 10px;
           }
         }
         .foot_email{
           background-color: #34353C;
-          background: linear-gradient(rgba(0, 0, 0, 0.5), #34353C);
           height: 100px;
           h4{
             font-family: 'Titillium Web', sans-serif;
@@ -847,7 +849,6 @@ display: none;
         .foot_fb{
           @extend .foot_email;
           background-color: #4862A2;
-          background: linear-gradient(rgba(0, 0, 0, 0.5), #4862A2);
           .wrap_logo_face{
             background-color: transparent;
             img{

@@ -544,7 +544,7 @@ html, body {
 
   .wrap_footer {
     height: 100px;
-    width: 100%;
+    width: 104%;
     position: fixed;
     bottom: 0; }
     .wrap_footer .wrap_r_footer {
@@ -643,10 +643,11 @@ html, body {
   .wrap_footer .wrap_r_footer {
     padding-right: 0px; }
     .wrap_footer .wrap_r_footer .wrap_footer_r p {
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-size: 1.1em;
+      padding-top: 10px; }
     .wrap_footer .wrap_r_footer .foot_email, .wrap_footer .wrap_r_footer .foot_fb {
       background-color: #34353C;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), #34353C);
       height: 100px; }
       .wrap_footer .wrap_r_footer .foot_email h4, .wrap_footer .wrap_r_footer .foot_fb h4 {
         font-family: 'Titillium Web', sans-serif;
@@ -666,8 +667,7 @@ html, body {
         color: #FFFFFF;
         margin-left: 20px; }
     .wrap_footer .wrap_r_footer .foot_fb {
-      background-color: #4862A2;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), #4862A2); }
+      background-color: #4862A2; }
       .wrap_footer .wrap_r_footer .foot_fb .wrap_logo_face {
         background-color: transparent; }
         .wrap_footer .wrap_r_footer .foot_fb .wrap_logo_face img {
