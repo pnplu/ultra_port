@@ -6,21 +6,54 @@
     <title>Project Detail</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_project_detail.css">
+<<<<<<< HEAD
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+=======
+    <link rel="stylesheet" href="css/style_browse.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="vendor/twbs/bootstrap/dist/js/jquery.min.js"></script>
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     <!-- circle css -->
     <link rel="stylesheet" href="stylesheet/css/circle.css">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
   <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
+<<<<<<< HEAD
 
   </head>
   <body>
+=======
+    <!-- animate.css -->
+    <link rel="stylesheet" href="stylesheet/css/animate.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+   <!-- add sound -->
+   <script type="text/javascript" src="js/sound-mouseover.js"></script>
+  </head>
+  <body>
+    <div id="large-header" class="large-header">
+      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+">
+      </canvas>
+
+    <section id="browse_wrap"></section> <!-- section -->
+
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     <section class="container-fluid">
       <!-- nav -->
       <section class="row">
@@ -45,6 +78,7 @@
               </svg><!-- logo-effect -->
             </a>
           </article>
+<<<<<<< HEAD
           <article class="col-sm-5 wrap_menu_top_text tablet">
               <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
               <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
@@ -56,6 +90,68 @@
           <hr>
         </nav> <!-- nav -->
       </section>
+=======
+          <article class="col-sm-9 menu tablet">
+            <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
+            <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+            <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
+            <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
+          </article> <!-- menu -->
+          <!-- <article class="col-xs-8 col-sm-3 box_nav_top_r">
+            <img src="image_web/logo_ict.png" alt="ictsu_logo">
+          </article> -->
+          <hr>
+        </nav> <!-- nav -->
+      </section>
+        <article class="row">
+          <article class="col-xs-12 info">
+          <h3 class="heading">CREATOR</h3>
+          <h2 class="name_thai">นายวรวลัญช์ ขันตี</h2>
+          <p class="name_eng">WORAWALUN KHANTEE</p>
+          <article class="wrap_sec_user_pin cate">
+                  <article class="wrap_user_pinterest">
+                    <span class="user_pinterest">WEB APPLICATION</span>
+                  </article> <!-- wrap_user_footer -->
+          </article>
+          </article>
+        </article>
+
+        <div class="video-wrap js-video-wrap">
+            <div class="video-inner">
+                <video class="video-player js-video" preload="auto" muted>
+                <source src="https://d8d913s460fub.cloudfront.net/videoserver/cat-test-video-320x240.mp4" type="video/mp4" />
+                <p>Sorry, but your browser does not support this video format.</p>
+            </video>
+                <button class="action action--close js-close-video">
+                <i class="fa fa-close"></i>
+                <span class="action__label action__label--hidden">Close preview</span>
+            </button>
+            </div>
+        </div>
+
+        <!-- <div class="content">
+            <div class="loader">
+                <i class="fa fa-spinner fa-pulse"></i>
+            </div>
+            <button class="action action--hidden action--play js-play-video">
+            <i class="fa fa-play"></i>
+            <span class="action__label">Watch the video</span>
+
+        </button>
+        </div> -->
+        <div class='icon-scroll'><div/>
+    </section>
+    <script src="js/video.js"></script>
+
+    <article class="row">
+    <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
+      <span>VIDEO SHOWREEL</span><br>
+      <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
+      <span>STUDENT ID</span>
+      <h3 style="line-height: 2px;">13560261</h3>
+    </article>
+    </article>
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
       <!-- banner -->
       <section class="row">
         <article class="col-xs-12 wrap_banner">
@@ -196,16 +292,30 @@
       </section><!-- Develop by -->
 
       <!-- footer -->
+<<<<<<< HEAD
+=======
+      <div id="myID" class="bottomMenu hide">
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
       <footer class="row">
         <section class="wrap_footer">
           <article class="col-xs-12 wrap_r_footer">
             <article class="col-xs-3 col-sm-2 col-md-1 wrap_footer_l">
+<<<<<<< HEAD
               <button type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
               <p>เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
             </article> <!-- wrap_footer_r -->
             <article class="col-sm-4 col-md-3 foot_email tablet">
+=======
+              <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
+            </article> <!-- wrap_footer_l -->
+            <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
+              <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;">VIEW PORT | เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
+              <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > APPLICATION IOS<p>
+            </article> <!-- wrap_footer_r -->
+            <article class="col-sm-2 col-md-3 foot_email tablet">
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
               <h4>EMAIL</h4>
               <p>worawaluns.k@gmail.com</p>
             </article>
@@ -221,7 +331,27 @@
           </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
       </footer>
+<<<<<<< HEAD
     </section> <!-- container-fluid -->
+=======
+      </div>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
+
+      <script src="js/background_line.js"></script>
+    </div>
+    </section> <!-- container-fluid -->
+
+    <section id="browse_wrap"></section> <!-- section -->
+
+    <audio>
+      <source src="audio/hover_effect.mp3"></source>
+      <source src="audio/hover_effect.ogg"></source>
+      </audio>
+
+    <div id="sounddiv"><bgsound id="sound"></div>
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   </body>
   <!-- Creator hover -->
   <script src="js/anime.min.js"></script>
@@ -286,5 +416,30 @@
           });
         })();
 
+<<<<<<< HEAD
+=======
+        // animate.css
+
+        $('.menu').addClass('animated fadeInDown');
+        $('.heading').addClass('animated fadeInLeft');
+        $('.name_thai').addClass('animated flip');
+        $('.name_eng').addClass('animated fadeInLeft');
+        $('.cate').addClass('animated flipInX');
+
+//
+myID = document.getElementById("myID");
+
+var myScrollFunc = function () {
+    var y = window.scrollY;
+    if (y >= 100) {
+        myID.className = "bottomMenu show"
+    } else {
+        myID.className = "bottomMenu hide"
+    }
+};
+
+window.addEventListener("scroll", myScrollFunc);
+
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   </script>
 </html>

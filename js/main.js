@@ -1325,4 +1325,25 @@
 
 	window.DenebFx = DenebFx;
 
+<<<<<<< HEAD
 })(window);
+=======
+})(window);
+
+$('#browse_icon').click(function() {
+	$('#browse_wrap').css('display','block');
+
+	$.get('browse.php', function(data) {
+		$('#browse_wrap').html(data);
+
+		$('#browse_icon_close').click(function() {
+			$('#browse_wrap').css('display','none');
+			$('body').removeClass('stop-scrolling');
+			$('body').unbind('touchmove');
+		});
+	});
+
+  $('body').addClass('stop-scrolling');
+  $('body').bind('touchmove', function(e){e.preventDefault()});
+});
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
