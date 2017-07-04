@@ -52,6 +52,7 @@ html, body {
     -webkit-transform: translateY(46px);
     transform: translateY(46px); } }
 #demo-canvas {
+  width: 100%;
   float: left;
   position: absolute;
   height: 656px;

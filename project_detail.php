@@ -27,7 +27,11 @@
   </head>
   <body>
     <div id="large-header" class="large-header">
-      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg'); background-position: center; background-attachment: fixed;">
+      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+">
       </canvas>
 
     <section id="browse_wrap"></section> <!-- section -->
