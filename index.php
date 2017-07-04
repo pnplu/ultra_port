@@ -105,7 +105,7 @@
               </article> <!-- topic_box_l -->
               <article class="col-sm-3 col-sm-offset-3 topic_box_r">
                 <span class="topic_r_a">INTERACTIVE MEDIA DESIGN</span><br>
-                <span class="topic_r_b">ICT SLIPAKORN</span>
+                <span class="topic_r_b">ICT SILPAKORN</span>
               </article> <!-- topic_box_r -->
               <article class="col-sm-2 topic_side_r">
                 <p>
@@ -146,13 +146,13 @@
             </article>
               <article class="col-sm-10 menu_r">
                 <ul style="color:#fff;">
-                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS">APPLICATION IOS</a></li> /
-                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
-                  <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
-                  <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDRIOD</a></li> /
-                  <li><a class="link link--kumya e" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
-                  <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
-                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
+                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS" onmouseover="playclip();">APPLICATION IOS</a></li> /
+                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP" onmouseover="playclip();">BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE" onmouseover="playclip();">WEB MOBILE</a></li> /
+                  <li><a class="link link--kumya d" href="#" data-letters="ANDROID" onmouseover="playclip();">ANDROID</a></li> /
+                  <li><a class="link link--kumya e" href="#" data-letters="ON TABLET" onmouseover="playclip();">ON TABLET</a></li> /
+                  <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT" onmouseover="playclip();">UNITY KINECT</a></li> /
+                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO" onmouseover="playclip();">UNITY ARDUINO</a></li>
                 </ul>
               </article>
             </article>
