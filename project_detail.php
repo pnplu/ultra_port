@@ -6,14 +6,6 @@
     <title>Project Detail</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_project_detail.css">
-<<<<<<< HEAD
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
-    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
-=======
     <link rel="stylesheet" href="css/style_browse.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
@@ -23,18 +15,12 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     <!-- circle css -->
     <link rel="stylesheet" href="stylesheet/css/circle.css">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
   <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
-<<<<<<< HEAD
-
-  </head>
-  <body>
-=======
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -53,7 +39,6 @@ background-size: cover;
 
     <section id="browse_wrap"></section> <!-- section -->
 
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     <section class="container-fluid">
       <!-- nav -->
       <section class="row">
@@ -78,19 +63,6 @@ background-size: cover;
               </svg><!-- logo-effect -->
             </a>
           </article>
-<<<<<<< HEAD
-          <article class="col-sm-5 wrap_menu_top_text tablet">
-              <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
-              <span><a class="link link--kukuri" href="#" data-letters="THANKYOU">THANKYOU</a></span>
-              <span><a class="link link--kukuri" href="#" data-letters="CONTACT">CONTACT</a></span>
-          </article>
-          <article class="col-xs-8 col-sm-3 box_nav_top_r">
-            <img src="image_web/logo_ict.png" alt="ictsu_logo">
-          </article>
-          <hr>
-        </nav> <!-- nav -->
-      </section>
-=======
           <article class="col-sm-9 menu tablet">
             <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
             <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
@@ -128,30 +100,42 @@ background-size: cover;
             </button>
             </div>
         </div>
-
-        <!-- <div class="content">
-            <div class="loader">
-                <i class="fa fa-spinner fa-pulse"></i>
-            </div>
-            <button class="action action--hidden action--play js-play-video">
-            <i class="fa fa-play"></i>
-            <span class="action__label">Watch the video</span>
-
-        </button>
-        </div> -->
         <div class='icon-scroll'><div/>
     </section>
-    <script src="js/video.js"></script>
+
 
     <article class="row">
     <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
       <span>VIDEO SHOWREEL</span><br>
+      <div class="col-xs-12" style="position: absolute;">
+          <div class="loader">
+              <i class="fa fa-spinner fa-pulse"></i>
+          </div>
+          <button class="action action--hidden action--play js-play-video" style="margin-right: 208px; margin-top: 84px;">
+
+  <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Project-Detail-Copy" transform="translate(-1193.000000, -237.000000)">
+              <g id="Group-26" transform="translate(1044.722029, 153.000000)">
+                  <g id="Group-27" transform="translate(148.000000, 84.000000)">
+                      <rect id="Rectangle-20" fill="#FFFFFF" x="0.901124941" y="0.20146813" width="47.3385079" height="47.255926"></rect>
+                      <polygon id="Triangle" stroke="#193852" stroke-width="2" points="32.7470303 24.2590305 17.2544277 31.9918183 17.2544277 16.5262426"></polygon>
+                  </g>
+              </g>
+          </g>
+      </g>
+  </svg>
+      </button>
+      </div>
+      <script src="js/video.js"></script>
       <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
       <span>STUDENT ID</span>
       <h3 style="line-height: 2px;">13560261</h3>
     </article>
     </article>
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
       <!-- banner -->
       <section class="row">
         <article class="col-xs-12 wrap_banner">
@@ -292,22 +276,11 @@ background-size: cover;
       </section><!-- Develop by -->
 
       <!-- footer -->
-<<<<<<< HEAD
-=======
       <div id="myID" class="bottomMenu hide">
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
       <footer class="row">
         <section class="wrap_footer">
           <article class="col-xs-12 wrap_r_footer">
             <article class="col-xs-3 col-sm-2 col-md-1 wrap_footer_l">
-<<<<<<< HEAD
-              <button type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
-            </article> <!-- wrap_footer_l -->
-            <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
-              <p>เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
-            </article> <!-- wrap_footer_r -->
-            <article class="col-sm-4 col-md-3 foot_email tablet">
-=======
               <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
@@ -315,7 +288,6 @@ background-size: cover;
               <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > APPLICATION IOS<p>
             </article> <!-- wrap_footer_r -->
             <article class="col-sm-2 col-md-3 foot_email tablet">
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
               <h4>EMAIL</h4>
               <p>worawaluns.k@gmail.com</p>
             </article>
@@ -331,9 +303,6 @@ background-size: cover;
           </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
       </footer>
-<<<<<<< HEAD
-    </section> <!-- container-fluid -->
-=======
       </div>
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
@@ -351,7 +320,6 @@ background-size: cover;
       </audio>
 
     <div id="sounddiv"><bgsound id="sound"></div>
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   </body>
   <!-- Creator hover -->
   <script src="js/anime.min.js"></script>
@@ -416,8 +384,6 @@ background-size: cover;
           });
         })();
 
-<<<<<<< HEAD
-=======
         // animate.css
 
         $('.menu').addClass('animated fadeInDown');
@@ -440,6 +406,5 @@ var myScrollFunc = function () {
 
 window.addEventListener("scroll", myScrollFunc);
 
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   </script>
 </html>
