@@ -7,6 +7,50 @@ html, body {
 .row {
   background-color: #250F59; }
 
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%; }
+
+.icon-scroll {
+  width: 30px;
+  height: 50px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+  margin-top: 250px; }
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll; }
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+    transform: translateY(46px); } }
+@keyframes scroll {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+    transform: translateY(46px); } }
 #demo-canvas {
   float: left;
   position: absolute;
@@ -32,13 +76,13 @@ html, body {
 .video_showreel {
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 2px;
-  width: 100%;
   height: 80px;
   color: #FFFFFF;
   text-align: right;
   float: right;
   padding-right: 200px;
-  margin-top: -500px; }
+  margin-top: -550px;
+  padding-right: 50px; }
 
 .menu {
   font-family: 'Titillium Web', sans-serif;

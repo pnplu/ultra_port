@@ -27,7 +27,7 @@
   </head>
   <body>
     <div id="large-header" class="large-header">
-      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg');">
+      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg'); background-position: center; background-attachment: fixed;">
       </canvas>
 
     <section id="browse_wrap"></section> <!-- section -->
@@ -94,21 +94,26 @@
             </div>
         </div>
 
-        <div class="content">
+        <!-- <div class="content">
             <div class="loader">
                 <i class="fa fa-spinner fa-pulse"></i>
             </div>
             <button class="action action--hidden action--play js-play-video">
             <i class="fa fa-play"></i>
             <span class="action__label">Watch the video</span>
+
         </button>
-        </div>
+        </div> -->
+        <div class='icon-scroll'><div/>
     </section>
     <script src="js/video.js"></script>
 
     <article class="row">
-    <article class="col-xs-12 video_showreel">
-      sdsdsdsd
+    <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
+      <span>VIDEO SHOWREEL</span><br>
+      <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
+      <span>STUDENT ID</span>
+      <h3 style="line-height: 2px;">13560261</h3>
     </article>
     </article>
       <!-- banner -->
