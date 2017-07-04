@@ -100,24 +100,37 @@ background-size: cover;
             </button>
             </div>
         </div>
-
-        <!-- <div class="content">
-            <div class="loader">
-                <i class="fa fa-spinner fa-pulse"></i>
-            </div>
-            <button class="action action--hidden action--play js-play-video">
-            <i class="fa fa-play"></i>
-            <span class="action__label">Watch the video</span>
-
-        </button>
-        </div> -->
         <div class='icon-scroll'><div/>
     </section>
-    <script src="js/video.js"></script>
+
 
     <article class="row">
     <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
       <span>VIDEO SHOWREEL</span><br>
+      <div class="col-xs-12" style="position: absolute;">
+          <div class="loader">
+              <i class="fa fa-spinner fa-pulse"></i>
+          </div>
+          <button class="action action--hidden action--play js-play-video" style="margin-right: 208px; margin-top: 84px;">
+
+  <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Project-Detail-Copy" transform="translate(-1193.000000, -237.000000)">
+              <g id="Group-26" transform="translate(1044.722029, 153.000000)">
+                  <g id="Group-27" transform="translate(148.000000, 84.000000)">
+                      <rect id="Rectangle-20" fill="#FFFFFF" x="0.901124941" y="0.20146813" width="47.3385079" height="47.255926"></rect>
+                      <polygon id="Triangle" stroke="#193852" stroke-width="2" points="32.7470303 24.2590305 17.2544277 31.9918183 17.2544277 16.5262426"></polygon>
+                  </g>
+              </g>
+          </g>
+      </g>
+  </svg>
+      </button>
+      </div>
+      <script src="js/video.js"></script>
       <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
       <span>STUDENT ID</span>
       <h3 style="line-height: 2px;">13560261</h3>
