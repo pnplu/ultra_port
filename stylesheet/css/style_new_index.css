@@ -109,10 +109,7 @@ html, body {
 @media screen and (min-width: 767px) {
   .tablet {
     display: block; }
-<<<<<<< HEAD
-=======
 
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   .wrap_nav_top .wrap_menu_top_text {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.2em; }
@@ -159,11 +156,6 @@ html, body {
     height: 1px;
     float: none;
     margin-left: auto;
-<<<<<<< HEAD
-    margin-right: auto; }
-}
-=======
     margin-right: auto; } }
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 
 /*# sourceMappingURL=style_new_index.css.map */

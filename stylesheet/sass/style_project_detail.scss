@@ -12,8 +12,6 @@ html, body{
 .row{
   background-color: $bg_main;
 }
-<<<<<<< HEAD
-=======
 
 // icon scroll mouse
 .icon-scroll,
@@ -87,7 +85,6 @@ html, body{
 }
 
 // bg-dot-line-effect
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 .container-fluid{
   margin-bottom: 100px;
 }
@@ -95,8 +92,6 @@ html, body{
 display: none;
 }
 
-<<<<<<< HEAD
-=======
 .video_showreel{
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 2px;
@@ -171,22 +166,15 @@ display: none;
           }
 
 
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 @media screen and (min-width: 319px) {
   .wrap_nav_top{
     height: 136px;
     .box_nav_top_l{
       height: 100px;
-<<<<<<< HEAD
-      img{
-        max-width: 80%;
-        margin-top: 12px;
-=======
       margin-top: 20px;
       margin-left: 25px;
       img{
         max-width: 80%;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
       }
     }
     .box_nav_top_r{
@@ -200,17 +188,11 @@ display: none;
     hr{
       width: 100%;
       margin-top: 15px;
-<<<<<<< HEAD
-      border-color: $border_1;
-=======
       border-color: #fff;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
       float: left;
     }
   }
 
-<<<<<<< HEAD
-=======
   //hide footer
   .bottomMenu {
       position: fixed;
@@ -228,15 +210,12 @@ display: none;
 }
 
 
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   //banner
   .wrap_banner{
     background-color: $color_green;
     height: 200px;
     overflow: hidden;
     position: relative;
-<<<<<<< HEAD
-=======
     margin-top: 520px;
     img{
       position: absolute;
@@ -373,7 +352,7 @@ display: none;
 
   .action {
     background: none;
-    border: 2px solid #FFF;
+    border: none;
     border-radius: 4rem;
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -497,7 +476,6 @@ display: none;
     position: relative;
     margin-top: -136px;
     height: 650px;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     img{
       position: absolute;
       left: -100px;
@@ -699,11 +677,7 @@ display: none;
   // footer
   .wrap_footer{
     height: 100px;
-<<<<<<< HEAD
-    width: 100%;
-=======
     width: 104%;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     position: fixed;
     bottom: 0;
     // background-color: $bg_main;
@@ -785,14 +759,11 @@ display: none;
       .wrap_menu_top_text{
         font-family: 'Titillium Web', sans-serif;
         font-size: 1.2em;
-<<<<<<< HEAD
-=======
         display: inline-block;
         padding-top: 30px;
         margin-left: 10px;
         margin-right: 10px;
         z-index: 1;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 
         ul{
           list-style-type: none;
@@ -848,19 +819,12 @@ display: none;
         .wrap_footer_r{
           p{
             margin-top: 10px;
-<<<<<<< HEAD
-=======
             font-size: 1.1em;
             padding-top: 10px;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
           }
         }
         .foot_email{
           background-color: #34353C;
-<<<<<<< HEAD
-          background: linear-gradient(rgba(0, 0, 0, 0.5), #34353C);
-=======
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
           height: 100px;
           h4{
             font-family: 'Titillium Web', sans-serif;
@@ -886,10 +850,6 @@ display: none;
         .foot_fb{
           @extend .foot_email;
           background-color: #4862A2;
-<<<<<<< HEAD
-          background: linear-gradient(rgba(0, 0, 0, 0.5), #4862A2);
-=======
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
           .wrap_logo_face{
             background-color: transparent;
             img{
@@ -919,11 +879,8 @@ display: none;
       .wrap_menu_top_text{
         font-family: 'Titillium Web', sans-serif;
         font-size: 1.2em;
-<<<<<<< HEAD
-=======
         margin-top: 20px;
         margin-left: 25px;
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 
         ul{
           list-style-type: none;
@@ -1021,8 +978,5 @@ display: none;
       }
     }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 }

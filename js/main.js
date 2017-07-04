@@ -1325,9 +1325,6 @@
 
 	window.DenebFx = DenebFx;
 
-<<<<<<< HEAD
-})(window);
-=======
 })(window);
 
 $('#browse_icon').click(function() {
@@ -1346,4 +1343,3 @@ $('#browse_icon').click(function() {
   $('body').addClass('stop-scrolling');
   $('body').bind('touchmove', function(e){e.preventDefault()});
 });
->>>>>>> e62841f0d582601955e479c8767db60ae76ce928
