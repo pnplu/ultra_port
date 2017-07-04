@@ -33,10 +33,10 @@ foreach ($app_decode as $key => $value) {
       <source src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDVVZ1Z3l5b1RLcFU" type="video/mp4">
     </video>
     <!-- <iframe src="https://drive.google.com/file/d/0B7gXLk9j1SkDVVZ1Z3l5b1RLcFU/preview" width="640" height="480"></iframe> -->
-    <!-- <img src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDNVhOM29BNWFOS3M"> -->
+    <img src="https://drive.google.com/uc?export=download&id=0B7gXLk9j1SkDNVhOM29BNWFOS3M">
     <!-- <iframe src="https://drive.google.com/file/d/0B7gXLk9j1SkDNVhOM29BNWFOS3M/preview" width="400"></iframe> -->
     <!-- <img src="https://lh4.googleusercontent.com/rAlTecACULlB3YUmVjYEtXdI2IkSQMu4qM-hZWbG5BeETEY_cc5RPI9Nkb6alPGRiDuf6uS3C_IY8nw=w1284-h672-rw" alt=""> -->
-    <img src="https://lh3.googleusercontent.com/WFbSPVmZ-gYoIw4UdGHFQG0ykVrkUvO9HNL3vtheG1FQ0otDMl2mKctDdYk9P3FhgZLJamkC=w1274-h708" alt="">
+    <!-- <img src="https://lh3.googleusercontent.com/WFbSPVmZ-gYoIw4UdGHFQG0ykVrkUvO9HNL3vtheG1FQ0otDMl2mKctDdYk9P3FhgZLJamkC=w1274-h708" alt=""> -->
   </body>
 </html>
 
