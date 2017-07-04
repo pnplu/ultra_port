@@ -38,13 +38,16 @@
 
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
+
+    <!-- add sound -->
+    <script type="text/javascript" src="js/sound-mouseover.js"></script>
   </head>
   <body>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
 
     <section id="browse_wrap"></section> <!-- section -->
-    
+
     <section class="container-fluid">
       <section class="row">
         <article class="col-sm-2 side_l_page">
@@ -72,10 +75,10 @@
         </article> <!-- Side L -->
 
         <article class="col-sm-10 menu">
-          <span><a class="link link--kukuri" href="index.php" data-letters="HOME">HOME</a></span>
-          <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a></span>
-          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a></span>
-          <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a></span>
+          <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
+          <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
+          <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
 
@@ -156,6 +159,10 @@
 
         </article> <!-- main_menu -->
       </section>
+      <audio>
+        <source src="audio/hover_effect.mp3"></source>
+        <source src="audio/hover_effect.ogg"></source>
+        </audio>
 
 
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
