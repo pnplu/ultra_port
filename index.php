@@ -10,9 +10,17 @@
     <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_index.css">
+<<<<<<< HEAD
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
+=======
+    <link rel="stylesheet" href="css/style_browse.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="vendor/twbs/bootstrap/dist/js/jquery.min.js"></script>
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
@@ -31,15 +39,35 @@
     <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
 
+<<<<<<< HEAD
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
+=======
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="stylesheet/css/animate.css" />
+
+    <!-- add sound -->
+    <script type="text/javascript" src="js/sound-mouseover.js"></script>
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
   </head>
   <body>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
+<<<<<<< HEAD
     <section class="container-fluid">
       <section class="row">
         <article class="col-xs-3 col-sm-1 col-md-2 side_l_page">
+=======
+
+    <section id="browse_wrap"></section> <!-- section -->
+
+    <section class="container-fluid">
+      <section class="row">
+        <article class="col-sm-2 side_l_page">
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 
           <!-- logo-effect -->
           <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -63,6 +91,7 @@
           </p>
         </article> <!-- Side L -->
 
+<<<<<<< HEAD
         <article class="col-sm-10 col-md-10 menu">
           <span><a class="link link--kukuri" href="#" data-letters="HOME">HOME</a></span>
           <span><a class="link link--kukuri" href="#" data-letters="CREATOR">CREATOR</a></span>
@@ -75,6 +104,20 @@
           <article class="row">
             <article class="col-sm-12 col-md-12 topic_top">
               <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l">
+=======
+        <article class="col-sm-10 menu">
+          <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
+          <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
+          <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
+          <hr>
+        </article> <!-- menu -->
+
+        <article class="col-sm-10 discription">
+          <article class="row">
+            <article class="col-sm-12 topic_top">
+              <article class="col-sm-4 topic_box_l">
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
                 <p class="p_l_topic" style="float:left;">
                   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                   <script src="../js/odometer.js"></script>
@@ -92,11 +135,19 @@
                 <span class="color_green">SENIOR PROJECT</span><br>
                 <span class="color_green">2017</span>
               </article> <!-- topic_box_l -->
+<<<<<<< HEAD
               <article class="col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 topic_box_r">
                 <span class="topic_r_a">INTERACTIVE MEDIA DESIGN</span><br>
                 <span class="topic_r_b">ICT SLIPAKORN</span>
               </article> <!-- topic_box_r -->
               <article class="col-sm-offset-11 col-sm-1 col-md-2 topic_side_r">
+=======
+              <article class="col-sm-3 col-sm-offset-3 topic_box_r">
+                <span class="topic_r_a">INTERACTIVE MEDIA DESIGN</span><br>
+                <span class="topic_r_b">ICT SILPAKORN</span>
+              </article> <!-- topic_box_r -->
+              <article class="col-sm-2 topic_side_r">
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
                 <p>
                   INTERACTIVE MEDIA DESIGN<br>
                   ICTSILPAKORN
@@ -106,6 +157,7 @@
           </article> <!-- row -->
 
           <!-- <article class="row"> -->
+<<<<<<< HEAD
             <article class="col-xs-12 col-sm-12 box_wrap_work">
           <a href="project_detail.php">
               <article class="col-xs-6 col-sm-4 col-md-3 box_a">
@@ -164,6 +216,21 @@
                   <p>12 CREATOR</p>
                 </div>
               </div>
+=======
+            <article class="box_wrap_work">
+          <a href="project_detail.php">
+              <article class="col-sm-3 box_a">
+            </article>
+          </a>
+            <article class="col-sm-3 box_b">
+
+            </article>
+            <article class="col-sm-3 box_a">
+
+            </article>
+            <article class="col-sm-3 box_b">
+
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
             </article>
           </article>
           <!-- </article>
@@ -171,6 +238,7 @@
         </article> <!-- discription -->
       </section>
       <section class="row pos_fix">
+<<<<<<< HEAD
         <article class="col-md-12 main_menu">
           <article class="row">
             <article class="col-md-2">
@@ -191,12 +259,37 @@
                   <li><a class="link link--kumya e" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
                   <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
                   <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
+=======
+        <article class="col-sm-12 main_menu">
+          <article class="row">
+            <article class="col-sm-2">
+              <article class="btn_menu">
+                <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
+              </article>
+            </article>
+              <article class="col-sm-10 menu_r">
+                <ul style="color:#fff;">
+                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS" onmouseover="playclip();">APPLICATION IOS</a></li> /
+                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP" onmouseover="playclip();">BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE" onmouseover="playclip();">WEB MOBILE</a></li> /
+                  <li><a class="link link--kumya d" href="#" data-letters="ANDROID" onmouseover="playclip();">ANDROID</a></li> /
+                  <li><a class="link link--kumya e" href="#" data-letters="ON TABLET" onmouseover="playclip();">ON TABLET</a></li> /
+                  <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT" onmouseover="playclip();">UNITY KINECT</a></li> /
+                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO" onmouseover="playclip();">UNITY ARDUINO</a></li>
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
                 </ul>
               </article>
             </article>
 
         </article> <!-- main_menu -->
       </section>
+<<<<<<< HEAD
+=======
+      <audio>
+        <source src="audio/hover_effect.mp3"></source>
+        <source src="audio/hover_effect.ogg"></source>
+        </audio>
+>>>>>>> e62841f0d582601955e479c8767db60ae76ce928
 
 
       <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
