@@ -50,7 +50,7 @@
 
     <section class="container-fluid">
       <section class="row">
-        <article class="col-sm-2 side_l_page">
+        <article class="col-xs-3 col-sm-1 col-md-2 side_l_page">
 
           <!-- logo-effect -->
           <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -74,7 +74,7 @@
           </p>
         </article> <!-- Side L -->
 
-        <article class="col-sm-10 menu">
+        <article class="col-sm-10 col-md-10 menu">
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
@@ -82,10 +82,10 @@
           <hr>
         </article> <!-- menu -->
 
-        <article class="col-sm-10 discription">
+        <article class="col-xs-12 col-sm-10 col-md-10 discription">
           <article class="row">
-            <article class="col-sm-12 topic_top">
-              <article class="col-sm-4 topic_box_l">
+            <article class="col-sm-12 col-md-12 topic_top">
+              <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l">
                 <p class="p_l_topic" style="float:left;">
                   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                   <script src="../js/odometer.js"></script>
@@ -103,11 +103,11 @@
                 <span class="color_green">SENIOR PROJECT</span><br>
                 <span class="color_green">2017</span>
               </article> <!-- topic_box_l -->
-              <article class="col-sm-3 col-sm-offset-3 topic_box_r">
+              <article class="col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 topic_box_r">
                 <span class="topic_r_a">INTERACTIVE MEDIA DESIGN</span><br>
                 <span class="topic_r_b">ICT SILPAKORN</span>
               </article> <!-- topic_box_r -->
-              <article class="col-sm-2 topic_side_r">
+              <article class="col-sm-offset-11 col-sm-1 col-md-2 topic_side_r">
                 <p>
                   INTERACTIVE MEDIA DESIGN<br>
                   ICTSILPAKORN
@@ -117,26 +117,96 @@
           </article> <!-- row -->
 
           <!-- <article class="row"> -->
-            <article class="box_wrap_work">
-          <a href="project_detail.php">
-              <article class="col-sm-3 box_a">
-            </article>
-          </a>
-            <article class="col-sm-3 box_b">
-
-            </article>
-            <article class="col-sm-3 box_a">
-
-            </article>
-            <article class="col-sm-3 box_b">
-
-            </article>
+          <article class="col-xs-12 col-sm-12 box_wrap_work">
+        <a href="project_detail.php">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>APPLICATION IOS</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
           </article>
+        </a>
+          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+            <div class="box_cate">
+              <h4>BASE ON DESKTOP</h4>
+              <div class="box_count">
+                <p>12 CREATOR</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+            <div class="box_cate">
+              <h4>WEB MOBILE</h4>
+              <div class="box_count">
+                <p>12 CREATOR</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+            <div class="box_cate">
+              <h4>ANDROID</h4>
+              <div class="box_count">
+                <p>12 CREATOR</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+            <div class="box_cate">
+              <h4>ON TABLET</h4>
+              <div class="box_count">
+                <p>12 CREATOR</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+            <div class="box_cate">
+              <h4>UNITY KINECT</h4>
+              <div class="box_count">
+                <p>12 CREATOR</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+            <div class="box_cate">
+              <h4>UNITY ARDUINO</h4>
+              <div class="box_count">
+                <p>12 CREATOR</p>
+              </div>
+            </div>
+          </article>
+        </article>
           <!-- </article>
 
         </article> <!-- discription -->
       </section>
       <section class="row pos_fix">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <article class="col-md-12 main_menu">
+          <article class="row">
+            <article class="col-md-2">
+              <article class="btn_menu">
+                <img src="image_web/btn_hamberger.png">
+              </article>
+            </article>
+              <article class="col-md-10 menu_r">
+                <ul style="color:#fff;">
+                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS">APPLICATION IOS</a></li> /
+                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
+<<<<<<< HEAD
+                  <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDROID</a></li> /
+=======
+                  <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDRIOD</a></li> /
+>>>>>>> parent of e62841f... add sound hover
+                  <li><a class="link link--kumya e" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
+                  <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
+                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
+=======
+>>>>>>> 1e08b621be93c974a22b0069867037872d45e761
         <article class="col-sm-12 main_menu">
           <article class="row">
             <article class="col-sm-2">
