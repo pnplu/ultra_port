@@ -4,7 +4,7 @@ html, body {
   border: 0px;
   background: -webkit-radial-gradient(center, ellipse cover, #4824a3 0%, #250f59 63%, #250f59 100%); }
 
-  
+
 #demo-canvas {
   float: left;
   position: absolute;
@@ -98,12 +98,13 @@ html, body {
     white-space: nowrap;
     width: 2000px; }
     .discription .box_wrap_work .box_a, .discription .box_wrap_work .box_b {
-      background-image: url("../../image_web/creator_bg.jpg");
+      /*background-image: url("../../image_web/creator_bg.jpg");*/
+      background-color: gray;
       width: 240px;
       height: 240px;
-      margin-top: 30px; }
+      margin-top: 70px; }
     .discription .box_wrap_work .box_b {
-      margin-top: -20px;
+      margin-top: 20px;
       margin-left: 20px;
       margin-right: 20px; }
 
@@ -147,6 +148,18 @@ html, body {
           display: inline;
           margin-left: 10px;
           margin-right: 10px; }
+          .box_cate {
+              margin-top: 75%;
+              color: white;
+          }
+          .box_cate p {
+            font-size: 12px;
+          }
+          .box_count {
+            background-image: url("../../image_web/bg_creator.png");
+            background-repeat: no-repeat;
+            padding-left: 5px;
+          }
 
 ::-webkit-scrollbar {
   display: none; }

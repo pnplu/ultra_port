@@ -145,22 +145,24 @@ body{
     }
   }
 
-  .box_wrap_work{
-    // background-color: #333333;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    width: 980px;
-    .box_a{
-      width: 240px;
-      height: 240px;
-      margin-top: 30px;
-    }
-    .box_b{
-      @extend .box_a;
-      margin-top: -20px;
-      margin-left: 20px;
-      margin-right: 20px;
+  .big_box_wrap_work{
+    .box_wrap_work{
+      background-color: #ffcc00;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      width: 980px;
+      .box_a{
+        width: 240px;
+        height: 240px;
+        margin-top: 30px;
+      }
+      .box_b{
+        @extend .box_a;
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     }
   }
 
