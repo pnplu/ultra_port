@@ -107,11 +107,11 @@ background-size: cover;
     <article class="row">
     <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
       <span>VIDEO SHOWREEL</span><br>
-      <div class="col-xs-12" style="position: absolute;">
+      <div class="col-xs-11" style="position: absolute;">
           <div class="loader">
               <i class="fa fa-spinner fa-pulse"></i>
           </div>
-          <button class="action action--hidden action--play js-play-video" style="margin-right: 208px; margin-top: 84px;">
+          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 84px;">
 
   <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
@@ -138,7 +138,7 @@ background-size: cover;
     </article>
       <!-- banner -->
       <section class="row">
-        <article class="col-xs-12 wrap_banner">
+        <article class="col-xs-12 wrap_banner" style="margin-left: -15px;">
           <img class="row" src="image_web/mock_banner_work.png" alt="banner_work">
         </article>
       </section> <!-- banner -->
