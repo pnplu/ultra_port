@@ -1,115 +1,514 @@
 {
-  "13560220": {
-    "student_id": "13560220",
+  "13540644": {
+    "student_id": "13540644",
     "user": {
-      "name": "Pasit Niyomthong",
-      "motivation_quote": "Be strong Ultraline",
-      "facebook": "enqueteplu",
-      "email": "pasit.niyom@gmail.com",
+      "name": "Nattapol Kaewsuwan",
+      "motivation_quote": "What doesn't kill you makes you stronger.",
+      "facebook": "kaewhisper",
+      "email": "kaew.nattapol@gmail.com",
       "image": {
-        "landing_profile": "landding_profile_13560xxx.jpg",
-        "profile": "avatar_profile_13560xxx.jpg",
-        "quote": "quote_footer_13560xxx.jpg"
+        "landing_profile": "landding_profile_13540644.jpg",
+        "profile": "avatar_profile_13540644.jpg",
+        "quote": "quote_footer_13540644.jpg"
       },
       "video": {
-        "showreel": "https://www.youtube.com/watch?v=73uDlnrSN2Q&t=8s",
-        "interview": "https://www.youtube.com/watch?v=73uDlnrSN2Q&t=8s"
+        "showreel": "https://youtu.be/-FTe3RtIom0",
+        "interview": ".."
       }
     },
     "work": {
-      "name": "สื่อโต้ตอบส่งเสริมการเรียนรู้เกี่ยวกับน้ำนม",
-      "project_name": "Milky Daily",
-      "type": "Interactive with Kinect",
-      "concept": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis tortor metus. Integer sit amet",
+      "name": "เกมแอปพลิเคชันฝึกฝนกระบวนการคิดของการเขียนโปรแกรม สำหรับเด็กระดับชั้นประถมศึกษา",
+      "project_name": "BOTBOX",
+      "type": "Application Android",
+      "concept": "ทักษะพื้นฐานของการเขียนโปรแกรม จะทำให้เด็กมีทักษะในการแก้ไขปัญหา อย่างมีลำดับขั้นตอน และทักษะในการคิดวิเคราะห์ สามารถนำไปใช้แก้ไขปัญหาในชีวิตประจำวันได้",
       "function": {
-        "function_name_a": "Generate PDF",
-        "function_name_b": "Export Sound",
-        "function_name_c": "Import Element",
+        "function_name_a": "Tutorial ",
+        "function_name_b": "Gameplay ",
+        "function_name_c": "Add Stage",
         "discription": {
-          "fuction_dis_a": "met, consectetur adipiscing elit. Quisque quis tortor",
-          "fuction_dis_b": "met, consectetur adipiscing elit. Quisque quis tortor",
-          "fuction_dis_c": "met, consectetur adipiscing elit. Quisque quis tortor"
+          "fuction_dis_a": "แนะนำระบบการเล่น วิธีการควบคุมตัวละคร",
+          "fuction_dis_b": "ระบบการเล่น ลำดับคำสั่งในการควบคุมตัวละคร",
+          "fuction_dis_c": "เพิ่มด่านใหม่ในเกม ผ่านระบบเว็บไซต์"
         },
         "image": {
-          "function_img_a": "function_13560xxx.jpg",
-          "function_img_b": "function_13560xxx.jpg",
-          "function_img_c": "function_13560xxx.jpg"
+          "function_img_a": "function_13540644_01.jpg",
+          "function_img_b": "function_13540644_02.jpg",
+          "function_img_c": "function_13540644_03.jpg"
         }
       },
       "design_process": {
-        "img_a": "design_process_13560XXX_01.jpg",
-        "img_b": "design_process_13560XXX_02.jpg",
-        "img_c": "design_process_13560XXX_03.jpg",
-        "img_d": "design_process_13560XXX_04.jpg"
+        "img_a": "design_process_13540644_01.jpg",
+        "img_b": "design_process_13540644_02.jpg",
+        "img_c": "design_process_13540644_03.jpg",
+        "img_d": "design_process_13540644_04.jpg"
       }
     },
     "skill": {
-      "skill_a_name": "skill_n1",
-      "skill_b_name": "skill_n2",
-      "skill_c_name": "skill_n3",
-      "skill_d_name": "skill_n4",
+      "skill_a_name": "C#",
+      "skill_b_name": "PHP",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "MYSQL",
       "percent": {
-        "skill_a_percent": "47%",
-        "skill_b_percent": "53%",
-        "skill_c_percent": "69%",
-        "skill_d_percent": "82%"
+        "skill_a_percent": "60%",
+        "skill_b_percent": "20%",
+        "skill_c_percent": "15%",
+        "skill_d_percent": "5%"
       }
     }
   },
-  "13560147": {
-    "student_id": "13560147",
+  "13560259": {
+    "student_id": "13560259",
     "user": {
-      "name": "Nuttha Lohajoti",
-      "motivation_quote": "Be strong Ultraline2",
-      "facebook": "nowadays",
-      "email": "i_am_nim@gmail.com",
+      "name": "Laksamon Choonukulwong",
+      "motivation_quote": "Bookshelf for Yourself",
+      "facebook": "cookie.vanyo",
+      "email": "cookievanyo@gmail.com",
       "image": {
-        "landing_profile": "landding_profile_13560xxx.jpg",
-        "profile": "avatar_profile_13560xxx.jpg",
-        "quote": "quote_footer_13560xxx.jpg"
+        "landing_profile": "landding_profile_13560259.jpg",
+        "profile": "avatar_profile_13560259.jpg",
+        "quote": "quote_footer_13560259.jpg"
       },
       "video": {
-        "showreel": "https://www.youtube.com/watch?v=73uDlnrSN2Q&t=8s",
-        "interview": "https://www.youtube.com/watch?v=73uDlnrSN2Q&t=8s"
+        "showreel": "https://www.youtube.com/watch?v=7z29fYTH3QE",
+        "interview": ".."
       }
     },
     "work": {
-      "name": "เว็บแอปพลิเคชันส่งเสริมสินค้าพื้นเมือง",
-      "project_name": "Sihanan",
-      "type": "Interactive with Kinect",
-      "concept": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis tortor metus. Integer sit amet",
+      "name": "แอปพลิเคชันบันทึกและจัดระเบียบหนังสือตามความชอบของผู้ใช้ บนระบบปฏิบัติการแอนดรอยด์",
+      "project_name": "BOOKBLAH",
+      "type": "Application Android",
+      "concept": "คนที่สะสมหนังสือและมีโอกาสได้แลกเปลี่ยนหนังสือกับเพื่อนอยู่บ่อยๆ บางครั้งก็จำไม่ได้ว่าเราซื้อหนังสือเล่มไหนไปบ้าง หรือใครยืมหนังสือเราไปบ้าง ทำให้อยากที่จะสร้างตัวช่วยที่จะลดปัญหาเหล่านี้ลงไป",
       "function": {
-        "function_name_a": "Generate PDF",
-        "function_name_b": "Export Sound",
-        "function_name_c": "Import Element",
+        "function_name_a": "Friends",
+        "function_name_b": "Notification",
+        "function_name_c": "Record",
         "discription": {
-          "fuction_dis_a": "met, consectetur adipiscing elit. Quisque quis tortor",
-          "fuction_dis_b": "met, consectetur adipiscing elit. Quisque quis tortor",
-          "fuction_dis_c": "met, consectetur adipiscing elit. Quisque quis tortor"
+          "fuction_dis_a": "ระบบเพื่อนเพื่อติดตามความเคลื่อนไหวในการซื้อหนังสือของกันและกัน",
+          "fuction_dis_b": "ส่งข้อความแจ้งเตือนทวงหนังสือเพื่อน",
+          "fuction_dis_c": "บันทึกหนังสือและบันทึกการยืน-คืนหนังสือระหว่างผู้ใช้"
         },
         "image": {
-          "function_img_a": "function_13560xxx.jpg",
-          "function_img_b": "function_13560xxx.jpg",
-          "function_img_c": "function_13560xxx.jpg"
+          "function_img_a": "function_13560259_01.jpg",
+          "function_img_b": "function_13560259_02.jpg",
+          "function_img_c": "function_13560259_03.jpg"
         }
       },
       "design_process": {
-        "img_a": "design_process_13560XXX_01.jpg",
-        "img_b": "design_process_13560XXX_02.jpg",
-        "img_c": "design_process_13560XXX_03.jpg",
-        "img_d": "design_process_13560XXX_04.jpg"
+        "img_a": "design_process_13560259_01.jpg",
+        "img_b": "design_process_13560259_02.jpg",
+        "img_c": "design_process_13560259_03.jpg",
+        "img_d": "design_process_13560259_04.jpg"
       }
     },
     "skill": {
-      "skill_a_name": "skill_n1",
-      "skill_b_name": "skill_n2",
-      "skill_c_name": "skill_n3",
-      "skill_d_name": "skill_n4",
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "47%",
-        "skill_b_percent": "53%",
-        "skill_c_percent": "69%",
-        "skill_d_percent": "82%"
+        "skill_a_percent": "45%",
+        "skill_b_percent": "20%",
+        "skill_c_percent": "20%",
+        "skill_d_percent": "15%"
+      }
+    }
+  },
+  "13560152": {
+    "student_id": "13560152",
+    "user": {
+      "name": "Nutnicha Beawsiri",
+      "motivation_quote": "You always have a choice.",
+      "facebook": "nutnichabsr",
+      "email": "nutnichabsr@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560152.jpg",
+        "profile": "avatar_profile_13560152.jpg",
+        "quote": "quote_footer_13560152.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=Fzs3p3Zg96o&t=27s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันบริการเตรียมความพร้อมสำหรับการสอบเข้าคณะศิลปกรรม บนระบบปฏิบัติการแอนดรอย",
+      "project_name": "FINEART EXAM",
+      "type": "Application Android",
+      "concept": "นักเรียนในระดับชันม.4 - ม.6 เป็นวัยที่จะต้องเตรียมตัวสอบเข้าศึกษาต่อในระดับมหาวิทยาลัย จึงสร้างแอปตัวนี้เพื่อช่วยเสริมสร้างทักษะและความมั่นในการทำข้อสอบให้กับผู้ใช้งาน เพื่อเป็นการจำลองการสอบก่อนที่จะสอบจริง",
+      "function": {
+        "function_name_a": "Recommend",
+        "function_name_b": "Examination",
+        "function_name_c": "Random",
+        "discription": {
+          "fuction_dis_a": "แนะนำข้อสอบที่ช่วยพัฒนาความรู้ให้กับผู้ใช้งานอย่างมีประสิทธิภาพ",
+          "fuction_dis_b": "รวมข้อสอบวิชาความถนัดทางศิลปกรรมย้อนหลังกว่า 400 ข้อ",
+          "fuction_dis_c": "ระบบสุ่มข้อสอบเพื่อสร้างความท้าทายในการทำข้อสอบ"
+        },
+        "image": {
+          "function_img_a": "function_13560152_01.jpg",
+          "function_img_b": "function_13560152_02.jpg",
+          "function_img_c": "function_13560152_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560152_01.jpg",
+        "img_b": "design_process_13560152_02.jpg",
+        "img_c": "design_process_13560152_03.jpg",
+        "img_d": "design_process_13560152_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "40%",
+        "skill_b_percent": "20%",
+        "skill_c_percent": "25%",
+        "skill_d_percent": "15%"
+      }
+    }
+  },
+  "13560148": {
+    "student_id": "13560148",
+    "user": {
+      "name": "Natthakan Thongweera",
+      "motivation_quote": "Glory in life is not in never failing, But rising each time we fail.",
+      "facebook": "natthakan.thongweera",
+      "email": "nthongweera@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560148.jpg",
+        "profile": "avatar_profile_13560148.jpg",
+        "quote": "quote_footer_13560148.jpg"
+      },
+      "video": {
+        "showreel": "https://youtu.be/ScEiXVwdaTw",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันส่งเสริมสุขภาพพิชิตโรคเอ็นซีดี บนสมาร์ทโฟนระบบปฏิบัติการแอนดรอยด์ กรณีศึกษาโรคเบาหวาน",
+      "project_name": "DB HEALTHY",
+      "type": "Application Android",
+      "concept": "แอปพลิเคชันช่วยจัดการสุขภาพผู้ป่วยโรคเบาหวาน เฉพาะตัวบุคคล เพื่อให้ผู้ป่วยสามารถจัดการสุขภาพตนเอง เช่น การควบคุมน้ำตาล การรับประทานอาหาร และการปฎิบัติตนเองเพื่อสุขภาพที่ดีได้ด้วยตัวเอง",
+      "function": {
+        "function_name_a": "Calculate",
+        "function_name_b": "Record",
+        "function_name_c": "Scan",
+        "discription": {
+          "fuction_dis_a": "คำนวณแคลอรี่และน้ำตาลจากที่บันทึกในแต่ละวัน",
+          "fuction_dis_b": "ข้อมูลสุขภาพ เช่นการรับประทานอาหาร ค่าน้ำตาล และความดัน",
+          "fuction_dis_c": "ดูแคลอรี่และน้ำตาลจากรหัสบาร์โค้ด"
+        },
+        "image": {
+          "function_img_a": "function_13560148_01.jpg",
+          "function_img_b": "function_13560148_02.jpg",
+          "function_img_c": "function_13560148_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560148_01.jpg",
+        "img_b": "design_process_13560148_02.jpg",
+        "img_c": "design_process_13560148_03.jpg",
+        "img_d": "design_process_13560148_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "40%",
+        "skill_b_percent": "30%",
+        "skill_c_percent": "20%",
+        "skill_d_percent": "10%"
+      }
+    }
+  },
+  "13560167": {
+    "student_id": "13560167",
+    "user": {
+      "name": "Dara Manirattanachot",
+      "motivation_quote": "Life is like riding a bicycle. To keep your balance, you must keep moving ― Albert Einstein",
+      "facebook": "benzene9119",
+      "email": "benbencrt@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560167.jpg",
+        "profile": "avatar_profile_13560167.jpg",
+        "quote": "quote_footer_13560167.jpg"
+      },
+      "video": {
+        "showreel": "https://drive.google.com/open?id=0B6szrd6POkwcVzkycHpyWG13RU0",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันแนะนำเส้นทางด้วยเสียง บนระบบปฏิบัติการแอนดรอยด์ กรณีศึกษาเส้นทางจักรยานท่องเที่ยวฝั่งธนบุรี",
+      "project_name": "THONBURI BIKE GO",
+      "type": "Application Android",
+      "concept": "แอปพลิชันที่ช่วยในการแจ้งเตือนเส้นทาง การปั่นจักรยานท่องเที่ยวบริเวณฝั่งธนบุรี ด้วยสัญญาณเสียงตามระยะทาง และแนะนำสถานที่ท่องเที่ยวตามเส้นทางการปั่นให้แก่นักปั่นจักรยานหรือผู้ที่สนใจปั่นจักรยานบริเวณนั้น",
+      "function": {
+        "function_name_a": "To notify the users while biking",
+        "function_name_b": "Provide advice",
+        "function_name_c": "Helps to find route with voice guidance",
+        "discription": {
+          "fuction_dis_a": "แจ้งเตือนเส้นทางขณะปั่นจักรยาน ตามระยะทาง",
+          "fuction_dis_b": "แนะนำเส้นทางและสถานที่ท่องเที่ยว ฝั่งธนบุรี",
+          "fuction_dis_c": "ช่วยในการค้นหาและบอกเส้นทางด้วยเสียง"
+        },
+        "image": {
+          "function_img_a": "function_13560167_01.jpg",
+          "function_img_b": "function_13560167_02.jpg",
+          "function_img_c": "function_13560167_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560167_01.jpg",
+        "img_b": "design_process_13560167_02.jpg",
+        "img_c": "design_process_13560167_03.jpg",
+        "img_d": "design_process_13560167_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "40%",
+        "skill_b_percent": "20%",
+        "skill_c_percent": "20%",
+        "skill_d_percent": "20%"
+      }
+    }
+  },
+  "13560232": {
+    "student_id": "13560232",
+    "user": {
+      "name": "Fasai Khosittecho",
+      "motivation_quote": "Safe heart,Safe life.",
+      "facebook": "kammsaii.khosittesho",
+      "email": "fasai.khosit@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560232.jpg",
+        "profile": "avatar_profile_13560232.jpg",
+        "quote": "quote_footer_13560232.jpg"
+      },
+      "video": {
+        "showreel": "https://youtu.be/Na-dn2eDFFQ",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันช่วยแจ้งเตือนและแนะนำการปฏิบัติตนเองสำหรับผู้ป่วยโรคหัวใจ บนระบบปฏิบัติการแอนดรอยด์",
+      "project_name": "HEART CARE",
+      "type": "Application Android",
+      "concept": "แอปพลิเคชันช่วยแจ้งเตือนและแนะนำการปฏิบัติตนเองสำหรับผู้ป่วยโรคหัวใจ เน้นการใช้ข้อมูลจริง เพื่อความสะดวกสบายของผู้ป่วยและลดปัญหาการกรอกข้อมูลคลาดเคลื่อน ทำให้ผู้ป่วยได้รับผลการวิเคราะห์และการแนะนำที่ถูกต้องแบบเฉพาะรายบุคคล",
+      "function": {
+        "function_name_a": "Appointment",
+        "function_name_b": "Take Medicine",
+        "function_name_c": "Personal Health Care",
+        "discription": {
+          "fuction_dis_a": "แจ้งเตือนการนัดหมาย",
+          "fuction_dis_b": "แจ้งเตือนการกินยา",
+          "fuction_dis_c": "ระบบวิเคราะห์อาการรายบุคคล"
+        },
+        "image": {
+          "function_img_a": "function_13560232_01.jpg",
+          "function_img_b": "function_13560232_02.jpg",
+          "function_img_c": "function_13560232_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560232_01.jpg",
+        "img_b": "design_process_13560232_02.jpg",
+        "img_c": "design_process_13560232_03.jpg",
+        "img_d": "design_process_13560232_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "40%",
+        "skill_b_percent": "35%",
+        "skill_c_percent": "15%",
+        "skill_d_percent": "10%"
+      }
+    }
+  },
+  "13560301": {
+    "student_id": "13560301",
+    "user": {
+      "name": "Suwalak Norakit",
+      "motivation_quote": "Effort and time never betray sweat.",
+      "facebook": "dream.srkm",
+      "email": "norakit_s@silpakorn.edu",
+      "image": {
+        "landing_profile": "landding_profile_13560301.jpg",
+        "profile": "avatar_profile_13560301.jpg",
+        "quote": "quote_footer_13560301.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=0vaeCYfNNE4",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันสำหรับค้นหาเพื่อนร่วมแชร์ค่าอาหาร บนระบบปฏิบัติการแอนดรอยด์",
+      "project_name": "LET'S EAT",
+      "type": "Application Android",
+      "concept": "แอปพลิเคชันสำหรับค้นหาเพื่อนร่วมแชร์ค่าอาหาร สำหรับคนที่รักการทานอาหารแต่ไม่มีเพื่อนที่จะไปทานด้วยกัน ผู้ใช้งานสามารถสร้างอีเว้นท์และชวนเพื่อนให้มาร่วมทานอาหารด้วยกัน โดยระบุร้านอาหารและสถานที่ที่ต้องการได้ รวมทั้งระบบคำนวณค่าใช้จ่ายสำหรับแต่ละอีเว้นท์",
+      "function": {
+        "function_name_a": "Create Event",
+        "function_name_b": "Calculate",
+        "function_name_c": "Join Event",
+        "discription": {
+          "fuction_dis_a": "สร้างอีเว้นท์เพื่อเชิญเพื่อนเข้าร่วมทานอาหาร",
+          "fuction_dis_b": "คำนวณค่าอาหารสำหรับแต่ละอีเว้นท์",
+          "fuction_dis_c": "เมื่อไหร่รับคำเชิญจากเพื่อน สามารถเข้าร่วมหรือปฏิเสธได้"
+        },
+        "image": {
+          "function_img_a": "function_13560301_01.jpg",
+          "function_img_b": "function_13560301_02.jpg",
+          "function_img_c": "function_13560301_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560301_01.jpg",
+        "img_b": "design_process_13560301_02.jpg",
+        "img_c": "design_process_13560301_03.jpg",
+        "img_d": "design_process_13560301_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "40%",
+        "skill_b_percent": "30%",
+        "skill_c_percent": "20%",
+        "skill_d_percent": "10%"
+      }
+    }
+  },
+  "13560171": {
+    "student_id": "13560171",
+    "user": {
+      "name": "Thanakit Kaopom",
+      "motivation_quote": "The best feeling in the world is to know that your family are smiling because of you.",
+      "facebook": "tongthana",
+      "email": "thanakit_tong@hotmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560171.jpg",
+        "profile": "avatar_profile_13560171.jpg",
+        "quote": "quote_footer_13560171.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=yF1EDrSql2I&t=48s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันส่งเสริมการเรียนรู้เรื่องระบบสุริยะ",
+      "project_name": "SOLAR CONQUEST",
+      "type": "Application Android on Tablet",
+      "concept": "เรื่องระบบสุริยะเป็นเรื่องที่ไกลตัว ไม่สามารถอธิบายให้เด็กเห็นภาพได้ เนื่องในโรงเรียนที่ขาดแคลนบุคลากรและสื่อการสอนนั้น ยิ่งทำให้เด็กไม่เข้าใจ และไม่กระตือรือร้นจึงทำเป็น แอปพลิเคชันส่งเสริมการเรียนรู้เรื่องระบบสุริยะขึ้นมา  เพื่อให้เด็กหันมาใส่ใจเรียนเพิ่มมากขึ้น ให้เด็กเรียนรู้ได้ด้วยตัวเอง และยังสนุกไปกับการเรียนรู้ดาวในระบบสุริยะ",
+      "function": {
+        "function_name_a": "Learning Solar",
+        "function_name_b": "VDO Hologram 3D",
+        "function_name_c": "Conquer mission",
+        "discription": {
+          "fuction_dis_a": "น้องๆได้ลงไปสำรวจดาวเคราะห์แต่ละดวงในระบบสุริยะ",
+          "fuction_dis_b": "ชมวีดีโอดาวเคราะห์ในรูปแบบโฮโลแกรม 3 มิติ",
+          "fuction_dis_c": "นำความรู้ที่ได้มาปลดล็อคภาระกิจ เพื่อพิชิตแต่ละด่านให้สำเร็จ"
+        },
+        "image": {
+          "function_img_a": "function_13560171_01.jpg",
+          "function_img_b": "function_13560171_02.jpg",
+          "function_img_c": "function_13560171_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560171_01.jpg",
+        "img_b": "design_process_13560171_02.jpg",
+        "img_c": "design_process_13560171_03.jpg",
+        "img_d": "design_process_13560171_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "C#",
+      "skill_c_name": "AI",
+      "skill_d_name": "PS",
+      "percent": {
+        "skill_a_percent": "30%",
+        "skill_b_percent": "20%",
+        "skill_c_percent": "40%",
+        "skill_d_percent": "10%"
+      }
+    }
+  },
+  "13550222": {
+    "student_id": "13550222",
+    "user": {
+      "name": "Saranya Khanjanalekha",
+      "motivation_quote": "มีดบาดอารมณ์ไม่คมเท่าจุลนิพนธ์ที่บาดใจ",
+      "facebook": "ZAPROY",
+      "email": "misty.social@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550222.jpg",
+        "profile": "avatar_profile_13550222.jpg",
+        "quote": "quote_footer_13550222.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=i-DJSSxsPCw",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันเกมจำลองเหตุการณ์และการใช้ชีวิตในมหาวิทยาลัย",
+      "project_name": "LET LIFE",
+      "type": "Application Android on Tablet",
+      "concept": "แอปพลิเคชันเกมแบบฉบับ visual novel ที่จะจำลองเหตุการณ์การใช้ชีวิตในมหาวิทยาลัยของนักศึกษาปี 1 ที่จะต้องใช้ชีวิตในหอของมหาวิทยาลัยตามลำพัง รวมไปถึงภาระกิจตามหาเพื่อนร่วมห้องที่มีนิสัยเข้ากับตัวเองได้ภายใน 7 วัน",
+      "function": {
+        "function_name_a": "Novel Choice",
+        "function_name_b": "Mini Game",
+        "function_name_c": "Score",
+        "discription": {
+          "fuction_dis_a": "การเล่นเกมในรูปแบบนิยายที่คุณสามารถเลือกคำตอบได้",
+          "fuction_dis_b": "มินิเกมทั้ง 7 ที่พร้อมจะท้าทายความสามารถในการใช้ชีวิตของคุณ",
+          "fuction_dis_c": "แอปพลิเคชั่นจะเก็บทุกคำตอบและคะแนนในมินิเกมและจะประมวลผลบุคลิคภาพของคุณออกมา"
+        },
+        "image": {
+          "function_img_a": "function_13550222_01.jpg",
+          "function_img_b": "function_13550222_02.jpg",
+          "function_img_c": "function_13550222_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550222_01.jpg",
+        "img_b": "design_process_13550222_02.jpg",
+        "img_c": "design_process_13550222_03.jpg",
+        "img_d": "design_process_13550222_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "C#",
+      "skill_c_name": "PS",
+      "skill_d_name": "AI",
+      "percent": {
+        "skill_a_percent": "30%",
+        "skill_b_percent": "20%",
+        "skill_c_percent": "15%",
+        "skill_d_percent": "35%"
       }
     }
   }

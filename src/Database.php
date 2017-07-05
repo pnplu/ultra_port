@@ -7,17 +7,25 @@ Class Database {
   public function db_application_user($id_student) {
 
     $paht_ios = "data/db_application_ios.json";
+    $paht_android = "data/db_application_android.json";
     $paht_web = "data/db_application_web.json";
+    $paht_interactive = "data/db_application_interactive.json";
 
     $data_ios = file_get_contents($paht_ios);
+    $data_android = file_get_contents($paht_android);
     $data_web = file_get_contents($paht_web);
+    $data_interactive = file_get_contents($paht_interactive);
     $ios_json = json_decode($data_ios, TRUE);
+    $android_json = json_decode($data_android, TRUE);
     $web_json = json_decode($data_web, TRUE);
-    $data_m = $ios_json + $web_json;
+    $interactive_json = json_decode($data_interactive, TRUE);
 
+    $data_m = $ios_json + $android_json + $web_json + $interactive_json;
+
+    // var_dump($web_json);
+    // var_dump($android_json);
     $data_in_json_ios = $data_m[$id_student];
-
-    // $student_id = $data_in_json_ios["student_id"];
+    $student_id = $data_in_json_ios["student_id"];
 
     //parameter data user
     $student_id = $data_in_json_ios["student_id"];
