@@ -117,66 +117,68 @@
           </article> <!-- row -->
 
           <!-- <article class="row"> -->
-          <article class="col-xs-12 col-sm-12 box_wrap_work">
-        <a href="project_detail.php">
-            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+          <article class="big_box_wrap_work">
+            <article class="col-xs-12 col-sm-12 box_wrap_work">
+          <a href="project_detail.php">
+              <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+                <div class="box_cate">
+                  <h4>APPLICATION IOS</h4>
+                  <div class="box_count">
+                    <p>12 CREATOR</p>
+                  </div>
+                </div>
+            </article>
+          </a>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
               <div class="box_cate">
-                <h4>APPLICATION IOS</h4>
+                <h4>BASE ON DESKTOP</h4>
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
-          </article>
-        </a>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
-            <div class="box_cate">
-              <h4>BASE ON DESKTOP</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>WEB MOBILE</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-            <div class="box_cate">
-              <h4>WEB MOBILE</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+              <div class="box_cate">
+                <h4>ANDROID</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
-            <div class="box_cate">
-              <h4>ANDROID</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>ON TABLET</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-            <div class="box_cate">
-              <h4>ON TABLET</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+              <div class="box_cate">
+                <h4>UNITY KINECT</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
-            <div class="box_cate">
-              <h4>UNITY KINECT</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>UNITY ARDUINO</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
               </div>
-            </div>
+            </article>
           </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-            <div class="box_cate">
-              <h4>UNITY ARDUINO</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
-              </div>
-            </div>
           </article>
-        </article>
           <!-- </article>
 
         </article> <!-- discription -->
