@@ -25,8 +25,8 @@ Class Database {
     // var_dump($web_json);
     // var_dump($android_json);
     $data_in_json_ios = $data_m[$id_student];
+    //parameter data student id
     $student_id = $data_in_json_ios["student_id"];
-
     //parameter data user
     $student_id = $data_in_json_ios["student_id"];
     $user_name = $data_in_json_ios["user"]["name"];
@@ -71,12 +71,40 @@ Class Database {
                             'user_name' => $user_name,
                             'user_quote' => $user_quote,
                             'user_facebook' => $user_facebook,
+                            'user_email' => $user_email,
+                            'user_img_lannding' => $user_img_lannding,
+                            'user_img_avatar' => $user_img_avatar,
+                            'user_img_quote' => $user_img_quote,
+                            'user_video_showreel' => $user_video_showreel,
+                            'user_video_interview' => $user_video_interview,
+                            'work_name' => $work_name,
+                            'project_name' => $project_name,
+                            'work_type' => $work_type,
+                            'work_concept' => $work_concept,
+                            'work_fn_name_a' => $work_fn_name_a,
+                            'work_fn_name_b' => $work_fn_name_b,
+                            'work_fn_name_c' => $work_fn_name_c,
+                            'work_fn_disc_a' => $work_fn_disc_a,
+                            'work_fn_disc_b' => $work_fn_disc_b,
+                            'work_fn_disc_c' => $work_fn_disc_c,
+                            'work_fn_img_a' => $work_fn_img_a,
+                            'work_fn_img_b' => $work_fn_img_b,
+                            'work_fn_img_c' => $work_fn_img_c,
+                            'work_design_process_a' => $work_design_process_a,
+                            'work_design_process_b' => $work_design_process_b,
+                            'work_design_process_c' => $work_design_process_c,
+                            'work_design_process_d' => $work_design_process_d,
+                            'skill_name_a' => $skill_name_a,
+                            'skill_name_b' => $skill_name_b,
+                            'skill_name_c' => $skill_name_c,
+                            'skill_name_d' => $skill_name_d,
+                            'skill_perc_a' => $skill_perc_a,
+                            'skill_perc_b' => $skill_perc_b,
+                            'skill_perc_c' => $skill_perc_c,
+                            'skill_perc_d' => $skill_perc_d
                           );
     //
     return $array_ios_user;
-
-    // foreach ($ios_json as $key => $value) {
-    //   echo $key;
     }
   }
 
