@@ -8,6 +8,11 @@
     <meta name="viewport" content="width= device-width,initial-scale=1.0">
     <title>ULTRA LINE 11.3 Graduate Exhibition </title>
     <link rel="shortcut icon" href="image_web/favicon.ico">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="vendor/twbs/bootstrap/dist/js/jquery.min.js"></script>
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_index.css">
     <link rel="stylesheet" href="css/style_browse.css">
@@ -50,7 +55,7 @@
 
     <section class="container-fluid">
       <section class="row">
-        <article class="col-xs-3 col-sm-1 col-md-2 side_l_page">
+        <article class="col-xs-2 col-sm-1 col-md-2 side_l_page">
 
           <!-- logo-effect -->
           <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -84,7 +89,7 @@
 
         <article class="col-xs-12 col-sm-10 col-md-10 discription">
           <article class="row">
-            <article class="col-sm-12 col-md-12 topic_top">
+            <article class="col-xs-12 col-sm-12 col-md-12 topic_top">
               <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l">
                 <p class="p_l_topic" style="float:left;">
                   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -107,7 +112,7 @@
                 <span class="topic_r_a">INTERACTIVE MEDIA DESIGN</span><br>
                 <span class="topic_r_b">ICT SILPAKORN</span>
               </article> <!-- topic_box_r -->
-              <article class="col-sm-offset-11 col-sm-1 col-md-2 topic_side_r">
+              <article class="col-sm-offset-12 col-sm-1 col-md-2 topic_side_r">
                 <p>
                   INTERACTIVE MEDIA DESIGN<br>
                   ICTSILPAKORN
@@ -117,67 +122,148 @@
           </article> <!-- row -->
 
           <!-- <article class="row"> -->
-          <article class="col-xs-12 col-sm-12 box_wrap_work">
-        <a href="project_detail.php">
-            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+          <div class="desktop">
+            <article class="col-xs-12 col-sm-12 box_wrap_work">
+              <a href="project_detail.php">
+                <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+                  <div class="box_cate">
+                    <h4>APPLICATION IOS</h4>
+                    <div class="box_count">
+                      <p>12 CREATOR</p>
+                    </div>
+                  </div>
+                </article>
+              </a>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
               <div class="box_cate">
-                <h4>APPLICATION IOS</h4>
+                <h4>BASE ON DESKTOP</h4>
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
-          </article>
-        </a>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
-            <div class="box_cate">
-              <h4>BASE ON DESKTOP</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>WEB MOBILE</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
               </div>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+              <div class="box_cate">
+                <h4>ANDROID</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>ON TABLET</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+              <div class="box_cate">
+                <h4>UNITY KINECT</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+              <div class="box_cate">
+                <h4>UNITY ARDUINO</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+          </article>
+            <!-- </article>-->
+          </div>
+
+          <!-- table -->
+          <div class="tablet">
+            <article class="col-xs-12 col-sm-12 box_wrap_work">
+              <div class="col-xs-6 col-sm-4 box-tableta box-mobilea">
+                <a href="project_detail.php">
+                  <article class="col-xs-12 col-sm-12 col-md-12 box_c">
+                    <div class="box_cate">
+                      <h4>APPLICATION IOS</h4>
+                      <div class="box_count">
+                        <p>12 CREATOR</p>
+                      </div>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 box-tabletb box-mobileb">
+                <article class="col-xs-12 col-sm-12 col-md-3 box_d">
+                  <div class="box_cate">
+                    <h4>BASE ON DESKTOP</h4>
+                    <div class="box_count">
+                      <p>12 CREATOR</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-sm-4 box-tableta box-mobilea">
+                <article class="col-xs-12 col-sm-12 col-md-3 box_c">
+                  <div class="box_cate">
+                    <h4>WEB MOBILE</h4>
+                    <div class="box_count">
+                      <p>12 CREATOR</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-sm-4 box-tableta box-mobileb">
+            <article class="col-xs-12 col-sm-12 col-md-3 box_c">
+              <div class="box_cate">
+                <h4>ANDROID</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 box-tabletb box-mobilea">
+            <article class="col-xs-12 col-sm-12 col-md-3 box_d">
+              <div class="box_cate">
+                <h4>ON TABLET</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 box-tableta box-mobileb">
+            <article class="col-xs-12 col-sm-12 col-md-3 box_c">
+              <div class="box_cate">
+                <h4>UNITY KINECT</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 box-tableta box-mobilea">
+            <article class="col-xs-12 col-sm-12 col-md-3 box_c">
+              <div class="box_cate">
+                <h4>UNITY ARDUINO</h4>
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
+            </article>
             </div>
           </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-            <div class="box_cate">
-              <h4>WEB MOBILE</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
-              </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
-            <div class="box_cate">
-              <h4>ANDROID</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
-              </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-            <div class="box_cate">
-              <h4>ON TABLET</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
-              </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_b">
-            <div class="box_cate">
-              <h4>UNITY KINECT</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
-              </div>
-            </div>
-          </article>
-          <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-            <div class="box_cate">
-              <h4>UNITY ARDUINO</h4>
-              <div class="box_count">
-                <p>12 CREATOR</p>
-              </div>
-            </div>
-          </article>
-        </article>
-          <!-- </article>
+            <!-- </article>-->
+          </div>
 
         </article> <!-- discription -->
       </section>
