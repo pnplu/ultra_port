@@ -545,9 +545,10 @@ html, body {
 
   .wrap_footer {
     height: 100px;
-    width: 104%;
+    width: 100%;
     position: fixed;
-    bottom: 0; }
+    bottom: 0;
+    margin-left: 15px; }
     .wrap_footer .wrap_r_footer {
       background-color: #000000;
       background: linear-gradient(rgba(255, 255, 255, 0.2), #000000);
@@ -631,7 +632,8 @@ html, body {
     margin-right: auto; }
 
   .wrap_banner {
-    background-color: #250F59; }
+    background-color: #250F59;
+    margin-top: 95px; }
     .wrap_banner img {
       left: 60px; }
 

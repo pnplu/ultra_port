@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2017, Codrops
  * http://www.codrops.com
  */
@@ -70,14 +70,14 @@
 		anime({
 			targets: this.DOM.stackItems,
 			translateZ: [
-				{ 
+				{
 					value: function(target, index) {
 						return index*8 + 8;
 					},
 					duration: 200 ,
 					easing: [0.42,0,1,1]
 				},
-				{ 
+				{
 					value: function(target, index) {
 						return index*20 + 20;
 					},
@@ -86,15 +86,15 @@
 				}
 			],
 			rotateX: [
-				{ 
+				{
 					value: function(target, index) {
 						return -1 * (index*2 + 2);
 					},
 					duration: 200,
 					easing: [0.42,0,1,1]
 				},
-				{ 
-					value: 0, 
+				{
+					value: 0,
 					duration: 700,
 					easing: [0.2,1,0.3,1]
 				}
@@ -111,13 +111,13 @@
 		anime({
 			targets: this.DOM.title,
 			translateY: {
-				value: [35,0], 
-				duration: 500, 
+				value: [35,0],
+				duration: 500,
 				easing: [0.5,1,0.3,1]
 			},
 			opacity: {
-				value: [0,1], 
-				duration: 400, 
+				value: [0,1],
+				duration: 400,
 				easing: 'linear'
 			}
 		});
@@ -128,9 +128,9 @@
 				{
 					value: function(target, index) {
 						return index === 0 ? [40,0] : [60,0];
-					}, 
-					duration: 500, 
-					easing: [0.5,1,0.3,1], 
+					},
+					duration: 500,
+					easing: [0.5,1,0.3,1],
 					delay: 100
 				}
 			],
@@ -147,29 +147,29 @@
 		anime({
 			targets: this.DOM.stackItems,
 			translateZ: [
-				{ 
+				{
 					value: function(target, index) {
 						return index * 20 + 20 - 8;
 					},
 					duration: 200 ,
 					easing: [0.42,0,1,1]
 				},
-				{ 
+				{
 					value: 0,
 					duration: 900,
 					easing: [0.2,1,0.3,1]
 				}
 			],
 			rotateX: [
-				{ 
+				{
 					value: function(target, index) {
 						return index*2 + 2;
 					},
 					duration: 200,
 					easing: [0.42,0,1,1]
 				},
-				{ 
-					value: 0, 
+				{
+					value: 0,
 					duration: 900,
 					easing: [0.2,1,0.3,1]
 				}
@@ -209,7 +209,7 @@
 	};
 
 	window.VegaFx = VegaFx;
-	
+
 	/************************************************************************
 	 * CastorFx.
 	 ************************************************************************/
@@ -265,7 +265,7 @@
 				return (cnt-index-1)*100
 			}
 		});
-		
+
 		anime({
 			targets: this.DOM.img,
 			duration: 1000,
@@ -381,7 +381,7 @@
 				return (cnt-index-1)*30
 			}
 		});
-		
+
 		anime({
 			targets: this.DOM.img,
 			duration: 1000,
@@ -397,7 +397,7 @@
 				return index === 0 ? -30 : 30;
 			}
 		});
-		
+
 	};
 
 	HamalFx.prototype._out = function() {
@@ -605,20 +605,20 @@
 				return (cnt-index-1)*30
 			}
 		});
-		
+
 		anime({
 			targets: this.DOM.img,
 			rotate: [
 				{
-					value: [0,12], 
-					duration: 250, 
-					easing: 'easeOutQuad', 
+					value: [0,12],
+					duration: 250,
+					easing: 'easeOutQuad',
 				},
 				{
-					value: [12,0], 
-					duration: 1200, 
+					value: [12,0],
+					duration: 1200,
 					delay: 50,
-					easing: 'easeOutExpo', 
+					easing: 'easeOutExpo',
 				}
 			]
 		});
@@ -709,7 +709,7 @@
 				return (cnt-index-1)*30
 			}
 		});
-		
+
 		anime({
 			targets: this.DOM.img,
 			duration: 500,
@@ -723,7 +723,7 @@
 			easing: 'easeOutElastic',
 			translateY: 20
 		});
-		
+
 		anime({
 			targets: [this.DOM.columns.left, this.DOM.columns.right],
 			duration: 1000,
@@ -812,37 +812,37 @@
 				delay: 200
 			},
 			translateY: [
-				{ 
+				{
 					value: function(target, index) {
 						return -1*index*10;
-					}, 
-					duration: 800, 
-					delay: 200, 
-					elasticity: 300 
+					},
+					duration: 800,
+					delay: 200,
+					elasticity: 300
 				},
 			],
 			scaleY: [
-				{ 
-					value: 0.8, 
-					duration: 200, 
-					easing: 'easeOutExpo' 
+				{
+					value: 0.8,
+					duration: 200,
+					easing: 'easeOutExpo'
 				},
-				{ 
-					value: 1, 
-					duration: 800, 
-					elasticity: 300 
+				{
+					value: 1,
+					duration: 800,
+					elasticity: 300
 				}
 			],
 			scaleX: [
-				{ 
-					value: 1.1, 
-					duration: 200, 
-					easing: 'easeOutExpo' 
+				{
+					value: 1.1,
+					duration: 200,
+					easing: 'easeOutExpo'
 				},
-				{ 
-					value: 1, 
-					duration: 800, 
-					elasticity: 300 
+				{
+					value: 1,
+					duration: 800,
+					elasticity: 300
 				}
 			]
 		});
@@ -858,13 +858,13 @@
 		anime({
 			targets: this.DOM.title,
 			translateY: {
-				value: [200,0], 
-				duration: 800, 
-				easing: 'easeOutExpo', 
+				value: [200,0],
+				duration: 800,
+				easing: 'easeOutExpo',
 			},
 			opacity: {
-				value: [0,1], 
-				duration: 400, 
+				value: [0,1],
+				duration: 400,
 				delay: 200,
 				easing: 'linear'
 			}
@@ -875,8 +875,8 @@
 			translateY: [
 				{
 					value: [60,0],
-					duration: 800, 
-					easing: 'easeOutExpo', 
+					duration: 800,
+					easing: 'easeOutExpo',
 					delay: 200
 				}
 			],
@@ -973,43 +973,43 @@
 				}
 			},
 			translateY: [
-				{ 
+				{
 					value: function(target, index) {
 						return -1*index*20 - 30;
-					}, 
-					duration: 800, 
+					},
+					duration: 800,
 					delay: function(target, index, cnt) {
 						return (cnt-index-1)*70 + 200;
-					}, 
-					elasticity: 500 
+					},
+					elasticity: 500
 				},
 			],
 			scaleY: [
-				{ 
+				{
 					value: function(target, index, cnt) {
 						return index === cnt-1 ? 0.6 : 1;
-					}, 
-					duration: 200, 
-					easing: 'easeOutExpo' 
+					},
+					duration: 200,
+					easing: 'easeOutExpo'
 				},
-				{ 
-					value: 0.8, 
-					duration: 800, 
-					elasticity: 450 
+				{
+					value: 0.8,
+					duration: 800,
+					elasticity: 450
 				}
 			],
 			scaleX: [
-				{ 
+				{
 					value: function(target, index, cnt) {
 						return index === cnt-1 ? 1.1 : 1;
 					},
-					duration: 200, 
-					easing: 'easeOutExpo' 
+					duration: 200,
+					easing: 'easeOutExpo'
 				},
-				{ 
-					value: 0.8, 
-					duration: 800, 
-					elasticity: 300 
+				{
+					value: 0.8,
+					duration: 800,
+					elasticity: 300
 				}
 			],
 			opacity: {
@@ -1125,7 +1125,7 @@
 			translateY: {
 				value: function(target, index) {
 					return -1*index*10;
-				}, 
+				},
 				easing: 'easeInOutCubic'
 			},
 			rotateX: {
@@ -1152,27 +1152,27 @@
 			targets: this.DOM.title,
 			rotate: [
 				{
-					value: [0,10], 
-					duration: 300, 
+					value: [0,10],
+					duration: 300,
 					delay: 300,
-					easing: 'easeOutCubic', 
+					easing: 'easeOutCubic',
 				},
 				{
-					value: [-20,0], 
-					duration: 300, 
-					easing: 'easeOutCubic', 
+					value: [-20,0],
+					duration: 300,
+					easing: 'easeOutCubic',
 				}
 			],
 			opacity: [
 				{
-					value: [1,0], 
-					duration: 100, 
+					value: [1,0],
+					duration: 100,
 					delay: 300,
 					easing: 'easeOutCubic'
 				},
 				{
-					value: [0,1], 
-					duration: 100, 
+					value: [0,1],
+					duration: 100,
 					delay: 300,
 					easing: 'easeOutCubic'
 				}
@@ -1196,7 +1196,7 @@
 				},
 			},
 			translateY: {
-				value: 0, 
+				value: 0,
 				easing: 'easeInOutCubic'
 			},
 			rotateX: {
@@ -1329,6 +1329,7 @@
 
 $('#browse_icon').click(function() {
 	$('#browse_wrap').css('display','block');
+	$('#browse_wrap').addClass('animated fadeIn');
 
 	$.get('browse.php', function(data) {
 		$('#browse_wrap').html(data);

@@ -677,9 +677,10 @@ display: none;
   // footer
   .wrap_footer{
     height: 100px;
-    width: 104%;
+    width: 100%;
     position: fixed;
     bottom: 0;
+    margin-left: 15px;
     // background-color: $bg_main;
     // opacity: 0.9;
     .wrap_r_footer{
@@ -797,6 +798,7 @@ display: none;
     //banner
     .wrap_banner{
       background-color: $bg_main;
+      margin-top: 95px;
       img{
         left: 60px;
       }
