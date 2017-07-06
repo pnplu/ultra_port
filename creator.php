@@ -1,3 +1,14 @@
+<?php
+
+require_once __DIR__."/app/autoload.php";
+use Ultraline\Database;
+
+$catagory_id = $_GET["cat_id"];
+
+$conn = new Database();
+$data_user = $conn->db_application_catagory($catagory_id);
+ ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -44,141 +55,28 @@
           </p>
         </section>
         <section class="col-xs-12 col-sm-11 wrap_people">
+          <?php
+            foreach ($data_user as $key => $value) {
+
+           ?>
           <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
             <!-- <article class="row"> -->
               <article class="image_people">
-                <img src="image_people/01.jpg" alt="Ultraline 11.3">
+                <img src="<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
                   <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
               <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
+                <p class="topic_user"><?php echo $value["work"]["project_name"]; ?></p>
+                <p class="name_user">by <?php echo $value["user"]["name"]; ?></p>
               </article> <!-- discription_people -->
             <!-- </article> -->
 
           </article> <!-- wrap_box_people 1 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/02.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 2 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/03.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 3 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/04.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 4 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/05.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 5 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/06.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 6 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/07.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 7 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/08.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 8 -->
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_people/09.jpg" alt="Ultraline 11.3">
-                  <button type="button">VIEW PROJECT</button>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user">Space in galaxy</p>
-                <p class="name_user">by May Valentine</p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
-
-          </article> <!-- wrap_box_people 9 -->
+          <?php
+        }
+           ?>
 
         </section> <!-- wrap_people -->
       </section> <!-- row -->

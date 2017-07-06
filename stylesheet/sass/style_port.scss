@@ -53,8 +53,8 @@ html, body{
         overflow: hidden;
         position: relative;
         img{
-          max-width: 100%;
-          transform: scale(2.6) translate(8px,0px);
+          width: 100%;
+          transform: none;
           transition: 0.3s ease;
 
         }

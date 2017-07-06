@@ -106,6 +106,32 @@ Class Database {
     //
     return $array_user;
     }
+
+    public function db_application_catagory($id_catagoey) {
+
+      if($id_catagoey === "1") {
+        $paht_ios = "data/db_application_ios.json";
+        $con_json = file_get_contents($paht_ios);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "2") {
+        $paht_android = "data/db_application_android.json";
+        $con_json = file_get_contents($paht_android);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "3") {
+        $paht_web = "data/db_application_web.json";
+        $con_json = file_get_contents($paht_web);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "4") {
+        $paht_interactive = "data/db_application_interactive.json";
+        $con_json = file_get_contents($paht_interactive);
+        $json_data = json_decode($con_json, TRUE);
+      }
+
+      return $json_data;
+    }
   }
 
  ?>
