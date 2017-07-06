@@ -67,7 +67,7 @@ Class Database {
     $skill_perc_d = $data_in_json_ios["skill"]["percent"]["skill_d_percent"];
 
     //in array
-    $array_ios_user = array('student_id' => $student_id,
+    $array_user = array('student_id' => $student_id,
                             'user_name' => $user_name,
                             'user_quote' => $user_quote,
                             'user_facebook' => $user_facebook,
@@ -104,7 +104,7 @@ Class Database {
                             'skill_perc_d' => $skill_perc_d
                           );
     //
-    return $array_ios_user;
+    return $array_user;
     }
   }
 
