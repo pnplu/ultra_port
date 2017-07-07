@@ -170,8 +170,8 @@ background-size: cover;
     </article>
       <!-- banner -->
       <section class="row">
-        <article class="col-xs-12 wrap_banner" style="margin-left: -15px;">
-          <img class="row" src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work">
+        <article class="col-xs-12 wrap_banner">
+          <img class="row" src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work" style="max-width: 100%;">
         </article>
       </section> <!-- banner -->
       <!-- concept -->
