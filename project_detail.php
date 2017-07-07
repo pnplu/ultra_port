@@ -92,15 +92,9 @@ background-size: cover;
           <h3 class="heading">CREATOR</h3>
           <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
           <p class="name_eng"><?php echo $json_data["user_name"]; ?></p>
-<<<<<<< HEAD
-          <article class="wrap_sec_user_pin cate"style="max-width:350px;">
-                  <article class="wrap_user_pinterest">
-                    <span class="user_pinterest" style="text-transform: uppercase;"><?php echo $json_data["work_type"]; ?></span>
-=======
           <article class="wrap_sec_user_pin cate">
                   <article class="wrap_user_pinterest">
                     <span class="user_pinterest"><?php echo $json_data["work_type"]; ?></span>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
                   </article> <!-- wrap_user_footer -->
           </article>
           </article>
@@ -176,24 +170,15 @@ background-size: cover;
     </article>
       <!-- banner -->
       <section class="row">
-<<<<<<< HEAD
-        <article class="col-xs-12 wrap_banner">
-          <img class="row" src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work" style="width:100%;">
-=======
         <article class="col-xs-12 wrap_banner" style="margin-left: -15px;">
           <img class="row" src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work">
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
         </article>
       </section> <!-- banner -->
       <!-- concept -->
       <section class="row">
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>CONCEPT</h3>
-<<<<<<< HEAD
-          <p style="font-family: 'Kanit', sans-serif;">
-=======
           <p>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
             	<?php echo $json_data["work_concept"]; ?>
           </p>
         </section>
@@ -228,31 +213,19 @@ background-size: cover;
             <div class="col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_a"]; ?></h4>
-<<<<<<< HEAD
-                <p style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["work_fn_disc_a"]; ?></p>
-=======
                 <p><?php echo $json_data["work_fn_disc_a"]; ?></p>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
               </article>
             </div>
             <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_b"]; ?></h4>
-<<<<<<< HEAD
-                <p style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["work_fn_disc_b"]; ?></p>
-=======
                 <p><?php echo $json_data["work_fn_disc_b"]; ?></p>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
               </article>
             </div>
             <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_c"]; ?></h4>
-<<<<<<< HEAD
-                <p style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["work_fn_disc_c"]; ?></p>
-=======
                 <p><?php echo $json_data["work_fn_disc_c"]; ?></p>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
               </article>
             </div>
           </div>
@@ -264,11 +237,7 @@ background-size: cover;
           <h3>TOOL DEVELOP</h3>
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_a"]; ?> purple">
-<<<<<<< HEAD
-                <span><?php echo $json_data["skill_perc_a"]; ?></span>
-=======
                 <span><?php echo $json_data["skill_perc_a"]; ?>%</span>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -278,11 +247,7 @@ background-size: cover;
           </article> <!--skill 1-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_b"]; ?> white">
-<<<<<<< HEAD
-                <span><?php echo $json_data["skill_perc_b"]; ?></span>
-=======
                 <span><?php echo $json_data["skill_perc_b"]; ?>%</span>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -292,11 +257,7 @@ background-size: cover;
           </article> <!--skill 2-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_c"]; ?> green_r">
-<<<<<<< HEAD
-                <span><?php echo $json_data["skill_perc_c"]; ?></span>
-=======
                 <span><?php echo $json_data["skill_perc_c"]; ?>%</span>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -306,11 +267,7 @@ background-size: cover;
           </article> <!--skill 3-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_d"]; ?> red_r">
-<<<<<<< HEAD
-                <span><?php echo $json_data["skill_perc_d"]; ?></span>
-=======
                 <span><?php echo $json_data["skill_perc_d"]; ?>%</span>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -348,11 +305,7 @@ background-size: cover;
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
               <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> </p>
-<<<<<<< HEAD
-              <p style="font-size:0.8em; margin-top:-15px; text-transform: uppercase;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
-=======
               <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
->>>>>>> 6c1e5d916e124edc7131353895be67bd5684debf
             </article> <!-- wrap_footer_r -->
             <article class="col-sm-2 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
