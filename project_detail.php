@@ -91,7 +91,6 @@ background-size: cover;
           <article class="col-xs-5 info">
           <h3 class="heading">CREATOR</h3>
           <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
-          <p class="name_eng"><?php echo $json_data["user_name"]; ?></p>
           <article class="wrap_sec_user_pin cate">
                   <article class="wrap_user_pinterest">
                     <span class="user_pinterest"><?php echo $json_data["work_type"]; ?></span>
