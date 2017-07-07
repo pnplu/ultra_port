@@ -82,7 +82,7 @@
         <article class="col-sm-10 col-md-10 menu" style="position: fixed; top: 0; left: 207px;">
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
-          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
@@ -295,6 +295,12 @@
 
     </section> <!-- container-fluid -->
 </div> <!-- large-header -->
+<audio>
+  <source src="audio/hover_effect.mp3"></source>
+  <source src="audio/hover_effect.ogg"></source>
+  </audio>
+
+<div id="sounddiv"><bgsound id="sound"></div>
 
 <!-- Creator hover -->
 <script src="js/anime.min.js"></script>
