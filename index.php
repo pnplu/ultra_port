@@ -55,7 +55,7 @@
 
     <section class="container-fluid">
       <section class="row">
-        <article class="col-xs-2 col-sm-1 col-md-2 side_l_page">
+        <article class="col-xs-2 col-sm-1 col-md-2 side_l_page" style="position: fixed; top: 0; left: 0; z-index:999;">
 
           <!-- logo-effect -->
           <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -79,7 +79,7 @@
           </p>
         </article> <!-- Side L -->
 
-        <article class="col-sm-10 col-md-10 menu">
+        <article class="col-sm-10 col-md-10 menu" style="position: fixed; top: 0; left: 207px;">
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
@@ -87,10 +87,10 @@
           <hr>
         </article> <!-- menu -->
 
-        <article class="col-xs-12 col-sm-10 col-md-10 discription">
+        <article class="col-xs-12 col-sm-10 col-md-10 discription" style="margin-top: 80px;">
           <article class="row">
             <article class="col-xs-12 col-sm-12 col-md-12 topic_top">
-              <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l">
+              <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l" style="padding-left: 144px;">
                 <p class="p_l_topic" style="float:left;">
                   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                   <script src="../js/odometer.js"></script>
@@ -103,7 +103,7 @@
                   </script>
 
                   <p class="p_l_topic" style="margin-top:-30px; z-index:99999;">
-                    CREATOR<br>
+                    PROJECTS<br>
                 </p>
                 <span class="color_green">SENIOR PROJECT</span><br>
                 <span class="color_green">2017</span>
@@ -123,65 +123,79 @@
 
           <!-- <article class="row"> -->
           <div class="desktop">
-            <article class="col-xs-12 col-sm-12 box_wrap_work">
-              <a href="project_detail.php">
-                <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+            <article class="col-xs-12 col-sm-12 box_wrap_work" style="padding-left: 144px;">
+              <a href="creator.php?cat_id=1">
+                <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
                   <div class="box_cate">
-                    <h4>APPLICATION IOS</h4>
+                    <h4 class="title">APPLICATION IOS</h4>
+                    <span class="cover_index"></span>
+                    <img id="db_application_ios" src="image_user/function/function_13560113_01.jpg" class="cat_profile">
                     <div class="box_count">
                       <p>12 CREATOR</p>
                     </div>
                   </div>
                 </article>
               </a>
-            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+              <a href="creator.php?cat_id=4">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4>BASE ON DESKTOP</h4>
+                <h4 class="title">WEB BASE ON DESKTOP</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_base_on_desktop" src="image_user/avatar/avatar_13560190.jpg" class="cat_profile">
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
             </article>
-            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+            </a>
+            <a href="creator.php?cat_id=3">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
-                <h4>WEB MOBILE</h4>
+                <h4 class="title">WEB MOBILE</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_web_mobile" src="image_user/function/function_13550631_01.jpg" class="cat_profile">
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
             </article>
-            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+            </a>
+            <a href="creator.php?cat_id=2">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4>ANDROID</h4>
+                <h4 class="title">ANDROID</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_android" src="image_user/avatar/avatar_13540644.jpg" class="cat_profile">
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
             </article>
-            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
+            </a>
+            <a href="creator.php?cat_id=5">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4>ON TABLET</h4>
+                <h4 class="title">UNITY KINECT</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_unity_kinect" src="image_user/function/function_13560120_01.jpg" class="cat_profile">
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
             </article>
-            <article class="col-xs-6 col-sm-4 col-md-3 box_b">
+            </a>
+            <a href="creator.php?cat_id=6">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
-                <h4>UNITY KINECT</h4>
+                <h4 class="title">INTERACTIVE</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_interactive" src="image_user/avatar/avatar_13550255.jpg" class="cat_profile">
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
               </div>
             </article>
-            <article class="col-xs-6 col-sm-4 col-md-3 box_a">
-              <div class="box_cate">
-                <h4>UNITY ARDUINO</h4>
-                <div class="box_count">
-                  <p>12 CREATOR</p>
-                </div>
-              </div>
-            </article>
+            </a>
           </article>
             <!-- </article>-->
           </div>
@@ -193,11 +207,13 @@
                 <a href="project_detail.php">
                   <article class="col-xs-12 col-sm-12 col-md-12 box_c">
                     <div class="box_cate">
-                      <h4>APPLICATION IOS</h4>
-                      <div class="box_count">
-                        <p>12 CREATOR</p>
-                      </div>
-                    </div>
+                <h4 class="title">WEB BASE ON DESKTOP</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_base_on_desktop" src="image_user/function/function_13560190_01.jpg" class="cat_profile">
+                <div class="box_count">
+                  <p>12 CREATOR</p>
+                </div>
+              </div>
                   </article>
                 </a>
               </div>
@@ -231,30 +247,10 @@
               </div>
             </article>
             </div>
-            <div class="col-xs-6 col-sm-4 box-tabletb box-mobilea">
-            <article class="col-xs-12 col-sm-12 col-md-3 box_d">
-              <div class="box_cate">
-                <h4>ON TABLET</h4>
-                <div class="box_count">
-                  <p>12 CREATOR</p>
-                </div>
-              </div>
-            </article>
-            </div>
             <div class="col-xs-6 col-sm-4 box-tableta box-mobileb">
             <article class="col-xs-12 col-sm-12 col-md-3 box_c">
               <div class="box_cate">
-                <h4>UNITY KINECT</h4>
-                <div class="box_count">
-                  <p>12 CREATOR</p>
-                </div>
-              </div>
-            </article>
-            </div>
-            <div class="col-xs-6 col-sm-4 box-tableta box-mobilea">
-            <article class="col-xs-12 col-sm-12 col-md-3 box_c">
-              <div class="box_cate">
-                <h4>UNITY ARDUINO</h4>
+                <h4>INTERACTIVE</h4>
                 <div class="box_count">
                   <p>12 CREATOR</p>
                 </div>
@@ -271,14 +267,14 @@
         <article class="col-md-12 main_menu">
           <article class="row">
             <article class="col-md-2">
-              <article class="btn_menu">
+              <article class="btn_menu" id="browse_icon" style="margin-left: 24px;">
                 <img src="image_web/btn_hamberger.png">
               </article>
             </article>
               <article class="col-md-10 menu_r">
                 <ul style="color:#fff;">
-                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS">APPLICATION IOS</a></li> /
-                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS">APPLICATION iOS</a></li> /
+                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">WEB BASE ON DESKTOP</a></li> /
                   <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
                   <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDROID</a></li> /
                   <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
