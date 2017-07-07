@@ -47,7 +47,7 @@
     <!-- add sound -->
     <script type="text/javascript" src="js/sound-mouseover.js"></script>
   </head>
-  <body>
+  <body onload="play();">
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
 
@@ -330,6 +330,16 @@ function myFunction() {
 
       }
 // logo
+
+function play()
+ {
+   var embed=document.createElement('object');
+    embed.setAttribute('type','audio/mp3');
+    embed.setAttribute('data', 'audio/sound_background.mp3');
+    embed.setAttribute('autostart', true);
+    document.getElementsByTagName('body')[0].appendChild(embed);
+
+ }
 
 
 // hover menu
