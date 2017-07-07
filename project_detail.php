@@ -7,7 +7,7 @@
 
   $conn = new Database();
   $json_data = $conn->db_application_user($stu_id);
-  // var_dump($json_data["user_video_interview"]);
+  var_dump($json_data["user_video_interview"]);
  ?>
 
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ background-size: cover;
             <div class="video-inner">
                 <video class="video-player js-video" preload="auto">
                 <!-- <source src="https://d8d913s460fub.cloudfront.net/videoserver/cat-test-video-320x240.mp4" type="video/mp4" /> -->
-                <source src="<?php echo $json_data["user_video_interview"]; ?>" type="video/mp4">
+                <source src="<?php echo $json_data["user_video_interview"] ?>" type="video/mp4">
                 <p>Sorry, but your browser does not support this video format.</p>
             </video>
                 <button class="action action--close js-close-video">
