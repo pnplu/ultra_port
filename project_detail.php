@@ -7,7 +7,7 @@
 
   $conn = new Database();
   $json_data = $conn->db_application_user($stu_id);
-  var_dump($json_data["user_video_interview"]);
+  // var_dump($json_data["user_video_interview"]);
  ?>
 
 <!DOCTYPE html>
@@ -99,34 +99,34 @@ background-size: cover;
           </article>
         </article>
 
-        <div class="video-wrap js-video-wrap">
+        <!-- <div class="video-wrap js-video-wrap">
             <div class="video-inner">
-                <video class="video-player js-video" preload="auto">
+                <!- <video class="video-player js-video" preload="auto"> -->
                 <!-- <source src="https://d8d913s460fub.cloudfront.net/videoserver/cat-test-video-320x240.mp4" type="video/mp4" /> -->
-                <source src="<?php echo $json_data["user_video_interview"] ?>" type="video/mp4">
-                <p>Sorry, but your browser does not support this video format.</p>
-            </video>
-                <button class="action action--close js-close-video">
+                <!-- <source src="" type="video/mp4"> -->
+                <!-- <p>Sorry, but your browser does not support this video format.</p> -->
+            <!-- </video> -->
+                <!-- <button class="action actionclose js-close-video"> -->
 
-                  <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
                     <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
-                    <desc>Created with Sketch.</desc>
-                    <defs></defs>
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Nav" transform="translate(-20.000000, -422.000000)">
-                            <g id="Group" transform="translate(20.000000, 422.000000)">
-                                <g id="Group-3" fill="#04F3C4">
-                                    <rect id="Rectangle-3" x="0" y="0" width="40" height="40"></rect>
-                                </g>
-                                <path d="M20.3286755,19.3136897 L16.0149858,15 L15,16.0149858 L19.3136897,20.3286755 L15,24.6423652 L16.0149858,25.657351 L20.3286755,21.3436613 L24.6423652,25.657351 L25.657351,24.6423652 L21.3436613,20.3286755 L25.657351,16.0149858 L24.6423652,15 L20.3286755,19.3136897 Z" id="Combined-Shape" fill="#1D1D25"></path>
-                            </g>
-                        </g>
-                    </g>
-                  </svg>
-                <span class="action__label action__label--hidden">Close preview</span>
-            </button>
-            </div>
-        </div>
+                    <!-- <desc>Created with Sketch.</desc> -->
+                    <!-- <defs></defs> -->
+                    <!-- <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> -->
+                        <!-- <g id="Nav" transform="translate(-20.000000, -422.000000)"> -->
+                            <!-- <g id="Group" transform="translate(20.000000, 422.000000)"> -->
+                                <!-- <g id="Group-3" fill="#04F3C4"> -->
+                                    <!-- <rect id="Rectangle-3" x="0" y="0" width="40" height="40"></rect> -->
+                                <!-- </g> -->
+                                <!-- <path d="M20.3286755,19.3136897 L16.0149858,15 L15,16.0149858 L19.3136897,20.3286755 L15,24.6423652 L16.0149858,25.657351 L20.3286755,21.3436613 L24.6423652,25.657351 L25.657351,24.6423652 L21.3436613,20.3286755 L25.657351,16.0149858 L24.6423652,15 L20.3286755,19.3136897 Z" id="Combined-Shape" fill="#1D1D25"></path> -->
+                            <!-- </g> -->
+                        <!-- </g> -->
+                    <!-- </g> -->
+                  <!-- </svg> -->
+                <!-- <span class="action__label action__label-hidden">Close preview</span> -->
+            <!-- </button> -->
+            <!-- </div> -->
+        <!-- </div>  -->
         <div class='icon-scroll'><div/>
     </section>
 
@@ -158,11 +158,12 @@ background-size: cover;
       </button>
       </div>
       <script src="js/video.js"></script>
-      <div style="width:345px; height:215px; padding-top:10px;background-image: url('image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>'); float:right; background-repeat: no-repeat;
+      <!-- <div style="width:345px; height:215px; padding-top:10px;background-image: url('image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>'); float:right; background-repeat: no-repeat;
     background-size: 100% 100%;">
-
-      </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+      </div> -->
+        <br><br><br><br><br><br><br><br><br><br><br>
+          <iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; width: 35%; height: auto; margin-top: -130px;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          <br><br><br><br>
       <span>STUDENT ID</span>
       <h3 style="line-height: 2px;"><?php echo $json_data["student_id"]; ?></h3>
     </article>
