@@ -8,19 +8,26 @@ Class Database {
 
     $paht_ios = "data/db_application_ios.json";
     $paht_android = "data/db_application_android.json";
-    $paht_web = "data/db_application_web.json";
+    $paht_web_mobile = "data/db_application_web_mobile.json";
+    $paht_web_desktop = "data/db_application_base_on_desktop.json";
+    $paht_kinect = "data/db_application_unity_kinect.json";
     $paht_interactive = "data/db_application_interactive.json";
 
     $data_ios = file_get_contents($paht_ios);
     $data_android = file_get_contents($paht_android);
-    $data_web = file_get_contents($paht_web);
+    $data_web_mobile = file_get_contents($paht_web_mobile);
+    $data_web_desktop = file_get_contents($paht_web_desktop);
+    $data_kinect = file_get_contents($paht_kinect);
     $data_interactive = file_get_contents($paht_interactive);
+
     $ios_json = json_decode($data_ios, TRUE);
     $android_json = json_decode($data_android, TRUE);
-    $web_json = json_decode($data_web, TRUE);
+    $web_mobile_json = json_decode($data_web_mobile, TRUE);
+    $web_desktop_json = json_decode($data_web_desktop, TRUE);
+    $kinect_json = json_decode($data_kinect, TRUE);
     $interactive_json = json_decode($data_interactive, TRUE);
 
-    $data_m = $ios_json + $android_json + $web_json + $interactive_json;
+    $data_m = $ios_json + $android_json + $web_mobile_json + $web_desktop_json + $kinect_json + $interactive_json;
 
     // var_dump($web_json);
     // var_dump($android_json);
@@ -111,6 +118,13 @@ Class Database {
 
     public function db_application_catagory($id_catagoey) {
 
+      $paht_ios = "data/db_application_ios.json";
+      $paht_android = "data/db_application_android.json";
+      $paht_web_mobile = "data/db_application_web_mobile.json";
+      $paht_web_desktop = "data/db_application_base_on_desktop.json";
+      $paht_kinect = "data/db_application_unity_kinect.json";
+      $paht_interactive = "data/db_application_interactive.json";
+
       if($id_catagoey === "1") {
         $paht_ios = "data/db_application_ios.json";
         $con_json = file_get_contents($paht_ios);
@@ -122,17 +136,54 @@ Class Database {
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "3") {
-        $paht_web = "data/db_application_web.json";
+        $paht_web = "data/data/db_application_web_mobile.json";
         $con_json = file_get_contents($paht_web);
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "4") {
+        $paht_interactive = "data/db_application_base_on_desktop.json";
+        $con_json = file_get_contents($paht_interactive);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "5") {
+        $paht_web = "data/db_application_unity_kinect.json";
+        $con_json = file_get_contents($paht_web);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "6") {
         $paht_interactive = "data/db_application_interactive.json";
         $con_json = file_get_contents($paht_interactive);
         $json_data = json_decode($con_json, TRUE);
       }
 
       return $json_data;
+    }
+
+    public function db_application_all() {
+      $paht_ios = "data/db_application_ios.json";
+      $paht_android = "data/db_application_android.json";
+      $paht_web_mobile = "data/db_application_web_mobile.json";
+      $paht_web_desktop = "data/db_application_base_on_desktop.json";
+      $paht_kinect = "data/db_application_unity_kinect.json";
+      $paht_interactive = "data/db_application_interactive.json";
+
+      $data_ios = file_get_contents($paht_ios);
+      $data_android = file_get_contents($paht_android);
+      $data_web_mobile = file_get_contents($paht_web_mobile);
+      $data_web_desktop = file_get_contents($paht_web_desktop);
+      $data_kinect = file_get_contents($paht_kinect);
+      $data_interactive = file_get_contents($paht_interactive);
+
+      $ios_json = json_decode($data_ios, TRUE);
+      $android_json = json_decode($data_android, TRUE);
+      $web_mobile_json = json_decode($data_web_mobile, TRUE);
+      $web_desktop_json = json_decode($data_web_desktop, TRUE);
+      $kinect_json = json_decode($data_kinect, TRUE);
+      $interactive_json = json_decode($data_interactive, TRUE);
+
+      $data_m = $ios_json + $android_json + $web_mobile_json + $web_desktop_json + $kinect_json + $interactive_json;
+
+      return $data_m;
     }
   }
 

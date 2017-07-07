@@ -3,8 +3,10 @@
 require_once __DIR__."/app/autoload.php";
 use Ultraline\Database;
 
+$catagory_id = $_GET["cat_id"];
+
 $conn = new Database();
-$data_user = $conn->db_application_all();
+$data_user = $conn->db_application_catagory($catagory_id);
  ?>
 
 <!DOCTYPE html>
@@ -86,12 +88,12 @@ $data_user = $conn->db_application_all();
               <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-10 col-md-11 wrap_footer_r">
-              <p>HOME > CREATOR > ALL</p>
+              <p>HOME > CATEGORY > APPLICATION IOS</p>
               <article class="wrap_topic_footer">
-                <span class="topic_footer">CREATOR</span>
+                <span class="topic_footer">Application IOS</span>
               </article>
               <article class="wrap_user_footer">
-                <span class="user_footer">40 CREATOR</span>
+                <span class="user_footer">12 CREATOR</span>
               </article> <!-- wrap_user_footer -->
             </article> <!-- wrap_footer_r -->
           </article> <!-- wrap_r_footer -->

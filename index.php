@@ -281,9 +281,8 @@
                   <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">BASE ON DESKTOP</a></li> /
                   <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
                   <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDROID</a></li> /
-                  <li><a class="link link--kumya e" href="#" data-letters="ON TABLET">ON TABLET</a></li> /
                   <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
-                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></li>
+                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">INTERACTIVE</a></li>
                 </ul>
               </article>
             </article>
