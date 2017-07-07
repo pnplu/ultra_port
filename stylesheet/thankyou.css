@@ -56,12 +56,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block; }
 
 @font-face {
-  font-family: 'couturebold';
+  font-family: 'Kanit';
   src: url("../fonts/couture-bld-webfont.woff2") format("woff2"), url("../fonts/couture-bld-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'thaisans_neuelight';
+  font-family: 'Kanit';
   src: url("../fonts/thaisansneue-light-webfont.woff2") format("woff2"), url("../fonts/thaisansneue-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
@@ -164,7 +164,7 @@ body {
 /* line 102, ../sass/thank.scss */
 .header ul li {
   display: inline-block;
-  font-family: 'couturebold';
+  font-family: 'Kanit';
   margin: 0 10px;
   color: #A3A3A3; }
 
@@ -390,13 +390,13 @@ margin-top: 7%;}
 .contact a{
   color: #fff;
   text-decoration: none;
-  font-family: 'thaisans_neuelight';
+  font-family: 'Kanit';
   font-size: 12pt;
   line-height: 18pt }
 
  .contact h3{
   color: #fff;
-  font-family: 'thaisans_neuelight';
+  font-family: 'Kanit';
   font-weight: bold;
   line-height: 20pt;
   font-size: 16pt; }

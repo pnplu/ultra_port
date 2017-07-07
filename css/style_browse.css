@@ -168,6 +168,7 @@ a.a_footer_list {
 }
 .cat_profile:hover {
 	opacity: 0.48;
+	transition: 0.3s;
 }
 .discription .box_wrap_work .box_a, .discription .box_wrap_work .box_b {
 	background: #00a7a9;

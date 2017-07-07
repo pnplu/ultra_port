@@ -124,7 +124,7 @@
           <!-- <article class="row"> -->
           <div class="desktop">
             <article class="col-xs-12 col-sm-12 box_wrap_work" style="padding-left: 144px;">
-              <a href="creator.php?cat_id=1">
+              <a href="creator_catagory.php?cat_id=1">
                 <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
                   <div class="box_cate">
                     <h4 class="title">APPLICATION IOS</h4>
@@ -136,7 +136,7 @@
                   </div>
                 </article>
               </a>
-              <a href="creator.php?cat_id=4">
+              <a href="creator_catagory.php?cat_id=4">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">WEB BASE ON DESKTOP</h4>
@@ -148,7 +148,7 @@
               </div>
             </article>
             </a>
-            <a href="creator.php?cat_id=3">
+            <a href="creator_catagory.php?cat_id=3">
             <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">WEB MOBILE</h4>
@@ -160,7 +160,7 @@
               </div>
             </article>
             </a>
-            <a href="creator.php?cat_id=2">
+            <a href="creator_catagory.php?cat_id=2">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">ANDROID</h4>
@@ -172,7 +172,7 @@
               </div>
             </article>
             </a>
-            <a href="creator.php?cat_id=5">
+            <a href="creator_catagory.php?cat_id=5">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">UNITY KINECT</h4>
@@ -184,7 +184,7 @@
               </div>
             </article>
             </a>
-            <a href="creator.php?cat_id=6">
+            <a href="creator_catagory.php?cat_id=6">
             <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">INTERACTIVE</h4>
@@ -273,12 +273,12 @@
             </article>
               <article class="col-md-10 menu_r">
                 <ul style="color:#fff;">
-                  <li><a class="link link--kumya a" href="#" data-letters="APPLICATION IOS">APPLICATION iOS</a></li> /
-                  <li><a class="link link--kumya b" href="#" data-letters="BASE ON DESKTOP">WEB BASE ON DESKTOP</a></li> /
-                  <li><a class="link link--kumya c" href="#" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
-                  <li><a class="link link--kumya d" href="#" data-letters="ANDRIOD">ANDROID</a></li> /
-                  <li><a class="link link--kumya f" href="#" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
-                  <li><a class="link link--kumya g" href="#" data-letters="UNITY ARDUINO">INTERACTIVE</a></li>
+                  <li><a class="link link--kumya a" href="creator_catagory.php?cat_id=1" data-letters="APPLICATION IOS">APPLICATION iOS</a></li> /
+                  <li><a class="link link--kumya b" href="creator_catagory.php?cat_id=4" data-letters="WEB BASE ON DESKTOP">WEB BASE ON DESKTOP</a></li> /
+                  <li><a class="link link--kumya c" href="creator_catagory.php?cat_id=3" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
+                  <li><a class="link link--kumya d" href="creator_catagory.php?cat_id=2" data-letters="ANDRIOD">ANDROID</a></li> /
+                  <li><a class="link link--kumya f" href="creator_catagory.php?cat_id=5" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
+                  <li><a class="link link--kumya g" href="creator_catagory.php?cat_id=6" data-letters="UNITY ARDUINO">INTERACTIVE</a></li>
                 </ul>
               </article>
             </article>
@@ -367,7 +367,6 @@ $('.box_a').addClass('animated fadeInRight');
 $('.box_b').addClass('animated fadeInUp');
 $('.a').addClass('animated flash');
 $('.c').addClass('animated flash');
-$('.d').addClass('animated flash');
 $('.f').addClass('animated flash');
 </script>
   </body>
