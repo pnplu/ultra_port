@@ -284,21 +284,21 @@ background-size: cover;
               <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
-              <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;">VIEW PORT | เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
-              <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > APPLICATION IOS<p>
+              <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> </p>
+              <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
             </article> <!-- wrap_footer_r -->
             <article class="col-sm-2 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
-              <p>worawaluns.k@gmail.com</p>
+              <p><?php echo $json_data["user_email"]; ?></p>
             </article>
             <article class="col-sm-3 col-md-2 foot_fb tablet">
               <article class="row col-sm-4 wrap_logo_face">
                 <img src="image_web/logo_facebook.png" alt="facebook">
               </article>
-              <article class="col-sm-8">
+              <a href="https://www.facebook.com/<?php echo $json_data["user_facebook"]; ?>" target="_blank"><article class="col-sm-8">
                 <h4>CONTACT</h4>
-                <p>FB/worawaluns</p>
-              </article>
+                <p>FB/<?php echo $json_data["user_facebook"]; ?></p>
+              </article></a>
             </article>
           </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
