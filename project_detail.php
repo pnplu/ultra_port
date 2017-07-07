@@ -138,7 +138,7 @@ background-size: cover;
           <div class="loader">
               <i class="fa fa-spinner fa-pulse"></i>
           </div>
-          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 80px;">
+          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 60px;">
 
   <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
