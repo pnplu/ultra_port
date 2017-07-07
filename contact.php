@@ -120,8 +120,8 @@
     <a href="http://web11.ictsilpakorn.com/contact.html">ict.su.ac.th</a> <br>
   </section>
 </div>
-
-<div class="group2" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon22.png"> </div>
+<div class="wrapp">
+<div class="group2" class="group" style="font-family: 'Kanit', sans-serif;"> <img src="img/spon22.png"> </div>
     <div class="group3" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon1.png"><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
 Central Pattana Public Company Limited<br>
 centralworld.co.th<br>
@@ -162,7 +162,7 @@ lactasoy.com/th/<br>
 facebook.com/lactasoyclub<br>
 Tel : 02-396-0320-7<br>
 Email : lactasoy@lactasoy.com </div>
-
+</div>
         <script>
 // logo
 var a=0;

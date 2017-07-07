@@ -225,6 +225,9 @@ margin-top: 7%;}
   color: #fff;
 
 }
+.wrapp{
+  width: 95%;
+}
 .group1{
   width: 28%;
   float: left;
@@ -248,7 +251,7 @@ margin-top: 7%;}
   width: 35%;
   float: left;
   line-height: 18pt;
-  margin-left: -10%;
+  margin-left: 41%;
   margin-bottom: 50px;
   color: #fff;
 
@@ -293,7 +296,7 @@ margin-top: 7%;}
   width: 35%;
   float: left;
   line-height: 18pt;
-  margin-left: 25%;
+  margin-left: 60%;
   padding-top: 6%;
   margin-bottom: 50px;
   color: #fff;
