@@ -170,16 +170,16 @@ background-size: cover;
           <article class="row wrap_dp_user">
             <ul class="row col-sm-10 col-md-11">
               <li class="col-xs-5 col-sm-3 dp_img_user_a up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;">
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;">
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;">
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;">
               </li>
             </ul>
           </article>
