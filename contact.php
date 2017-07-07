@@ -117,9 +117,49 @@
     <i class="fa fa-vimeo-square" aria-hidden="true"></i>  <a href="http://www.vimeo.com/ictsilpakorn" target="_blank">vimeo.com/ictsilpakorn</a> <br>
     <a href="http://web11.ictsilpakorn.com/contact.html">ict.su.ac.th</a> <br>
   </section>
-</div>
+</div></div>
 
-<div class="spon"><img src="img/spon.png"> </div>
+<div class="group2"><img src="img/spon22.png"> </div>
+    <div class="group3"><img src="img/spon1.png"><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
+Central Pattana Public Company Limited<br>
+centralworld.co.th<br>
+facebook.com/CentralWorld<br>
+Tel : 02-100-9999 </div>
+    <div class="group1"><img src="img/spon3.png"><br>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด <br>
+Thai petroleum support co. ltd<br>
+txppetro.com/our-company<br>
+Tel : 02-287-3077<br>
+Email : contact@txppetro.com</div>
+    <div class="group4"><img src="img/spon4.png"><br>บริษัท มิวซ์ อินโนเวชั่น จำกัด <br>
+Muze innovation co. ltd<br>
+muzeinnovation.com/<br>
+facebook.com/muzeinnovation<br>
+Email : info@mymuze.me  </div>
+    <div class="group4"><img src="img/spon5.png"><br>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด<br>
+uppercuz.com<br>
+facebook.com/uppercuzcreative/<br>
+Tel : 087-378-6070 <br>
+Email : contact@uppercuz.com </div>
+    <div class="group1"><img src="img/spon6.png"><br>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</div>
+    <div class="group4"><img src="img/spon7.png"><br>PAGE-QQ<br>
+บริษัท SERV 4 BIZ จำกัด<br>
+facebook.com/PageQQ<br>
+Tel : 081-842-9422<br>
+Email : support@pageqq.com  </div>
+    <div class="group4"><img src="img/spon8.png"><br>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด<br>
+dek-d.com/<br>
+facebook.com/DekDfc/<br>
+Tel : 02-860-1142<br>
+Email : contact@dek-d.com </div>
+    <div class="group1"><img src="img/spon9.png"><br>บริษัท ดัค แล็บ จำกัด <br>
+ducklab.co.th<br>
+Tel : 081-443-3618<br>
+Email : manager@ducklab.co.th </div>
+    <div class="group4"><img src="img/spon10.png"><br>LACTASOY<br>
+lactasoy.com/th/<br>
+facebook.com/lactasoyclub<br>
+Tel : 02-396-0320-7<br>
+Email : lactasoy@lactasoy.com </div>
 
         <script>
 // logo
