@@ -161,7 +161,7 @@ background-size: cover;
       <!-- <div style="width:345px; height:215px; padding-top:10px;background-image: url('image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>'); float:right; background-repeat: no-repeat;
     background-size: 100% 100%;">
       </div> -->
-        <br>
+        <br><br><br><br>
           <iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; height: auto;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           <br><br><br><br>
       <span>STUDENT ID</span>
@@ -190,16 +190,16 @@ background-size: cover;
           <article class="row wrap_dp_user">
             <ul class="row col-sm-10 col-md-11">
               <li class="col-xs-5 col-sm-3 dp_img_user_a up_hig_dp">
-                <img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;">
+                <a href="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-                <img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;">
+                <a href="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-                <img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;">
+                <a href="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-                <img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;">
+                <a href="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
             </ul>
           </article>
