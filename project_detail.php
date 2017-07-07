@@ -104,7 +104,7 @@ background-size: cover;
     </section>
 
 
-    <article class="row">
+    <article class="row right_content">
     <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
       <span>VIDEO SHOWREEL</span><br>
       <div class="col-xs-11" style="position: absolute;">
@@ -175,40 +175,28 @@ background-size: cover;
       </section><!-- design process -->
       <!-- function -->
       <section class="row">
-        <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-8 wrap_function">
-          <h3 class="col-md-offset-3 col-md-6">FUNCTION</h3>
-          <article class="col-xs-12 col-sm-6 mockup_nb">
-
-          </article>
-          <article class="col-sm-6 posi_function_number">
-            <article class="row col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 func_a">
-              <article class="row col-xs-4 func_number">
-                <h4>01</h4>
-              </article>
-              <article class="col-xs-9 func_discription">
-                <h4>GENERATE PDF</h4>
+        <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-12 wrap_function">
+          <h3 class="col-md-offset-2 col-md-12">FUNCTION</h3>
+          <div class="row col-md-12" style="margin-left:auto; margin-right:auto;">
+            <div class="col-sm-10"><img src="image_web/function_13560261_03.jpg" alt="" style="max-width:100%;">
+              <article class="func_discription">
+              <h4>GENERATE PDF</h4>
                 <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
               </article>
-            </article> <!-- function 1 -->
-            <article class="row col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 func_a func_active">
-              <article class="row col-xs-4 func_number">
-                <h4>02</h4>
-              </article>
-              <article class="col-xs-9 func_discription">
-                <h4>GENERATE PDF</h4>
+            </div>
+            <div class="col-sm-5"><img src="image_web/function_13560261_01.jpg" alt="" style="max-width:100%;">
+              <article class="func_discription">
+              <h4>GENERATE PDF</h4>
                 <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
               </article>
-            </article> <!-- function 2 -->
-            <article class="row col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 func_a">
-              <article class="row col-xs-4 func_number">
-                <h4>03</h4>
-              </article>
-              <article class="col-xs-9 func_discription">
-                <h4>GENERATE PDF</h4>
+            </div>
+            <div class="col-sm-5"><img src="image_web/function_13560261_02.jpg" alt="" style="max-width:100%;">
+              <article class="func_discription">
+              <h4>GENERATE PDF</h4>
                 <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
               </article>
-            </article> <!-- function 3 -->
-          </article>
+            </div>
+          </div>
         </section>
       </section> <!-- function -->
       <!-- tool develop -->
