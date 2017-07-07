@@ -13,6 +13,28 @@ html, body{
   background-color: $bg_main;
 }
 
+.right_content{
+  display:block;
+}
+
+.func_discription{
+  background-color: transparent;
+  // background-color: #ffcc00;
+  margin: 0px;
+  // padding: 0px;
+  border: 0px;
+  h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+  p{
+    text-indent: 0px;
+    font-size: 0.8em;
+  }
+}
+
 // icon scroll mouse
 .icon-scroll,
 .icon-scroll:before {
@@ -216,13 +238,16 @@ display: none;
     height: 200px;
     overflow: hidden;
     position: relative;
-    margin-top: 520px;
+    margin-top: -50px;
     img{
       position: absolute;
       left: -100px;
       width: 1100px;
       height: auto;
     }
+  }
+  .right_content{
+    display:none;
   }
 
 
@@ -467,6 +492,7 @@ display: none;
               transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 0deg);
     }
   }
+
 
 
   //banner
