@@ -1,3 +1,15 @@
+<?php
+
+  require_once __DIR__."/app/autoload.php";
+  use Ultraline\Database;
+
+  $stu_id = $_GET["stu_id"];
+
+  $conn = new Database();
+  $json_data = $conn->db_application_user($stu_id);
+
+ ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,7 +42,7 @@
   </head>
   <body>
     <div id="large-header" class="large-header">
-      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
+      <canvas id="demo-canvas" style="background-image: url('image_user/landing_profile/<?php echo $json_data["user_img_lannding"] ?>'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
@@ -78,11 +90,11 @@ background-size: cover;
         <article class="row">
           <article class="col-xs-12 info">
           <h3 class="heading">CREATOR</h3>
-          <h2 class="name_thai">นายวรวลัญช์ ขันตี</h2>
-          <p class="name_eng">WORAWALUN KHANTEE</p>
-          <article class="wrap_sec_user_pin cate">
+          <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
+          <p class="name_eng"><?php echo $json_data["user_name"]; ?></p>
+          <article class="wrap_sec_user_pin cate"style="max-width:350px;">
                   <article class="wrap_user_pinterest">
-                    <span class="user_pinterest">WEB APPLICATION</span>
+                    <span class="user_pinterest" style="text-transform: uppercase;"><?php echo $json_data["work_type"]; ?></span>
                   </article> <!-- wrap_user_footer -->
           </article>
           </article>
@@ -133,13 +145,13 @@ background-size: cover;
       <script src="js/video.js"></script>
       <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
       <span>STUDENT ID</span>
-      <h3 style="line-height: 2px;">13560261</h3>
+      <h3 style="line-height: 2px;"><?php echo $json_data["student_id"]; ?></h3>
     </article>
     </article>
       <!-- banner -->
       <section class="row">
-        <article class="col-xs-12 wrap_banner" style="margin-left: -15px;">
-          <img class="row" src="image_web/mock_banner_work.png" alt="banner_work">
+        <article class="col-xs-12 wrap_banner">
+          <img class="row" src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work" style="width:100%;">
         </article>
       </section> <!-- banner -->
       <!-- concept -->
@@ -147,7 +159,7 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>CONCEPT</h3>
           <p>
-            	Travelmate แอปพลิเคชันส่งเสริมกิจกรรมและการท่องเที่ยวสำหรับครอบครัวและเด็ก ที่จะคอยเป็นคู่หูให้คำแนะนำครอบครัวที่ต้องการพาลูกๆออกไปทำกิจกรรมและท่องเที่ยวร่วมกัน ดังนั้น คุณจึงไม่ต้องกังวลเกี่ยวกับการเดินทางเลย เพราะคุณมี "Travelmate คู่หูการท่องเที่ยวสำหรับครอบครัว"
+            	<?php echo $json_data["work_concept"]; ?>
           </p>
         </section>
       </section> <!-- concept -->
@@ -158,16 +170,16 @@ background-size: cover;
           <article class="row wrap_dp_user">
             <ul class="row col-sm-10 col-md-11">
               <li class="col-xs-5 col-sm-3 dp_img_user_a up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;">
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;">
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;">
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-
+                <img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;">
               </li>
             </ul>
           </article>
@@ -178,22 +190,22 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-12 wrap_function">
           <h3 class="col-md-offset-2 col-md-12">FUNCTION</h3>
           <div class="row col-md-12" style="margin-left:auto; margin-right:auto;">
-            <div class="col-sm-10"><img src="image_web/function_13560261_03.jpg" alt="" style="max-width:100%;">
+            <div class="col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
-              <h4>GENERATE PDF</h4>
-                <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+              <h4><?php echo $json_data["work_fn_name_a"]; ?></h4>
+                <p><?php echo $json_data["work_fn_disc_a"]; ?></p>
               </article>
             </div>
-            <div class="col-sm-5"><img src="image_web/function_13560261_01.jpg" alt="" style="max-width:100%;">
+            <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
-              <h4>GENERATE PDF</h4>
-                <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+              <h4><?php echo $json_data["work_fn_name_b"]; ?></h4>
+                <p><?php echo $json_data["work_fn_disc_b"]; ?></p>
               </article>
             </div>
-            <div class="col-sm-5"><img src="image_web/function_13560261_02.jpg" alt="" style="max-width:100%;">
+            <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
-              <h4>GENERATE PDF</h4>
-                <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+              <h4><?php echo $json_data["work_fn_name_c"]; ?></h4>
+                <p><?php echo $json_data["work_fn_disc_c"]; ?></p>
               </article>
             </div>
           </div>
@@ -204,44 +216,44 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-3 col-sm-6 wrap_tool">
           <h3>TOOL DEVELOP</h3>
           <article class="col-xs-3">
-            <article class="c100 p78 purple">
-                <span>78%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_a"]; ?> purple">
+                <span><?php echo $json_data["skill_perc_a"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>PHP</p>
+            <p><?php echo $json_data["skill_name_a"]; ?></p>
           </article> <!--skill 1-->
           <article class="col-xs-3">
-            <article class="c100 p82 white">
-                <span>82%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_b"]; ?> white">
+                <span><?php echo $json_data["skill_perc_b"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>SWIFT</p>
+            <p><?php echo $json_data["skill_name_b"]; ?></p>
           </article> <!--skill 2-->
           <article class="col-xs-3">
-            <article class="c100 p92 green_r">
-                <span>92%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_c"]; ?> green_r">
+                <span><?php echo $json_data["skill_perc_c"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>MYSQL</p>
+            <p><?php echo $json_data["skill_name_c"]; ?></p>
           </article> <!--skill 3-->
           <article class="col-xs-3">
-            <article class="c100 p68 red_r">
-                <span>68%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_d"]; ?> red_r">
+                <span><?php echo $json_data["skill_perc_d"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>JSON</p>
+            <p><?php echo $json_data["skill_name_d"]; ?></p>
           </article> <!--skill 4-->
         </section>
       </section> <!-- tool develop -->
@@ -251,13 +263,13 @@ background-size: cover;
           <h3 class="row col-sm-offset-3 col-sm-6">DEVELOPED BY</h3>
           <section class="row">
             <article class="col-xs-12 img_dev_user">
-              <img src="image_web/mock_dev_user.jpg" alt="img_user">
+              <img src="image_user/quote_footer/<?php echo $json_data["user_img_quote"]; ?>" alt="img_user">
             </article>
           </section>
           <article class="col-xs-offset-1 col-xs-10 col-md-4 wrap_quote_user">
             <h4>"MOTIVATION <br> QUOTE</h4>
             <p>
-              	Be careful what you believe because that is what you will experience. Your belief
+              	<?php echo $json_data["user_quote"]; ?>
             </p>
           </article>
         </section>
@@ -272,21 +284,21 @@ background-size: cover;
               <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
-              <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;">VIEW PORT | เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล </p>
-              <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > APPLICATION IOS<p>
+              <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> </p>
+              <p style="font-size:0.8em; margin-top:-15px; text-transform: uppercase;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
             </article> <!-- wrap_footer_r -->
             <article class="col-sm-2 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
-              <p>worawaluns.k@gmail.com</p>
+              <p><?php echo $json_data["user_email"]; ?></p>
             </article>
             <article class="col-sm-3 col-md-2 foot_fb tablet">
               <article class="row col-sm-4 wrap_logo_face">
                 <img src="image_web/logo_facebook.png" alt="facebook">
               </article>
-              <article class="col-sm-8">
+              <a href="https://www.facebook.com/<?php echo $json_data["user_facebook"]; ?>" target="_blank"><article class="col-sm-8">
                 <h4>CONTACT</h4>
-                <p>FB/worawaluns</p>
-              </article>
+                <p>FB/<?php echo $json_data["user_facebook"]; ?></p>
+              </article></a>
             </article>
           </article> <!-- wrap_r_footer -->
         </section> <!-- wrap_footer -->
