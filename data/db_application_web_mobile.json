@@ -1,0 +1,234 @@
+{
+  "13550631": {
+    "student_id": "13550631",
+    "user": {
+      "name": "Jenjira Srikeaw",
+      "motivation_quote": "Don’t stop when you are tired. Stop when you are done.",
+      "facebook": "snowwhite.jen",
+      "email": "jenji14nb@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550631.jpg",
+        "profile": "avatar_13550631.jpg",
+        "quote": "quote_footer_13550631.jpg",
+        "head_preview": "head_preview_13550631.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=ICre0tso9BU&t=13s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันสำหรับกลุ่มคนรักงานฝีมือ",
+      "project_name": "NEEDLEWORK",
+      "type": "Web Application",
+      "concept": "เว็บแอปพลิเคชันที่เปิดพื้นที่สำหรับการแสดงผลงานงานฝีมือที่สร้างสรรค์ขึ้นมาและรวบรวมวัสดุอุปกรณ์เกี่ยวกับงานฝีมือเพื่อให้คนรักงานฝีมือมาแลกเปลี่ยนผลงานและประสบการณ์การทำงานกัน",
+      "function": {
+        "function_name_a": "Post",
+        "function_name_b": "Tags",
+        "function_name_c": "Swap",
+        "discription": {
+          "fuction_dis_a": "สร้างโพสต์ผลงานของตนเองได้",
+          "fuction_dis_b": "สามารถตามหาผลงานและวัสดุอุปกรณ์ที่เกี่ยวข้องได้",
+          "fuction_dis_c": "สามารถส่งคำขอแลกเปลี่ยนผลงานได้"
+        },
+        "image": {
+          "function_img_a": "function_13550631_01.jpg",
+          "function_img_b": "function_13550631_02.jpg",
+          "function_img_c": "function_13550631_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550631_01.jpg",
+        "img_b": "design_process_13550631_02.jpg",
+        "img_c": "design_process_13550631_03.jpg",
+        "img_d": "design_process_13550631_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "UI/UX",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "MYSQL",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "10",
+        "skill_c_percent": "20",
+        "skill_d_percent": "30"
+      }
+    }
+  },
+  "13550185": {
+    "student_id": "13550185",
+    "user": {
+      "name": "Patcharaporn Tummajun",
+      "motivation_quote": "I am slow walker, but I never walk back",
+      "facebook": "TH3.MiNd",
+      "email": "i.mind.ling.o@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550185.jpg",
+        "profile": "avatar_13550185.jpg",
+        "quote": "quote_footer_13550185.jpg",
+        "head_preview": "head_preview_13550185.jpg"
+      },
+      "video": {
+        "showreel": "https://youtu.be/L9bMgIpYeu8",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันหาคู่ผสมพันธุ์สุนัขและแมว",
+      "project_name": "SOULMATE PETS",
+      "type": "Web Application",
+      "concept": "เว็บแอปพลิเคชันที่ช่วยให้สุนัขและแมวมีคู่ได้ตามลักษณะที่ต้องการ และไม่ต้องเดินทางไปไกล",
+      "function": {
+        "function_name_a": "Post",
+        "function_name_b": "Send request",
+        "function_name_c": "Search",
+        "discription": {
+          "fuction_dis_a": "ประกาศหาคู่ให้กับสุนัขและแมว",
+          "fuction_dis_b": "ส่งคำขอผสมพันธุ์ไปยังข้อความ",
+          "fuction_dis_c": "ค้นหาผ่านตัวอักษรและค้นหาจากบริเวณรอบๆ"
+        },
+        "image": {
+          "function_img_a": "function_13550185_01.jpg",
+          "function_img_b": "function_13550185_02.jpg",
+          "function_img_c": "function_13550185_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550185_01.jpg",
+        "img_b": "design_process_13550185_02.jpg",
+        "img_c": "design_process_13550185_03.jpg",
+        "img_d": "design_process_13550185_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "JAVASCRIPT",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "50",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560147": {
+    "student_id": "13560147",
+    "user": {
+      "name": "Nuttha Lohajoti",
+      "motivation_quote": "Today is a gift. That’s why we call it the present",
+      "facebook": "NowaNowaday",
+      "email": "lohajoti_n@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560147.jpg",
+        "profile": "avatar_13560147.jpg",
+        "quote": "quote_footer_13560147.jpg",
+        "head_preview": "head_preview_13560147.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=8UIRXp614Ro&t=4s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันส่งเสริมการขายสินค้าพื้นเมืองของชุมชนมเมืองเก่า กรณีศึกษา อำเภอเมืองน่าน",
+      "project_name": "SINKHANAN",
+      "type": "Web Application",
+      "concept": "ต้องการเผยแพร่ให้สินค้าพื้นเมืองของน่านเป็นที่รู้จักและสามารถหาซื้อได้ไม่ใช่เฉพาะที่น่านเท่านั้น และยังเผยแพร่วิถีชีวิตและวัฒนธรรมของชาวน่านให้เป็นที่รู้จักผ่านตัวสินค้าด้วย",
+      "function": {
+        "function_name_a": "Panorama",
+        "function_name_b": "Payment",
+        "function_name_c": "Map",
+        "discription": {
+          "fuction_dis_a": "เป็นการแสดงภาพถ่ายภายในของสถานที่ท่องเที่ยวที่สำคัญรวมทั้งการเชื่อมโยงสินค้าที่เกี่ยวข้อง",
+          "fuction_dis_b": "ช่องทางการชำระเงินที่สะดวกสบาย ซึ่งสามารถชำระผ่าน Paypal หรือ Internet banking ได้",
+          "fuction_dis_c": "เป็นการจำลองแผนที่ของเขตชุมชนเมืองเก่า"
+        },
+        "image": {
+          "function_img_a": "function_13560147_01.jpg",
+          "function_img_b": "function_13560147_02.jpg",
+          "function_img_c": "function_13560147_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560147_01.jpg",
+        "img_b": "design_process_13560147_02.jpg",
+        "img_c": "design_process_13560147_03.jpg",
+        "img_d": "design_process_13560147_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "JAVASCRIPT",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "50",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560323": {
+    "student_id": "13560323",
+    "user": {
+      "name": "Ekkrit Foonngern",
+      "motivation_quote": "I never lose. I either win or learn.",
+      "facebook": "ekkritishappy",
+      "email": "ekkritishappy@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560323.jpg",
+        "profile": "avatar_13560323.jpg",
+        "quote": "quote_footer_13560323.jpg",
+        "head_preview": "head_preview_13560323.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=q8BC1rmysWk",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันตัวกลางสำหรับแลกเปลี่ยนหนังสือ",
+      "project_name": "Readaway",
+      "type": "Web Application",
+      "concept": "ส่งเสริมการใช้ทรัพยากรร่วมกันเพื่อให้เกิดประโยชน์สูงสุดตามแนวคิดเศรษฐกิจแบบแบ่งปัน (Sharing Economy) โดยการหยิบยกหนังสือซึ่งเป็นวัตถุดิบทางความคิดที่จะช่วยพัฒนาคุณภาพของมนุษย์ได้ จึงเกิดเป็นเว็บไซต์ตัวกลางที่ทำให้ผู้ใช้ที่ต้องการแลกหนังสือระหว่างกันได้มาเจอกัน",
+      "function": {
+        "function_name_a": "Browse",
+        "function_name_b": "Chatting",
+        "function_name_c": "Matching",
+        "discription": {
+          "fuction_dis_a": "สำรวจรายการแลกเปลี่ยนหนังสือจากผู้ใช้ในระบบ",
+          "fuction_dis_b": "พูดคุย แลกเปลี่ยนความสนใจ หรือส่งคำร้องขอแลกหนังสือผ่านระบบสนทนา",
+          "fuction_dis_c": "จับคู่หนังสือระหว่างผู้ใช้และแจ้งความคืบหน้าการจัดส่ง"
+        },
+        "image": {
+          "function_img_a": "function_13560323_01.jpg",
+          "function_img_b": "function_13560323_02.jpg",
+          "function_img_c": "function_13560323_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560323_01.jpg",
+        "img_b": "design_process_13560323_02.jpg",
+        "img_c": "design_process_13560323_03.jpg",
+        "img_d": "design_process_13560323_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "JAVASCRIPT",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "40",
+        "skill_c_percent": "20",
+        "skill_d_percent": ""
+      }
+    }
+  }
+}

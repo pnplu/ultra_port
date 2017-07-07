@@ -3,7 +3,7 @@
     "student_id": "13560120",
     "user": {
       "name": "Kanitta Youngpuerksa",
-      "motivation_quote": "..",
+      "motivation_quote": "Good days give you happiness Bad days give you experiences Both are essential to life.",
       "facebook": "k.smallyoung",
       "email": "kanitta.youngpuerksa@gmail.com",
       "image": {
@@ -34,14 +34,14 @@
         "image": {
           "function_img_a": "function_13560120_01.jpg",
           "function_img_b": "function_13560120_02.jpg",
-          "function_img_c": "function_13560120_03.png"
+          "function_img_c": "function_13560120_03.jpg"
         }
       },
       "design_process": {
-        "img_a": "design_process_13560120_01.jpg",
-        "img_b": "design_process_13560120_02.jpg",
-        "img_c": "design_process_13560120_03.jpg",
-        "img_d": "design_process_13560120_04.jpg"
+        "img_a": "design_process_13560120_01.png",
+        "img_b": "design_process_13560120_02.png",
+        "img_c": "design_process_13560120_03.png",
+        "img_d": "design_process_13560120_04.png"
       }
     },
     "skill": {
@@ -264,9 +264,9 @@
           "fuction_dis_c": "เกมรีดนมโค จำลองการรีดนมด้วยมือ ผ่านเซ็นเซอร์วัดแรงบีบ เมื่อกดหรือบีบในจอแสดงผลจะมีน้ำนมออกมา ถ้าบีบแรงไปแม่โคจะเจ็บเอานะ"
         },
         "image": {
-          "function_img_a": "function_13550255.jpg",
-          "function_img_b": "function_13550255.jpg",
-          "function_img_c": "function_13550255.jpg"
+          "function_img_a": "function_13550255_01.jpg",
+          "function_img_b": "function_13550255_02.jpg",
+          "function_img_c": "function_13550255_03.jpg"
         }
       },
       "design_process": {
@@ -322,9 +322,9 @@
           "fuction_dis_c": "เก็บข้อมูลผู้เล่น และนำคะแนนมาจัดอันดับของผู้เล่น"
         },
         "image": {
-          "function_img_a": "function_13550137.jpg",
-          "function_img_b": "function_13550137.jpg",
-          "function_img_c": "function_13550137.jpg"
+          "function_img_a": "function_13550137_01.jpg",
+          "function_img_b": "function_13550137_02.jpg",
+          "function_img_c": "function_13550137_03.jpg"
         }
       },
       "design_process": {
@@ -618,10 +618,10 @@
         }
       },
       "design_process": {
-        "img_a": "design_process_13560311_01.jpg",
-        "img_b": "design_process_13560311_02.jpg",
-        "img_c": "design_process_13560311_03.jpg",
-        "img_d": "design_process_13560311_04.jpg"
+        "img_a": "design_process_13560311_01.png",
+        "img_b": "design_process_13560311_02.png",
+        "img_c": "design_process_13560311_03.png",
+        "img_d": "design_process_13560311_04.png"
       }
     },
     "skill": {
@@ -676,17 +676,17 @@
         }
       },
       "design_process": {
-        "img_a": "design_process_13560178_01.jpg",
-        "img_b": "design_process_13560178_02.jpg",
-        "img_c": "design_process_13560178_03.jpg",
-        "img_d": "design_process_13560178_04.jpg"
+        "img_a": "design_process_13560178_01.png",
+        "img_b": "design_process_13560178_02.png",
+        "img_c": "design_process_13560178_03.png",
+        "img_d": "design_process_13560178_04.png"
       }
     },
     "skill": {
-      "skill_a_name": "ANDROID STUDIO",
+      "skill_a_name": "ANDROID",
       "skill_b_name": "MYSQL",
       "skill_c_name": "PS",
-      "skill_d_name": "ARDUINO & API",
+      "skill_d_name": "ARDUINO API",
       "percent": {
         "skill_a_percent": "60",
         "skill_b_percent": "20",
