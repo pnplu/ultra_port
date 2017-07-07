@@ -240,7 +240,7 @@ background-size: cover;
                 <div class="bt-play">Play</div>
             </div>
             <div class="video-container">
-                <iframe width="590" height="332" src="https://www.youtube.com/embed/OPtRe2DKvjI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <iframe width="590" height="332" src='https://www.youtube.com/embed/<?php echo $json_data["user_video_showreel"]; ?>?rel=0&amp;showinfo=0' frameborder="0" allowfullscreen="allowfullscreen"></iframe>
             </div>
         </div>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
