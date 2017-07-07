@@ -30,12 +30,12 @@
         <nav class="col-xs-12">
           <article class="col-xs-12">
             <p class="title animated fadeInDown">WHAT WE DO</p>
-            <p><a href="creator.php?cat_id=5" class="a_list link--kukuri" data-letters="APPLICATION iOS">APPLICATION iOS</a></p>
-            <p><a href="creator.php?cat_id=4" class="a_list link--kukuri" data-letters="UNITY KINECT">WEB BASE ON DESKTOP</a></p>
-            <p><a href="creator.php?cat_id=3" class="a_list link--kukuri" data-letters="ON TABLET">WEB MOBILE</a></p>
-            <p><a href="creator.php?cat_id=2" class="a_list link--kukuri" data-letters="ANDROID">ANDROID</a></p>
-            <p><a href="creator.php?cat_id=5" class="a_list link--kukuri" data-letters="WEB MOBILE">UNITY KINECT</a></p>
-            <p><a href="creator.php?cat_id=6" class="a_list link--kukuri" data-letters="WEB BASE ON DESKTOP">INTERACTIVE</a></p>
+            <p><a href="creator_catagory.php?cat_id=5" class="a_list link--kukuri" data-letters="APPLICATION iOS">APPLICATION iOS</a></p>
+            <p><a href="creator_catagory.php?cat_id=4" class="a_list link--kukuri" data-letters="UNITY KINECT">WEB BASE ON DESKTOP</a></p>
+            <p><a href="creator_catagory.php?cat_id=3" class="a_list link--kukuri" data-letters="ON TABLET">WEB MOBILE</a></p>
+            <p><a href="creator_catagory.php?cat_id=2" class="a_list link--kukuri" data-letters="ANDROID">ANDROID</a></p>
+            <p><a href="creator_catagory.php?cat_id=5" class="a_list link--kukuri" data-letters="WEB MOBILE">UNITY KINECT</a></p>
+            <p><a href="creator_catagory.php?cat_id=6" class="a_list link--kukuri" data-letters="WEB BASE ON DESKTOP">INTERACTIVE</a></p>
             <p class="sponsor_mobile"><img src="banner/all.png"></p>
           </article>
           <article class="browse_right">
