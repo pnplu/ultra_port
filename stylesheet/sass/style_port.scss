@@ -68,9 +68,9 @@ html, body{
       }
       .image_people:hover{
         transition: 0.3s ease;
-        background-image: url("../../image_web/mockup_work.png");
+        // background-image: url("../../image_web/mockup_work.png");
         img{
-          opacity: 0;
+          opacity: 0.8;
         }
         button{
           font-family: 'Titillium Web', sans-serif;

@@ -1,232 +1,4 @@
 {
-  "13560120": {
-    "student_id": "13560120",
-    "user": {
-      "name": "Kanitta Youngpuerksa",
-      "motivation_quote": "..",
-      "facebook": "k.smallyoung",
-      "email": "kanitta.youngpuerksa@gmail.com",
-      "image": {
-        "landing_profile": "landding_profile_13560120.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0Bz5UnpU5gkShOV8ycVZHZ1ctNkk",
-        "quote": "quote_footer_13560120.jpg"
-      },
-      "video": {
-        "showreel": "..",
-        "interview": ".."
-      }
-    },
-    "work": {
-      "name": "สื่อโต้ตอบเพื่อส่งเสริมการบริจาคเงินช่วยเหลือช้างป่ากรณีศึกษา มูลนิธิช้างป่าบ้านพ่อ",
-      "project_name": "ฟาดงวงฟาดงา Interactive",
-      "type": "Interactive with Kinect",
-      "concept": "สื่อโต้ตอบเพื่อส่งเสริมการบริจาคเงินช่วยเหลือช้างป่าที่กำลังประสบปัญหาขาดแคลนทุน ในการดำเนินงานช่วยเหลือช้างที่ขาดน้ำจากภัยแล้งในพื้นที่ป่าอุทยานแห่งชาติกุยบุรี โดยเนื้อหายึดตามแนวพระราชดำริการแก้ปัญหา”คนกับช้าง”ของในหลวงรัชกาลที่ ๙ ",
-      "function": {
-        "function_name_a": "Mission",
-        "function_name_b": "Learning",
-        "function_name_c": "Photo",
-        "discription": {
-          "fuction_dis_a": "พิชิตภาระกิจในแต่ละด่านให้สำเร็จ",
-          "fuction_dis_b": "เรียนรู้ปัญหาและวิธีการช่วยเหลือช้างป่า",
-          "fuction_dis_c": "ถ่ายภาพผู้เข้าร่วมกิจกรรมเพื่อแบ่งปันผ่านสื่อออนไลน์"
-        },
-        "image": {
-          "function_img_a": "function_13560120_01.jpg",
-          "function_img_b": "function_13560120_02.jpg",
-          "function_img_c": "function_13560120_03.jpg"
-        }
-      },
-      "design_process": {
-        "img_a": "design_process_13560120_01.jpg",
-        "img_b": "design_process_13560120_02.jpg",
-        "img_c": "design_process_13560120_03.jpg",
-        "img_d": "design_process_13560120_04.jpg"
-      }
-    },
-    "skill": {
-      "skill_a_name": "UNITY",
-      "skill_b_name": "C#",
-      "skill_c_name": "AE",
-      "skill_d_name": "AI",
-      "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "5%",
-        "skill_d_percent": "45%"
-      }
-    }
-  },
-  "13560181": {
-    "student_id": "13560181",
-    "user": {
-      "name": "Tamonwan Seangpairoh",
-      "motivation_quote": "Don’t be afraid to be different",
-      "facebook": "tamonwan.seangpairoh.3",
-      "email": "tamon.new@gmail.com",
-      "image": {
-        "landing_profile": "landding_profile_13560181.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B0LtJ3D9iPNCN3NLak4wcEM2NlU",
-        "quote": "quote_footer_13560181.jpg"
-      },
-      "video": {
-        "showreel": "https://youtu.be/IdjFv8Kug3A",
-        "interview": ".."
-      }
-    },
-    "work": {
-      "name": "สื่อโต้ตอบส่งเสริมการเรียนรู้วิธีรักษาทรัพยากรชายฝั่งทะเลจากปัญหาน้ำทะเลกัดเซาะ",
-      "project_name": "SAVE THE COAST INTERACTIVE",
-      "type": "Interactive with Kinect",
-      "concept": "สื่อโต้ตอบส่งเสริมการเรียนรู้วิธีรักษาทรัพยากรชายฝั่งทะเล ด้วยภูมิปัญญาชาวบ้าน คือการใช้ไม้ไผ่ ควบคู่กับการปลูกป่าชายเลน โดยทำออกมาในรูปแบบเกม Interactive สำหรับเด็กวัยประถมศึกษาอายุ 7-12 ปี",
-      "function": {
-        "function_name_a": "Photo Register",
-        "function_name_b": "Game Three Chapter",
-        "function_name_c": "Ranking",
-        "discription": {
-          "fuction_dis_a": "ลงทะเบียนด้วยการถ่ายรูป",
-          "fuction_dis_b": "เล่นเกม 3 ด่าน คือ เลือกไม้ไผ่ชะลอคลื่น ปักไม้ไผ่ชะลอคลื่น และปลูกป่ารักษาสัตว์",
-          "fuction_dis_c": "จัดอันดับคะแนนของผู้เล่น 5 อันดับ"
-        },
-        "image": {
-          "function_img_a": "function_13560181_01.jpg",
-          "function_img_b": "function_13560181_02.jpg",
-          "function_img_c": "function_13560181_03.jpg"
-        }
-      },
-      "design_process": {
-        "img_a": "design_process_13560181_01.jpg",
-        "img_b": "design_process_13560181_02.jpg",
-        "img_c": "design_process_13560181_03.jpg",
-        "img_d": "design_process_13560181_04.jpg"
-      }
-    },
-    "skill": {
-      "skill_a_name": "C#",
-      "skill_b_name": "AI",
-      "skill_c_name": "AE",
-      "skill_d_name": "UNITY",
-      "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "30%"
-      }
-    }
-  },
-  "13560233": {
-    "student_id": "13560233",
-    "user": {
-      "name": "Pakakol Sanevong Na Ayuthaya",
-      "motivation_quote": "Good things can come From unexpected places.",
-      "facebook": "pakul.k",
-      "email": "pakakol.s@gmail.com",
-      "image": {
-        "landing_profile": "landding_profile_13560233.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0ByYZDfbDm-IoX0puU1E3UGpKd0E",
-        "quote": "quote_footer_13560233.jpg"
-      },
-      "video": {
-        "showreel": "https://youtu.be/eBDM0VR7D2I",
-        "interview": ".."
-      }
-    },
-    "work": {
-      "name": "การผลิตสื่อโต้ตอบส่งเสริมพัฒนาการด้านอีคิวสำหรับเด็กอายุ 3-5 ปี",
-      "project_name": "LET'S GO TO GRANNY INTERACTIVE",
-      "type": "Interactive with Kinect",
-      "concept": "สื่อโต้ตอบที่ช่วยส่งเสริมพัฒนาการด้านอีคิวที่เด็กในวัย 3-5 ปีควรได้รับการพัฒนา คือด้าน ดี เก่ง และสุข โดยนำเนื้อหาพัฒนาการเหล่านี้แทรกลงไปในสื่อโต้ตอบในรูปแบบของเกมแต่ละด่านโดยใช้ Kinect เป็นสื่อในการเล่นเกม",
-      "function": {
-        "function_name_a": "Two Players",
-        "function_name_b": "Ranking",
-        "function_name_c": "Kinect Sensor",
-        "discription": {
-          "fuction_dis_a": "สามารถเล่นเกมพร้อมกันได้ 2 คนด้วย Kinect",
-          "fuction_dis_b": "สามารถดูลำดับคะแนนที่เล่นไปได้และจัดอันดับ Top 3",
-          "fuction_dis_c": "ใช้ Kinect Sensor ในการจับการเคลื่อนไหวของผู้เล่นเกม และถ่ายรูปผู้เล่น"
-        },
-        "image": {
-          "function_img_a": "function_13560233_01.jpg",
-          "function_img_b": "function_13560233_02.jpg",
-          "function_img_c": "function_13560233_03.jpg"
-        }
-      },
-      "design_process": {
-        "img_a": "design_process_13560233_01.jpg",
-        "img_b": "design_process_13560233_02.jpg",
-        "img_c": "design_process_13560233_03.jpg",
-        "img_d": "design_process_13560233_04.jpg"
-      }
-    },
-    "skill": {
-      "skill_a_name": "C#",
-      "skill_b_name": "AI",
-      "skill_c_name": "AE",
-      "skill_d_name": "UNITY",
-      "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "30%"
-      }
-    }
-  },
-  "13560220": {
-    "student_id": "13560220",
-    "user": {
-      "name": "Pasit Niyomthong",
-      "motivation_quote": "Be thankful for the hard times, for they have made you",
-      "facebook": "enqueteplu",
-      "email": "pasit.niyom@gmail.com",
-      "image": {
-        "landing_profile": "landding_profile_13560220.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B0LW__h6JhiFdHVpNVVaVFBaZVk",
-        "quote": "quote_footer_13560220.jpg"
-      },
-      "video": {
-        "showreel": "https://youtu.be/kIuFeolMrsQ",
-        "interview": ".."
-      }
-    },
-    "work": {
-      "name": "สื่อโต้ตอบส่งเสริมการเรียนรู้เกี่ยวกับน้ำนมในระดับชั้นประถมศึกษาตอนต้น",
-      "project_name": "MILKY DAILY",
-      "type": "Interactive with Kinect",
-      "concept": "ทำสื่อการเรียนรู้ที่เด็กจะร่วมเรียนรู้และสามารถสนุกไปพร้อมกันได้ จึงได้คิดที่จะนำเสนอในรูปแบบเกม ที่เป็นสื่อโต้ตอบและสามารถเคลื่อนไหวร่างกายได้ จึงได้นำ Kinect มาร่วมพัฒนาในโครงงานด้วย",
-      "function": {
-        "function_name_a": "Chapter 1",
-        "function_name_b": "Chapter 2",
-        "function_name_c": "Chapter 3",
-        "discription": {
-          "fuction_dis_a": "เรียนรู้เกี่ยวกับการดื่มนมส่งเสริมให้สายตาดีขึ้น",
-          "fuction_dis_b": "เรียนรู้เรื่องการดื่มนมช่วยส่งผลให้ตัวสูงขึ้น",
-          "fuction_dis_c": " ด่านที่ 3 เรียนรู้เรื่องการดื่มนม ช่วยให้ร่างกายแข็งแรง"
-        },
-        "image": {
-          "function_img_a": "function_13560220_01.jpg",
-          "function_img_b": "function_13560220_02.jpg",
-          "function_img_c": "function_13560220_03.jpg"
-        }
-      },
-      "design_process": {
-        "img_a": "design_process_13560220_01.jpg",
-        "img_b": "design_process_13560220_02.jpg",
-        "img_c": "design_process_13560220_03.jpg",
-        "img_d": "design_process_13560220_04.jpg"
-      }
-    },
-    "skill": {
-      "skill_a_name": "C#",
-      "skill_b_name": "MYSQL",
-      "skill_c_name": "AE",
-      "skill_d_name": "AI",
-      "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "40%",
-        "skill_d_percent": "10%"
-      }
-    }
-  },
   "13550255": {
     "student_id": "13550255",
     "user": {
@@ -236,8 +8,9 @@
       "email": "prawtot@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13550255.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B8WyIbFgwUQyd0Y5dTViZ2Rsem8",
-        "quote": "quote_footer_13550255.jpg"
+        "profile": "avatar_13550255.jpg",
+        "quote": "quote_footer_13550255.jpg",
+        "head_preview": "head_preview_13550255.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/sqpjQdXwDh0",
@@ -259,9 +32,9 @@
           "fuction_dis_c": "เกมรีดนมโค จำลองการรีดนมด้วยมือ ผ่านเซ็นเซอร์วัดแรงบีบ เมื่อกดหรือบีบในจอแสดงผลจะมีน้ำนมออกมา ถ้าบีบแรงไปแม่โคจะเจ็บเอานะ"
         },
         "image": {
-          "function_img_a": "function_13550255.jpg",
-          "function_img_b": "function_13550255.jpg",
-          "function_img_c": "function_13550255.jpg"
+          "function_img_a": "function_13550255_01.jpg",
+          "function_img_b": "function_13550255_02.jpg",
+          "function_img_c": "function_13550255_03.jpg"
         }
       },
       "design_process": {
@@ -277,10 +50,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "UNITY",
       "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "40%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "30",
+        "skill_b_percent": "40",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -293,8 +66,9 @@
       "email": "mick.skyd@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13550137.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0BzyjtKbBcDnUUHczTndfR05oSEk",
-        "quote": "quote_footer_13550137.jpg"
+        "profile": "avatar_13550137.jpg",
+        "quote": "quote_footer_13550137.jpg",
+        "head_preview": "head_preview_13550137.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=quT4Dr0bXgg",
@@ -316,9 +90,9 @@
           "fuction_dis_c": "เก็บข้อมูลผู้เล่น และนำคะแนนมาจัดอันดับของผู้เล่น"
         },
         "image": {
-          "function_img_a": "function_13550137.jpg",
-          "function_img_b": "function_13550137.jpg",
-          "function_img_c": "function_13550137.jpg"
+          "function_img_a": "function_13550137_01.jpg",
+          "function_img_b": "function_13550137_02.jpg",
+          "function_img_c": "function_13550137_03.jpg"
         }
       },
       "design_process": {
@@ -334,10 +108,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "MYSQL",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "30",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -350,8 +124,9 @@
       "email": "koch.may@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560098.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B8Oy3s13ip2YbGNPSkRja1lVZ1U",
-        "quote": "quote_footer_13560098.jpg"
+        "profile": "avatar_13560098.jpg",
+        "quote": "quote_footer_13560098.jpg",
+        "head_preview": "head_preview_13560098.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/5OzM4k7ER6c",
@@ -391,10 +166,10 @@
       "skill_c_name": "AI",
       "skill_d_name": "AE",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "5%",
-        "skill_c_percent": "35%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "5",
+        "skill_c_percent": "35",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -407,8 +182,9 @@
       "email": "bonnie.still@hotmail.com",
       "image": {
         "landing_profile": "landding_profile_13560241.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B0aovoaVFpx6QUVhYThUWTBvbWc",
-        "quote": "quote_footer_13560241.jpg"
+        "profile": "avatar_13560241.jpg",
+        "quote": "quote_footer_13560241.jpg",
+        "head_preview": "head_preview_13560241.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=d9GroqNFrGI",
@@ -448,10 +224,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "AI",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "5%",
-        "skill_c_percent": "30%",
-        "skill_d_percent": "15%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "5",
+        "skill_c_percent": "30",
+        "skill_d_percent": "15"
       }
     }
   },
@@ -464,8 +240,9 @@
       "email": "smz.mtnn@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560174.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B2Ljlr4F-yF5MEVBREllMUZwQnM",
-        "quote": "quote_footer_13560174.jpg"
+        "profile": "avatar_13560174.jpg",
+        "quote": "quote_footer_13560174.jpg",
+        "head_preview": "head_preview_13560174.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/fVD-sor-QRQ",
@@ -505,10 +282,10 @@
       "skill_c_name": "AI",
       "skill_d_name": "XCODE",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -521,8 +298,9 @@
       "email": "athena31101994@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560166.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B2oZOdcygzcPUFlHVDFsQ0dKUU0",
-        "quote": "quote_footer_13560166.jpg"
+        "profile": "avatar_13560166.jpg",
+        "quote": "quote_footer_13560166.jpg",
+        "head_preview": "head_preview_13560166.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/vyLWTGCTz6k",
@@ -562,10 +340,10 @@
       "skill_c_name": "AE",
       "skill_d_name": "AI",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "40%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "10",
+        "skill_c_percent": "40",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -578,8 +356,9 @@
       "email": "onnapun.pispunt@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560311.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B4kUHQZE8a9mNUxCRmNzOWEydGc",
-        "quote": "quote_footer_13560311.jpg"
+        "profile": "avatar_13560311.jpg",
+        "quote": "quote_footer_13560311.jpg",
+        "head_preview": "head_preview_13560311.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/MsqJRMwzx9U",
@@ -607,10 +386,10 @@
         }
       },
       "design_process": {
-        "img_a": "design_process_13560311_01.jpg",
-        "img_b": "design_process_13560311_02.jpg",
-        "img_c": "design_process_13560311_03.jpg",
-        "img_d": "design_process_13560311_04.jpg"
+        "img_a": "design_process_13560311_01.png",
+        "img_b": "design_process_13560311_02.png",
+        "img_c": "design_process_13560311_03.png",
+        "img_d": "design_process_13560311_04.png"
       }
     },
     "skill": {
@@ -619,10 +398,10 @@
       "skill_c_name": "AI",
       "skill_d_name": "ARDUINO & API",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -635,8 +414,9 @@
       "email": "okanoy741@hotmail.com",
       "image": {
         "landing_profile": "landding_profile_13560178.jpg",
-        "profile": "https://drive.google.com/uc?export=download&id=0B1pupPWzeWPxalk4THpNQVFMbDg",
-        "quote": "quote_footer_13560178.jpg"
+        "profile": "avatar_13560178.png",
+        "quote": "quote_footer_13560178.jpg",
+        "head_preview": "head_preview_13560178.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=PH5TOBxwZD8&t=1s",
@@ -664,22 +444,22 @@
         }
       },
       "design_process": {
-        "img_a": "design_process_13560178_01.jpg",
-        "img_b": "design_process_13560178_02.jpg",
-        "img_c": "design_process_13560178_03.jpg",
-        "img_d": "design_process_13560178_04.jpg"
+        "img_a": "design_process_13560178_01.png",
+        "img_b": "design_process_13560178_02.png",
+        "img_c": "design_process_13560178_03.png",
+        "img_d": "design_process_13560178_04.png"
       }
     },
     "skill": {
-      "skill_a_name": "ANDROID STUDIO",
+      "skill_a_name": "ANDROID",
       "skill_b_name": "MYSQL",
       "skill_c_name": "PS",
-      "skill_d_name": "ARDUINO & API",
+      "skill_d_name": "ARDUINO API",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   }

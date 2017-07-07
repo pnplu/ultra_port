@@ -48,10 +48,9 @@ html, body {
           transition: 1s ease-in-out;
           cursor: pointer; }
       .wrap_people .wrap_box_people .image_people:hover {
-        transition: 0.3s ease;
-        background-image: url("../../image_web/mockup_work.png"); }
+        transition: 0.3s ease; }
         .wrap_people .wrap_box_people .image_people:hover img {
-          opacity: 0; }
+          opacity: 0.8; }
         .wrap_people .wrap_box_people .image_people:hover button {
           font-family: 'Titillium Web', sans-serif;
           font-size: 1em;

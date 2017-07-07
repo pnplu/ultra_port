@@ -1,0 +1,408 @@
+{
+  "13560190": {
+    "student_id": "13560190",
+    "user": {
+      "name": "Nonthawach Kongcharern",
+      "motivation_quote": "The only wrong thing would be to deny what your heart truly feels",
+      "facebook": "KwanPhawa",
+      "email": "nonthawach.kwan@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560190.jpg",
+        "profile": "avatar_13560190.jpg",
+        "quote": "quote_footer_13560190.jpg",
+        "head_preview": "head_preview_13560190.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=Q4Fe6BL6uig&t=77s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันสังคมดนตรีอะคูสติกออนไลน์",
+      "project_name": "PLAYLODY",
+      "type": "Web Application Base on Desktop",
+      "concept": "เว็บแอปพลิเคชันที่ทำให้คุณสามารถร่วมเล่นดนตรีอะคูสติกโดยไม่จำเป็นต้องอยู่ด้วยกัน หรือมีเวลาว่างตรงกัน ผ่านการอัดสียงการเล่นดนตรีของสมาชิกแต่ละคน เพื่อเพิ่มโอกาสในการเล่นดนตรีให้กับผู้ใช้ที่มีปัญหาในการนัดรวมตัวกันเพื่อซ้อมหรือเล่นดนตรี",
+      "function": {
+        "function_name_a": "Social",
+        "function_name_b": "Mix",
+        "function_name_c": "Export",
+        "discription": {
+          "fuction_dis_a": "สังคมออนไลน์ แลกเปลี่ยนความคิดเห็นทางด้านดนตรีกับผู้ใช้คนอื่นๆ",
+          "fuction_dis_b": "รวมไฟล์เสียงการเล่นดนตรีของคุณและเพื่อนๆ เข้าไว้เป็นไฟล์เดียว",
+          "fuction_dis_c": "Export ผลงานเพลงเป็น MP3 เป็นผลงานเพลงที่คุณและเพื่อนๆ ร่วมกันทำ แม้จะไม่ได้อยู่ด้วยกัน"
+        },
+        "image": {
+          "function_img_a": "function_13560190_01.jpg",
+          "function_img_b": "function_13560190_02.jpg",
+          "function_img_c": "function_13560190_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560190_01.jpg",
+        "img_b": "design_process_13560190_02.jpg",
+        "img_c": "design_process_13560190_03.jpg",
+        "img_d": "design_process_13560190_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "JAVASCRIPT",
+      "skill_c_name": "FFMPEG",
+      "skill_d_name": "MYSQL",
+      "percent": {
+        "skill_a_percent": "50",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "20"
+      }
+    }
+  },
+  "13560122": {
+    "student_id": "13560122",
+    "user": {
+      "name": "Kunakorn Achcha",
+      "motivation_quote": "ชีวิตยังมีพรุ่งนี้เสมอแต่ถ้าไม่ส่งจุลเย็นนี้ชีวิตจะไม่มี",
+      "facebook": "daviss122",
+      "email": "shendelzara@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560122.jpg",
+        "profile": "avatar_13560122.jpg",
+        "quote": "quote_footer_13560122.jpg",
+        "head_preview": "head_preview_13560122.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=zIN7EHKUamE&t=6s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันส่งเสริมการแลกเปลี่ยนความรู้สำหรับนักเรียนนักศึกษา",
+      "project_name": "DEALSKILL",
+      "type": "Web Application Base on Desktop",
+      "concept": "นักเรียนต้องเสียค่าใช้จ่ายจำนวนมากในการเรียนกวดวิชาเพื่อทำเกรดให้สูงและสามารถสอบเข้าเรียนในมหาวิทยาลัยชื่อดังได้ แนวคิดนี้ได้มาจาป้ายคอร์สเรียนฟรีศูนย์กวดวิชาคุมอง การนัดติวและการจัดอบรมในสถานที่ต่างๆทั้งอบรบฟรีและไม่ฟรี",
+      "function": {
+        "function_name_a": "Matching Knowledge",
+        "function_name_b": "Distance",
+        "function_name_c": "Review & Chat",
+        "discription": {
+          "fuction_dis_a": "ผู้ใช้สามารถจับคู่ค้นหาตามวิชาที่เราต้องการเรียนรู้ได้โดยระบบจะคำนวนคู่ที่เหมาะสมกับเรา",
+          "fuction_dis_b": "ระบบคำนวณระยะทางตามระยะทางของเรากับผู้ใช้อีกฝ่าย",
+          "fuction_dis_c": "ผู้ใช้สามารถรีวิวให้คะแนนการเรียนการสอน และส่งข้อความหากันได้"
+        },
+        "image": {
+          "function_img_a": "function_13560122_01.jpg",
+          "function_img_b": "function_13560122_02.jpg",
+          "function_img_c": "function_13560122_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560122_01.jpg",
+        "img_b": "design_process_13560122_02.jpg",
+        "img_c": "design_process_13560122_03.jpg",
+        "img_d": "design_process_13560122_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "MySQL",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "UI/UX ",
+      "percent": {
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13550240": {
+    "student_id": "13550240",
+    "user": {
+      "name": "Sukontha Phonboon",
+      "motivation_quote": "Life doesn't have to be perfect to be wonderful.",
+      "facebook": "Mameaw.Sukontha",
+      "email": "sukontha.phonboon@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550240.jpg",
+        "profile": "avatar_13550240.jpg",
+        "quote": "quote_footer_13550240.jpg",
+        "head_preview": "head_preview_13550240.jpg"
+      },
+      "video": {
+        "showreel": "https://youtu.be/Rm_cd_X3q_c",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันเพื่อการติดตามการแสดงดนตรีสด",
+      "project_name": "ZONEC",
+      "type": "Web Application Base on Desktop",
+      "concept": "ในปัจจุบันเกิดการละเมิดลิขสิทธิ์ผลงานเพลงมากขึ้นทำให้รายได้ของศิลปินหายไป แต่งานแสดงคอนเสิร์ตสามารถทำรายได้ให้มากกว่า จึงอยากเพิ่มโอกาสในการสร้างรายได้ให้แก่ศิลปิน และช่วยประชาสัมพันธ์งานแสดงคอนเสิร์ต",
+      "function": {
+        "function_name_a": "Follow",
+        "function_name_b": "Trade",
+        "function_name_c": "Share",
+        "discription": {
+          "fuction_dis_a": "ผู้ใช้สามารถติดตามศิลปิน/คอนเสิร์ตได้",
+          "fuction_dis_b": "ผู้ใช้สามารถส่งต่อบัตรคอนเสิร์ตได้",
+          "fuction_dis_c": "ผู้ใช้สามารถแชร์ไปยัง facebook ได้ เพื่อช่วยประชาสัมพันธ์งานแสดงคอนเสิร์ต"
+        },
+        "image": {
+          "function_img_a": "function_13550240_01.jpg",
+          "function_img_b": "function_13550240_02.jpg",
+          "function_img_c": "function_13550240_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550240_01.jpg",
+        "img_b": "design_process_13550240_02.jpg",
+        "img_c": "design_process_13550240_03.jpg",
+        "img_d": "design_process_13550240_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "UI/UX",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "20"
+      }
+    }
+  },
+  "13560253": {
+    "student_id": "13560253",
+    "user": {
+      "name": "Rungtiwa Saeleaw",
+      "motivation_quote": "With stout heart,a mouse can lift an elephant.",
+      "facebook": "jun2euneun",
+      "email": "saeleawrungtiwa@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560253.jpg",
+        "profile": "avatar_13560253.jpg",
+        "quote": "quote_footer_13560253.jpg",
+        "head_preview": "head_preview_13560253.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=-lsqLPUCTb0",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันสำหรับการแบ่งปันภาพถ่ายและติดตามผลการแข่งขันกิจกรรมงานวิ่งมาราธอน",
+      "project_name": "PHORUN",
+      "type": "Web Application Base on Desktop",
+      "concept": "ต้องการพัฒนาให้การสมัคร และค้นหารูปภาพงานวิ่งมาราธอนสะดวกมากขึ้น จึงพัฒนาเป็นเว็บแอปพลิเคชันให้เป็นเหมือนศูนย์รวมของคนรักการวิ่งมาราธอน รวมไปถึงพัฒนาฟังก์ชันให้สนับสนุนผู้ใช้ที่เป็นผู้จัดงานและช่างถ่ายภาพในงานวิ่งมาราธอนด้วย",
+      "function": {
+        "function_name_a": "Match",
+        "function_name_b": "Upload Photo",
+        "function_name_c": "Create Event",
+        "discription": {
+          "fuction_dis_a": "จับคู่รูปภาพที่คุณเคยสมัครกิจกรรมวิ่งนั่นไว้",
+          "fuction_dis_b": "อัพโหลดรูปภาพ และบันทึกหมายลขของนักวิ่งเพื่อนำไปแมชกับนักวิ่ง",
+          "fuction_dis_c": "สร้างกิจกรรมงานวิ่ง เพื่อรับสมัครนักวิ่งและจัดการกิจกรรมต่างเช่น อัพโหลดผลการแข่งขัน แจ้งสถานะการรับสมัคร และให้หมายเลข BIB แก่นักวิ่ง"
+        },
+        "image": {
+          "function_img_a": "function_13560253_01.jpg",
+          "function_img_b": "function_13560253_02.jpg",
+          "function_img_c": "function_13560253_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560253_01.png",
+        "img_b": "design_process_13560253_02.png",
+        "img_c": "design_process_13560253_03.png",
+        "img_d": "design_process_13560253_04.png"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "UI/UX",
+      "percent": {
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560300": {
+    "student_id": "13560300",
+    "user": {
+      "name": "Supakin Thongchu",
+      "motivation_quote": "มากกว่าแค่ดูวิดีโอแคสเกมเล่นเกม",
+      "facebook": "got.returnwind",
+      "email": "Tsupakin@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560300.jpg",
+        "profile": "avatar_13560300.jpg",
+        "quote": "quote_footer_13560300.jpg",
+        "head_preview": "head_preview_13560300.jpg"
+      },
+      "video": {
+        "showreel": "https://youtu.be/Gy7xSXGwboQ",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันสําหรับคนดูนักแคสเกมในประเทศไทย",
+      "project_name": "CASTERGAME",
+      "type": "Web Application Base on Desktop",
+      "concept": "เนื่องจากนักแคสเกมในปัจจุบันเกิดขึ้นมากมายในสังคมดูวิดีโอออนไลน์ แต่จำนวนนักแคสเกม ที่เพิ่มขึ้นเลยๆ ได้สร้างความสับสนให้คนดูหรือแฟนคลับว่าจะดูนักแคสเกมคนไหนดี จึงอยากสร้างเว็บรวบรวมนักแคสเกมไว้ในจุดเดียว เพื่อลดความสับสนของนักแคสเกม",
+      "function": {
+        "function_name_a": "Review Castgame",
+        "function_name_b": "Emoticon",
+        "function_name_c": "Episode",
+        "discription": {
+          "fuction_dis_a": "รีวิวนักแคสเกม",
+          "fuction_dis_b": "แสดงความรู้สึกเป็นอีโม",
+          "fuction_dis_c": "เลือกตอนในคลิปวิดีโอ"
+        },
+        "image": {
+          "function_img_a": "function_13560300_01.jpg",
+          "function_img_b": "function_13560300_02.jpg",
+          "function_img_c": "function_13560300_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560300_01.jpg",
+        "img_b": "design_process_13560300_02.jpg",
+        "img_c": "design_process_13560300_03.jpg",
+        "img_d": "design_process_13560300_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "UI/UX",
+      "percent": {
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560275": {
+    "student_id": "13560275",
+    "user": {
+      "name": "Witsarut Ketnarin",
+      "motivation_quote": "Artbook แหล่งรวมซื้อขายผลงานภาพวาดที่ตอบโจทย์คนรุ่นใหม่ได้ดีที่สุด",
+      "facebook": "witsarut.ketnarin",
+      "email": "witsarut.sk@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560275.jpg",
+        "profile": "avatar_13560275.jpg",
+        "quote": "quote_footer_13560275.jpg",
+        "head_preview": "head_preview_13560275.jpg"
+      },
+      "video": {
+        "showreel": "https://www.youtube.com/watch?v=HuoXyg5eUyw&t=1s",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันที่ช่วยส่งเสริมการซื้อขายเช่าผลงานศิลปะภาพวาดของศิลปินไทย",
+      "project_name": "ARTBOOK",
+      "type": "Web Application Base on Desktop",
+      "concept": "เว็บแอปพลิเคชันที่ช่วยส่งเสริมการซื้อขายเช่าผลงานศิลปะภาพวาดของศิลปินไทย เพื่อให้ศิลปินไทยสมัยใหม่มีพื้นที่ในการโชว์ หรือขายผลงานของตัวเองสู่สาธารณะได้อย่าง่ายดาย",
+      "function": {
+        "function_name_a": "Upload",
+        "function_name_b": "Purchase Picture",
+        "function_name_c": "Gallery 3D ",
+        "discription": {
+          "fuction_dis_a": "สามารถอัปโหลดรูปภาพที่ต้องการขาย หรือต้องการให้เช่าได้",
+          "fuction_dis_b": "สามารถสั่งซื้อภาพได้",
+          "fuction_dis_c": "ดูภาพในห้องแสดงภาพจำลองแบบ 360 องศา"
+        },
+        "image": {
+          "function_img_a": "function_13560275_01.jpg",
+          "function_img_b": "function_13560275_02.jpg",
+          "function_img_c": "function_13560275_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560275_01.jpg",
+        "img_b": "design_process_13560275_02.jpg",
+        "img_c": "design_process_13560275_03.jpg",
+        "img_d": "design_process_13560275_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "JAVASCRIPT",
+      "skill_d_name": "UI/UX",
+      "percent": {
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560261": {
+    "student_id": "13560261",
+    "user": {
+      "name": "Worawalun Khantee",
+      "motivation_quote": "..",
+      "facebook": "worawaluns",
+      "email": "worawaluns.k@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560261.jpg",
+        "profile": "avatar_13560261.jpg",
+        "quote": "quote_footer_13560261.jpg",
+        "head_preview": "head_preview_13560261.jpg"
+      },
+      "video": {
+        "showreel": "..",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "เว็บแอปพลิเคชันเพื่อส่งเสริมการทำแฟ้มสะสมผลงานให้มีประสิทธิภาพ ด้วยเทคโนโลยีเอฟเอฟเอ็มเป็ก กรณีศึกษาทำงานร่วมกับเว็บไซต์ บีแฮนซ์และดริบเบิ้ล﻿",
+      "project_name": "VIEW PORT",
+      "type": "Web Application Base on Desktop",
+      "concept": "..",
+      "function": {
+        "function_name_a": "..",
+        "function_name_b": "..",
+        "function_name_c": "..",
+        "discription": {
+          "fuction_dis_a": "..",
+          "fuction_dis_b": "..น",
+          "fuction_dis_c": ".."
+        },
+        "image": {
+          "function_img_a": "function_13560261_01.jpg",
+          "function_img_b": "function_13560261_02.jpg",
+          "function_img_c": "function_13560261_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560261_01.jpg",
+        "img_b": "design_process_13560261_02.jpg",
+        "img_c": "design_process_13560261_03.jpg",
+        "img_d": "design_process_13560261_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "PHP",
+      "skill_b_name": "UI/UX",
+      "skill_c_name": "FFMpeg",
+      "skill_d_name": "JAVASCRIPT",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "30"
+      }
+    }
+  }
+}

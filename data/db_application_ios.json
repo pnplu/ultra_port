@@ -8,8 +8,9 @@
       "email": "sakooh.tent@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560113.jpg",
-        "profile": "avatar_profile_13560113.jpg",
-        "quote": "quote_footer_13560113.jpg"
+        "profile": "avatar_13560113.jpg",
+        "quote": "quote_footer_13560113.jpg",
+        "head_preview": "head_preview_13560113.png"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=GCe4sYH0uFo&feature=youtu.be",
@@ -22,13 +23,13 @@
       "type": "Application IOS",
       "concept": "แอปพลิเคชั่นที่คุณสามารถค้นหาสินค้า หรือโปรโมชั่นที่ใกล้เคียง และสามารถรับโปรโมชั่นที่คุณต้องการผ่านระบบ QR CODE เพื่อนำไปรับโปรโมชั่นที่ ร้านค้าที่ต้องการได้ เพื่ออำนวยสะดวกสบายให้คุณ",
       "function": {
-        "function_name_a": "Shop management",
-        "function_name_b": "Find and Keep Promotion",
-        "function_name_c": "Search",
+        "function_name_a": "Search",
+        "function_name_b": "Shop Management",
+        "function_name_c": "Find and Keep Promotion",
         "discription": {
-          "fuction_dis_a": "จัดการร้านค้า สามารถเพิ่มลบหรือแก้ไข สินค้าและโปรโมชันในร้านได้",
-          "fuction_dis_b": "ค้นหาและรับโปรโมชันที่สนใจ",
-          "fuction_dis_c": "Login และ หน้าค้าหาสินค้าโดยสามารถเลือกจากหมวดหมู่หรือจากราคา"
+          "fuction_dis_a": "Login และ หน้าค้าหาสินค้าโดยสามารถเลือกจากหมวดหมู่หรือจากราคา",
+          "fuction_dis_b": "จัดการร้านค้า สามารถเพิ่มลบหรือแก้ไข สินค้าและโปรโมชันในร้านได้",
+          "fuction_dis_c": "ค้นหาและรับโปรโมชันที่สนใจ"
         },
         "image": {
           "function_img_a": "function_13560113_01.jpg",
@@ -49,10 +50,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -65,8 +66,9 @@
       "email": "mosshottest@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13550119.jpg",
-        "profile": "avatar_profile_13550119.jpg",
-        "quote": "quote_footer_13550119.jpg"
+        "profile": "avatar_13550119.jpg",
+        "quote": "quote_footer_13550119.jpg",
+        "head_preview": "head_preview_13550119.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/YQtQXTDzjwI",
@@ -106,10 +108,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -122,8 +124,9 @@
       "email": "suppalak.ck@hotmail.com",
       "image": {
         "landing_profile": "landding_profile_13560285.jpg",
-        "profile": "avatar_profile_13560285.jpg",
-        "quote": "quote_footer_13560285.jpg"
+        "profile": "avatar_13560285.jpg",
+        "quote": "quote_footer_13560285.jpg",
+        "head_preview": "head_preview_13560285.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=73uDlnrSN2Q&t=8s",
@@ -163,10 +166,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "PHP",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "10",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -179,8 +182,9 @@
       "email": "..",
       "image": {
         "landing_profile": "landding_profile_13560141.jpg",
-        "profile": "avatar_profile_13560141.jpg",
-        "quote": "quote_footer_13560141.jpg"
+        "profile": "avatar_13560141.jpg",
+        "quote": "quote_footer_13560141.jpg",
+        "head_preview": "head_preview_13560141.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=73uDlnrSN2Q&t=8s",
@@ -236,8 +240,9 @@
       "email": "arinofjung@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560314.jpg",
-        "profile": "avatar_profile_13560314.jpg",
-        "quote": "quote_footer_13560314.jpg"
+        "profile": "avatar_13560314.jpg",
+        "quote": "quote_footer_13560314.jpg",
+        "head_preview": "head_preview_13560314.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/1XmDbPY1mx8",
@@ -277,10 +282,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -293,8 +298,9 @@
       "email": "hataichanok.km@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13550249.jpg",
-        "profile": "avatar_profile_13550249.jpg",
-        "quote": "quote_footer_13550249.jpg"
+        "profile": "avatar_13550249.jpg",
+        "quote": "quote_footer_13550249.jpg",
+        "head_preview": "head_preview_13560249.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=0wl8sIZucMA",
@@ -322,10 +328,10 @@
         }
       },
       "design_process": {
-        "img_a": "design_process_13550249_01.jpg",
-        "img_b": "design_process_13550249_02.jpg",
-        "img_c": "design_process_13550249_03.jpg",
-        "img_d": "design_process_13550249_04.jpg"
+        "img_a": "design_process_13550249_01.png",
+        "img_b": "design_process_13550249_02.png",
+        "img_c": "design_process_13550249_03.png",
+        "img_d": "design_process_13550249_04.png"
       }
     },
     "skill": {
@@ -334,10 +340,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -350,8 +356,9 @@
       "email": "visarut.leelasatjarana@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560276.jpg",
-        "profile": "avatar_profile_13560276.jpg",
-        "quote": "quote_footer_13560276.jpg"
+        "profile": "avatar_13560276.jpg",
+        "quote": "quote_footer_13560276.jpg",
+        "head_preview": "head_preview_13560276.jpg"
       },
       "video": {
         "showreel": "https://youtu.be/WUiJdWHgT3s",
@@ -391,10 +398,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -407,8 +414,9 @@
       "email": "taasudapan@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560100.jpg",
-        "profile": "avatar_profile_13560100.jpg",
-        "quote": "quote_footer_13560100.jpg"
+        "profile": "avatar_13560100.jpg",
+        "quote": "quote_footer_13560100.jpg",
+        "head_preview": "head_preview_13560100.jpg"
       },
       "video": {
         "showreel": "https://www.youtube.com/watch?v=cpoS4P3o8mI&feature=youtu.be",
@@ -421,13 +429,13 @@
       "type": "Application IOS on Tablet",
       "concept": "เกมตอบคำถามหลังจากเรียนรู้จากบทเรียนแล้วจะมีเกมวัดผลการเรียนรู้ที่ได้จากบทเรียนและเพื่อเก็บสะสมเป็นคะแนนเหรียญแห่งการเรียนรู้เพื่อนำไปจัดอันดับคะแนนของผู้เล่น",
       "function": {
-        "function_name_a": "..",
-        "function_name_b": "INFOGRAPHIC ",
-        "function_name_c": "..",
+        "function_name_a": "QUESTION",
+        "function_name_b": "GAME",
+        "function_name_c": "INFOGRAPHIC",
         "discription": {
-          "fuction_dis_a": "ฝึกเป็นสุดยอดนักประหยัดไฟเพื่อรักษาพลังงานและเก็บสะสมเป็นคะแนน",
-          "fuction_dis_b": "ในขณะเล่นเกมจะมีการสอดแทรกบทเรียนขึ้นมาเพื่อให้ผู้เล่นเรียนรู้วิธีการดูแลรักษาเครื่องใช้ไฟฟ้าและวิธีการเลือกซื้อในมุมมองของผู้ใช้",
-          "fuction_dis_c": "หลังจากเรียนรู้จากบทเรียนแล้วจะมีเกมวัดผลการเรียนรู้ที่ได้จากบทเรียนและเพื่อเก็บสะสมเป็นคะแนนเหรียญแห่งการเรียนรู้เพื่อนำไปจัดอันดับคะแนนของผู้เล่น"
+          "fuction_dis_a": "หลังจากเรียนรู้จากบทเรียนแล้วจะมีเกมวัดผลการเรียนรู้ที่ได้จากบทเรียนและเพื่อเก็บสะสมเป็นคะแนนเหรียญแห่งการเรียนรู้เพื่อนำไปจัดอันดับคะแนนของผู้เล่น",
+          "fuction_dis_b": "ฝึกเป็นสุดยอดนักประหยัดไฟเพื่อรักษาพลังงานและเก็บสะสมเป็นคะแนน",
+          "fuction_dis_c": "ในขณะเล่นเกมจะมีการสอดแทรกบทเรียนขึ้นมาเพื่อให้ผู้เล่นเรียนรู้วิธีการดูแลรักษาเครื่องใช้ไฟฟ้าและวิธีการเลือกซื้อในมุมมองของผู้ใช้"
         },
         "image": {
           "function_img_a": "function_13560100_01.jpg",
@@ -448,10 +456,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   }
