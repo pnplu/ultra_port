@@ -86,7 +86,7 @@
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
-
+        <button onclick="return enableMute()" type="button" style="z-index:999; position:absolute; right:80px; top:20px;">Mute sound</button>
         <article class="col-xs-12 col-sm-10 col-md-10 discription" style="margin-top: 80px;">
           <article class="row">
             <article class="col-xs-12 col-sm-12 col-md-12 topic_top">
@@ -343,6 +343,15 @@ function play()
     $('#sound_bgm').css('display','none');
 
  }
+
+
+ var vid = document.getElementById("sound_bgm");
+
+ function enableMute() {
+     $('object').prop('muted', true);
+ }
+
+
 
 
 // hover menu

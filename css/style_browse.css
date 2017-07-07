@@ -168,7 +168,6 @@ a.a_footer_list {
 }
 .cat_profile:hover {
 	opacity: 0.48;
-	transition: 0.3s;
 }
 .discription .box_wrap_work .box_a, .discription .box_wrap_work .box_b {
 	background: #00a7a9;
@@ -188,6 +187,25 @@ h4.title {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: bold;
 	text-shadow: 0px 4px 8px #999;
+}
+.wrap_nav_top .wrap_menu_top_text ul {
+	margin-top: 28px;
+	margin-left: 155px;
+	margin-bottom: 24px;
+}
+.wrap_nav_top .wrap_menu_top_text ul a {
+	text-transform: uppercase;
+    font-weight: 900;
+    overflow: hidden;
+    line-height: 0.75;
+    color: #fff;
+    font-size:0.86em;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+.wrap_nav_top .wrap_menu_top_text ul a:hover {
+	color: #04F3C4;
 }
 
 @media screen and (max-width: 768px) {
