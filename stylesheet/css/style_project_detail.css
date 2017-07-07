@@ -172,6 +172,12 @@ html, body {
       border-color: #fff;
       float: left; }
 
+    .box_nav_top_l{
+      svg{
+        width: 400px;
+      }
+    }
+
   .bottomMenu {
     position: fixed;
     bottom: 0;
@@ -570,7 +576,7 @@ html, body {
     margin-left: 15px; }
     .wrap_footer .wrap_r_footer {
       background-color: #000000;
-      background: linear-gradient(rgba(255, 255, 255, 0.2), #000000);
+      background: linear-gradient(rgba(37, 15, 89, 0), #000000);
       height: 100px; }
       .wrap_footer .wrap_r_footer .wrap_footer_l {
         height: 100px;
@@ -620,6 +626,9 @@ html, body {
 @media screen and (min-width: 767px) {
   .tablet {
     display: block; }
+
+    .right_content {
+      display: block; }
 
   .wrap_nav_top .wrap_menu_top_text {
     font-family: 'Titillium Web', sans-serif;

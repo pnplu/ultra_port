@@ -88,7 +88,7 @@ background-size: cover;
         </nav> <!-- nav -->
       </section>
         <article class="row">
-          <article class="col-xs-12 info">
+          <article class="col-xs-5 info">
           <h3 class="heading">CREATOR</h3>
           <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
           <p class="name_eng"><?php echo $json_data["user_name"]; ?></p>
@@ -102,12 +102,28 @@ background-size: cover;
 
         <div class="video-wrap js-video-wrap">
             <div class="video-inner">
-                <video class="video-player js-video" preload="auto" muted>
+                <video class="video-player js-video" preload="auto">
                 <source src="https://d8d913s460fub.cloudfront.net/videoserver/cat-test-video-320x240.mp4" type="video/mp4" />
+                <!-- <source src="<?php echo $json_data["user_video_interview"]; ?>" type="video/mp4"> -->
                 <p>Sorry, but your browser does not support this video format.</p>
             </video>
                 <button class="action action--close js-close-video">
-                <i class="fa fa-close"></i>
+
+                  <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Nav" transform="translate(-20.000000, -422.000000)">
+                            <g id="Group" transform="translate(20.000000, 422.000000)">
+                                <g id="Group-3" fill="#04F3C4">
+                                    <rect id="Rectangle-3" x="0" y="0" width="40" height="40"></rect>
+                                </g>
+                                <path d="M20.3286755,19.3136897 L16.0149858,15 L15,16.0149858 L19.3136897,20.3286755 L15,24.6423652 L16.0149858,25.657351 L20.3286755,21.3436613 L24.6423652,25.657351 L25.657351,24.6423652 L21.3436613,20.3286755 L25.657351,16.0149858 L24.6423652,15 L20.3286755,19.3136897 Z" id="Combined-Shape" fill="#1D1D25"></path>
+                            </g>
+                        </g>
+                    </g>
+                  </svg>
                 <span class="action__label action__label--hidden">Close preview</span>
             </button>
             </div>
@@ -123,7 +139,7 @@ background-size: cover;
           <div class="loader">
               <i class="fa fa-spinner fa-pulse"></i>
           </div>
-          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 84px;">
+          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 80px;">
 
   <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
@@ -143,7 +159,11 @@ background-size: cover;
       </button>
       </div>
       <script src="js/video.js"></script>
-      <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
+      <div style="width:345px; height:215px; padding-top:10px;background-image: url('image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>'); float:right; background-repeat: no-repeat;
+    background-size: 100% 100%;">
+
+      </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
       <span>STUDENT ID</span>
       <h3 style="line-height: 2px;"><?php echo $json_data["student_id"]; ?></h3>
     </article>
@@ -158,7 +178,7 @@ background-size: cover;
       <section class="row">
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>CONCEPT</h3>
-          <p>
+          <p style="font-family: 'Kanit', sans-serif;">
             	<?php echo $json_data["work_concept"]; ?>
           </p>
         </section>
@@ -188,24 +208,24 @@ background-size: cover;
       <!-- function -->
       <section class="row">
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-12 wrap_function">
-          <h3 class="col-md-offset-2 col-md-12">FUNCTION</h3>
+          <h3 class="col-md-offset-2 col-md-4">FUNCTION</h3>
           <div class="row col-md-12" style="margin-left:auto; margin-right:auto;">
             <div class="col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_a"]; ?></h4>
-                <p><?php echo $json_data["work_fn_disc_a"]; ?></p>
+                <p style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["work_fn_disc_a"]; ?></p>
               </article>
             </div>
             <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_b"]; ?></h4>
-                <p><?php echo $json_data["work_fn_disc_b"]; ?></p>
+                <p style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["work_fn_disc_b"]; ?></p>
               </article>
             </div>
             <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_c"]; ?></h4>
-                <p><?php echo $json_data["work_fn_disc_c"]; ?></p>
+                <p style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["work_fn_disc_c"]; ?></p>
               </article>
             </div>
           </div>
@@ -217,7 +237,7 @@ background-size: cover;
           <h3>TOOL DEVELOP</h3>
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_a"]; ?> purple">
-                <span><?php echo $json_data["skill_perc_a"]; ?>%</span>
+                <span><?php echo $json_data["skill_perc_a"]; ?></span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -227,7 +247,7 @@ background-size: cover;
           </article> <!--skill 1-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_b"]; ?> white">
-                <span><?php echo $json_data["skill_perc_b"]; ?>%</span>
+                <span><?php echo $json_data["skill_perc_b"]; ?></span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -237,7 +257,7 @@ background-size: cover;
           </article> <!--skill 2-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_c"]; ?> green_r">
-                <span><?php echo $json_data["skill_perc_c"]; ?>%</span>
+                <span><?php echo $json_data["skill_perc_c"]; ?></span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -247,7 +267,7 @@ background-size: cover;
           </article> <!--skill 3-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_d"]; ?> red_r">
-                <span><?php echo $json_data["skill_perc_d"]; ?>%</span>
+                <span><?php echo $json_data["skill_perc_d"]; ?></span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
@@ -258,7 +278,7 @@ background-size: cover;
         </section>
       </section> <!-- tool develop -->
       <!-- Develop by -->
-      <section class="row">
+      <section class="row" style="margin-bottom:100px;">
         <section class="col-xs-12 wrap_dev_by">
           <h3 class="row col-sm-offset-3 col-sm-6">DEVELOPED BY</h3>
           <section class="row">

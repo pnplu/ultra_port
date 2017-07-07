@@ -173,7 +173,7 @@ display: none;
               height: 0;
               // background-color: #FFFFFF;
               border-right: 10px solid transparent;
-              border-top: 25px solid #000000;
+              border-top: 150px solid #000000;
               position: relative;
               .user_pinterest{
                 font-family: 'Titillium Web', sans-serif;
@@ -214,6 +214,13 @@ display: none;
       float: left;
     }
   }
+  .box_nav_top_l{
+    svg{
+      width: 50%;
+      height: 50%;
+    }
+  }
+
 
   //hide footer
   .bottomMenu {
