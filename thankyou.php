@@ -21,6 +21,7 @@
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
 
@@ -55,6 +56,7 @@
       <section class="row">
         <article class="col-xs-2 col-sm-1 col-md-2 side_l_page">
 
+          <a href="index.php">
           <!-- logo-effect -->
           <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
@@ -71,6 +73,7 @@
                   </g>
               </g>
           </svg><!-- logo-effect -->
+          </a>
           <p>
             INTERACTIVE MEDIA DESIGN<br>
             ICTSILPAKORN
@@ -86,7 +89,7 @@
         </article> <!-- menu -->
 
         <div class="thank_all">
-      <p>
+      <p style="font-family: 'Kanit', sans-serif;">
       ผู้ช่วยศาสตราจารย์ ดร.วันชัย  สุทธะนันท์<br>
       อธิการบดีมหาวิทยาลัยศิลปากร
       <br><br>
@@ -94,9 +97,9 @@
       คณบดีคณะเทคโนโลยีสารสนเทศและการสื่อสาร
       </p>
 
-      <h5>คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
+      <h5 style="font-family: 'Kanit', sans-serif;">คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
 
-      <section class="group">
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
         <ul>
           <li>กลุ่มที่ 1</li>
           <li>อาจารย์รักชนก สุขะกาลนันท์</li>
@@ -109,7 +112,7 @@
         </ul>
       </section>
 
-      <section class="group">
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
         <ul>
           <li>กลุ่มที่ 2</li>
           <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
@@ -121,7 +124,7 @@
         </ul>
       </section>
 
-      <section class="group">
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
         <ul>
           <li>กลุ่มที่ 3</li>
           <li>อาจารย์อรวรรณ ประพฤติดี</li>
@@ -134,7 +137,7 @@
         </ul>
       </section>
 
-      <section class="group">
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
         <ul>
           <li>กลุ่มที่ 4</li>
           <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
@@ -146,44 +149,44 @@
         </ul>
       </section>
 
-    </div></div>
-    <div class="group2"><img src="img/spon22.png"> </div>
-    <div class="group3"><img src="img/spon1.png"><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
+    </div>
+    <div class="group2" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon22.png"> </div>
+    <div class="group3" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon1.png"><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
 Central Pattana Public Company Limited<br>
 centralworld.co.th<br>
 facebook.com/CentralWorld<br>
 Tel : 02-100-9999 </div>
-    <div class="group1"><img src="img/spon3.png"><br>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด <br>
+    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon3.png"><br>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด <br>
 Thai petroleum support co. ltd<br>
 txppetro.com/our-company<br>
 Tel : 02-287-3077<br>
 Email : contact@txppetro.com</div>
-    <div class="group4"><img src="img/spon4.png"><br>บริษัท มิวซ์ อินโนเวชั่น จำกัด <br>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon4.png"><br>บริษัท มิวซ์ อินโนเวชั่น จำกัด <br>
 Muze innovation co. ltd<br>
 muzeinnovation.com/<br>
 facebook.com/muzeinnovation<br>
 Email : info@mymuze.me  </div>
-    <div class="group4"><img src="img/spon5.png"><br>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด<br>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon5.png"><br>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด<br>
 uppercuz.com<br>
 facebook.com/uppercuzcreative/<br>
 Tel : 087-378-6070 <br>
 Email : contact@uppercuz.com </div>
-    <div class="group1"><img src="img/spon6.png"><br>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</div>
-    <div class="group4"><img src="img/spon7.png"><br>PAGE-QQ<br>
+    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon6.png"><br>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</div>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon7.png"><br>PAGE-QQ<br>
 บริษัท SERV 4 BIZ จำกัด<br>
 facebook.com/PageQQ<br>
 Tel : 081-842-9422<br>
 Email : support@pageqq.com  </div>
-    <div class="group4"><img src="img/spon8.png"><br>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด<br>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon8.png"><br>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด<br>
 dek-d.com/<br>
 facebook.com/DekDfc/<br>
 Tel : 02-860-1142<br>
 Email : contact@dek-d.com </div>
-    <div class="group1"><img src="img/spon9.png"><br>บริษัท ดัค แล็บ จำกัด <br>
+    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon9.png"><br>บริษัท ดัค แล็บ จำกัด <br>
 ducklab.co.th<br>
 Tel : 081-443-3618<br>
 Email : manager@ducklab.co.th </div>
-    <div class="group4"><img src="img/spon10.png"><br>LACTASOY<br>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon10.png"><br>LACTASOY<br>
 lactasoy.com/th/<br>
 facebook.com/lactasoyclub<br>
 Tel : 02-396-0320-7<br>
