@@ -1,3 +1,15 @@
+<?php
+
+  require_once __DIR__."/app/autoload.php";
+  use Ultraline\Database;
+
+  $stu_id = $_GET["stu_id"];
+
+  $conn = new Database();
+  $json_data = $conn->db_application_user($stu_id);
+
+ ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,7 +42,7 @@
   </head>
   <body>
     <div id="large-header" class="large-header">
-      <canvas id="demo-canvas" style="background-image: url('image_web/profile_head_web.jpg'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
+      <canvas id="demo-canvas" style="background-image: url('image_user/landing_profile/<?php echo $json_data["user_img_lannding"] ?>'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
@@ -78,11 +90,11 @@ background-size: cover;
         <article class="row">
           <article class="col-xs-12 info">
           <h3 class="heading">CREATOR</h3>
-          <h2 class="name_thai">นายวรวลัญช์ ขันตี</h2>
-          <p class="name_eng">WORAWALUN KHANTEE</p>
+          <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
+          <p class="name_eng"><?php echo $json_data["user_name"]; ?></p>
           <article class="wrap_sec_user_pin cate">
                   <article class="wrap_user_pinterest">
-                    <span class="user_pinterest">WEB APPLICATION</span>
+                    <span class="user_pinterest"><?php echo $json_data["work_type"]; ?></span>
                   </article> <!-- wrap_user_footer -->
           </article>
           </article>
@@ -133,13 +145,13 @@ background-size: cover;
       <script src="js/video.js"></script>
       <img src="image_web/videoshowreel_thumb.jpg" style="padding-top:10px;"><br><br>
       <span>STUDENT ID</span>
-      <h3 style="line-height: 2px;">13560261</h3>
+      <h3 style="line-height: 2px;"><?php echo $json_data["student_id"]; ?></h3>
     </article>
     </article>
       <!-- banner -->
       <section class="row">
         <article class="col-xs-12 wrap_banner" style="margin-left: -15px;">
-          <img class="row" src="image_web/mock_banner_work.png" alt="banner_work">
+          <img class="row" src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work">
         </article>
       </section> <!-- banner -->
       <!-- concept -->
@@ -147,7 +159,7 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>CONCEPT</h3>
           <p>
-            	Travelmate แอปพลิเคชันส่งเสริมกิจกรรมและการท่องเที่ยวสำหรับครอบครัวและเด็ก ที่จะคอยเป็นคู่หูให้คำแนะนำครอบครัวที่ต้องการพาลูกๆออกไปทำกิจกรรมและท่องเที่ยวร่วมกัน ดังนั้น คุณจึงไม่ต้องกังวลเกี่ยวกับการเดินทางเลย เพราะคุณมี "Travelmate คู่หูการท่องเที่ยวสำหรับครอบครัว"
+            	<?php echo $json_data["work_concept"]; ?>
           </p>
         </section>
       </section> <!-- concept -->

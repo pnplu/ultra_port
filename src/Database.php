@@ -36,6 +36,7 @@ Class Database {
     $user_img_lannding = $data_in_json_ios["user"]["image"]["landing_profile"];
     $user_img_avatar = $data_in_json_ios["user"]["image"]["profile"];
     $user_img_quote = $data_in_json_ios["user"]["image"]["quote"];
+    $user_img_head = $data_in_json_ios["user"]["image"]["head_preview"];
     $user_video_showreel = $data_in_json_ios["user"]["video"]["showreel"];
     $user_video_interview = $data_in_json_ios["user"]["video"]["interview"];
     //parameter data work
@@ -75,6 +76,7 @@ Class Database {
                             'user_img_lannding' => $user_img_lannding,
                             'user_img_avatar' => $user_img_avatar,
                             'user_img_quote' => $user_img_quote,
+                            'user_img_head' => $user_img_head,
                             'user_video_showreel' => $user_video_showreel,
                             'user_video_interview' => $user_video_interview,
                             'work_name' => $work_name,

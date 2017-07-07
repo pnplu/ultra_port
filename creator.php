@@ -62,7 +62,7 @@ $data_user = $conn->db_application_catagory($catagory_id);
           <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
             <!-- <article class="row"> -->
               <article class="image_people">
-                <img src="<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
+                <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
                   <button type="button">VIEW PROJECT</button>
               </article>
             <!-- </article> -->
