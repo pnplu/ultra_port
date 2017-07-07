@@ -13,25 +13,22 @@
         <nav class="col-xs-12">
           <article class="col-xs-12">
             <p class="title animated fadeInDown">WHAT WE DO</p>
-            <p><a href="" class="a_list link--kukuri" data-letters="APPLICATION iOS">APPLICATION iOS</a></p>
-            <p><a href="" class="a_list link--kukuri" data-letters="UNITY ARDUINO">UNITY ARDUINO</a></p>
-            <p><a href="" class="a_list link--kukuri" data-letters="UNITY KINECT">UNITY KINECT</a></p>
-            <p><a href="" class="a_list link--kukuri" data-letters="ON TABLET">ON TABLET</a></p>
-            <p><a href="" class="a_list link--kukuri" data-letters="ANDROID">ANDROID</a></p>
-            <p><a href="" class="a_list link--kukuri" data-letters="WEB MOBILE">WEB MOBILE</a></p>
-            <p><a href="" class="a_list link--kukuri" data-letters="WEB BASE ON DESKTOP">WEB BASE ON DESKTOP</a></p>
+            <p><a href="creator.php?cat_id=5" class="a_list link--kukuri" data-letters="APPLICATION iOS">APPLICATION iOS</a></p>
+            <p><a href="creator.php?cat_id=4" class="a_list link--kukuri" data-letters="UNITY KINECT">WEB BASE ON DESKTOP</a></p>
+            <p><a href="creator.php?cat_id=3" class="a_list link--kukuri" data-letters="ON TABLET">WEB MOBILE</a></p>
+            <p><a href="creator.php?cat_id=2" class="a_list link--kukuri" data-letters="ANDROID">ANDROID</a></p>
+            <p><a href="creator.php?cat_id=5" class="a_list link--kukuri" data-letters="WEB MOBILE">UNITY KINECT</a></p>
+            <p><a href="creator.php?cat_id=6" class="a_list link--kukuri" data-letters="WEB BASE ON DESKTOP">INTERACTIVE</a></p>
             <p class="sponsor_mobile"><img src="banner/all.png"></p>
           </article>
           <article class="browse_right">
             <article class="browse_album">
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
-              <div class="browse_list"><img src="image_web/mock_banner_work.png"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_user/function/function_13560113_01.jpg" id="db_application_ios"><span class="cover"></span><p class="title">APPLICATION iOS</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_user/function/function_13560190_01.jpg" id="db_application_base_on_desktop"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_user/function/function_13550631_01.jpg" id="db_application_web_mobile"><span class="cover"></span><p class="title">WEB MOBILE</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_user/function/function_13540644_01.jpg" id="db_application_android"><span class="cover"></span><p class="title">ANDROID</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_user/function/function_13560120_01.jpg" id="db_application_unity_kinect"><span class="cover"></span><p class="title">UNITY KINECT</p><span class="tag">12 CREATOR</span></div>
+              <div class="browse_list"><img src="image_user/function/function_13550255_01.jpg" id="db_application_interactive"><span class="cover"></span><p class="title">INTERACTIVE</p><span class="tag">12 CREATOR</span></div>
             </article>
           </article>
         </nav> 

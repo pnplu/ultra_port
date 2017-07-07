@@ -199,16 +199,17 @@ body {
 }
 
 .thank_all {
-  width: 1000px; 
+  width: 100%; 
   margin: 20px auto;
-  margin-left: 22%;
   height: auto;
   color: #FFF;
   font-size: 12pt; 
 margin-top: 7%;}
 
 .thank_all p{
-  text-align: center;}
+  text-align: center;
+  margin: 100px 0 10px;
+}
 
 .thank_all h5{
   padding: 20px;
@@ -217,10 +218,48 @@ margin-top: 7%;}
 }
 
 .group{
-  width: 23%;
+  width: 20%;
   float: left;
   line-height: 18pt;
   margin-bottom: 20px;
+  color: #fff;
+
+}
+.group1{
+  width: 28%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group2{
+  width: 35%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 25%;
+  padding-top: 6%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group3{
+  width: 35%;
+  float: left;
+  line-height: 18pt;
+  margin-left: -10%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group4{
+  width: 25%;
+  float: left;
+  line-height: 18pt;
+  margin-left: -5%;
+  margin-bottom: 50px;
+  color: #fff;
 
 }
 
@@ -234,55 +273,99 @@ margin-top: 7%;}
   padding-bottom: 20px; }
 
 /* line 201, ../sass/thank.scss */
-
-
-
-@media screen and (max-width: 1023px) {
-  .header .bg_1  , .header .bg_2{
-    display: none;}
-
-  .thank_all {
-    width: 100%;
-  }
-
+@media screen and (max-width: 1100px) {
   .group{
-    width: calc(100% - 200px); 
-    text-align: center; 
-    padding: 20px;
-    margin-bottom: 0; }
+    height: 200px;
+  width: 40%;
+  margin-left: 1%
+  margin-bottom: 5%;
 }
+.group1{
+  width: 28%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  color: #fff;
 
-@media screen and (max-width: 1000px) {
-  .group{
-    width: 1000px; 
-    text-align: left;
-    margin-left: 18%; }
-    .thank_all {
-    width: 50%;
-  }
 }
+.group2{
+  width: 35%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 25%;
+  padding-top: 6%;
+  margin-bottom: 50px;
+  color: #fff;
 
+}
+.group3{
+  width: 35%;
+  float: left;
+  line-height: 18pt;
+  margin-left: -5%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group4{
+  width: 25%;
+  float: left;
+  line-height: 18pt;
+  margin-left: -5%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+}
 @media screen and (max-width: 780px) {
   .group{
-    width: 500px; 
-    text-align: left;
-    margin-left: 35%}
-    .thank_all {
-    width: 100%;
-    margin-left: -4%;
-    margin-top: 10%; }
+    height: 200px;
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.group1{
+  width: 100%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group2{
+  width: 100%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 25%;
+  padding-top: 6%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group3{
+  width: 100%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
+.group4{
+  width: 100%;
+  float: left;
+  line-height: 18pt;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  color: #fff;
+
+}
 }
 
-@media screen and (max-width: 550px) {
-  .group{
-    width: 500px; 
-    margin-left: 14%;
-    text-align: left;}
-    .thank_all {
-    width: 100%;
-    margin-left: -4%;
-    margin-top: 18%; }
-}
+
+
 
 /*# sourceMappingURL=contact.css.map */
 

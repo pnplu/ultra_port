@@ -91,8 +91,7 @@ background-size: cover;
           <article class="col-xs-5 info">
           <h3 class="heading">CREATOR</h3>
           <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
-          <p class="name_eng"><?php echo $json_data["user_name"]; ?></p>
-          <article class="wrap_sec_user_pin cate">
+          <article class="wrap_sec_user_pin cate" style="margin-top: -30px;">
                   <article class="wrap_user_pinterest">
                     <span class="user_pinterest"><?php echo $json_data["work_type"]; ?></span>
                   </article> <!-- wrap_user_footer -->
@@ -139,7 +138,7 @@ background-size: cover;
           <div class="loader">
               <i class="fa fa-spinner fa-pulse"></i>
           </div>
-          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 80px;">
+          <button class="action action--hidden action--play js-play-video" style="margin-right: 100px; margin-top: 60px;">
 
   <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
@@ -178,7 +177,7 @@ background-size: cover;
       <section class="row">
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>CONCEPT</h3>
-          <p>
+          <p style="font-family: 'Kanit', sans-serif; font-size:1em;">
             	<?php echo $json_data["work_concept"]; ?>
           </p>
         </section>
@@ -213,24 +212,40 @@ background-size: cover;
             <div class="col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_a"]; ?></h4>
-                <p><?php echo $json_data["work_fn_disc_a"]; ?></p>
+                <p style="font-family: 'Kanit', sans-serif; font-size:1em;"><?php echo $json_data["work_fn_disc_a"]; ?></p>
               </article>
             </div>
             <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_b"]; ?></h4>
-                <p><?php echo $json_data["work_fn_disc_b"]; ?></p>
+                <p style="font-family: 'Kanit', sans-serif; font-size:1em;"><?php echo $json_data["work_fn_disc_b"]; ?></p>
               </article>
             </div>
             <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_c"]; ?></h4>
-                <p><?php echo $json_data["work_fn_disc_c"]; ?></p>
+                <p style="font-family: 'Kanit', sans-serif; font-size:1em;"><?php echo $json_data["work_fn_disc_c"]; ?></p>
               </article>
             </div>
           </div>
         </section>
       </section> <!-- function -->
+
+      <section class="row">
+        <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
+          <h3>SHOWREEL</h3>
+        <div class="box-video" style="">
+            <div class="bg-video" style="background-image: url(image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>);">
+                <div class="bt-play">Play</div>
+            </div>
+            <div class="video-container">
+                <iframe width="590" height="332" src="https://www.youtube.com/embed/OPtRe2DKvjI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+        </div>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="js/youtube.js"></script>
+      </section>
+      </section>
       <!-- tool develop -->
       <section class="row">
         <section class="col-xs-12 col-sm-offset-3 col-sm-6 wrap_tool">
@@ -305,7 +320,7 @@ background-size: cover;
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
               <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> </p>
-              <p style="font-size:0.8em; margin-top:-15px;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
+              <p style="font-size:0.8em; margin-top:-15px;text-transform: uppercase;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
             </article> <!-- wrap_footer_r -->
             <article class="col-sm-2 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
