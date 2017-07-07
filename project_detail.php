@@ -161,8 +161,8 @@ background-size: cover;
       <!-- <div style="width:345px; height:215px; padding-top:10px;background-image: url('image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>'); float:right; background-repeat: no-repeat;
     background-size: 100% 100%;">
       </div> -->
-        <br><br><br><br><br><br><br><br><br><br><br>
-          <iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; width: 35%; height: auto; margin-top: -130px;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+        <br>
+          <iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; height: auto;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           <br><br><br><br>
       <span>STUDENT ID</span>
       <h3 style="line-height: 2px;"><?php echo $json_data["student_id"]; ?></h3>

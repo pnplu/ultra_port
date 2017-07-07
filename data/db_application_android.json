@@ -57,6 +57,64 @@
       }
     }
   },
+  "13560167":{
+    "student_id": "13560167",
+    "user": {
+      "name": "Dara Manirattanachot",
+      "motivation_quote": "Life is like riding a bicycle. To keep your balance, you must keep moving ― Albert Einstein",
+      "facebook": "benzene9119",
+      "email": "benbencrt@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560167.jpg",
+        "profile": "avatar_13560167.jpg",
+        "quote": "quote_footer_13560167.jpg",
+        "head_preview": "head_preview_13560167.jpg"
+      },
+      "video": {
+        "showreel": "https://drive.google.com/open?id=0B6szrd6POkwcVzkycHpyWG13RU0",
+        "interview": "https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fultraline11.3%2Fvideos%2F978628102173661%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันแนะนำเส้นทางด้วยเสียง บนระบบปฏิบัติการแอนดรอยด์ กรณีศึกษาเส้นทางจักรยานท่องเที่ยวฝั่งธนบุรี",
+      "project_name": "THONBURI BIKE GO",
+      "type": "Application Android",
+      "concept": "แอปพลิชันที่ช่วยในการแจ้งเตือนเส้นทาง การปั่นจักรยานท่องเที่ยวบริเวณฝั่งธนบุรี ด้วยสัญญาณเสียงตามระยะทาง และแนะนำสถานที่ท่องเที่ยวตามเส้นทางการปั่นให้แก่นักปั่นจักรยานหรือผู้ที่สนใจปั่นจักรยานบริเวณนั้น",
+      "function": {
+        "function_name_a": "To notify the users while biking",
+        "function_name_b": "Provide advice",
+        "function_name_c": "Helps to find route with voice guidance",
+        "discription": {
+          "fuction_dis_a": "แจ้งเตือนเส้นทางขณะปั่นจักรยาน ตามระยะทาง",
+          "fuction_dis_b": "แนะนำเส้นทางและสถานที่ท่องเที่ยว ฝั่งธนบุรี",
+          "fuction_dis_c": "ช่วยในการค้นหาและบอกเส้นทางด้วยเสียง"
+        },
+        "image": {
+          "function_img_a": "function_13560167_01.jpg",
+          "function_img_b": "function_13560167_02.jpg",
+          "function_img_c": "function_13560167_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560167_01.jpg",
+        "img_b": "design_process_13560167_02.jpg",
+        "img_c": "design_process_13560167_03.jpg",
+        "img_d": "design_process_13560167_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "PHP",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "JSON",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "20"
+      }
+    }
+  } ,
   "13560259": {
     "student_id": "13560259",
     "user": {
@@ -228,63 +286,6 @@
         "skill_b_percent": "30",
         "skill_c_percent": "20",
         "skill_d_percent": "10"
-      }
-    }
-  },
-  "13560167": {
-    "student_id": "13560167",
-    "user": {
-      "name": "Dara Manirattanachot",
-      "motivation_quote": "Life is like riding a bicycle. To keep your balance, you must keep moving ― Albert Einstein",
-      "facebook": "benzene9119",
-      "email": "benbencrt@gmail.com",
-      "image": {
-        "landing_profile": "landding_profile_13560167.jpg",
-        "profile": "avatar_13560167.jpg",
-        "quote": "quote_footer_13560167.jpg",
-        "head_preview": "head_preview_13560167.jpg"
-      },
-      "video": {
-        "showreel": "https://drive.google.com/open?id=0B6szrd6POkwcVzkycHpyWG13RU0",
-        "interview": "https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fultraline11.3%2Fvideos%2F978628102173661%2F&show_text=0&width=560"
-    },
-    "work": {
-      "name": "แอปพลิเคชันแนะนำเส้นทางด้วยเสียง บนระบบปฏิบัติการแอนดรอยด์ กรณีศึกษาเส้นทางจักรยานท่องเที่ยวฝั่งธนบุรี",
-      "project_name": "THONBURI BIKE GO",
-      "type": "Application Android",
-      "concept": "แอปพลิชันที่ช่วยในการแจ้งเตือนเส้นทาง การปั่นจักรยานท่องเที่ยวบริเวณฝั่งธนบุรี ด้วยสัญญาณเสียงตามระยะทาง และแนะนำสถานที่ท่องเที่ยวตามเส้นทางการปั่นให้แก่นักปั่นจักรยานหรือผู้ที่สนใจปั่นจักรยานบริเวณนั้น",
-      "function": {
-        "function_name_a": "To notify the users while biking",
-        "function_name_b": "Provide advice",
-        "function_name_c": "Helps to find route with voice guidance",
-        "discription": {
-          "fuction_dis_a": "แจ้งเตือนเส้นทางขณะปั่นจักรยาน ตามระยะทาง",
-          "fuction_dis_b": "แนะนำเส้นทางและสถานที่ท่องเที่ยว ฝั่งธนบุรี",
-          "fuction_dis_c": "ช่วยในการค้นหาและบอกเส้นทางด้วยเสียง"
-        },
-        "image": {
-          "function_img_a": "function_13560167_01.jpg",
-          "function_img_b": "function_13560167_02.jpg",
-          "function_img_c": "function_13560167_03.jpg"
-        }
-      },
-      "design_process": {
-        "img_a": "design_process_13560167_01.jpg",
-        "img_b": "design_process_13560167_02.jpg",
-        "img_c": "design_process_13560167_03.jpg",
-        "img_d": "design_process_13560167_04.jpg"
-      }
-    },
-    "skill": {
-      "skill_a_name": "ANDROID STUDIO",
-      "skill_b_name": "PHP",
-      "skill_c_name": "MYSQL",
-      "skill_d_name": "JSON",
-      "percent": {
-        "skill_a_percent": "40",
-        "skill_b_percent": "20",
-        "skill_c_percent": "20",
-        "skill_d_percent": "20"
       }
     }
   },
@@ -520,5 +521,4 @@
       }
     }
   }
-}
 }
