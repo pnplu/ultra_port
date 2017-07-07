@@ -131,7 +131,7 @@
                     <span class="cover_index"></span>
                     <img id="db_application_ios" src="image_user/function/function_13560113_01.jpg" class="cat_profile">
                     <div class="box_count">
-                      <p>12 CREATOR</p>
+                      <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                     </div>
                   </div>
                 </article>
@@ -143,7 +143,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_base_on_desktop" src="image_user/avatar/avatar_13560190.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -155,7 +155,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_web_mobile" src="image_user/function/function_13550631_01.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -167,7 +167,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_android" src="image_user/avatar/avatar_13540644.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -179,7 +179,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_unity_kinect" src="image_user/function/function_13560120_01.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -191,7 +191,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_interactive" src="image_user/avatar/avatar_13550255.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -211,7 +211,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_base_on_desktop" src="image_user/function/function_13560190_01.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
                   </article>
@@ -222,7 +222,7 @@
                   <div class="box_cate">
                     <h4>BASE ON DESKTOP</h4>
                     <div class="box_count">
-                      <p>12 CREATOR</p>
+                      <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                     </div>
                   </div>
                 </article>
@@ -232,7 +232,7 @@
                   <div class="box_cate">
                     <h4>WEB MOBILE</h4>
                     <div class="box_count">
-                      <p>12 CREATOR</p>
+                      <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                     </div>
                   </div>
                 </article>
@@ -242,7 +242,7 @@
               <div class="box_cate">
                 <h4>ANDROID</h4>
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -252,7 +252,7 @@
               <div class="box_cate">
                 <h4>INTERACTIVE</h4>
                 <div class="box_count">
-                  <p>12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -300,7 +300,7 @@
   <source src="audio/hover_effect.ogg"></source>
   </audio>
 
-<div id="sounddiv"><bgsound id="sound"></div>
+<div id="sounddiv" style="opacity:0;"><bgsound id="sound"></div>
 
 <!-- Creator hover -->
 <script src="js/anime.min.js"></script>
@@ -334,10 +334,13 @@ function myFunction() {
 function play()
  {
    var embed=document.createElement('object');
+    embed.setAttribute('id','sound_bgm');
     embed.setAttribute('type','audio/mp3');
     embed.setAttribute('data', 'audio/sound_background.mp3');
     embed.setAttribute('autostart', true);
     document.getElementsByTagName('body')[0].appendChild(embed);
+
+    $('#sound_bgm').css('display','none');
 
  }
 
