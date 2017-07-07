@@ -15,7 +15,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
-    <title>Project Detail</title>
+    <title><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> ULTRA LINE 11.3 Graduate Exhibition</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_project_detail.css">
     <link rel="stylesheet" href="css/style_browse.css">
@@ -133,7 +133,7 @@ background-size: cover;
 
     <article class="row right_content">
     <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -400px;">
-      <span>VIDEO SHOWREEL</span><br>
+      <br><br><span>VIDEO INTERVIEW</span><br>
       <div class="col-xs-11" style="position: absolute;">
           <div class="loader">
               <i class="fa fa-spinner fa-pulse"></i>
@@ -235,7 +235,7 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-3 col-md-6 wrap_concept">
           <h3>SHOWREEL</h3>
         <div class="box-video" style="">
-            <div class="bg-video" style="background-image: url(image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>);">
+            <div class="bg-video" style="background-image: url(image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>); z-index:2;">
                 <div class="bt-play">Play</div>
             </div>
             <div class="video-container">
