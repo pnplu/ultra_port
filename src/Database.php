@@ -136,7 +136,7 @@ Class Database {
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "3") {
-        $paht_web = "data/data/db_application_web_mobile.json";
+        $paht_web = "data/db_application_web_mobile.json";
         $con_json = file_get_contents($paht_web);
         $json_data = json_decode($con_json, TRUE);
       }

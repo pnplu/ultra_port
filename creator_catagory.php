@@ -7,6 +7,28 @@ $catagory_id = $_GET["cat_id"];
 
 $conn = new Database();
 $data_user = $conn->db_application_catagory($catagory_id);
+function catagory_name($catagory_id) {
+  if($catagory_id === "1") {
+    $name_cat = "APPLICATION IOS";
+  }
+  if($catagory_id === "2") {
+    $name_cat = "ANDROID";
+  }
+  if($catagory_id === "3") {
+    $name_cat = "WEB MOBILE";
+  }
+  if($catagory_id === "4") {
+    $name_cat = "BASE ON DESKTOP";
+  }
+  if($catagory_id === "5") {
+    $name_cat = "UNITY KINECT";
+  }
+  if($catagory_id === "6") {
+    $name_cat = "INTERACTIVE";
+  }
+
+  return $name_cat;
+}
  ?>
 
 <!DOCTYPE html>
@@ -62,7 +84,7 @@ $data_user = $conn->db_application_catagory($catagory_id);
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
-                  <button type="button">VIEW PROJECT</button>
+                  <a href="project_detail.php?stu_id=<?php echo $value["student_id"]; ?>"><button type="button">VIEW PROJECT</button></a>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
@@ -90,10 +112,10 @@ $data_user = $conn->db_application_catagory($catagory_id);
             <article class="col-xs-9 col-sm-10 col-md-11 wrap_footer_r">
               <p>HOME > CATEGORY > APPLICATION IOS</p>
               <article class="wrap_topic_footer">
-                <span class="topic_footer">Application IOS</span>
+                <span class="topic_footer"><?php echo catagory_name($catagory_id); ?></span>
               </article>
               <article class="wrap_user_footer">
-                <span class="user_footer">12 CREATOR</span>
+                <span class="user_footer"><?php echo count($data_user); ?> CREATOR</span>
               </article> <!-- wrap_user_footer -->
             </article> <!-- wrap_footer_r -->
           </article> <!-- wrap_r_footer -->
