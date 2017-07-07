@@ -190,22 +190,22 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-12 wrap_function">
           <h3 class="col-md-offset-2 col-md-12">FUNCTION</h3>
           <div class="row col-md-12" style="margin-left:auto; margin-right:auto;">
-            <div class="col-sm-10"><img src="image_web/function_13560261_03.jpg" alt="" style="max-width:100%;">
+            <div class="col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
-              <h4>GENERATE PDF</h4>
-                <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+              <h4><?php echo $json_data["work_fn_name_a"]; ?></h4>
+                <p><?php echo $json_data["work_fn_disc_a"]; ?></p>
               </article>
             </div>
-            <div class="col-sm-5"><img src="image_web/function_13560261_01.jpg" alt="" style="max-width:100%;">
+            <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
-              <h4>GENERATE PDF</h4>
-                <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+              <h4><?php echo $json_data["work_fn_name_b"]; ?></h4>
+                <p><?php echo $json_data["work_fn_disc_b"]; ?></p>
               </article>
             </div>
-            <div class="col-sm-5"><img src="image_web/function_13560261_02.jpg" alt="" style="max-width:100%;">
+            <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
-              <h4>GENERATE PDF</h4>
-                <p>ฟังก์ชั่นช่วยในการบันทึกภาพการเดินทาง และ ช่วยในการวางแผนการเดินทาง</p>
+              <h4><?php echo $json_data["work_fn_name_c"]; ?></h4>
+                <p><?php echo $json_data["work_fn_disc_c"]; ?></p>
               </article>
             </div>
           </div>
@@ -216,44 +216,44 @@ background-size: cover;
         <section class="col-xs-12 col-sm-offset-3 col-sm-6 wrap_tool">
           <h3>TOOL DEVELOP</h3>
           <article class="col-xs-3">
-            <article class="c100 p78 purple">
-                <span>78%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_a"]; ?> purple">
+                <span><?php echo $json_data["skill_perc_a"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>PHP</p>
+            <p><?php echo $json_data["skill_name_a"]; ?></p>
           </article> <!--skill 1-->
           <article class="col-xs-3">
-            <article class="c100 p82 white">
-                <span>82%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_b"]; ?> white">
+                <span><?php echo $json_data["skill_perc_b"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>SWIFT</p>
+            <p><?php echo $json_data["skill_name_b"]; ?></p>
           </article> <!--skill 2-->
           <article class="col-xs-3">
-            <article class="c100 p92 green_r">
-                <span>92%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_c"]; ?> green_r">
+                <span><?php echo $json_data["skill_perc_c"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>MYSQL</p>
+            <p><?php echo $json_data["skill_name_c"]; ?></p>
           </article> <!--skill 3-->
           <article class="col-xs-3">
-            <article class="c100 p68 red_r">
-                <span>68%</span>
+            <article class="c100 p<?php echo $json_data["skill_perc_d"]; ?> red_r">
+                <span><?php echo $json_data["skill_perc_d"]; ?>%</span>
                 <article class="slice">
                     <article class="bar"></article>
                     <article class="fill"></article>
                 </article>
             </article>
-            <p>JSON</p>
+            <p><?php echo $json_data["skill_name_d"]; ?></p>
           </article> <!--skill 4-->
         </section>
       </section> <!-- tool develop -->
@@ -263,13 +263,13 @@ background-size: cover;
           <h3 class="row col-sm-offset-3 col-sm-6">DEVELOPED BY</h3>
           <section class="row">
             <article class="col-xs-12 img_dev_user">
-              <img src="image_web/mock_dev_user.jpg" alt="img_user">
+              <img src="image_user/quote_footer/<?php echo $json_data["user_img_quote"]; ?>" alt="img_user">
             </article>
           </section>
           <article class="col-xs-offset-1 col-xs-10 col-md-4 wrap_quote_user">
             <h4>"MOTIVATION <br> QUOTE</h4>
             <p>
-              	Be careful what you believe because that is what you will experience. Your belief
+              	<?php echo $json_data["user_quote"]; ?>
             </p>
           </article>
         </section>

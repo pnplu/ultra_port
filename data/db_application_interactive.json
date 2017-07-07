@@ -34,7 +34,7 @@
         "image": {
           "function_img_a": "function_13560120_01.jpg",
           "function_img_b": "function_13560120_02.jpg",
-          "function_img_c": "function_13560120_03.jpg"
+          "function_img_c": "function_13560120_03.png"
         }
       },
       "design_process": {
@@ -50,10 +50,10 @@
       "skill_c_name": "AE",
       "skill_d_name": "AI",
       "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "5%",
-        "skill_d_percent": "45%"
+        "skill_a_percent": "30",
+        "skill_b_percent": "20",
+        "skill_c_percent": "5",
+        "skill_d_percent": "45"
       }
     }
   },
@@ -68,7 +68,7 @@
         "landing_profile": "landding_profile_13560181.jpg",
         "profile": "avatar_13560181.jpg",
         "quote": "quote_footer_13560181.jpg",
-        "head_preview": "head_preview_13560181.jpg"
+        "head_preview": "head_preview_13560181.png"
       },
       "video": {
         "showreel": "https://youtu.be/IdjFv8Kug3A",
@@ -108,10 +108,10 @@
       "skill_c_name": "AE",
       "skill_d_name": "UNITY",
       "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "30%"
+        "skill_a_percent": "30",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "30"
       }
     }
   },
@@ -166,10 +166,10 @@
       "skill_c_name": "AE",
       "skill_d_name": "UNITY",
       "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "30%"
+        "skill_a_percent": "30",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "30"
       }
     }
   },
@@ -224,10 +224,10 @@
       "skill_c_name": "AE",
       "skill_d_name": "AI",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "40%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "40"
       }
     }
   },
@@ -282,10 +282,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "UNITY",
       "percent": {
-        "skill_a_percent": "30%",
-        "skill_b_percent": "40%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "30",
+        "skill_b_percent": "40",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -340,10 +340,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "MYSQL",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "30",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -398,10 +398,10 @@
       "skill_c_name": "AI",
       "skill_d_name": "AE",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "5%",
-        "skill_c_percent": "35%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "5",
+        "skill_c_percent": "35",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -456,10 +456,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "AI",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "5%",
-        "skill_c_percent": "30%",
-        "skill_d_percent": "15%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "5",
+        "skill_c_percent": "30",
+        "skill_d_percent": "15"
       }
     }
   },
@@ -514,10 +514,10 @@
       "skill_c_name": "AI",
       "skill_d_name": "XCODE",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -572,10 +572,10 @@
       "skill_c_name": "AE",
       "skill_d_name": "AI",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "40%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "10",
+        "skill_c_percent": "40",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -630,10 +630,10 @@
       "skill_c_name": "AI",
       "skill_d_name": "ARDUINO & API",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -688,10 +688,10 @@
       "skill_c_name": "PS",
       "skill_d_name": "ARDUINO & API",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   }

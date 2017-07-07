@@ -50,10 +50,10 @@
       "skill_c_name": "FFMPEG",
       "skill_d_name": "MYSQL",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "20%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "20"
       }
     }
   },
@@ -108,10 +108,10 @@
       "skill_c_name": "JAVASCRIPT",
       "skill_d_name": "UI/UX ",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -166,10 +166,10 @@
       "skill_c_name": "JAVASCRIPT",
       "skill_d_name": "UI/UX",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "30%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "20%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "20"
       }
     }
   },
@@ -224,10 +224,10 @@
       "skill_c_name": "JAVASCRIPT",
       "skill_d_name": "UI/UX",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -282,10 +282,10 @@
       "skill_c_name": "JAVASCRIPT",
       "skill_d_name": "UI/UX",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -340,10 +340,10 @@
       "skill_c_name": "JAVASCRIPT",
       "skill_d_name": "UI/UX",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -398,10 +398,10 @@
       "skill_c_name": "FFMpeg",
       "skill_d_name": "JAVASCRIPT",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "30%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "30"
       }
     }
   },
@@ -456,10 +456,10 @@
       "skill_c_name": "JAVASCRIPT",
       "skill_d_name": "MYSQL",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "30%"
+        "skill_a_percent": "40",
+        "skill_b_percent": "10",
+        "skill_c_percent": "20",
+        "skill_d_percent": "30"
       }
     }
   },
@@ -514,10 +514,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -572,10 +572,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "50%",
-        "skill_b_percent": "20%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "50",
+        "skill_b_percent": "20",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -630,9 +630,9 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "",
       "percent": {
-        "skill_a_percent": "40%",
-        "skill_b_percent": "40%",
-        "skill_c_percent": "20%",
+        "skill_a_percent": "40",
+        "skill_b_percent": "40",
+        "skill_c_percent": "20",
         "skill_d_percent": ""
       }
     }

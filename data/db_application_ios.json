@@ -50,10 +50,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -108,10 +108,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -166,10 +166,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "PHP",
       "percent": {
-        "skill_a_percent": "60%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "20%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "60",
+        "skill_b_percent": "10",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -282,10 +282,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -340,10 +340,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -398,10 +398,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },
@@ -456,10 +456,10 @@
       "skill_c_name": "MYSQL",
       "skill_d_name": "JSON",
       "percent": {
-        "skill_a_percent": "70%",
-        "skill_b_percent": "10%",
-        "skill_c_percent": "10%",
-        "skill_d_percent": "10%"
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   }
