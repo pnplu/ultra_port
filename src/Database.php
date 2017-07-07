@@ -182,6 +182,7 @@ Class Database {
       $interactive_json = json_decode($data_interactive, TRUE);
 
       $data_m = $ios_json + $android_json + $web_mobile_json + $web_desktop_json + $kinect_json + $interactive_json;
+      sort($data_m);
 
       return $data_m;
     }

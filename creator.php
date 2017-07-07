@@ -60,7 +60,7 @@ $data_user = $conn->db_application_all();
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
-                  <button type="button">VIEW PROJECT</button>
+                  <a href="project_detail.php?stu_id=<?php echo $value["student_id"]; ?>"><button type="button">VIEW PROJECT</button></a>
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
