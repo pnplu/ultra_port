@@ -5,7 +5,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width= device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>ULTRA LINE 11.3 Graduate Exhibition </title>
     <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- bootstrap -->
@@ -82,6 +82,7 @@
         <article class="col-sm-10 col-md-10 menu" style="position: fixed; top: 0; left: 207px;">
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">COLLECTION BOOK</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>

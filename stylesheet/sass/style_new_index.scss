@@ -8,9 +8,16 @@ html, body{
   margin: 0;
   border: 0;
   background-color: $bg_main;
+  margin-bottom: 110px;
 }
 .row{
   background-color: $bg_main;
+}
+::-webkit-scrollbar {
+display: none;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
 @media screen and (min-width: 319px) {
@@ -67,80 +74,129 @@ html, body{
         margin-top: 4px;
       }
     }
-    .wrap_col_pinterest{
-      column-count: 2;
-	    column-gap: 10px;
-	    column-fill: auto;
-      height: auto;
-      .wrap_layout_pinterest{
-        display: inline-block;
-      	background: #FEFEFE;
-      	// border: 2px solid #FAFAFA;
-      	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
-      	margin: 0 2px 15px;
-      	opacity: 1;
-        width: 100%;
-        height: auto;
-        background-color: green;
-        overflow: none;//unsuccess
-        .wrap_inside_panel{
+    .wrap_cat_box{
+      // background-color: #ffcc00;
+      border: 0px;
+      padding: 0px;
+      margin: 0px;
+      .wrap_box_work{
+        width: 46%;
+        height: 100%;
+        float: left;
+        margin: 10px 2%;
+        position: relative;
+        // background-color: $color_green;
+        .wrap_img_cat{
           width: 100%;
-          border-radius: 10px;
-          .wrap_img_inside{
-            width: 100%;
-            height: 150px;
-            overflow: hidden;
+          height: 25vh;
+          overflow: hidden;
+          // position: relative;
+          img{
+            max-width: 100%;
             position: relative;
-            img{
-              width: 220%;
-              position: absolute;
-              top: -170px;
-              left: -90px;
-            }
+            top: -20px;
           }
+        }
+        h4{
+          position: absolute;
+          top: 70px;
+          left: 10px;
+          font-family: 'Titillium Web', sans-serif;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+        }
+        .box_count_creator{
+          width: 80px;
+          height: 0px;
+          border-top: 25px solid #000000;
+          border-right: 10px solid transparent;
+          position: absolute;
+          top: 120px;
+          left: 10px;
           p{
-            position: absolute;
-            top: 0;
-            font-family: 'Titillium Web', sans-serif;
-            font-size: 1.2em;
-            font-weight: 400;
             color: #FFFFFF;
-            top: 70px;
-            left: 30px;
-          }
-          .wrap_sec_user_pin{
+            font-size: 0.7em;
+            font-family: 'Titillium Web', sans-serif;
+            letter-spacing: 1px;
             position: absolute;
-            top: 115px;
-            .wrap_user_pinterest{
-              float: left;
-              width: 80px;
-              height: 0;
-              // background-color: #FFFFFF;
+            top: -20px;
+            left: 3px;
+          }
+        }
+        .p_wrok_pos{
+          top: 100px;
+        }
+      }
+    }
+  }
+  .pos_fix{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    .main_menu{
+      height: 100px;
+      padding: 0px;
+      border: 0px;
+      background-color: $bg_main;
+      .main_menu_l{
+        // background-color: #FFCC00;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 6%;
+        button{
+          background-color: $color_green;
+          height: 65px;
+          width: 65px;
+          border: none;
+          margin: 0px;
+          padding: 0px;
+          margin-top: 8px;
+        }
+      }
+      .main_menu_r{
+        // background-color: #FFCC00;
+        height: 100px;
+        padding: 0px;
+        border: 0px;
+        // display: none;
+        .slide_footer{
+          overflow-x: scroll;
+          overflow-y: hidden;
+          white-space: nowrap;
+          ul{
+            width: 920px;
+            height: 50px;
+            padding-top: 14px;
+            margin-top: 20px;
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            li{
+              font-size: 1em;
+              font-family: 'Titillium Web', sans-serif;
+              letter-spacing: 2px;
+              display: inline-block;
+              list-style-type: none;
               margin-left: 10px;
-              border-right: 10px solid transparent;
-              border-top: 25px solid #000000;
-              position: relative;
-              .user_pinterest{
-                font-family: 'Titillium Web', sans-serif;
-                font-size: 0.7em;
-                font-weight: 600;
-                color: #FFFFFF;
-                position: absolute;
-                top: -19px;
-                left: 3px;
-              }
+              margin-right: 10px;
             }
           }
         }
       }
-      .mar_pin{
-        margin-top: -20px;
-      }
     }
   }
-
   //screen
   .tablet{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .mt_screen{
+    display: block;
+  }
+  .desktop{
     display: none;
   }
 }
@@ -150,6 +206,15 @@ html, body{
   //screen
   .tablet{
     display: block;
+  }
+  .mobile{
+    display: none;
+  }
+  .mt_screen{
+    display: block;
+  }
+  .desktop{
+    display: none;
   }
 
   //nav
@@ -171,6 +236,21 @@ html, body{
           }
         }
       }
+      .menu{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 1.2em;
+        padding-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+        span{
+          a{
+            color: #FFFFFF;
+            letter-spacing: 2px;
+            margin-left: 5px;
+            margin-right: 10px;
+          }
+        }
+      }
 
       .box_nav_top_r{
         img{
@@ -187,9 +267,171 @@ html, body{
         margin-right: auto;
       }
     }
+    //text side L
+    .text_side_l{
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 0.8em;
+      transform: rotate(270deg);
+      color: #FFFFFF;
+      margin-top: 200px;
+      white-space: nowrap;
+    }
+    //text side R
+    .text_side_r{
+      @extend .text_side_l;
+      text-align: right;
+      margin-top: 400px;
+    }
+    //catagory blog
+    .wrap_catagory{
+      // background-color: #ffcc00;
+      height: auto;
+      .box_head_catagory{
+        // background-color: red;
+        h3{
+          font-family: 'Titillium Web', sans-serif;
+          font-weight: 600;
+          font-size: 1.6em;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          margin: 0px;
+          padding: 0px;
+          border: 0px;
+          margin-top: 10px;
+        }
+        h4{
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 1.2em;
+          font-weight: 600;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          margin-top: 4px;
+        }
+      }
+      .wrap_cat_box{
+        // background-color: #ffcc00;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        .wrap_box_work{
+          width: 29.3%;
+          height: 100%;
+          float: left;
+          margin: 10px 2%;
+          position: relative;
+          // background-color: $color_green;
+          .wrap_img_cat{
+            width: 100%;
+            height: 20vh;
+            overflow: hidden;
+            // position: relative;
+            img{
+              max-width: 100%;
+              position: relative;
+              top: -20px;
+            }
+          }
+          h4{
+            position: absolute;
+            top: 110px;
+            left: 10px;
+            font-family: 'Titillium Web', sans-serif;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+          }
+          .box_count_creator{
+            width: 80px;
+            height: 0px;
+            border-top: 25px solid #000000;
+            border-right: 10px solid transparent;
+            position: absolute;
+            top: 160px;
+            left: 10px;
+            p{
+              color: #FFFFFF;
+              font-size: 0.7em;
+              font-family: 'Titillium Web', sans-serif;
+              letter-spacing: 1px;
+              position: absolute;
+              top: -20px;
+              left: 3px;
+            }
+          }
+          .p_wrok_pos{
+            top: 140px;
+          }
+        }
+      }
+      .wrap_dt_box_work{
+        // background-color: #ffcc00;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        ul{
+          li{
+            width: 30%;
+            height: 40vh;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: gray;
+            display: inline-block;
+            position: relative;
+            .wrap_img_cat_dt{
+              width: 100%;
+              height: 40vh;
+              overflow: hidden;
+              position: relative;
+              img{
+                width: 100%;
+                position: absolute;
+                top: -40px;
+              }
+            }
+            h4{
+              color: #FFFFFF;
+              font-size: 2em;
+              font-family: 'Titillium Web', sans-serif;
+              letter-spacing: 2px;
+              position: absolute;
+              top: 140px;
+              left: 20px;
+            }
+            .box_count_creator_dt{
+              width: 80px;
+              height: 0px;
+              border-top: 25px solid #000000;
+              border-right: 10px solid transparent;
+              position: absolute;
+              top: 210px;
+              left: 20px;
+              p{
+                color: #FFFFFF;
+                font-size: 0.7em;
+                font-family: 'Titillium Web', sans-serif;
+                letter-spacing: 1px;
+                position: absolute;
+                top: -20px;
+                left: 3px;
+              }
+            }
+            .p_wrok_pos_dt{
+              top: 180px;
+            }
+          }
+        }
+      }
+    }
 }
 
 @media screen and (min-width: 959px) {
+  //screen
+  .mt_screen{
+    display: none;
+  }
+  .desktop{
+    display: block;
+  }
+
   //nav
   .wrap_nav_top{
       .wrap_menu_top_text{
@@ -224,6 +466,92 @@ html, body{
         float: none;
         margin-left: auto;
         margin-right: auto;
+      }
+    }
+
+    //catagory blog
+    .wrap_catagory{
+      // background-color: #ffcc00;
+      height: auto;
+      overflow: hidden;
+      .box_head_catagory{
+        // background-color: red;
+        h3{
+          font-family: 'Titillium Web', sans-serif;
+          font-weight: 600;
+          font-size: 3em;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          margin: 0px;
+          padding: 0px;
+          border: 0px;
+          margin-top: 10px;
+        }
+        h4{
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 1.2em;
+          font-weight: 600;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          margin-top: 4px;
+        }
+      }
+      .wrap_cat_box{
+        // background-color: #ffcc00;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        .wrap_box_work{
+          width: 30%;
+          height: 100%;
+          float: left;
+          margin: 10px 2%;
+          position: relative;
+          background-color: $color_green;
+          .wrap_img_cat{
+            width: 100%;
+            height: 40vh;
+            overflow: hidden;
+            // position: relative;
+            img{
+              width: 100%;
+              position: relative;
+              top: -20px;
+            }
+          }
+          h4{
+            position: absolute;
+            top: 110px;
+            left: 10px;
+            font-family: 'Titillium Web', sans-serif;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+          }
+          .box_count_creator{
+            width: 80px;
+            height: 0px;
+            border-top: 25px solid #000000;
+            border-right: 10px solid transparent;
+            position: absolute;
+            top: 160px;
+            left: 10px;
+            p{
+              color: #FFFFFF;
+              font-size: 0.7em;
+              font-family: 'Titillium Web', sans-serif;
+              letter-spacing: 1px;
+              position: absolute;
+              top: -20px;
+              left: 3px;
+            }
+          }
+          .p_wrok_pos{
+            top: 140px;
+          }
+        }
       }
     }
 }
