@@ -21,7 +21,7 @@
 
    $("#scroll_mouse").mousewheel(function(event, delta) {
 
-      this.scrollLeft -= (delta * 30);
+      this.scrollLeft -= (delta * 1);
 
       event.preventDefault();
 
