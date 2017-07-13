@@ -401,6 +401,7 @@ $('.f').addClass('animated flash');
   if ($(window).width() < 959) {
   document.location = "new_index.php";
   }
+
 </script>
   </body>
 </html>
