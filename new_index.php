@@ -222,4 +222,9 @@
 
     </section> <!-- container-fluid -->
   </body>
+  <script type="text/javascript">
+    if ($(window).width() >= 1000) {
+    document.location = "index.php";
+    }
+  </script>
 </html>

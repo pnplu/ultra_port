@@ -282,10 +282,9 @@ html, body {
       white-space: nowrap; }
       .wrap_catagory .wrap_dt_box_work ul li {
         width: 30%;
-        height: 40vh;
+        height: 30%;
         margin-left: 15px;
         margin-right: 15px;
-        background-color: gray;
         display: inline-block;
         position: relative; }
         .wrap_catagory .wrap_dt_box_work ul li .wrap_img_cat_dt {
