@@ -92,7 +92,7 @@ html, body {
     bottom: 0; }
     .wrap_footer .wrap_r_footer {
       background-color: #000000;
-      background: linear-gradient(rgba(255, 255, 255, 0.2), #000000);
+      background: linear-gradient(rgba(37, 15, 89, 0), #000000);
       height: 100px; }
       .wrap_footer .wrap_r_footer .wrap_footer_l {
         height: 100px;

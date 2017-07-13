@@ -82,6 +82,8 @@
         <article class="col-sm-10 col-md-10 menu">
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+          <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
+          <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
@@ -89,7 +91,7 @@
 
 <div class="contact">
   <section class="blog-1">
-    <h3>ข้อมูลหลักสูตร</h3> 
+    <h3>ข้อมูลหลักสูตร</h3>
     <a href="http://web11.ictsilpakorn.com/contact.html">หลักสูตรเทคโนโลยีสารสนเทศธุรกิจ</a> <br>
     <a href="http://web11.ictsilpakorn.com/contact.html">หลักสูตรเทคโนโลยีสารสนเทศเพื่อการออกแบบ</a> <br>
     <a href="http://web11.ictsilpakorn.com/contact.html">หลักสูตรเทคโนโลยีสารสนเทศนิเทศศาสตร์</a> <br>
@@ -97,21 +99,21 @@
     <a href="http://web11.ictsilpakorn.com/contact.html">วิดีโอแนะนำวิชา</a> <br>
     <a href="http://web11.ictsilpakorn.com/contact.html">ไอซีทีศิลปากรโชว์เคส(ICT Showcase)</a> <br><br>
 
-    <h3>รวมผลงานจุลนิพนธ์</h3> 
+    <h3>รวมผลงานจุลนิพนธ์</h3>
     <a href="http://web05.ictsilpakorn.com/">ICTSUWEB#05</a> <br>
     <a href="http://web06.ictsilpakorn.com/">ICTSUWEB#06</a> <br>
     <a href="http://web07.ictsilpakorn.com/">ICTSUWEB#07</a> <br>
     <a href="http://web08.ictsilpakorn.com/">ICTSUWEB#08</a> <br>
     <a href="http://web09.ictsilpakorn.com/">ICTSUWEB#09 - SURAROUND 9.1</a> <br>
     <a href="http://web10.ictsilpakorn.com/">ICTSUWEB#10 - OATHLON 10.2</a><br>
-    <a href="http://web11.ictsilpakorn.com/">ICTSUWEB#11 - Ultra-Line 11.3</a> 
+    <a href="http://web11.ictsilpakorn.com/">ICTSUWEB#11 - Ultra-Line 11.3</a>
   </section>
   <section class="blog-2">
-    <h3>ผลงานของนิทรรศการ <br>Ultra-Line 11.3</h3> 
+    <h3>ผลงานของนิทรรศการ <br>Ultra-Line 11.3</h3>
     <i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ultraline11.3" target="_blank">facebook.com/Ultra-Line 11.3/</a> <br>
      <br><br>
 
-    <h3>ผลงานของ ICT:SILPAKORN</h3> 
+    <h3>ผลงานของ ICT:SILPAKORN</h3>
     <i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ictsilpakorn" target="_blank">facebook.com/ictsilpakorn/</a> <br>
     <i class="fa fa-twitter-square" aria-hidden="true"></i>  <a href="http://www.twitter.com/ictsilpakorn" target="_blank">twitter.com/ictsilpakorn/</a> <br>
     <i class="fa fa-instagram" aria-hidden="true"></i>  <a href="http://www.instagram.com/ictsilpakorn" target="_blank">instagram.com/ictsilpakorn/</a> <br>

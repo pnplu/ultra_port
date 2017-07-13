@@ -106,7 +106,8 @@ html, body {
       height: 100px;
       padding: 0px;
       border: 0px;
-      background-color: #250F59; }
+      background-color: #000000;
+      background: linear-gradient(rgba(37, 15, 89, 0), #000000); }
       .pos_fix .main_menu .main_menu_l {
         margin: 0px;
         padding: 0px;

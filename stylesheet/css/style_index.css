@@ -95,8 +95,7 @@ html, body {
   .discription .box_wrap_work {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
-    width: 2000px; }
+    white-space: nowrap;}
     .discription .box_wrap_work .box_a, .discription .box_wrap_work .box_b {
       /*background-image: url("../../image_web/creator_bg.jpg");*/
       background-color: gray;
@@ -188,10 +187,10 @@ html, body {
       }
       .discription .box_wrap_work .box_c {
         /*background-image: url("../../image_web/creator_bg.jpg");*/
-        /*background-color: gray;*/
+        background-color: gray;
       }
       .discription .box_wrap_work .box_d {
-        /*background-color: gray;*/
+        background-color: gray;
       }
         .side_l_page svg {
           margin-top: 0px;
@@ -237,7 +236,7 @@ html, body {
           overflow-x: none;
           overflow-y: hidden;
           white-space: nowrap;
-          width: auto;
+          width: 0px;
           margin-top: 120px;
           margin-bottom: 120px;
       }
@@ -274,6 +273,11 @@ html, body {
       }
       .box_count p {
         font-size: 10px;
+      }
+    }
+    @media screen and (min-width: 960px) {
+      .discription .box_wrap_work{
+        width: 1800px;
       }
     }
 /*# sourceMappingURL=style_index.css.map */

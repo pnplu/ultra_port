@@ -78,6 +78,8 @@ background-size: cover;
           <article class="col-sm-9 menu tablet">
             <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
             <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+            <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
+            <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
             <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
             <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           </article> <!-- menu -->
@@ -106,7 +108,33 @@ background-size: cover;
     <article class="row right_content">
     <article class="col-xs-12 video_showreel" style="padding-right: 80px; margin-top: -300px;">
       <span>VIDEO INTERVIEW</span><br>
-    
+      <!-- <div class="col-xs-11" style="position: absolute;">
+          <div class="loader">
+              <i class="fa fa-spinner fa-pulse"></i>
+          </div>
+          <button class="action action-hidden action-play js-play-video" style="margin-right: 100px; margin-top: 60px;">
+
+  <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Project-Detail-Copy" transform="translate(-1193.000000, -237.000000)">
+              <g id="Group-26" transform="translate(1044.722029, 153.000000)">
+                  <g id="Group-27" transform="translate(148.000000, 84.000000)">
+                      <rect id="Rectangle-20" fill="#FFFFFF" x="0.901124941" y="0.20146813" width="47.3385079" height="47.255926"></rect>
+                      <polygon id="Triangle" stroke="#193852" stroke-width="2" points="32.7470303 24.2590305 17.2544277 31.9918183 17.2544277 16.5262426"></polygon>
+                  </g>
+              </g>
+          </g>
+      </g>
+  </svg>
+      </button>
+      </div> -->
+      <!-- <script src="js/video.js"></script> -->
+      <!-- <div style="width:345px; height:215px; padding-top:10px;background-image: url('image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>'); float:right; background-repeat: no-repeat;
+    background-size: 100% 100%;">
+      </div> -->
         <br><br>
           <iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; height: auto;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           <br><br><br><br>
@@ -115,7 +143,7 @@ background-size: cover;
     </article>
     </article>
       <!-- banner -->
-      <section class="row">
+      <section class="row" style="margin-top: 130px;">
         <article class="col-xs-12 wrap_banner">
           <img src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work">
         </article>
@@ -267,9 +295,9 @@ background-size: cover;
             </article> <!-- wrap_footer_l -->
             <article class="col-xs-9 col-sm-3 col-md-6 wrap_footer_r">
               <p class="project_name_footer" style="font-family: 'Kanit', sans-serif;"><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> </p>
-              <p style="font-size:0.8em; margin-top:-15px;text-transform: uppercase;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
+              <p class="tablet" style="font-size:0.8em; margin-top:-15px;text-transform: uppercase;">HOME > CATEGORY > <?php echo $json_data["work_type"]; ?><p>
             </article> <!-- wrap_footer_r -->
-            <article class="col-sm-2 col-md-3 foot_email tablet">
+            <article class="col-sm-4 col-md-3 foot_email tablet">
               <h4>EMAIL</h4>
               <p><?php echo $json_data["user_email"]; ?></p>
             </article>

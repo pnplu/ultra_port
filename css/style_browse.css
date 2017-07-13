@@ -190,7 +190,7 @@ h4.title {
 }
 .wrap_nav_top .wrap_menu_top_text ul {
 	margin-top: 28px;
-	margin-left: 155px;
+	/*margin-left: 155px;*/
 	margin-bottom: 24px;
 }
 .wrap_nav_top .wrap_menu_top_text ul a {
@@ -202,6 +202,7 @@ h4.title {
     font-size:0.86em;
     margin-left: 10px;
     margin-right: 10px;
+		margin-bottom: 15px;
     letter-spacing: 2px;
 }
 .wrap_nav_top .wrap_menu_top_text ul a:hover {

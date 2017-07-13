@@ -58,11 +58,30 @@
             <article class="col-xs-1 wrap_footer_l">
               <button id="browse_icon_close" type="button" name="button"><img src="image_web/btn_close.png"></button>
             </article> <!-- wrap_footer_l -->
-            <article class="col-xs-11 animated fadeInUp">
-              <a class="a_footer_list link--kukuri" href="index.php" data-letters="HOME">HOME</a>
-              <a class="a_footer_list link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a>
-              <a class="a_footer_list link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a>
-              <a class="a_footer_list link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a>
+            <article id="wrap_box_men" class="col-xs-11 animated fadeInUp">
+              <ul>
+                <li><a class="a_footer_list link--kukuri" href="index.php" data-letters="HOME">HOME</a></li>
+                <li><a class="a_footer_list link--kukuri" href="creator.php" data-letters="CREATOR">CREATOR</a></li>
+                <li><a class="a_footer_list link--kukuri" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="THANKYOU">COLLECTION BOOK</a></li>
+                <li><a class="a_footer_list link--kukuri" href="#" data-letters="THANKYOU">EXHIBITION</a></li>
+                <li><a class="a_footer_list link--kukuri" href="thankyou.php" data-letters="THANKYOU">THANKYOU</a></li>
+                <li><a class="a_footer_list link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a></li>
+              </ul>
+              <style media="screen">
+              #wrap_box_men{
+                width: 55%;
+                overflow: hidden;
+              }
+              ul{
+                overflow-x: scroll;
+                overflow-y: hidden;
+                white-space: nowrap;
+              }
+                ul li{
+                  list-style-type: none;
+                  display: inline-block;
+                }
+              </style>
           </article>
           <article class="sponsor_desktop"><img src="banner/all.png"></article>
           </article> <!-- wrap_r_footer -->
