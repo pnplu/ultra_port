@@ -177,9 +177,9 @@
     "student_id": "13560141",
     "user": {
       "name": "Chisanupong Thanyapatthanan",
-      "motivation_quote": "..",
-      "facebook": "..",
-      "email": "..",
+      "motivation_quote": "I will protect you until my heart stop beating.",
+      "facebook": "knot.thanyapatthanan",
+      "email": "qwerty455467@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13560141.jpg",
         "profile": "avatar_13560141.jpg",
@@ -192,18 +192,18 @@
       }
     },
     "work": {
-      "name": "..",
-      "project_name": "..",
+      "name": "แอปพลิเคชันการขายแบตเตอรี่รถยนต์ภายในกรุงเทพมหานคร",
+      "project_name": "Battery",
       "type": "Application IOS",
-      "concept": "..",
+      "concept": "การนำ เทคโนโลยีมาประยุกต์ใช้ ในชีวิตประจำ วัน โดยการใช้แอปพลิเคชันมาใช้ในสมาทโฟน ซึ่งปัญหานั้นเกิดจากในปัจจุบันมีรถเสียบนท้องถนนมาก ซึ่งปัญหาหลักนั้นคือ รถที่แบตเตอรี่หมดหรือเสียบนท้องถนน",
       "function": {
-        "function_name_a": "..",
-        "function_name_b": "..",
-        "function_name_c": "..",
+        "function_name_a": "Follow",
+        "function_name_b": "Search Battery",
+        "function_name_c": "Find Garage",
         "discription": {
-          "fuction_dis_a": "..",
-          "fuction_dis_b": "..",
-          "fuction_dis_c": ".."
+          "fuction_dis_a": "สามาถติดตามสินค้าได้อย่างเรียลทาม",
+          "fuction_dis_b": "ผู้ใช้สามารถค้นหาแบตเตอรี่ได้ทุกรุ่น,ยี่ห้อ",
+          "fuction_dis_c": "ผู้ใช้สามารถค้นหาร้านใกล้เคียงผ่านทางโลเคชันของเราได้"
         },
         "image": {
           "function_img_a": "function_13560141_01.jpg",
@@ -219,15 +219,15 @@
       }
     },
     "skill": {
-      "skill_a_name": "..",
-      "skill_b_name": "..",
-      "skill_c_name": "..",
-      "skill_d_name": "..",
+      "skill_a_name": "SWIFT",
+      "skill_b_name": "JSON",
+      "skill_c_name": "MYSQL",
+      "skill_d_name": "PHP",
       "percent": {
-        "skill_a_percent": "..",
-        "skill_b_percent": "..",
-        "skill_c_percent": "..",
-        "skill_d_percent": ".."
+        "skill_a_percent": "70",
+        "skill_b_percent": "10",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
       }
     }
   },

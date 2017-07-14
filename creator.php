@@ -22,6 +22,8 @@ $data_user = $conn->db_application_all();
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
     <script src="vendor/twbs/bootstrap/dist/js/jquery.min.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -34,6 +36,7 @@ $data_user = $conn->db_application_all();
 
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap_xl.css">
   </head>
   <body>
 
@@ -83,7 +86,7 @@ $data_user = $conn->db_application_all();
           <?php
             foreach ($data_user as $key => $value) {
            ?>
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
+          <article class="col-xs-6 col-sm-4 col-md-3 col-xl-2 wrap_box_people">
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">

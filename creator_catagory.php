@@ -66,6 +66,7 @@ function name_catagory($catagory_id) {
 
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap_xl.css">
   </head>
   <body>
 
@@ -115,7 +116,7 @@ function name_catagory($catagory_id) {
           <?php
             foreach ($data_user as $key => $value) {
            ?>
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
+          <article class="col-xs-6 col-sm-4 col-md-3 col-xl-2 wrap_box_people">
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
