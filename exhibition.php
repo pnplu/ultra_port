@@ -255,7 +255,7 @@
 
         <script src="js/youtube_exhibition.js"></script>
 
-          <article class="col-xs-12 section1" style="padding-left: 20px;padding-left: 10%;padding-right: 10%;margin-top: -100px;">
+          <article class="col-xs-12 section1" style="padding-left: 20px;padding-left: 20%;padding-right: 20%;margin-top: -100px;">
             <p style="text-align: center; color: #FFFFFF;">
               <h2 style="text-align:center;">วิชาเอกสื่อปฏิสัมพันธ์ (Interactive Media Program)</h2>
               <br><br>
@@ -263,7 +263,7 @@
             </p>
           </article>
           <img src="image_web/exhibition_section_01.jpg" width="100%" height="100%">
-          <article class="col-xs-12" style="padding-left: 20px;padding-left: 10%;padding-right: 10%;">
+          <article class="col-xs-12" style="padding-left: 20px;padding-left: 20%;padding-right: 20%;">
             <p style="text-align: center; color: #FFFFFF;">
               <h2 style="text-align:center;">ULTRALINE 11.3 GRADUDATE EXHIBITION</h2>
               <br><br>
@@ -286,13 +286,24 @@
       </article>
 
         <section id="box_top" class="row">
-          <article class="col-xs-12" style="padding-left: 20px;padding-left: 10%;padding-right: 10%;margin-top: -100px;">
+          <article class="col-xs-12" style="padding-left: 20px;padding-left: 20%;padding-right: 20%;margin-top: -100px;">
             <p style="text-align: center; color: #FFFFFF;">
               <h2 style="text-align:center;"></h2>
               <br><br>
               <span style="padding-left:30px;">การจัดแสดงผลงานมีขึ้นในวันที่ 8 และ 9 กรกฎาคม 2560 ณ ศูนย์การค้าเซ็นทรัลเวิลด์ ท่ามกลางการตอบรับที่ยอดเยี่ยมจากผู้เข้าชมและลงทะเบียนกว่า 1,000 คน กิจกรรมทั้งสองวันไม่เพียงแต่มอบแรงบันดาลใจให้แก่ผู้ชมเท่านั้น แต่ยังมอบความรู้จากวิทยากรนักออกแบบและนักพัฒนาแถวหน้าของประเทศไทย รวมทั้งความบันเทิงผ่านกิจกรรมที่เปิดโอกาสให้ผู้เข้าชมได้มีส่วนร่วม เก็บความประทับใจและของที่ระลึกติดไม้ติดมือกลับบ้าน</p>
           </article>
         </section>
+
+        <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/TdGDXQwp1EU?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+        </article>
+        <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/r_-saPfROts?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+        </article>
+        <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/vg3xNsF1sOY?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+        </article>
+
 
 
 
