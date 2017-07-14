@@ -155,7 +155,7 @@
 
         <section id="box_top" class="row">
           <section class="row">
-            <article class="col-xs-12 col-sm-10 col-md-9">
+            <article class="col-xs-offset-1 col-xs-10 col-sm-10 col-md-9">
             <article class="col-xs-12 col-sm-6 col-md-6">
               <ul>
                 <li><h3>ข้อมูลหลักสูตร</h3></li>
