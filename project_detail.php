@@ -41,6 +41,9 @@
    <script type="text/javascript" src="js/sound-mouseover.js"></script>
    <style media="screen">
      @media screen and (min-width: 319px) {
+       .banner_img{
+         height: 660px;
+       }
        .wrap_user_pinterest{
          top: 50px;
        }
@@ -57,11 +60,7 @@
   </head>
   <body>
     <div id="large-header" class="large-header">
-      <canvas id="demo-canvas" style="background-image: url('image_user/landing_profile/<?php echo $json_data["user_img_lannding"] ?>'); background-position: center; background-attachment: fixed;background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-">
+      <canvas id="demo-canvas" class="banner_img" style="background-image: url('image_user/landing_profile/<?php echo $json_data["user_img_lannding"] ?>');">
       </canvas>
 
     <section id="browse_wrap"></section> <!-- section -->
@@ -153,16 +152,16 @@ background-size: cover;
           <article class="row wrap_dp_user">
             <ul class="row col-sm-10 col-md-11">
               <li class="col-xs-5 col-sm-3 dp_img_user_a up_hig_dp">
-                <a href="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;"></a>
+                <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>"><img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-                <a href="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;"></a>
+                <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-                <a href="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;"></a>
+                <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
-                <a href="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;"></a>
+                <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;"></a>
               </li>
             </ul>
           </article>
@@ -171,7 +170,7 @@ background-size: cover;
       <!-- function -->
       <section class="row">
         <section class="row col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-12 wrap_function">
-          <h3 class="col-md-offset-2 col-md-4">FUNCTION</h3>
+          <h3 class="col-md-offset-2 col-md-4">FUNCTIONS</h3>
           <div class="row col-md-12" style="margin-left:auto; margin-right:auto;">
             <div class="col-md-offset-1 col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
@@ -405,5 +404,38 @@ var myScrollFunc = function () {
 
 window.addEventListener("scroll", myScrollFunc);
 
+  </script>
+  <!-- fancy box popup -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.easing-1.4.pack.js"></script>
+  <!-- <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> -->
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+/* This is basic - uses default settings */
+
+$("a.grouped_elements").fancybox();
+
+/* Using custom settings */
+
+$("a#inline").fancybox({
+'hideOnContentClick': true
+});
+
+/* Apply fancybox to multiple items */
+
+$("a.group").fancybox({
+'transitionIn'	:	'elastic',
+'transitionOut'	:	'elastic',
+'speedIn'		:	600,
+'speedOut'		:	200,
+'overlayShow'	:	false
+});
+
+
+
+});
   </script>
 </html>
