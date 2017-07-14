@@ -59,7 +59,7 @@
           text-align: center;
           margin-top: 20px;
         }
-        img{
+        .video-overlay .video-wrapper .video-expand img{
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -69,6 +69,9 @@
         }
         p{
           text-align: center;
+        }
+        .section1{
+          margin-top: 50px;
         }
       }
       @media screen and (min-width: 767px) {
@@ -136,7 +139,7 @@
         position: relative;
         width: 100%;
         margin: rem-calc(0 0 54.5);
-        min-height: 31.25rem;
+        min-height: 41.25rem;
         overflow: hidden;
       }
 
@@ -233,7 +236,7 @@
           <hr>
         </article> <!-- menu -->
 
-        <div class="video-wrapper" data-video-id="lCYrIdsTMRM" data-video-youtube-link="y" data-video-start="0" data-video-end="" data-video-width-add="50" data-video-height-add="50" style="margin-top:-300px;">
+        <div class="video-wrapper" data-video-id="lCYrIdsTMRM" data-video-youtube-link="y" data-video-start="0" data-video-end="" data-video-width-add="50" data-video-height-add="50">
             <div class="video-overlay" style=""></div>
             <div class="tv">
                 <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
@@ -245,23 +248,37 @@
         <script src="js/youtube_exhibition.js"></script>
 
         <section id="box_top" class="row">
-          <article class="col-xs-offset-1 col-xs-12 col-sm-offset-0 col-sm-10 col-md-9" style="margin-top: 0px;">
+          <article class="col-xs-12 section1" style="padding-left: 20px;padding-left: 10%;padding-right: 10%;margin-top: -100px;">
             <p style="text-align: center; color: #FFFFFF;">
               <h2 style="text-align:center;">วิชาเอกสื่อปฏิสัมพันธ์ (Interactive Media Program)</h2>
               <br><br>
-<span style="padding-left:30px;">คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศิลปากร มหาวิทยาลัยชั้นนำแห่งการสร้างสรรค์ ได้เล็งเห็นความสำคัญของการนำระบบเทคโนโลยีสารสนเทศและการสื่อสารเข้ามาใช้ให้เกิดประโยชน์ มุ่งหวังการผลิตบัณฑิตในสาขาวิชาที่สามารถประยุกต์ความรู้และทักษะการบูรณาการศิลปะการออกแบบและเทคโนโลยีเข้าด้วยกัน เพื่อตอบโจทย์ความต้องการของประเทศที่กำลังก้าวเข้าสู่ยุคเศรษฐกิจดิจิทัลอย่างเต็มตัว
+              <span style="padding-left:30px;">คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศิลปากร มหาวิทยาลัยชั้นนำแห่งการสร้างสรรค์ ได้เล็งเห็นความสำคัญของการนำระบบเทคโนโลยีสารสนเทศและการสื่อสารเข้ามาใช้ให้เกิดประโยชน์ มุ่งหวังการผลิตบัณฑิตในสาขาวิชาที่สามารถประยุกต์ความรู้และทักษะการบูรณาการศิลปะการออกแบบและเทคโนโลยีเข้าด้วยกัน เพื่อตอบโจทย์ความต้องการของประเทศที่กำลังก้าวเข้าสู่ยุคเศรษฐกิจดิจิทัลอย่างเต็มตัว
             </p>
           </article>
-          <section class="row">
-            <article class="col-xs-12 col-sm-12 col-md-9">
-            <article class="col-xs-12" style="margin-top: 30px;">
-              <h2 style="text-align:center;">ULTRALINE 11.3 GRADUDATE EXHIBITION</h2>
-            </article>
-            <span style="padding-left:30px;">จัดงานภายใต้แนวความคิด “ทะลุ (ULTRA)” “เส้นจำกัด (LINE)” ด้วยการหลอมวิทยาศาสตร์เทคโนโลยีรวมกับศิลปะการออกแบบ สร้างสรรค์โอกาส และหาทดลองวิธีแก้ปัญหาให้ก้าวล้ำเส้นแถวหน้าในกระแสวิวัตน์ของสังคมโลก ผ่านผลงานทั้ง 40 ชิ้น โดยแต่ละชิ้นล้วนมีความแตกต่างและโดดเด่น สะท้อนองค์ความรู้ด้านการออกแบบและพัฒนางานให้ออกมาใช้ได้จริงบนสื่อดิจิตอลที่ทันสมัย ตอบโจทย์วงการวิชาการและวิชาชีพ
-            </article>
-          </section> <!-- Teacher -->
-          </article> <!-- LACTASOY -->
         </section>
+<img src="image_web/exhibition_section_01.jpg" width="100%" height="100%">
+        <section id="box_top" class="row">
+          <article class="col-xs-12" style="padding-left: 20px;padding-left: 10%;padding-right: 10%;margin-top: -100px;">
+            <p style="text-align: center; color: #FFFFFF;">
+
+              <h2 style="text-align:center;">ULTRALINE 11.3 GRADUDATE EXHIBITION</h2>
+              <br><br>
+              <span style="padding-left:30px;">จัดงานภายใต้แนวความคิด “ทะลุ (ULTRA)” “เส้นจำกัด (LINE)” ด้วยการหลอมวิทยาศาสตร์เทคโนโลยีรวมกับศิลปะการออกแบบ สร้างสรรค์โอกาส และหาทดลองวิธีแก้ปัญหาให้ก้าวล้ำเส้นแถวหน้าในกระแสวิวัตน์ของสังคมโลก ผ่านผลงานทั้ง 40 ชิ้น โดยแต่ละชิ้นล้วนมีความแตกต่างและโดดเด่น สะท้อนองค์ความรู้ด้านการออกแบบและพัฒนางานให้ออกมาใช้ได้จริงบนสื่อดิจิตอลที่ทันสมัย ตอบโจทย์วงการวิชาการและวิชาชีพ
+
+*หมายเลข 11.3 มีนัยยะแฝงสองส่วนคือ สื่อถึงรุ่นที่ 11 และ 3 แสดงถึงเป็นปีที่ 3 สืบเนื่องจากงาน SURAROUND 9.1 และ OATHLON 10.2 ตามลำดับ
+            </p>
+          </article>
+        </section>
+
+        <section id="box_top" class="row">
+          <article class="col-xs-12" style="padding-left: 20px;padding-left: 10%;padding-right: 10%;margin-top: -100px;">
+            <p style="text-align: center; color: #FFFFFF;">
+              <h2 style="text-align:center;"></h2>
+              <br><br>
+              <span style="padding-left:30px;">การจัดแสดงผลงานมีขึ้นในวันที่ 8 และ 9 กรกฎาคม 2560 ณ ศูนย์การค้าเซ็นทรัลเวิลด์ ท่ามกลางการตอบรับที่ยอดเยี่ยมจากผู้เข้าชมและลงทะเบียนกว่า 1,000 คน กิจกรรมทั้งสองวันไม่เพียงแต่มอบแรงบันดาลใจให้แก่ผู้ชมเท่านั้น แต่ยังมอบความรู้จากวิทยากรนักออกแบบและนักพัฒนาแถวหน้าของประเทศไทย รวมทั้งความบันเทิงผ่านกิจกรรมที่เปิดโอกาสให้ผู้เข้าชมได้มีส่วนร่วม เก็บความประทับใจและของที่ระลึกติดไม้ติดมือกลับบ้าน</p>
+          </article>
+        </section>
+
 
 <script>
 // logo
