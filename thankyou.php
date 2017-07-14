@@ -45,6 +45,63 @@
 
     <!-- add sound -->
     <script type="text/javascript" src="js/sound-mouseover.js"></script>
+    <style media="screen">
+      body{
+        font-family: 'Kanit', sans-serif;
+        color: #FFFFFF;
+        margin-bottom: 100px;
+      }
+      @media screen and (min-width: 319px) {
+        h5{
+          text-align: center;
+        }
+        ul{
+          text-align: center;
+          margin-top: 20px;
+        }
+        img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          max-width: 80%;
+          filter: brightness(0) invert(1);
+        }
+        p{
+          text-align: center;
+        }
+      }
+      @media screen and (min-width: 767px) {
+        #box_top{
+          margin-top: 150px;
+        }
+        h5{
+          text-align: center;
+        }
+        ul{
+          text-align: center;
+          margin-top: 20px;
+        }
+        img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+        }
+        p{
+          text-align: center;
+        }
+        .box_sponsor{
+          height: 250px;
+        }
+      }
+      @media screen and (min-width: 959px) {
+        #logoict img{
+          max-width: 100%;
+          margin-bottom: 100px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="large-header" class="large-header">
@@ -54,7 +111,7 @@
 
     <section class="container-fluid">
       <section class="row">
-        <article class="col-xs-2 col-sm-1 col-md-2 side_l_page">
+        <article class="col-sm-1 col-md-2 side_l_page">
 
           <a href="index.php">
           <!-- logo-effect -->
@@ -84,118 +141,171 @@
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
-          <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
+          <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
 
-        <div class="thank_all">
-      <p style="font-family: 'Kanit', sans-serif;">
-      ผู้ช่วยศาสตราจารย์ ดร.วันชัย  สุทธะนันท์<br>
-      อธิการบดีมหาวิทยาลัยศิลปากร
-      <br><br>
-      ผู้ช่วยศาสตราจารย์สมศักดิ์ ชาติน้ำเพ็ชร<br>
-      คณบดีคณะเทคโนโลยีสารสนเทศและการสื่อสาร
-      </p>
+        <section id="box_top" class="row">
+          <article class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-10 col-md-9" style="margin-top: 0px;">
+            <p style="text-align: center; color: #FFFFFF;">
+              ผู้ช่วยศาสตราจารย์ ดร.วันชัย  สุทธะนันท์<br>
+              อธิการบดีมหาวิทยาลัยศิลปากร
+              <br><br>
+              ผู้ช่วยศาสตราจารย์สมศักดิ์ ชาติน้ำเพ็ชร<br>
+              คณบดีคณะเทคโนโลยีสารสนเทศและการสื่อสาร
+            </p>
+          </article>
+          <section class="row">
+            <article class="col-xs-12 col-sm-10 col-md-9">
+            <article class="col-xs-12" style="margin-top: 30px;">
+              <h5>คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
+            </article>
+            <article class="col-xs-12 col-sm-6 col-md-3">
+              <ul>
+                <li>กลุ่มที่ 1</li>
+                <li>อาจารย์รักชนก สุขะกาลนันท์</li>
+                <li>อาจารย์อติเทพ แจ้ดนาลาว</li>
+                <li>ผศ. ดร. วรสิทธิ์ ชูชัยวัฒนา</li>
+                <li>อาจารย์ปัณณวิชญ์ อริยะธนกตวงศ์</li>
+                <li>อาจารย์ศรันยา มะระพฤกษ์วรรณ</li>
+                <li>อาจารย์ศรายุทธ ธิบดี</li>
+                <li>ผศ.ชัยชาญ ถาวรเวช</li>
+              </ul>
+            </article> <!-- room 1 -->
+            <article class="col-xs-12 col-sm-6 col-md-3">
+              <ul>
+                <li>กลุ่มที่ 2</li>
+                <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
+                <li>อาจารย์ลักษณ์นารา จันทรารมย์</li>
+                <li>อาจารย์ประธาน ด่านสกุลเจริญกิจ</li>
+                <li>อาจารย์อิทธิชัย ภูมิศิริวิไล</li>
+                <li>อาจารย์พิสิฐพงษ์ สืบพิลา</li>
+                <li>อาจารย์ถิราภา ใจเที่ยง</li>
+              </ul>
+            </article> <!-- room 2 -->
+            <article class="row col-sm-offset-1 col-sm-11 col-md-offset-0 col-md-6">
+            <article class="col-xs-12 col-sm-5 col-md-6">
+              <ul>
+                <li>กลุ่มที่ 3</li>
+                <li>อาจารย์อรวรรณ ประพฤติดี</li>
+                <li>ผศ. ดร.ธีรพงศ์ ลีลานุภาพ</li>
+                <li>อาจารย์กิตตินนท์ อุ้ยวงค์ไพศาล</li>
+                <li>อาจารย์ณัฐธิดา แซ่แต้</li>
+                <li>อาจารย์ศุภณัฐ โกมลารชุน</li>
+                <li>อาจารย์ณัฐพงศ์ มาเสถียร</li>
+                <li>อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
+              </ul>
+            </article> <!-- room 3 -->
+            <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6">
+              <ul>
+                <li>กลุ่ม 4</li>
+                <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
+                <li>อาจารย์โกวิท มีบุญ</li>
+                <li>อาจารย์ปานรวี พุ่มเข็ม</li>
+                <li>อาจารย์จุลดิษฐ์ สันติธรณี</li>
+                <li>อาจารย์พสุพงษ์ ประเสริฐรุ่งเรือง</li>
+                <li>อาจารย์ปกรณ์ สันติสุนทรกุล</li>
+              </ul>
+            </article> <!-- room 4 -->
+            </article>
+            </article>
+          </section> <!-- Teacher -->
 
-      <h5 style="font-family: 'Kanit', sans-serif;">คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
+          <section class="row">
+            <article class="col-xs-12">
+              <article id="logoict" class="col-xs-12">
+                <img src="img/spon22.png" alt="ICTSILPAKORN">
+              </article> <!-- logo ictsilpakorn -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon1.png" alt="Central World">
+                <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
+                <p>
+                  Central Pattana Public Company Limited<br>
+                  centralworld.co.th<br>
+                  facebook.com/CentralWorld<br>
+                  Tel : 02-100-9999
+                </p>
+              </article> <!-- central -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon111.png" alt="TXP" style="max-width: 40%;">
+                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
+                <p>
+                  Thai petroleum support co. ltd<br>
+                  txppetro.com/our-company<br>
+                  Tel : 02-287-3077<br>
+                  Email : contact@txppetro.com
+                </p>
+              </article> <!-- txp -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon4.png" alt="MUZE">
+                <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
+                <p>
+                  Muze innovation co. ltd<br>
+                  muzeinnovation.com/<br>
+                  facebook.com/muzeinnovation<br>
+                  Email : info@mymuze.me
+                </p>
+              </article> <!-- muze -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon5.png" alt="UPPERCUZ">
+                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
+                <p>
+                  uppercuz.com<br>
+                  facebook.com/uppercuzcreative/<br>
+                  Tel : 087-378-6070 <br>
+                  Email : contact@uppercuz.com
+                </p>
+              </article> <!-- uppercuz -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon6.png" alt="APPLE THAILAND">
+                <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
+              </article> <!-- Apple Thailand -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon7.png" alt="PAGE-QQ">
+                <h5>PAGE-QQ</h5>
+                <p>
+                  บริษัท SERV 4 BIZ จำกัด<br>
+                  facebook.com/PageQQ<br>
+                  Tel : 081-842-9422<br>
+                  Email : support@pageqq.com
+                </p>
+              </article> <!-- PAGE-QQ -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon8.png" alt="DEK D">
+                <h5>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด</h5>
+                <p>
+                  dek-d.com/<br>
+                  facebook.com/DekDfc/<br>
+                  Tel : 02-860-1142<br>
+                  Email : contact@dek-d.com
+                </p>
+              </article> <!-- DEK D -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon9.png" alt="DUCK LAB">
+                <h5>บริษัท ดัค แล็บ จำกัด</h5>
+                <p>
+                  ducklab.co.th<br>
+                  Tel : 081-443-3618<br>
+                  Email : manager@ducklab.co.th
+                </p>
+              </article> <!-- DUCK LAB -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon10.png" alt="PAGE-LACTASOY" style="filter: none;">
+                <h5>LACTASOY</h5>
+                <p>
+                  lactasoy.com/th/<br>
+                  facebook.com/lactasoyclub<br>
+                  Tel : 02-396-0320-7<br>
+                  Email : lactasoy@lactasoy.com
+                </p>
+              </article> <!-- LACTASOY -->
+            </article>
+          </section> <!-- Sponsor -->
+        </section>
 
-      <section class="group" style="font-family: 'Kanit', sans-serif;">
-        <ul>
-          <li>กลุ่มที่ 1</li>
-          <li>อาจารย์รักชนก สุขะกาลนันท์</li>
-          <li>อาจารย์อติเทพ แจ้ดนาลาว</li>
-          <li>ผศ. ดร. วรสิทธิ์ ชูชัยวัฒนา</li>
-          <li>อาจารย์ปัณณวิชญ์ อริยะธนกตวงศ์</li>
-          <li>อาจารย์ศรันยา มะระพฤกษ์วรรณ</li>
-          <li>อาจารย์ศรายุทธ ธิบดี</li>
-          <li>ผศ.ชัยชาญ ถาวรเวช</li>
-        </ul>
-      </section>
-
-      <section class="group" style="font-family: 'Kanit', sans-serif;">
-        <ul>
-          <li>กลุ่มที่ 2</li>
-          <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
-          <li>อาจารย์ลักษณ์นารา จันทรารมย์</li>
-          <li>อาจารย์ประธาน ด่านสกุลเจริญกิจ</li>
-          <li>อาจารย์อิทธิชัย ภูมิศิริวิไล</li>
-          <li>อาจารย์พิสิฐพงษ์ สืบพิลา</li>
-          <li>อาจารย์ถิราภา ใจเที่ยง</li>
-        </ul>
-      </section>
-
-      <section class="group" style="font-family: 'Kanit', sans-serif;">
-        <ul>
-          <li>กลุ่มที่ 3</li>
-          <li>อาจารย์อรวรรณ ประพฤติดี</li>
-          <li>ผศ. ดร.ธีรพงศ์ ลีลานุภาพ</li>
-          <li>อาจารย์กิตตินนท์ อุ้ยวงค์ไพศาล</li>
-          <li>อาจารย์ณัฐธิดา แซ่แต้</li>
-          <li>อาจารย์ศุภณัฐ โกมลารชุน</li>
-          <li>อาจารย์ณัฐพงศ์ มาเสถียร</li>
-          <li>อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
-        </ul>
-      </section>
-
-      <section class="group" style="font-family: 'Kanit', sans-serif;">
-        <ul>
-          <li>กลุ่มที่ 4</li>
-          <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
-          <li>อาจารย์โกวิท มีบุญ</li>
-          <li>อาจารย์ปานรวี พุ่มเข็ม</li>
-          <li>อาจารย์จุลดิษฐ์ สันติธรณี</li>
-          <li>อาจารย์พสุพงษ์ ประเสริฐรุ่งเรือง</li>
-          <li>อาจารย์ปกรณ์ สันติสุนทรกุล</li>
-        </ul>
-      </section>
-
-    </div>
-    <div class="wrapp">
-    <div class="group2" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon22.png"> </div><br>
-    <div class="group3" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon1.png"><br><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
-Central Pattana Public Company Limited<br>
-centralworld.co.th<br>
-facebook.com/CentralWorld<br>
-Tel : 02-100-9999 </div>
-    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon3.png"><br>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด <br>
-Thai petroleum support co. ltd<br>
-txppetro.com/our-company<br>
-Tel : 02-287-3077<br>
-Email : contact@txppetro.com</div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon4.png"><br>บริษัท มิวซ์ อินโนเวชั่น จำกัด <br>
-Muze innovation co. ltd<br>
-muzeinnovation.com/<br>
-facebook.com/muzeinnovation<br>
-Email : info@mymuze.me  </div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon5.png"><br>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด<br>
-uppercuz.com<br>
-facebook.com/uppercuzcreative/<br>
-Tel : 087-378-6070 <br>
-Email : contact@uppercuz.com </div>
-    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon6.png"><br>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon7.png"><br>PAGE-QQ<br>
-บริษัท SERV 4 BIZ จำกัด<br>
-facebook.com/PageQQ<br>
-Tel : 081-842-9422<br>
-Email : support@pageqq.com  </div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon8.png"><br>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด<br>
-dek-d.com/<br>
-facebook.com/DekDfc/<br>
-Tel : 02-860-1142<br>
-Email : contact@dek-d.com </div>
-    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon9.png"><br>บริษัท ดัค แล็บ จำกัด <br>
-ducklab.co.th<br>
-Tel : 081-443-3618<br>
-Email : manager@ducklab.co.th </div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon10.png"><br>LACTASOY<br>
-lactasoy.com/th/<br>
-facebook.com/lactasoyclub<br>
-Tel : 02-396-0320-7<br>
-Email : lactasoy@lactasoy.com </div>
-</div>
-        <script>
+<script>
 // logo
 var a=0;
 

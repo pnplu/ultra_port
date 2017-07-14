@@ -44,7 +44,7 @@
             <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
             <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
             <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
-            <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
+            <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
             <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
             <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
             <!-- <hr> -->
@@ -76,7 +76,7 @@
               </article>
               <h4>APPLICATION <br>IOS</h4>
               <article class="box_count_creator">
-                <p>12 CREATOR</p>
+                <p>8 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 1 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=4"><article class="wrap_box_work">
@@ -85,7 +85,7 @@
               </article>
               <h4>BASE ON <br>DESKTOP</h4>
               <article class="box_count_creator">
-                <p>12 CREATOR</p>
+                <p>7 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 2 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=2"><article class="wrap_box_work">
@@ -94,7 +94,7 @@
               </article>
               <h4>ANDROID</h4>
               <article class="box_count_creator p_wrok_pos">
-                <p>12 CREATOR</p>
+                <p>9 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 3 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=3"><article class="wrap_box_work">
@@ -103,7 +103,7 @@
               </article>
               <h4>WEB MOBILE</h4>
               <article class="box_count_creator p_wrok_pos">
-                <p>12 CREATOR</p>
+                <p>4 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 4 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=5"><article class="wrap_box_work">
@@ -112,7 +112,7 @@
               </article>
               <h4>UNITY KINECT</h4>
               <article class="box_count_creator p_wrok_pos">
-                <p>12 CREATOR</p>
+                <p>4 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 5 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=6"><article class="wrap_box_work">
@@ -121,7 +121,7 @@
               </article>
               <h4>INTERACTIVE</h4>
               <article class="box_count_creator p_wrok_pos">
-                <p>12 CREATOR</p>
+                <p>8 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 6 -->
 
@@ -142,7 +142,7 @@
                 </article>
                 <h4>APPLICATION<br>IOS</h4>
                 <article class="box_count_creator_dt">
-                  <p>12 CREATOR</p>
+                  <p>8 CREATOR</p>
                 </article>
               </li> <!-- app 01 -->
               <li>
@@ -151,7 +151,7 @@
                 </article>
                 <h4>BASE ON<br>DESKTOP</h4>
                 <article class="box_count_creator_dt">
-                  <p>12 CREATOR</p>
+                  <p>7 CREATOR</p>
                 </article>
               </li> <!-- app 02 -->
               <li>
@@ -160,7 +160,7 @@
                 </article>
                 <h4>WEB MOBILE</h4>
                 <article class="box_count_creator_dt p_wrok_pos_dt">
-                  <p>12 CREATOR</p>
+                  <p>9 CREATOR</p>
                 </article>
               </li> <!-- app 03 -->
               <li>
@@ -169,7 +169,7 @@
                 </article>
                 <h4>ANDROID</h4>
                 <article class="box_count_creator_dt p_wrok_pos_dt">
-                  <p>12 CREATOR</p>
+                  <p>4 CREATOR</p>
                 </article>
               </li> <!-- app 04 -->
               <li>
@@ -178,7 +178,7 @@
                 </article>
                 <h4>UNITY KINECT</h4>
                 <article class="box_count_creator_dt p_wrok_pos_dt">
-                  <p>12 CREATOR</p>
+                  <p>4 CREATOR</p>
                 </article>
               </li> <!-- app 05 -->
               <li>
@@ -187,7 +187,7 @@
                 </article>
                 <h4>INTERACTIVE</h4>
                 <article class="box_count_creator_dt p_wrok_pos_dt">
-                  <p>12 CREATOR</p>
+                  <p>8 CREATOR</p>
                 </article>
               </li> <!-- app 06 -->
             </ul>

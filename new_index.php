@@ -99,7 +99,7 @@
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
-          <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
+          <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
@@ -152,7 +152,7 @@
                     <span class="cover_index"></span>
                     <img id="db_application_ios" src="image_user/function/function_13560113_01.jpg" class="cat_profile">
                     <div class="box_count">
-                      <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
+                      <p style="font-family: 'Titillium Web', sans-serif;">8 CREATOR</p>
                     </div>
                   </div>
                 </article>
@@ -164,7 +164,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_base_on_desktop" src="image_user/avatar/avatar_13560190.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">7 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -176,7 +176,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_web_mobile" src="image_user/function/function_13550631_01.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">4 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -188,7 +188,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_android" src="image_user/avatar/avatar_13540644.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">9 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -200,7 +200,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_unity_kinect" src="image_user/function/function_13560120_01.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">4 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -212,7 +212,7 @@
                 <span class="cover_index"></span>
                 <img id="db_application_interactive" src="image_user/avatar/avatar_13550255.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">12 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">8 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -423,6 +423,10 @@ $('.box_b').addClass('animated fadeInUp');
 $('.a').addClass('animated flash');
 $('.c').addClass('animated flash');
 $('.f').addClass('animated flash');
+
+if($( window ).width() < 1100) {
+  document.location = 'index.php';
+}
 
 $(window).resize(function() {
   if($( document ).width() < 1100) {

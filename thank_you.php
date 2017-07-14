@@ -1,21 +1,18 @@
-<?php
-
-require_once __DIR__."/app/autoload.php";
-use Ultraline\Database;
-
-$conn = new Database();
-$data_user = $conn->db_application_all();
- ?>
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= device-width,initial-scale=1.0">
     <title>ULTRA LINE 11.3 Graduate Exhibition </title>
     <link rel="shortcut icon" href="image_web/favicon.ico">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="vendor/twbs/bootstrap/dist/js/jquery.min.js"></script>
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- css -->
-    <link rel="stylesheet" href="stylesheet/css/style_port.css">
+    <link rel="stylesheet" href="stylesheet/css/style_index.css">
+    <link rel="stylesheet" href="stylesheet/thankyou.css">
     <link rel="stylesheet" href="css/style_browse.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
@@ -24,25 +21,44 @@ $data_user = $conn->db_application_all();
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
+
+    <!-- Creator count animation -->
+    <link rel="stylesheet" href="stylesheet/css/odometer-theme-minimal.css" />
+    <script src="js/odometer.min.js"></script>
+    <script>
+    window.odometerOptions = {
+      format: '(ddd).dd'
+    };
+    </script>
 
     <!-- Hover menu bar -->
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
 
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
+
+    <!-- add sound -->
+    <script type="text/javascript" src="js/sound-mouseover.js"></script>
   </head>
   <body>
+    <div id="large-header" class="large-header">
+  <canvas id="demo-canvas"></canvas>
 
     <section id="browse_wrap"></section> <!-- section -->
+
     <section class="container-fluid">
       <section class="row">
-        <nav class="col-sm-12 wrap_nav_top">
-          <article class="col-xs-4 col-sm-2 box_nav_top_l" style="margin-left: 25px; margin-top: 20px;">
-            <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <article class="col-xs-2 col-sm-1 col-md-2 side_l_page">
+
+          <a href="index.php">
+          <!-- logo-effect -->
+          <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
               <desc>Created with Sketch.</desc>
               <defs></defs>
@@ -57,82 +73,129 @@ $data_user = $conn->db_application_all();
                   </g>
               </g>
           </svg><!-- logo-effect -->
-          </article>
-          <article class="col-sm-9 wrap_menu_top_text tablet animated fadeInDown">
-            <ul>
-              <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
+          </a>
+          <p>
+            INTERACTIVE MEDIA DESIGN<br>
+            ICTSILPAKORN
+          </p>
+        </article> <!-- Side L -->
+
+        <article class="col-sm-10 col-md-10 menu">
+          <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
           <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
-            </ul>
-          </article>
-          <article class="col-xs-8 col-sm-3 box_nav_top_r" style="display: none;">
-            <img src="image_web/logo_ict.png" alt="ictsu_logo">
-          </article>
           <hr>
-        </nav> <!-- nav -->
-        <section class="col-sm-1 wrap_text_side_l tablet">
-          <p>
-            INTERACTIVE MEDIA DESIGN<br>
-            ICTSILPAKORN
-          </p>
-        </section>
-        <section class="col-xs-12 col-sm-11 wrap_people">
-          <?php
-            foreach ($data_user as $key => $value) {
-           ?>
-          <article class="col-xs-6 col-sm-4 col-md-3 wrap_box_people">
-            <!-- <article class="row"> -->
-              <article class="image_people">
-                <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
-                  <a href="project_detail.php?stu_id=<?php echo $value["student_id"]; ?>"><button type="button">VIEW PROJECT</button></a>
-              </article>
-            <!-- </article> -->
-            <!-- <article class="row"> -->
-              <article class="discription_people">
-                <p class="topic_user"><?php echo $value["work"]["project_name"]; ?></p>
-                <p class="name_user">by <?php echo $value["user"]["name"]; ?></p>
-              </article> <!-- discription_people -->
-            <!-- </article> -->
+        </article> <!-- menu -->
 
-          </article> <!-- wrap_box_people 1 -->
-          <?php
-        }
-           ?>
+        <div class="thank_all">
+      <p style="font-family: 'Kanit', sans-serif;">
+      ผู้ช่วยศาสตราจารย์ ดร.วันชัย  สุทธะนันท์<br>
+      อธิการบดีมหาวิทยาลัยศิลปากร
+      <br><br>
+      ผู้ช่วยศาสตราจารย์สมศักดิ์ ชาติน้ำเพ็ชร<br>
+      คณบดีคณะเทคโนโลยีสารสนเทศและการสื่อสาร
+      </p>
 
-        </section> <!-- wrap_people -->
-      </section> <!-- row -->
+      <h5 style="font-family: 'Kanit', sans-serif;">คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
 
-      <!-- footer -->
-      <footer class="row">
-        <section class="wrap_footer">
-          <article class="col-xs-12 wrap_r_footer">
-            <article class="col-xs-3 col-sm-2 col-md-1 wrap_footer_l">
-              <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
-            </article> <!-- wrap_footer_l -->
-            <article class="col-xs-9 col-sm-10 col-md-11 wrap_footer_r">
-              <p>HOME > CATEGORY</p>
-              <article class="wrap_topic_footer">
-                <span class="topic_footer">CREATOR</span>
-              </article>
-              <article class="wrap_user_footer">
-                <span class="user_footer">40 CREATOR</span>
-              </article> <!-- wrap_user_footer -->
-            </article> <!-- wrap_footer_r -->
-          </article> <!-- wrap_r_footer -->
-        </section> <!-- wrap_footer -->
-      </footer>
-    </section> <!-- container-fluid -->
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
+        <ul>
+          <li>กลุ่มที่ 1</li>
+          <li>อาจารย์รักชนก สุขะกาลนันท์</li>
+          <li>อาจารย์อติเทพ แจ้ดนาลาว</li>
+          <li>ผศ. ดร. วรสิทธิ์ ชูชัยวัฒนา</li>
+          <li>อาจารย์ปัณณวิชญ์ อริยะธนกตวงศ์</li>
+          <li>อาจารย์ศรันยา มะระพฤกษ์วรรณ</li>
+          <li>อาจารย์ศรายุทธ ธิบดี</li>
+          <li>ผศ.ชัยชาญ ถาวรเวช</li>
+        </ul>
+      </section>
 
-    <section id="browse_wrap"></section> <!-- section -->
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
+        <ul>
+          <li>กลุ่มที่ 2</li>
+          <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
+          <li>อาจารย์ลักษณ์นารา จันทรารมย์</li>
+          <li>อาจารย์ประธาน ด่านสกุลเจริญกิจ</li>
+          <li>อาจารย์อิทธิชัย ภูมิศิริวิไล</li>
+          <li>อาจารย์พิสิฐพงษ์ สืบพิลา</li>
+          <li>อาจารย์ถิราภา ใจเที่ยง</li>
+        </ul>
+      </section>
 
-  <!-- Creator hover -->
-  <script src="js/anime.min.js"></script>
-  <script src="js/main.js"></script>
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
+        <ul>
+          <li>กลุ่มที่ 3</li>
+          <li>อาจารย์อรวรรณ ประพฤติดี</li>
+          <li>ผศ. ดร.ธีรพงศ์ ลีลานุภาพ</li>
+          <li>อาจารย์กิตตินนท์ อุ้ยวงค์ไพศาล</li>
+          <li>อาจารย์ณัฐธิดา แซ่แต้</li>
+          <li>อาจารย์ศุภณัฐ โกมลารชุน</li>
+          <li>อาจารย์ณัฐพงศ์ มาเสถียร</li>
+          <li>อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
+        </ul>
+      </section>
 
-  <script>
+      <section class="group" style="font-family: 'Kanit', sans-serif;">
+        <ul>
+          <li>กลุ่มที่ 4</li>
+          <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
+          <li>อาจารย์โกวิท มีบุญ</li>
+          <li>อาจารย์ปานรวี พุ่มเข็ม</li>
+          <li>อาจารย์จุลดิษฐ์ สันติธรณี</li>
+          <li>อาจารย์พสุพงษ์ ประเสริฐรุ่งเรือง</li>
+          <li>อาจารย์ปกรณ์ สันติสุนทรกุล</li>
+        </ul>
+      </section>
+
+    </div>
+    <div class="wrapp">
+    <div class="group2" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon22.png"> </div><br>
+    <div class="group3" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon1.png"><br><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
+Central Pattana Public Company Limited<br>
+centralworld.co.th<br>
+facebook.com/CentralWorld<br>
+Tel : 02-100-9999 </div>
+    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon3.png"><br>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด <br>
+Thai petroleum support co. ltd<br>
+txppetro.com/our-company<br>
+Tel : 02-287-3077<br>
+Email : contact@txppetro.com</div>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon4.png"><br>บริษัท มิวซ์ อินโนเวชั่น จำกัด <br>
+Muze innovation co. ltd<br>
+muzeinnovation.com/<br>
+facebook.com/muzeinnovation<br>
+Email : info@mymuze.me  </div>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon5.png"><br>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด<br>
+uppercuz.com<br>
+facebook.com/uppercuzcreative/<br>
+Tel : 087-378-6070 <br>
+Email : contact@uppercuz.com </div>
+    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon6.png"><br>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</div>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon7.png"><br>PAGE-QQ<br>
+บริษัท SERV 4 BIZ จำกัด<br>
+facebook.com/PageQQ<br>
+Tel : 081-842-9422<br>
+Email : support@pageqq.com  </div>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon8.png"><br>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด<br>
+dek-d.com/<br>
+facebook.com/DekDfc/<br>
+Tel : 02-860-1142<br>
+Email : contact@dek-d.com </div>
+    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon9.png"><br>บริษัท ดัค แล็บ จำกัด <br>
+ducklab.co.th<br>
+Tel : 081-443-3618<br>
+Email : manager@ducklab.co.th </div>
+    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon10.png"><br>LACTASOY<br>
+lactasoy.com/th/<br>
+facebook.com/lactasoyclub<br>
+Tel : 02-396-0320-7<br>
+Email : lactasoy@lactasoy.com </div>
+</div>
+        <script>
 // logo
 var a=0;
 
@@ -157,7 +220,50 @@ function myFunction() {
       }
 // logo
 
-</script>
 
+// hover menu
+      (function() {
+        [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
+          new VegaFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function(stackEl) {
+          new CastorFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+          new HamalFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function(stackEl) {
+          new PolarisFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function(stackEl) {
+          new AlphardFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function(stackEl) {
+          new AltairFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+          new RigelFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function(stackEl) {
+          new CanopusFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function(stackEl) {
+          new PolluxFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function(stackEl) {
+          new DenebFx(stackEl);
+        });
+      })();
+
+// animate.css
+$('.menu_r').addClass('animated fadeInUp');
+$('.menu').addClass('animated fadeInDown');
+$('.box_a').addClass('animated fadeInRight');
+$('.box_b').addClass('animated fadeInUp');
+$('.a').addClass('animated flash');
+$('.c').addClass('animated flash');
+$('.d').addClass('animated flash');
+$('.f').addClass('animated flash');
+</script>
   </body>
 </html>

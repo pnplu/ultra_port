@@ -45,6 +45,69 @@
 
     <!-- add sound -->
     <script type="text/javascript" src="js/sound-mouseover.js"></script>
+    <style media="screen">
+      body{
+        font-family: 'Kanit', sans-serif;
+        color: #FFFFFF;
+        margin-bottom: 100px;
+      }
+      a{
+        color: #FFFFFF;
+      }
+      a:hover{
+        color: #FFFFFF;
+      }
+      @media screen and (min-width: 319px) {
+        h5{
+          text-align: center;
+        }
+        ul{
+          text-align: left;
+          margin-top: 20px;
+        }
+        img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          max-width: 80%;
+          filter: brightness(0) invert(1);
+        }
+        p{
+          text-align: center;
+        }
+      }
+      @media screen and (min-width: 767px) {
+        #box_top{
+          margin-top: 150px;
+        }
+        h5{
+          text-align: center;
+        }
+        ul{
+          text-align: left;
+          margin-top: 20px;
+        }
+        img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+        }
+        p{
+          text-align: center;
+        }
+        .box_sponsor{
+          height: 250px;
+        }
+      }
+      @media screen and (min-width: 959px) {
+        #logoict img{
+          max-width: 100%;
+          margin-bottom: 100px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="large-header" class="large-header">
@@ -54,7 +117,8 @@
 
     <section class="container-fluid">
       <section class="row">
-        <article class="col-xs-2 col-sm-1 col-md-2 side_l_page">
+        <article class="col-sm-1 col-md-2 side_l_page">
+
           <a href="index.php">
           <!-- logo-effect -->
           <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -83,89 +147,153 @@
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
-          <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
+          <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
 
-<div class="contact">
-  <section class="blog-1">
-    <h3>ข้อมูลหลักสูตร</h3>
-    <a href="http://web11.ictsilpakorn.com/contact.html">หลักสูตรเทคโนโลยีสารสนเทศธุรกิจ</a> <br>
-    <a href="http://web11.ictsilpakorn.com/contact.html">หลักสูตรเทคโนโลยีสารสนเทศเพื่อการออกแบบ</a> <br>
-    <a href="http://web11.ictsilpakorn.com/contact.html">หลักสูตรเทคโนโลยีสารสนเทศนิเทศศาสตร์</a> <br>
-    <a href="http://web11.ictsilpakorn.com/contact.html">ICT Silpakorn Webboard</a> <br>
-    <a href="http://web11.ictsilpakorn.com/contact.html">วิดีโอแนะนำวิชา</a> <br>
-    <a href="http://web11.ictsilpakorn.com/contact.html">ไอซีทีศิลปากรโชว์เคส(ICT Showcase)</a> <br><br>
+        <section id="box_top" class="row">
+          <section class="row">
+            <article class="col-xs-12 col-sm-10 col-md-9">
+            <article class="col-xs-12 col-sm-6 col-md-6">
+              <ul>
+                <li><h3>ข้อมูลหลักสูตร</h3></li>
+                <li><a target="_blank" href="http://www.ict.su.ac.th/academic-it-business.php">หลักสูตรเทคโนโลยีสารสนเทศธุรกิจ</a></li>
+                <li><a target="_blank" href="http://www.ict.su.ac.th/academic-it-design.php">หลักสูตรเทคโนโลยีสารสนเทศเพื่อการออกแบบ</a></li>
+                <li><a target="_blank" href="http://www.ict.su.ac.th/academic-communication.php">หลักสูตรเทคโนโลยีสารสนเทศนิเทศศาสตร์</a></li>
+                <li><a target="_blank" href="http://www.ict.su.ac.th/journal/">ICT Silpakorn Journal</a></li>
+                <li><a target="_blank" href="http://www.ict.su.ac.th/contact.php">ติดต่อคณะ</a></li>
+                <li><a target="_blank" href="http://www.ict.su.ac.th/showcase.php">ไอซีทีศิลปากรโชว์เคส(ICT Showcase)</a></li>
+              </ul>
+            </article> <!-- room 1 -->
+            <article class="col-xs-12 col-sm-6 col-md-6">
+              <ul>
+                <li><h3>ผลงานของนิทรรศการ <br>Ultra-Line 11.3</h3></li>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ultraline11.3" target="_blank">facebook.com/Ultra-Line 11.3/</a></li>
+              </ul>
+            </article> <!-- room 2 -->
+            <article class="row col-sm-offset-1 col-sm-11 col-md-offset-0 col-md-12">
+            <article class="col-xs-12 col-sm-5 col-md-6">
+              <ul>
+                <li><h3>รวมผลงานจุลนิพนธ์</h3></li>
+                <li><a target="_blank" href="http://web05.ictsilpakorn.com/">ICTSUWEB#05</a> </li>
+                <li><a target="_blank" href="http://web06.ictsilpakorn.com/">ICTSUWEB#06</a> </li>
+                <li><a target="_blank" href="http://web07.ictsilpakorn.com/">ICTSUWEB#07</a> </li>
+                <li><a target="_blank" href="http://web08.ictsilpakorn.com/">ICTSUWEB#08</a> </li>
+                <li><a target="_blank" href="http://web09.ictsilpakorn.com/">ICTSUWEB#09 - SURAROUND 9.1</a> </li>
+                <li><a target="_blank" href="http://web10.ictsilpakorn.com/">ICTSUWEB#10 - OATHLON 10.2</a></li>
+                <li><a target="_blank" href="http://ictsilpakorn.com/im11/">ICTSUWEB#11 - Ultra-Line 11.3</a></li>
+              </ul>
+            </article> <!-- room 3 -->
+            <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6">
+              <ul>
+                <li><h3>ผลงานของ ICT:SILPAKORN</h3></li>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ictsilpakorn" target="_blank">facebook.com/ictsilpakorn/</a></li>
+                <li><i class="fa fa-twitter-square" aria-hidden="true"></i>  <a href="http://www.twitter.com/ictsilpakorn" target="_blank">twitter.com/ictsilpakorn/</a></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i>  <a href="http://www.instagram.com/ictsilpakorn" target="_blank">instagram.com/ictsilpakorn/</a></li>
+                <li><i class="fa fa-youtube-play" aria-hidden="true"></i>  <a href="http://www.youtube.com/ictsilpakorn" target="_blank">youtube.com/ictsilpakorn/</a></li>
+                <li><i class="fa fa-vimeo-square" aria-hidden="true"></i>  <a href="http://www.vimeo.com/ictsilpakorn" target="_blank">vimeo.com/ictsilpakorn</a></li>
+                <li><a href="http://ict.su.ac.th">ict.su.ac.th</a></li>
+              </ul>
+            </article> <!-- room 4 -->
+            </article>
+            </article>
+          </section> <!-- Teacher -->
 
-    <h3>รวมผลงานจุลนิพนธ์</h3>
-    <a href="http://web05.ictsilpakorn.com/">ICTSUWEB#05</a> <br>
-    <a href="http://web06.ictsilpakorn.com/">ICTSUWEB#06</a> <br>
-    <a href="http://web07.ictsilpakorn.com/">ICTSUWEB#07</a> <br>
-    <a href="http://web08.ictsilpakorn.com/">ICTSUWEB#08</a> <br>
-    <a href="http://web09.ictsilpakorn.com/">ICTSUWEB#09 - SURAROUND 9.1</a> <br>
-    <a href="http://web10.ictsilpakorn.com/">ICTSUWEB#10 - OATHLON 10.2</a><br>
-    <a href="http://web11.ictsilpakorn.com/">ICTSUWEB#11 - Ultra-Line 11.3</a>
-  </section>
-  <section class="blog-2">
-    <h3>ผลงานของนิทรรศการ <br>Ultra-Line 11.3</h3>
-    <i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ultraline11.3" target="_blank">facebook.com/Ultra-Line 11.3/</a> <br>
-     <br><br>
+          <section class="row">
+            <article class="col-xs-12">
+              <article id="logoict" class="col-xs-12">
+                <img src="img/spon22.png" alt="ICTSILPAKORN">
+              </article> <!-- logo ictsilpakorn -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon1.png" alt="Central World">
+                <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
+                <p>
+                  Central Pattana Public Company Limited<br>
+                  centralworld.co.th<br>
+                  facebook.com/CentralWorld<br>
+                  Tel : 02-100-9999
+                </p>
+              </article> <!-- central -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon111.png" alt="TXP" style="max-width: 40%;">
+                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
+                <p>
+                  Thai petroleum support co. ltd<br>
+                  txppetro.com/our-company<br>
+                  Tel : 02-287-3077<br>
+                  Email : contact@txppetro.com
+                </p>
+              </article> <!-- txp -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon4.png" alt="MUZE">
+                <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
+                <p>
+                  Muze innovation co. ltd<br>
+                  muzeinnovation.com/<br>
+                  facebook.com/muzeinnovation<br>
+                  Email : info@mymuze.me
+                </p>
+              </article> <!-- muze -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon5.png" alt="UPPERCUZ">
+                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
+                <p>
+                  uppercuz.com<br>
+                  facebook.com/uppercuzcreative/<br>
+                  Tel : 087-378-6070 <br>
+                  Email : contact@uppercuz.com
+                </p>
+              </article> <!-- uppercuz -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon6.png" alt="APPLE THAILAND">
+                <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
+              </article> <!-- Apple Thailand -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon7.png" alt="PAGE-QQ">
+                <h5>PAGE-QQ</h5>
+                <p>
+                  บริษัท SERV 4 BIZ จำกัด<br>
+                  facebook.com/PageQQ<br>
+                  Tel : 081-842-9422<br>
+                  Email : support@pageqq.com
+                </p>
+              </article> <!-- PAGE-QQ -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon8.png" alt="DEK D">
+                <h5>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด</h5>
+                <p>
+                  dek-d.com/<br>
+                  facebook.com/DekDfc/<br>
+                  Tel : 02-860-1142<br>
+                  Email : contact@dek-d.com
+                </p>
+              </article> <!-- DEK D -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon9.png" alt="DUCK LAB">
+                <h5>บริษัท ดัค แล็บ จำกัด</h5>
+                <p>
+                  ducklab.co.th<br>
+                  Tel : 081-443-3618<br>
+                  Email : manager@ducklab.co.th
+                </p>
+              </article> <!-- DUCK LAB -->
+              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+                <img src="img/spon10.png" alt="PAGE-LACTASOY" style="filter: none;">
+                <h5>LACTASOY</h5>
+                <p>
+                  lactasoy.com/th/<br>
+                  facebook.com/lactasoyclub<br>
+                  Tel : 02-396-0320-7<br>
+                  Email : lactasoy@lactasoy.com
+                </p>
+              </article> <!-- LACTASOY -->
+            </article>
+          </section> <!-- Sponsor -->
+        </section>
 
-    <h3>ผลงานของ ICT:SILPAKORN</h3>
-    <i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ictsilpakorn" target="_blank">facebook.com/ictsilpakorn/</a> <br>
-    <i class="fa fa-twitter-square" aria-hidden="true"></i>  <a href="http://www.twitter.com/ictsilpakorn" target="_blank">twitter.com/ictsilpakorn/</a> <br>
-    <i class="fa fa-instagram" aria-hidden="true"></i>  <a href="http://www.instagram.com/ictsilpakorn" target="_blank">instagram.com/ictsilpakorn/</a> <br>
-    <i class="fa fa-youtube-play" aria-hidden="true"></i>  <a href="http://www.youtube.com/ictsilpakorn" target="_blank">youtube.com/ictsilpakorn/</a> <br>
-    <i class="fa fa-vimeo-square" aria-hidden="true"></i>  <a href="http://www.vimeo.com/ictsilpakorn" target="_blank">vimeo.com/ictsilpakorn</a> <br>
-    <a href="http://web11.ictsilpakorn.com/contact.html">ict.su.ac.th</a> <br>
-  </section>
-</div>
-<div class="wrapp">
-<div class="group2" class="group" style="font-family: 'Kanit', sans-serif;"> <img src="img/spon22.png"> </div>
-    <div class="group3" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon1.png"><br>ศูนย์การค้าเซ็นทรัลเวิลด์<br>
-Central Pattana Public Company Limited<br>
-centralworld.co.th<br>
-facebook.com/CentralWorld<br>
-Tel : 02-100-9999 </div>
-    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon3.png"><br>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด <br>
-Thai petroleum support co. ltd<br>
-txppetro.com/our-company<br>
-Tel : 02-287-3077<br>
-Email : contact@txppetro.com</div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon4.png"><br>บริษัท มิวซ์ อินโนเวชั่น จำกัด <br>
-Muze innovation co. ltd<br>
-muzeinnovation.com/<br>
-facebook.com/muzeinnovation<br>
-Email : info@mymuze.me  </div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon5.png"><br>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด<br>
-uppercuz.com<br>
-facebook.com/uppercuzcreative/<br>
-Tel : 087-378-6070 <br>
-Email : contact@uppercuz.com </div>
-    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon6.png"><br>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon7.png"><br>PAGE-QQ<br>
-บริษัท SERV 4 BIZ จำกัด<br>
-facebook.com/PageQQ<br>
-Tel : 081-842-9422<br>
-Email : support@pageqq.com  </div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon8.png"><br>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด<br>
-dek-d.com/<br>
-facebook.com/DekDfc/<br>
-Tel : 02-860-1142<br>
-Email : contact@dek-d.com </div>
-    <div class="group1" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon9.png"><br>บริษัท ดัค แล็บ จำกัด <br>
-ducklab.co.th<br>
-Tel : 081-443-3618<br>
-Email : manager@ducklab.co.th </div>
-    <div class="group4" class="group" style="font-family: 'Kanit', sans-serif;"><img src="img/spon10.png"><br>LACTASOY<br>
-lactasoy.com/th/<br>
-facebook.com/lactasoyclub<br>
-Tel : 02-396-0320-7<br>
-Email : lactasoy@lactasoy.com </div>
-</div>
-        <script>
+<script>
 // logo
 var a=0;
 

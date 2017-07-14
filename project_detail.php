@@ -44,9 +44,13 @@
        .wrap_user_pinterest{
          top: 50px;
        }
+     }
       @media screen and (min-width: 959px) {
          .wrap_user_pinterest{
            top: 5px;
+      }
+      .img_dev_user img{
+        width: 100%;
       }
      }
    </style>
@@ -90,7 +94,7 @@ background-size: cover;
             <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
             <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
             <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
-            <span><a class="link link--kukuri" href="#" data-letters="THANKYOU" onmouseover="playclip();">EXHIBITION</a></span>
+            <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
             <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
             <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           </article> <!-- menu -->
@@ -112,7 +116,7 @@ background-size: cover;
           </article>
         <!-- </article> -->
 
-        <div class='icon-scroll'><div/>
+        <div class='icon-scroll tablet'><div/>
     </section>
 
 
@@ -218,7 +222,7 @@ background-size: cover;
                     <article class="fill"></article>
                 </article>
             </article>
-            <p><?php echo $json_data["skill_name_a"]; ?></p>
+            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_a"]; ?></p>
           </article> <!--skill 1-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_b"]; ?> white">
@@ -228,7 +232,7 @@ background-size: cover;
                     <article class="fill"></article>
                 </article>
             </article>
-            <p><?php echo $json_data["skill_name_b"]; ?></p>
+            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_b"]; ?></p>
           </article> <!--skill 2-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_c"]; ?> green_r">
@@ -238,7 +242,7 @@ background-size: cover;
                     <article class="fill"></article>
                 </article>
             </article>
-            <p><?php echo $json_data["skill_name_c"]; ?></p>
+            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_c"]; ?></p>
           </article> <!--skill 3-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_d"]; ?> red_r">
@@ -248,7 +252,7 @@ background-size: cover;
                     <article class="fill"></article>
                 </article>
             </article>
-            <p><?php echo $json_data["skill_name_d"]; ?></p>
+            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_d"]; ?></p>
           </article> <!--skill 4-->
         </section>
       </section> <!-- tool develop -->
