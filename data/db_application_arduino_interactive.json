@@ -1,0 +1,118 @@
+{
+  "13550255": {
+    "student_id": "13550255",
+    "user": {
+      "name": "Apichaya Khaosa-ard",
+      "motivation_quote": "Nothing great was ever achieved without enthusiasm",
+      "facebook": "theoldpraw",
+      "email": "prawtot@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550255.jpg",
+        "profile": "avatar_13550255.jpg",
+        "quote": "quote_footer_13550255.jpg",
+        "head_preview": "head_preview_13550255.jpg"
+      },
+      "video": {
+        "showreel": "sqpjQdXwDh0",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F977242035645601%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "สื่อโต้ตอบส่งเสริมการเรียนรู้อย่างสร้างสรรค์เกี่ยวกับโคนมไทยสำหรับโรงเรียนประถมศึกษา",
+      "project_name": "Dairy Farm",
+      "type": "Interactive with Unity Arduino",
+      "concept": "เด็กทุกคนดื่มนมเพื่อการเติบโตทำให้คุ้นเคยกับนมโค แต่ไม่ทราบถึงการเลี้ยงโคหรือการีดนมโค จึงอยากทำสื่อการเรียนรู้ที่แปลกใหม่และน่าสนใจในเรื่องของโคนมที่เหมาะกับเด็กๆ ได้รับทั้งความรู้และความสนุกสนาน โดยใช้ Arduino Sensor เป็นสื่อในการเล่นเกม",
+      "function": {
+        "function_name_a": "Chapter1",
+        "function_name_b": "Chapter2",
+        "function_name_c": "Chapter3",
+        "discription": {
+          "fuction_dis_a": "เกมทำความสะอาดคอก ใช้คราดกวาดฟางในคอกจำลอง เพื่อทำให้คอกสะอาดเหมาะกับสุขภาพแม่โค",
+          "fuction_dis_b": "เกมป้อนอาหารแม่โค หยิบหญ้าจำลองวางในรางอาหารที่เตรียมไว้ให้ เพื่อป้อนอาหารแม่โคให้อิ่ม",
+          "fuction_dis_c": "เกมรีดนมโค จำลองการรีดนมด้วยมือ ผ่านเซ็นเซอร์วัดแรงบีบ เมื่อกดหรือบีบในจอแสดงผลจะมีน้ำนมออกมา ถ้าบีบแรงไปแม่โคจะเจ็บเอานะ"
+        },
+        "image": {
+          "function_img_a": "function_13550255_01.jpg",
+          "function_img_b": "function_13550255_02.jpg",
+          "function_img_c": "function_13550255_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550255_01.jpg",
+        "img_b": "design_process_13550255_02.jpg",
+        "img_c": "design_process_13550255_03.jpg",
+        "img_d": "design_process_13550255_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UX/UI",
+      "skill_b_name": "AI",
+      "skill_c_name": "PS",
+      "skill_d_name": "UNITY",
+      "percent": {
+        "skill_a_percent": "30",
+        "skill_b_percent": "40",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13550137": {
+    "student_id": "13550137",
+    "user": {
+      "name": "Nuttiwut Sathennitichot",
+      "motivation_quote": "If not start, nothing happens.",
+      "facebook": "micky.mekick",
+      "email": "mick.skyd@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550137.jpg",
+        "profile": "avatar_13550137.jpg",
+        "quote": "quote_footer_13550137.jpg",
+        "head_preview": "head_preview_13550137.jpg"
+      },
+      "video": {
+        "showreel": "quT4Dr0bXgg",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F983275028375635%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "อินเตอร์แอคทีฟส่งเสริมกิจกรรมนันทนาการเกี่ยวกับดนตรีประเภทกลองชุด",
+      "project_name": "DRUMMER SEEKER",
+      "type": "Interactive with Unity Arduino",
+      "concept": "มีกิจกรรมทุกประเภทล้วนมีความน่าสนใจ ดนตรีก็เช่นกัน จะมีสิ่งไหนที่บุกเบิกความน่าสนใจเพื่อให้ทุกคนได้รู้จัก จึงเกิดเป็นสื่อการเรียนรู้ประเภทเกมให้เด็กๆสนใจเกี่ยวกับดนตรีก่อนที่จะเห็นว่า กิจกรรมนี้ไม่ได้น่าสนใจอะไร",
+      "function": {
+        "function_name_a": "Tutorial Game",
+        "function_name_b": "Game Play",
+        "function_name_c": "Ranking",
+        "discription": {
+          "fuction_dis_a": "ระบบสอนส่วนต่างๆก่อนจะเข้าเล่นเกม",
+          "fuction_dis_b": "ดนตรีส่งจังหวะให้ผู้เล่น ได้เล่นตามจังหวะเพื่อเก็บคะแนน",
+          "fuction_dis_c": "เก็บข้อมูลผู้เล่น และนำคะแนนมาจัดอันดับของผู้เล่น"
+        },
+        "image": {
+          "function_img_a": "function_13550137_01.jpg",
+          "function_img_b": "function_13550137_02.jpg",
+          "function_img_c": "function_13550137_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550137_01.jpg",
+        "img_b": "design_process_13550137_02.jpg",
+        "img_c": "design_process_13550137_03.jpg",
+        "img_d": "design_process_13550137_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "C#",
+      "skill_b_name": "UNITY",
+      "skill_c_name": "PS",
+      "skill_d_name": "MYSQL",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "30",
+        "skill_c_percent": "20",
+        "skill_d_percent": "10"
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "13560171": {
+    "student_id": "13560171",
+    "user": {
+      "name": "Thanakit Kaopom",
+      "motivation_quote": "The best feeling in the world is to know that your family are smiling because of you.",
+      "facebook": "tongthana",
+      "email": "thanakit_tong@hotmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560171.jpg",
+        "profile": "avatar_13560171.jpg",
+        "quote": "quote_footer_13560171.jpg",
+        "head_preview": "head_preview_13560171.jpg"
+      },
+      "video": {
+        "showreel": "yF1EDrSql2I",
+        "interview":"https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fultraline11.3%2Fvideos%2F978585002177971%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันส่งเสริมการเรียนรู้เรื่องระบบสุริยะ",
+      "project_name": "SOLAR CONQUEST",
+      "type": "Application Android on Tablet",
+      "concept": "เรื่องระบบสุริยะเป็นเรื่องที่ไกลตัว ไม่สามารถอธิบายให้เด็กเห็นภาพได้ เนื่องในโรงเรียนที่ขาดแคลนบุคลากรและสื่อการสอนนั้น ยิ่งทำให้เด็กไม่เข้าใจ และไม่กระตือรือร้นจึงทำเป็น แอปพลิเคชันส่งเสริมการเรียนรู้เรื่องระบบสุริยะขึ้นมา  เพื่อให้เด็กหันมาใส่ใจเรียนเพิ่มมากขึ้น ให้เด็กเรียนรู้ได้ด้วยตัวเอง และยังสนุกไปกับการเรียนรู้ดาวในระบบสุริยะ",
+      "function": {
+        "function_name_a": "Learning Solar",
+        "function_name_b": "VDO Hologram 3D",
+        "function_name_c": "Conquer mission",
+        "discription": {
+          "fuction_dis_a": "น้องๆได้ลงไปสำรวจดาวเคราะห์แต่ละดวงในระบบสุริยะ",
+          "fuction_dis_b": "ชมวีดีโอดาวเคราะห์ในรูปแบบโฮโลแกรม 3 มิติ",
+          "fuction_dis_c": "นำความรู้ที่ได้มาปลดล็อคภาระกิจ เพื่อพิชิตแต่ละด่านให้สำเร็จ"
+        },
+        "image": {
+          "function_img_a": "function_13560171_01.jpg",
+          "function_img_b": "function_13560171_02.jpg",
+          "function_img_c": "function_13560171_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560171_01.jpg",
+        "img_b": "design_process_13560171_02.jpg",
+        "img_c": "design_process_13560171_03.jpg",
+        "img_d": "design_process_13560171_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "C#",
+      "skill_c_name": "AI",
+      "skill_d_name": "PS",
+      "percent": {
+        "skill_a_percent": "30",
+        "skill_b_percent": "20",
+        "skill_c_percent": "40",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13550222": {
+    "student_id": "13550222",
+    "user": {
+      "name": "Saranya Khanjanalekha",
+      "motivation_quote": "มีดบาดอารมณ์ไม่คมเท่าจุลนิพนธ์ที่บาดใจ",
+      "facebook": "ZAPROY",
+      "email": "misty.social@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13550222.jpg",
+        "profile": "avatar_13550222.jpg",
+        "quote": "quote_footer_13550222.jpg",
+        "head_preview": "head_preview_13550222.jpg"
+      },
+      "video": {
+        "showreel": "i-DJSSxsPCw",
+        "interview": ".."
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันเกมจำลองเหตุการณ์และการใช้ชีวิตในมหาวิทยาลัย",
+      "project_name": "LET LIFE",
+      "type": "Application Android on Tablet",
+      "concept": "แอปพลิเคชันเกมแบบฉบับ visual novel ที่จะจำลองเหตุการณ์การใช้ชีวิตในมหาวิทยาลัยของนักศึกษาปี 1 ที่จะต้องใช้ชีวิตในหอของมหาวิทยาลัยตามลำพัง รวมไปถึงภาระกิจตามหาเพื่อนร่วมห้องที่มีนิสัยเข้ากับตัวเองได้ภายใน 7 วัน",
+      "function": {
+        "function_name_a": "Novel Choice",
+        "function_name_b": "Mini Game",
+        "function_name_c": "Score",
+        "discription": {
+          "fuction_dis_a": "การเล่นเกมในรูปแบบนิยายที่คุณสามารถเลือกคำตอบได้",
+          "fuction_dis_b": "มินิเกมทั้ง 7 ที่พร้อมจะท้าทายความสามารถในการใช้ชีวิตของคุณ",
+          "fuction_dis_c": "แอปพลิเคชั่นจะเก็บทุกคำตอบและคะแนนในมินิเกมและจะประมวลผลบุคลิคภาพของคุณออกมา"
+        },
+        "image": {
+          "function_img_a": "function_13550222_01.jpg",
+          "function_img_b": "function_13550222_02.jpg",
+          "function_img_c": "function_13550222_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13550222_01.jpg",
+        "img_b": "design_process_13550222_02.jpg",
+        "img_c": "design_process_13550222_03.jpg",
+        "img_d": "design_process_13550222_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "C#",
+      "skill_c_name": "PS",
+      "skill_d_name": "AI",
+      "percent": {
+        "skill_a_percent": "30",
+        "skill_b_percent": "20",
+        "skill_c_percent": "15",
+        "skill_d_percent": "35"
+      }
+    }
+  }
+}
