@@ -36,6 +36,10 @@
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf">
+
 
    <!-- add sound -->
    <script type="text/javascript" src="js/sound-mouseover.js"></script>
@@ -52,12 +56,52 @@
          height: auto;
          min-height: 250px;
        }
+       .dp_img_user_a{
+         position: relative;
+       }
+       .dp_img_user_b{
+         position: relative;
+       }
+       .dp_img_user_a:hover img{
+         opacity: 0.5;
+         filter: blur(2px);
+       }
+       .dp_img_user_a:hover .middle_dp{
+         opacity: 1;
+       }
+       .dp_img_user_b:hover img{
+         opacity: 0.5;
+         filter: blur(2px);
+       }
+       .dp_img_user_b:hover .middle_dp{
+         opacity: 1;
+       }
+       .middle_dp{
+         transition: .5s ease;
+         opacity: 0;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%)
+       }
+       .middle_dp .text_ho_dp{
+         /*background-color: #4CAF50;*/
+         color: white;
+         font-size: 24px;
+       }
      }
      @media screen and (min-width: 767px) {
        .showreel_vdo_youtube{
          width: 100%;
          height: auto;
          min-height: 350px;
+       }
+       .middle_dp .text_ho_dp{
+         /*background-color: #4CAF50;*/
+         color: white;
+         font-size: 20px;
+         margin-top: -15px;
        }
      }
       @media screen and (min-width: 959px) {
@@ -71,6 +115,11 @@
         width: 100%;
         height: auto;
         min-height: 350px;
+      }
+      .middle_dp .text_ho_dp{
+        /*background-color: #4CAF50;*/
+        color: white;
+        font-size: 30px;
       }
      }
    </style>
@@ -170,15 +219,35 @@
             <ul class="row col-sm-10 col-md-11">
               <li class="col-xs-5 col-sm-3 dp_img_user_a up_hig_dp">
                 <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>"><img src="image_user/design_process/<?php echo $json_data["work_design_process_a"]; ?>" alt="" style="max-width: 100%;"></a>
+                <article class="middle_dp">
+                  <article class="text_ho_dp">
+                    <i class="fa fa-search"></i>
+                  </article>
+                </article>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
                 <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_b"]; ?>" alt="" style="max-width: 100%;"></a>
+                <article class="middle_dp">
+                  <article class="text_ho_dp">
+                    <i class="fa fa-search"></i>
+                  </article>
+                </article>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
                 <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_c"]; ?>" alt="" style="max-width: 100%;"></a>
+                <article class="middle_dp">
+                  <article class="text_ho_dp">
+                    <i class="fa fa-search"></i>
+                  </article>
+                </article>
               </li>
               <li class="col-xs-5 col-sm-3 dp_img_user_b up_hig_dp">
                 <a class="grouped_elements" rel="group1" href="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" target="_blank"><img src="image_user/design_process/<?php echo $json_data["work_design_process_d"]; ?>" alt="" style="max-width: 100%;"></a>
+                <article class="middle_dp">
+                  <article class="text_ho_dp">
+                    <i class="fa fa-search"></i>
+                  </article>
+                </article>
               </li>
             </ul>
           </article>
