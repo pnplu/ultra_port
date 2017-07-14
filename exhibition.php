@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width,initial-scale=1.0">
-    <title>ULTRA LINE 11.3 Graduate Exhibition </title>
+    <title>Exhibition | ULTRA LINE 11.3 Graduate Exhibition </title>
     <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
@@ -101,6 +101,92 @@
           margin-bottom: 100px;
         }
       }
+      .cover {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        position: absolute;
+        margin: auto;
+        top: 10%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        width: 50%;
+        text-align: center;
+      }
+      .cover h2 {
+        font-size: 36px;
+        font-weight: 100;
+        color: #fff;
+        line-height: 1.3em;
+        margin-bottom: 2rem;
+      }
+      .cover p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+        line-height: 1.6em;
+        margin-bottom: 1em;
+      }
+      .cover a {
+        color: #cadecb;
+      }
+
+      /* This is the SCSS you'll need */
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        margin: rem-calc(0 0 54.5);
+        min-height: 31.25rem;
+        overflow: hidden;
+      }
+
+      .video-overlay {
+        height: 100%;
+        width: 100%;
+        opacity: .8;
+        position: absolute;
+        z-index: 2;
+      }
+
+      .video-expand {
+        color: white;
+        font-size: 1.125rem;
+        line-height: 1em;
+        opacity: .4;
+        position: absolute;
+        top: 0.9375rem;
+        right: 0.9375rem;
+        z-index: 3;
+      }
+      .video-expand:hover {
+        -webkit-transition: all 400ms ease-in-out;
+        -moz-transition: all 400ms ease-in-out;
+        transition: all 400ms ease-in-out;
+      }
+
+      .tv {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      .tv .screen {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        margin: auto;
+        opacity: 0;
+        transition: opacity .5s;
+      }
+      .tv .screen.active {
+        opacity: 1;
+      }
     </style>
   </head>
   <body>
@@ -111,7 +197,7 @@
 
     <section class="container-fluid">
       <section class="row">
-        <article class="col-sm-1 col-md-2 side_l_page">
+        <article class="col-sm-1 col-md-2 side_l_page" style="height:150px;">
 
           <a href="index.php">
           <!-- logo-effect -->
@@ -141,168 +227,40 @@
           <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
-          <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
-          <span><a style="color:#04F3C4;" class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
+          <span><a style="color:#04F3C4;" class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
 
+        <div class="video-wrapper" data-video-id="lCYrIdsTMRM" data-video-youtube-link="y" data-video-start="0" data-video-end="" data-video-width-add="50" data-video-height-add="50" style="margin-top:-300px;">
+            <div class="video-overlay" style=""></div>
+            <div class="tv">
+                <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+                <div id="player" class="screen"></div>
+            </div>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/youtube_exhibition.js"></script>
+
         <section id="box_top" class="row">
-          <article class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-10 col-md-9" style="margin-top: 0px;">
+          <article class="col-xs-offset-1 col-xs-12 col-sm-offset-0 col-sm-10 col-md-9" style="margin-top: 0px;">
             <p style="text-align: center; color: #FFFFFF;">
-              ผู้ช่วยศาสตราจารย์ ดร.วันชัย  สุทธะนันท์<br>
-              อธิการบดีมหาวิทยาลัยศิลปากร
+              <h2 style="text-align:center;">วิชาเอกสื่อปฏิสัมพันธ์ (Interactive Media Program)</h2>
               <br><br>
-              ผู้ช่วยศาสตราจารย์สมศักดิ์ ชาติน้ำเพ็ชร<br>
-              คณบดีคณะเทคโนโลยีสารสนเทศและการสื่อสาร
+<span style="padding-left:30px;">คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศิลปากร มหาวิทยาลัยชั้นนำแห่งการสร้างสรรค์ ได้เล็งเห็นความสำคัญของการนำระบบเทคโนโลยีสารสนเทศและการสื่อสารเข้ามาใช้ให้เกิดประโยชน์ มุ่งหวังการผลิตบัณฑิตในสาขาวิชาที่สามารถประยุกต์ความรู้และทักษะการบูรณาการศิลปะการออกแบบและเทคโนโลยีเข้าด้วยกัน เพื่อตอบโจทย์ความต้องการของประเทศที่กำลังก้าวเข้าสู่ยุคเศรษฐกิจดิจิทัลอย่างเต็มตัว
             </p>
           </article>
           <section class="row">
-            <article class="col-xs-12 col-sm-10 col-md-9">
+            <article class="col-xs-12 col-sm-12 col-md-9">
             <article class="col-xs-12" style="margin-top: 30px;">
-              <h5>คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
+              <h2 style="text-align:center;">ULTRALINE 11.3 GRADUDATE EXHIBITION</h2>
             </article>
-            <article class="col-xs-12 col-sm-6 col-md-3">
-              <ul>
-                <li>กลุ่มที่ 1</li>
-                <li>อาจารย์รักชนก สุขะกาลนันท์</li>
-                <li>อาจารย์อติเทพ แจ้ดนาลาว</li>
-                <li>ผศ. ดร. วรสิทธิ์ ชูชัยวัฒนา</li>
-                <li>อาจารย์ปัณณวิชญ์ อริยะธนกตวงศ์</li>
-                <li>อาจารย์ศรันยา มะระพฤกษ์วรรณ</li>
-                <li>อาจารย์ศรายุทธ ธิบดี</li>
-                <li>ผศ.ชัยชาญ ถาวรเวช</li>
-              </ul>
-            </article> <!-- room 1 -->
-            <article class="col-xs-12 col-sm-6 col-md-3">
-              <ul>
-                <li>กลุ่มที่ 2</li>
-                <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
-                <li>อาจารย์ลักษณ์นารา จันทรารมย์</li>
-                <li>อาจารย์ประธาน ด่านสกุลเจริญกิจ</li>
-                <li>อาจารย์อิทธิชัย ภูมิศิริวิไล</li>
-                <li>อาจารย์พิสิฐพงษ์ สืบพิลา</li>
-                <li>อาจารย์ถิราภา ใจเที่ยง</li>
-              </ul>
-            </article> <!-- room 2 -->
-            <article class="row col-sm-offset-1 col-sm-11 col-md-offset-0 col-md-6">
-            <article class="col-xs-12 col-sm-5 col-md-6">
-              <ul>
-                <li>กลุ่มที่ 3</li>
-                <li>อาจารย์อรวรรณ ประพฤติดี</li>
-                <li>ผศ. ดร.ธีรพงศ์ ลีลานุภาพ</li>
-                <li>อาจารย์กิตตินนท์ อุ้ยวงค์ไพศาล</li>
-                <li>อาจารย์ณัฐธิดา แซ่แต้</li>
-                <li>อาจารย์ศุภณัฐ โกมลารชุน</li>
-                <li>อาจารย์ณัฐพงศ์ มาเสถียร</li>
-                <li>อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
-              </ul>
-            </article> <!-- room 3 -->
-            <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6">
-              <ul>
-                <li>กลุ่ม 4</li>
-                <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
-                <li>อาจารย์โกวิท มีบุญ</li>
-                <li>อาจารย์ปานรวี พุ่มเข็ม</li>
-                <li>อาจารย์จุลดิษฐ์ สันติธรณี</li>
-                <li>อาจารย์พสุพงษ์ ประเสริฐรุ่งเรือง</li>
-                <li>อาจารย์ปกรณ์ สันติสุนทรกุล</li>
-              </ul>
-            </article> <!-- room 4 -->
-            </article>
+            <span style="padding-left:30px;">จัดงานภายใต้แนวความคิด “ทะลุ (ULTRA)” “เส้นจำกัด (LINE)” ด้วยการหลอมวิทยาศาสตร์เทคโนโลยีรวมกับศิลปะการออกแบบ สร้างสรรค์โอกาส และหาทดลองวิธีแก้ปัญหาให้ก้าวล้ำเส้นแถวหน้าในกระแสวิวัตน์ของสังคมโลก ผ่านผลงานทั้ง 40 ชิ้น โดยแต่ละชิ้นล้วนมีความแตกต่างและโดดเด่น สะท้อนองค์ความรู้ด้านการออกแบบและพัฒนางานให้ออกมาใช้ได้จริงบนสื่อดิจิตอลที่ทันสมัย ตอบโจทย์วงการวิชาการและวิชาชีพ
             </article>
           </section> <!-- Teacher -->
-
-          <section class="row">
-            <article class="col-xs-12">
-              <article id="logoict" class="col-xs-12">
-                <img src="img/spon22.png" alt="ICTSILPAKORN">
-              </article> <!-- logo ictsilpakorn -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon1.png" alt="Central World">
-                <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
-                <p>
-                  Central Pattana Public Company Limited<br>
-                  centralworld.co.th<br>
-                  facebook.com/CentralWorld<br>
-                  Tel : 02-100-9999
-                </p>
-              </article> <!-- central -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon111.png" alt="TXP" style="max-width: 40%;">
-                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
-                <p>
-                  Thai petroleum support co. ltd<br>
-                  txppetro.com/our-company<br>
-                  Tel : 02-287-3077<br>
-                  Email : contact@txppetro.com
-                </p>
-              </article> <!-- txp -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon4.png" alt="MUZE">
-                <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
-                <p>
-                  Muze innovation co. ltd<br>
-                  muzeinnovation.com/<br>
-                  facebook.com/muzeinnovation<br>
-                  Email : info@mymuze.me
-                </p>
-              </article> <!-- muze -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon5.png" alt="UPPERCUZ">
-                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
-                <p>
-                  uppercuz.com<br>
-                  facebook.com/uppercuzcreative/<br>
-                  Tel : 087-378-6070 <br>
-                  Email : contact@uppercuz.com
-                </p>
-              </article> <!-- uppercuz -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon6.png" alt="APPLE THAILAND">
-                <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
-              </article> <!-- Apple Thailand -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon7.png" alt="PAGE-QQ">
-                <h5>PAGE-QQ</h5>
-                <p>
-                  บริษัท SERV 4 BIZ จำกัด<br>
-                  facebook.com/PageQQ<br>
-                  Tel : 081-842-9422<br>
-                  Email : support@pageqq.com
-                </p>
-              </article> <!-- PAGE-QQ -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon8.png" alt="DEK D">
-                <h5>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด</h5>
-                <p>
-                  dek-d.com/<br>
-                  facebook.com/DekDfc/<br>
-                  Tel : 02-860-1142<br>
-                  Email : contact@dek-d.com
-                </p>
-              </article> <!-- DEK D -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon9.png" alt="DUCK LAB">
-                <h5>บริษัท ดัค แล็บ จำกัด</h5>
-                <p>
-                  ducklab.co.th<br>
-                  Tel : 081-443-3618<br>
-                  Email : manager@ducklab.co.th
-                </p>
-              </article> <!-- DUCK LAB -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon10.png" alt="PAGE-LACTASOY" style="filter: none;">
-                <h5>LACTASOY</h5>
-                <p>
-                  lactasoy.com/th/<br>
-                  facebook.com/lactasoyclub<br>
-                  Tel : 02-396-0320-7<br>
-                  Email : lactasoy@lactasoy.com
-                </p>
-              </article> <!-- LACTASOY -->
-            </article>
-          </section> <!-- Sponsor -->
+          </article> <!-- LACTASOY -->
         </section>
 
 <script>
