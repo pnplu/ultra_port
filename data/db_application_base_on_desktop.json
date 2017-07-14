@@ -371,13 +371,13 @@
       "type": "Web Application Base on Desktop",
       "concept": "ที่มา เกิดจากการจัดทำแฟ้มสะสมผลงาน ที่มักจะต้องใช้เวลา และต้องหมั่นปรับปรุง ผลงานอยู่สม่ำเสมอให้ตรงกับผลงานที่ ทำในปัจจุบัน ซึ่งทำให้บางครั้งทำให้ไม่มีเวลาจัดทำ จึงทำให้ แฟ้มสะสมไม่ได้พัฒนาตาม ผลงานปัจจุบัน ซึ่งได้เกิดความคิด ในการจัดทำเว็บไซต์เพื่อแก้ปัญหาเหล่านี้",
       "function": {
-        "function_name_a": "Export to video presentation",
-        "function_name_b": "EXPORT to PDF",
-        "function_name_c": "Connect with Behance Dribbble",
+        "function_name_a": "EXPORT TO PDF",
+        "function_name_b": "EXPORT TO VIDEO PRESENTATION",
+        "function_name_c": "CONNECT WITH BEHANCE AND DRIBBBLE",
         "discription": {
-          "fuction_dis_a": "ไม่ต้องจัดเอง ไม่เสียเวลา เพียงฝากผลงานไว้กับเรา เราสร้างให้ทันที",
-          "fuction_dis_b": "ฝากผลงานไว้กับเรา เราสร้างให้ทันที",
-          "fuction_dis_c": "หากมีผลงานใน Behance, Dribbble อยู่แล้ว ดึงมาลงได้ทันที"
+          "fuction_dis_a": "ฝากผลงานไว้ที่เรา เมื่อต้องการแฟ้มสะสมผลงาน สามารถเลือกผลงานที่ต้องการและสร้างเป็นแฟ้มสะสมผลงานในรูปแบบ PDF ได้ทันที",
+          "fuction_dis_b": "ผลงานที่ฝากเอาไว้สามารถนำมาสร้างเป็นรูปแบบของ Video Presentation ได้ทันที",
+          "fuction_dis_c": "หากมีผลงานใน Behance, Dribbble อยู่แล้ว สามารถดึงมาลงได้ทันที"
         },
         "image": {
           "function_img_a": "function_13560261_01.jpg",
