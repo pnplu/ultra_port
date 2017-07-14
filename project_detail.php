@@ -47,6 +47,18 @@
        .wrap_user_pinterest{
          top: 50px;
        }
+       .showreel_vdo_youtube{
+         width: 100%;
+         height: auto;
+         min-height: 250px;
+       }
+     }
+     @media screen and (min-width: 767px) {
+       .showreel_vdo_youtube{
+         width: 100%;
+         height: auto;
+         min-height: 350px;
+       }
      }
       @media screen and (min-width: 959px) {
          .wrap_user_pinterest{
@@ -54,6 +66,11 @@
       }
       .img_dev_user img{
         width: 100%;
+      }
+      .showreel_vdo_youtube{
+        width: 100%;
+        height: auto;
+        min-height: 350px;
       }
      }
    </style>
@@ -202,7 +219,7 @@
                 <div class="bt-play">Play</div>
             </div>
             <div class="video-container">
-                <iframe width="590" height="332" src='https://www.youtube.com/embed/<?php echo $json_data["user_video_showreel"]; ?>?rel=0&amp;showinfo=0' frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <iframe class="showreel_vdo_youtube" src='https://www.youtube.com/embed/<?php echo $json_data["user_video_showreel"]; ?>?rel=0&amp;showinfo=0' frameborder="0" allowfullscreen="allowfullscreen"></iframe>
             </div>
         </div>
           <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
