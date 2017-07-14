@@ -96,7 +96,7 @@
         </article> <!-- Side L -->
 
         <article class="col-sm-10 col-md-10 menu" style="position: fixed; top: 0; left: 207px;">
-          <span><a style="color:#04F3C4;"class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
+          <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
           <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
@@ -111,7 +111,7 @@
               <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l" style="padding-left: 144px;">
                 <p class="p_l_topic" style="float:left;">
                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-                  <script src="../js/odometer.js"></script>
+                  <script src="js/odometer.js"></script>
                   <div class="odometer" style="font-size:78px;">11.3 </div>
 
                   <script>

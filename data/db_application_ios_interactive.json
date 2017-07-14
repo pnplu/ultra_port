@@ -1,0 +1,234 @@
+{
+  "13560098": {
+    "student_id": "13560098",
+    "user": {
+      "name": "Kochakorn Chabklinhom",
+      "motivation_quote": "No one is too old too learn.",
+      "facebook": "kkochh",
+      "email": "koch.may@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560098.jpg",
+        "profile": "avatar_13560098.jpg",
+        "quote": "quote_footer_13560098.jpg",
+        "head_preview": "head_preview_13560098.jpg"
+      },
+      "video": {
+        "showreel": "5OzM4k7ER6c",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F984987274871077%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชั่นสื่อโต้ตอบส่งเสริมการเรียนรู้ภาษาญี่ปุ่นเบื้องต้น",
+      "project_name": "KANJI SHOW",
+      "type": "Interactive with Application IOS",
+      "concept": "แอปพลิเคชั่น kanji show สร้างขึ้นเพื่อให้ผู้ใช้งานได้เรียนรู้ตัวคันจิเบื้องต้น ทั้งฝึกการเขียนและเรียนรู้คำศัพท์ต่างๆพร้อมคำอ่าน และหมวดเล่นเกมฝึกความจำ หาของตามคำศัพท์ที่กำหนด ที่ใช้เทคโนโลยี ar ในการเล่นควบคู่กับหนังสือที่มีเนื้อหาทางด้านวัฒนธรรม ทำให้ผู้ใช้งานเกิดความสนใจในการเรียนรู้ ได้เล่นเกมเพื่อทดสอบความจำ และยังได้รับเกร็ดความรู้เล็กๆน้อยๆอีกด้วย",
+      "function": {
+        "function_name_a": "Play Game",
+        "function_name_b": "Learning",
+        "function_name_c": "Writing",
+        "discription": {
+          "fuction_dis_a": "เล่นเกมหาสิ่งของตามคำศัพท์คันจิ ผ่านเทคโลโนยี AR",
+          "fuction_dis_b": "หมวดการเรียนรู้ตัวอักษรคันจิและคำศัพท์เบื้องต้น",
+          "fuction_dis_c": "ฝึกเขียนตัวอักษรคันจิ เพื่อให้เขียนได้อย่างถูกต้อง"
+        },
+        "image": {
+          "function_img_a": "function_13560098_01.jpg",
+          "function_img_b": "function_13560098_02.jpg",
+          "function_img_c": "function_13560098_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560098_01.jpg",
+        "img_b": "design_process_13560098_02.jpg",
+        "img_c": "design_process_13560098_03.jpg",
+        "img_d": "design_process_13560098_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "XCODE",
+      "skill_c_name": "AI",
+      "skill_d_name": "AE",
+      "percent": {
+        "skill_a_percent": "50",
+        "skill_b_percent": "5",
+        "skill_c_percent": "35",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560241": {
+    "student_id": "13560241",
+    "user": {
+      "name": "Pawinee Noychaya",
+      "motivation_quote": "Failure is not an option.",
+      "facebook": "bunniebonnie",
+      "email": "bonnie.still@hotmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560241.jpg",
+        "profile": "avatar_13560241.jpg",
+        "quote": "quote_footer_13560241.jpg",
+        "head_preview": "head_preview_13560241.jpg"
+      },
+      "video": {
+        "showreel": "d9GroqNFrGI",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F981430921893379%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันสื่อการเรียนรู้ตามรอยการสำรวจขององค์กรนาซ่าเพื่อค้นหาโลกใหม่ให้เผ่าพันธุ์มนุษย์ บนระบบปฏิบัติการไอโอเอส",
+      "project_name": "SURVEY THE NEW WORLD",
+      "type": "Interactive with Application IOS",
+      "concept": "จัดทำขึ้นเพื่อเป็นการเรียนรู้เทคโนโลยีอวกาศ ซึ่งเป็นความรู้ใหม่ๆสำหรับผู้ที่ชอบการสำรวจดวงดาว การสำรวจอวกาศต่างๆ ทำให้ผู้ใช้งานมีความรู้ในการไปพัฒนาเทคโนโลยีอวกาศในอนาคตได้",
+      "function": {
+        "function_name_a": "Learning",
+        "function_name_b": "Apollo Game",
+        "function_name_c": "News",
+        "discription": {
+          "fuction_dis_a": "ผู้ใช้เรียนรู้เรื่องของเทคโนโลยีอวกาศ",
+          "fuction_dis_b": "สะสมเหรียญเพื่อใช้ในการเล่นเกม",
+          "fuction_dis_c": "อัพเดตข่าวสารของ SpaceX การพัฒนาเทคโนโลยีอวกาศใหม่ๆ"
+        },
+        "image": {
+          "function_img_a": "function_13560241_01.jpg",
+          "function_img_b": "function_13560241_02.jpg",
+          "function_img_c": "function_13560241_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560241_01.jpg",
+        "img_b": "design_process_13560241_02.jpg",
+        "img_c": "design_process_13560241_03.jpg",
+        "img_d": "design_process_13560241_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "XCODE",
+      "skill_c_name": "PS",
+      "skill_d_name": "AI",
+      "percent": {
+        "skill_a_percent": "50",
+        "skill_b_percent": "5",
+        "skill_c_percent": "30",
+        "skill_d_percent": "15"
+      }
+    }
+  },
+  "13560174": {
+    "student_id": "13560174",
+    "user": {
+      "name": "Thananan Jongwiriyawong",
+      "motivation_quote": "Enjoy your own life without comparing it with that of another.",
+      "facebook": "m.mtnnz",
+      "email": "smz.mtnn@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560174.jpg",
+        "profile": "avatar_13560174.jpg",
+        "quote": "quote_footer_13560174.jpg",
+        "head_preview": "head_preview_13560174.jpg"
+      },
+      "video": {
+        "showreel": "fVD-sor-QRQ",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F975037149199423%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันส่งเสริมการท่องเที่ยวด้านวัฒนธรรมด้วยเทคโนโลยีเออาร์ กรณีศึกษาพิพิธภัณฑสถานแห่งชาติพระนคร บนระบบปฎิบัติการไอโอเอส",
+      "project_name": "SIAM ART",
+      "type": "Interactive with Application IOS",
+      "concept": "แอปพลิเคชันให้ความรู้ด้านจิตรกรรม โบราณวัตถุ ศิลปวัตถุ แก่นักท่องเที่ยวที่เข้ามาเที่ยวชมภายในพิพิธภัณฑสถานแห่งชาติพระนคร",
+      "function": {
+        "function_name_a": "Scan",
+        "function_name_b": "Information",
+        "function_name_c": "History",
+        "discription": {
+          "fuction_dis_a": "ส่องเอาอาร์ที่เอกสารประกอบโดยจะได้รับเมื่อซื้อบัตรเข้าชมพิพิธภัณฑ์",
+          "fuction_dis_b": "ชมข้อมูลของวัตถุชิ้นนั้นโดยจะนำเสนอเป็นข้อความ เสียง วิดีโอ",
+          "fuction_dis_c": "ประวัติการเข้าชมภายในแอปพลิเคชัน"
+        },
+        "image": {
+          "function_img_a": "function_13560174_01.jpg",
+          "function_img_b": "function_13560174_02.jpg",
+          "function_img_c": "function_13560174_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560174_01.jpg",
+        "img_b": "design_process_13560174_02.jpg",
+        "img_c": "design_process_13560174_03.jpg",
+        "img_d": "design_process_13560174_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "UNITY",
+      "skill_b_name": "AE",
+      "skill_c_name": "AI",
+      "skill_d_name": "XCODE",
+      "percent": {
+        "skill_a_percent": "50",
+        "skill_b_percent": "30",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560166": {
+    "student_id": "13560166",
+    "user": {
+      "name": "Duangkamol Jongsujarit",
+      "motivation_quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "facebook": "gibbgiftgive.bbearsnvi",
+      "email": "athena31101994@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560166.jpg",
+        "profile": "avatar_13560166.jpg",
+        "quote": "quote_footer_13560166.jpg",
+        "head_preview": "head_preview_13560166.jpg"
+      },
+      "video": {
+        "showreel": "vyLWTGCTz6k",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F981437038559434%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "..",
+      "project_name": "BOKBOKBOX",
+      "type": "Interactive with Application IOS",
+      "concept": "เกม BOKBOKBOX เป็นเกมแอปพิลเคชันดูแลสัตว์เลี้ยงในที่พักอาศัยขนาดเล็กแนวคิดคือให้สามารถเลี้ยงสุนัขในพื้นที่มีจำกัดได้ ปัจจุบันผู้คนอาศัยในพื้นที่จำกัดมากขึ้น การเลี้ยงสุนัขทีมีขนาดเล็กจึงเป็นที่นิยม ",
+      "function": {
+        "function_name_a": "Choose Dog",
+        "function_name_b": "Math Dog",
+        "function_name_c": "Game Care",
+        "discription": {
+          "fuction_dis_a": "เลือกสุนัขที่ต้องการเลี้ยง",
+          "fuction_dis_b": "แลกเปลี่ยนสุนัข",
+          "fuction_dis_c": "เกมเลี้ยงสุนัข"
+        },
+        "image": {
+          "function_img_a": "function_13560166_01.jpg",
+          "function_img_b": "function_13560166_02.jpg",
+          "function_img_c": "function_13560166_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560166_01.jpg",
+        "img_b": "design_process_13560166_02.jpg",
+        "img_c": "design_process_13560166_03.jpg",
+        "img_d": "design_process_13560166_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "C#",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "AE",
+      "skill_d_name": "AI",
+      "percent": {
+        "skill_a_percent": "40",
+        "skill_b_percent": "10",
+        "skill_c_percent": "40",
+        "skill_d_percent": "10"
+      }
+    }
+  }
+}

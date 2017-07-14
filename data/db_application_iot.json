@@ -1,0 +1,118 @@
+{
+  "13560311": {
+    "student_id": "13560311",
+    "user": {
+      "name": "Onnapun Pispunt",
+      "motivation_quote": "Where There's a Will There's a Way.",
+      "facebook": "onnapun.pispunt",
+      "email": "onnapun.pispunt@gmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560311.jpg",
+        "profile": "avatar_13560311.jpg",
+        "quote": "quote_footer_13560311.jpg",
+        "head_preview": "head_preview_13560311.jpg"
+      },
+      "video": {
+        "showreel": "MsqJRMwzx9U",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F975845805785224%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันแสดงกิจกรรมของสวนสาธารณะโดยใช้ไอโอทีเป็นส่วนประกอบ บนระบบปฏิบัติการเอนดรอยด์ กรณีศึกษา สวนลุมพินี",
+      "project_name": "Activity Park",
+      "type": "Interactive with IOT Application Andorid",
+      "concept": "แอปพลิเคชันเกี่ยวกับการแสดงกิจกรรม กลางแจ้งของสวนสาธารณะ และเช็คสภาพอากาศแบบเรียลไทม์ เพื่อผู้ใช้ไม่เสียเที่ยว และ สามารถวางแผนการทำกิจกรรมของตนเองได้",
+      "function": {
+        "function_name_a": "Check Current Weather & Forcast Weather",
+        "function_name_b": "Schedule",
+        "function_name_c": "Activity Detail",
+        "discription": {
+          "fuction_dis_a": "สภาพอากาศจริงจากสวนสาธารณะถูกแสดงบนหน้าแอปพลิเคชัน และ พยากรณ์อากาศล่วงหน้า 3 วัน เพื่อการวางแผน",
+          "fuction_dis_b": "แสดงวันที่มีกิจกรรมในรูปแบบของปฏิทิน",
+          "fuction_dis_c": "ผู้ใช้สามารถเห็นแผนที่แสดงสถานที่จัดงาน และรายละเอียดของกิจกรรมที่ถูกจัดขึ้นของสวน"
+        },
+        "image": {
+          "function_img_a": "function_13560311_01.jpg",
+          "function_img_b": "function_13560311_02.jpg",
+          "function_img_c": "function_13560311_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560311_01.jpg",
+        "img_b": "design_process_13560311_02.jpg",
+        "img_c": "design_process_13560311_03.jpg",
+        "img_d": "design_process_13560311_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID STUDIO",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "AI",
+      "skill_d_name": "ARDUINO & API",
+      "percent": {
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
+      }
+    }
+  },
+  "13560178": {
+    "student_id": "13560178",
+    "user": {
+      "name": "Tanawat Sanchompoo",
+      "motivation_quote": "The security of bike",
+      "facebook": "okanoy741",
+      "email": "okanoy741@hotmail.com",
+      "image": {
+        "landing_profile": "landding_profile_13560178.jpg",
+        "profile": "avatar_13560178.jpg",
+        "quote": "quote_footer_13560178.jpg",
+        "head_preview": "head_preview_13560178.jpg"
+      },
+      "video": {
+        "showreel": "PH5TOBxwZD8",
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F979274665442338%2F&show_text=0&width=560"
+      }
+    },
+    "work": {
+      "name": "แอปพลิเคชันสำหรับเชื่อมต่อและสั่งการรถจักรยานยนต์แบบเรียลไทม์",
+      "project_name": "Safe Bike",
+      "type": "Interactive with IOT Application Andorid",
+      "concept": "ปัจจุบันคนใช้รถจักรยานยนต์มากขึ้น ทางผู้พัฒนาเห็นถึงความไม่ปลอดภัยในทรัพย์สิน จึงพัฒนาแอปพลิเคชันนี้ขึ้นมาเพื่อช่วยเพิ่มความปลอดภัยให้กับผู้ใช้งาน",
+      "function": {
+        "function_name_a": "Stop Engine",
+        "function_name_b": "GPS",
+        "function_name_c": "Alarm",
+        "discription": {
+          "fuction_dis_a": "หยุดการทำงานของระบบเครื่องยนต์และระบบไฟฟ้าไม่ให้ทำการติดเครื่องยนต์ได",
+          "fuction_dis_b": "ใช้ติดตามและระบุตำแหน่งของรถและตัวผู้ใช้",
+          "fuction_dis_c": "เปิดระบบนี้เมื่อจอดเพื่อส่งเสียงเตือนเมื่อมีคนมาพยายามที่จะขโมยจักรยานยนต์ของผู้ใช้"
+        },
+        "image": {
+          "function_img_a": "function_13560178_01.jpg",
+          "function_img_b": "function_13560178_02.jpg",
+          "function_img_c": "function_13560178_03.jpg"
+        }
+      },
+      "design_process": {
+        "img_a": "design_process_13560178_01.jpg",
+        "img_b": "design_process_13560178_02.jpg",
+        "img_c": "design_process_13560178_03.jpg",
+        "img_d": "design_process_13560178_04.jpg"
+      }
+    },
+    "skill": {
+      "skill_a_name": "ANDROID",
+      "skill_b_name": "MYSQL",
+      "skill_c_name": "PS",
+      "skill_d_name": "ARDUINO API",
+      "percent": {
+        "skill_a_percent": "60",
+        "skill_b_percent": "20",
+        "skill_c_percent": "10",
+        "skill_d_percent": "10"
+      }
+    }
+  }
+}
