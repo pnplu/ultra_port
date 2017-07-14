@@ -64,8 +64,7 @@
           margin-left: auto;
           margin-right: auto;
           margin-top: 20px;
-          max-width: 80%;
-          filter: brightness(0) invert(1);
+          max-width: 100%;
         }
         p{
           text-align: center;
@@ -99,6 +98,13 @@
         #logoict img{
           max-width: 100%;
           margin-bottom: 100px;
+        }
+        .bor_r_col{
+          border-right: 1px solid #422192;
+          margin-top: 20px;
+        }
+        .bor_r_col2{
+          margin-top: 20px;
         }
       }
     </style>
@@ -142,7 +148,7 @@
           <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
           <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
-          <span><a style="color:#04F3C4;" class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
+          <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
           <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           <hr>
         </article> <!-- menu -->
@@ -162,7 +168,7 @@
             <article class="col-xs-12" style="margin-top: 30px;">
               <h5>คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
             </article>
-            <article class="col-xs-12 col-sm-6 col-md-3">
+            <article class="col-xs-12 col-sm-6 col-md-3 bor_r_col">
               <ul>
                 <li>กลุ่มที่ 1</li>
                 <li>อาจารย์รักชนก สุขะกาลนันท์</li>
@@ -174,7 +180,7 @@
                 <li>ผศ.ชัยชาญ ถาวรเวช</li>
               </ul>
             </article> <!-- room 1 -->
-            <article class="col-xs-12 col-sm-6 col-md-3">
+            <article class="col-xs-12 col-sm-6 col-md-3 bor_r_col">
               <ul>
                 <li>กลุ่มที่ 2</li>
                 <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
@@ -186,7 +192,7 @@
               </ul>
             </article> <!-- room 2 -->
             <article class="row col-sm-offset-1 col-sm-11 col-md-offset-0 col-md-6">
-            <article class="col-xs-12 col-sm-5 col-md-6">
+            <article class="col-xs-12 col-sm-5 col-md-6 bor_r_col">
               <ul>
                 <li>กลุ่มที่ 3</li>
                 <li>อาจารย์อรวรรณ ประพฤติดี</li>
@@ -198,7 +204,7 @@
                 <li>อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
               </ul>
             </article> <!-- room 3 -->
-            <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6">
+            <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6 bor_r_col2">
               <ul>
                 <li>กลุ่ม 4</li>
                 <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
@@ -216,10 +222,10 @@
           <section class="row">
             <article class="col-xs-12">
               <article id="logoict" class="col-xs-12">
-                <img src="img/spon22.png" alt="ICTSILPAKORN">
+                <img src="img/sponsor/sponsor_02.png" alt="ICTSILPAKORN">
               </article> <!-- logo ictsilpakorn -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon1.png" alt="Central World">
+                <img src="img/sponsor/sponsor_01.png" alt="Central World">
                 <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
                 <p>
                   Central Pattana Public Company Limited<br>
@@ -229,7 +235,7 @@
                 </p>
               </article> <!-- central -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon111.png" alt="TXP" style="max-width: 40%;">
+                <img src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
                 <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
                 <p>
                   Thai petroleum support co. ltd<br>
@@ -239,7 +245,7 @@
                 </p>
               </article> <!-- txp -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon4.png" alt="MUZE">
+                <img src="img/sponsor/sponsor_04.png" alt="MUZE">
                 <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
                 <p>
                   Muze innovation co. ltd<br>
@@ -249,7 +255,7 @@
                 </p>
               </article> <!-- muze -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon5.png" alt="UPPERCUZ">
+                <img src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
                 <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
                 <p>
                   uppercuz.com<br>
@@ -259,11 +265,11 @@
                 </p>
               </article> <!-- uppercuz -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon6.png" alt="APPLE THAILAND">
+                <img src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
                 <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
               </article> <!-- Apple Thailand -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon7.png" alt="PAGE-QQ">
+                <img src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
                 <h5>PAGE-QQ</h5>
                 <p>
                   บริษัท SERV 4 BIZ จำกัด<br>
@@ -273,7 +279,7 @@
                 </p>
               </article> <!-- PAGE-QQ -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon8.png" alt="DEK D">
+                <img src="img/sponsor/sponsor_08.png" alt="DEK D">
                 <h5>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด</h5>
                 <p>
                   dek-d.com/<br>
@@ -283,7 +289,7 @@
                 </p>
               </article> <!-- DEK D -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon9.png" alt="DUCK LAB">
+                <img src="img/sponsor/sponsor_09.png" alt="DUCK LAB">
                 <h5>บริษัท ดัค แล็บ จำกัด</h5>
                 <p>
                   ducklab.co.th<br>
@@ -292,7 +298,7 @@
                 </p>
               </article> <!-- DUCK LAB -->
               <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-                <img src="img/spon10.png" alt="PAGE-LACTASOY" style="filter: none;">
+                <img src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
                 <h5>LACTASOY</h5>
                 <p>
                   lactasoy.com/th/<br>
