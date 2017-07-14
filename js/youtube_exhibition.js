@@ -51,7 +51,6 @@ function onYouTubeIframeAPIReady() {
 
 function onPlayerReady(event) {
 	vidRescale();
-	event.target.mute();
 	event.target.seekTo(videoStart);
 }
 
