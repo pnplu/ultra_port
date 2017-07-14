@@ -9,25 +9,31 @@ Class Database {
     $paht_ios = "data/db_application_ios.json";
     $paht_android = "data/db_application_android.json";
     $paht_web_mobile = "data/db_application_web_mobile.json";
-    $paht_web_desktop = "data/db_application_base_on_desktop.json";
+    $paht_tablet_interactive = "data/db_application_tablet_interactive.json";
     $paht_kinect = "data/db_application_unity_kinect.json";
-    $paht_interactive = "data/db_application_interactive.json";
+    $paht_arduino_interactive = "data/db_application_arduino_interactive.json";
+    $paht_ios_interactive = "data/db_application_ios_interactive.json";
+    $paht_iot = "data/db_application_iot.json";
 
     $data_ios = file_get_contents($paht_ios);
     $data_android = file_get_contents($paht_android);
     $data_web_mobile = file_get_contents($paht_web_mobile);
-    $data_web_desktop = file_get_contents($paht_web_desktop);
+    $data_tablet_interactive = file_get_contents($paht_tablet_interactive);
     $data_kinect = file_get_contents($paht_kinect);
-    $data_interactive = file_get_contents($paht_interactive);
+    $data_arduino_interactive = file_get_contents($paht_arduino_interactive);
+    $data_ios_interactive = file_get_contents($paht_ios_interactive);
+    $data_iot = file_get_contents($paht_iot);
 
-    $ios_json = json_decode($data_ios, TRUE);
-    $android_json = json_decode($data_android, TRUE);
-    $web_mobile_json = json_decode($data_web_mobile, TRUE);
-    $web_desktop_json = json_decode($data_web_desktop, TRUE);
-    $kinect_json = json_decode($data_kinect, TRUE);
-    $interactive_json = json_decode($data_interactive, TRUE);
+    $ios_json = json_decode($data_ios, true);
+    $android_json = json_decode($data_android, true);
+    $web_mobile_json = json_decode($data_web_mobile, true);
+    $tablet_interactive_json = json_decode($data_tablet_interactive, true);
+    $kinect_json = json_decode($data_kinect, true);
+    $arduino_interactive_json = json_decode($data_arduino_interactive, true);
+    $ios_interactive_json = json_decode($data_ios_interactive, true);
+    $iot_json = json_decode($data_iot, true);
 
-    $data_m = $ios_json + $android_json + $web_mobile_json + $web_desktop_json + $kinect_json + $interactive_json;
+    $data_m = $ios_json + $android_json + $web_mobile_json + $tablet_interactive_json + $kinect_json + $arduino_interactive_json + $ios_interactive_json + $iot_json;
 
     // var_dump($web_json);
     // var_dump($android_json);
@@ -121,9 +127,11 @@ Class Database {
       $paht_ios = "data/db_application_ios.json";
       $paht_android = "data/db_application_android.json";
       $paht_web_mobile = "data/db_application_web_mobile.json";
-      $paht_web_desktop = "data/db_application_base_on_desktop.json";
+      $paht_tablet_interactive = "data/db_application_tablet_interactive.json";
       $paht_kinect = "data/db_application_unity_kinect.json";
-      $paht_interactive = "data/db_application_interactive.json";
+      $paht_arduino_interactive = "data/db_application_arduino_interactive.json";
+      $paht_ios_interactive = "data/db_application_ios_interactive.json";
+      $paht_iot = "data/db_application_iot.json";
 
       if($id_catagoey === "1") {
         $paht_ios = "data/db_application_ios.json";
@@ -136,23 +144,33 @@ Class Database {
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "3") {
-        $paht_web = "data/db_application_web_mobile.json";
-        $con_json = file_get_contents($paht_web);
+        $paht_web_mobile = "data/db_application_web_mobile.json";
+        $con_json = file_get_contents($paht_web_mobile);
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "4") {
-        $paht_interactive = "data/db_application_base_on_desktop.json";
-        $con_json = file_get_contents($paht_interactive);
+        $paht_tablet_interactive = "data/db_application_tablet_interactive.json";
+        $con_json = file_get_contents($paht_tablet_interactive);
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "5") {
-        $paht_web = "data/db_application_unity_kinect.json";
-        $con_json = file_get_contents($paht_web);
+        $paht_kinect = "data/db_application_unity_kinect.json";
+        $con_json = file_get_contents($paht_kinect);
         $json_data = json_decode($con_json, TRUE);
       }
       if($id_catagoey === "6") {
-        $paht_interactive = "data/db_application_interactive.json";
-        $con_json = file_get_contents($paht_interactive);
+        $paht_arduino_interactive = "data/db_application_arduino_interactive.json";
+        $con_json = file_get_contents($paht_arduino_interactive);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "7") {
+        $paht_ios_interactive = "data/db_application_ios_interactive.json";
+        $con_json = file_get_contents($paht_ios_interactive);
+        $json_data = json_decode($con_json, TRUE);
+      }
+      if($id_catagoey === "8") {
+        $paht_iot = "data/db_application_iot.json";
+        $con_json = file_get_contents($paht_iot);
         $json_data = json_decode($con_json, TRUE);
       }
 
@@ -163,25 +181,32 @@ Class Database {
       $paht_ios = "data/db_application_ios.json";
       $paht_android = "data/db_application_android.json";
       $paht_web_mobile = "data/db_application_web_mobile.json";
-      $paht_web_desktop = "data/db_application_base_on_desktop.json";
+      $paht_tablet_interactive = "data/db_application_tablet_interactive.json";
       $paht_kinect = "data/db_application_unity_kinect.json";
-      $paht_interactive = "data/db_application_interactive.json";
+      $paht_arduino_interactive = "data/db_application_arduino_interactive.json";
+      $paht_ios_interactive = "data/db_application_ios_interactive.json";
+      $paht_iot = "data/db_application_iot.json";
 
       $data_ios = file_get_contents($paht_ios);
       $data_android = file_get_contents($paht_android);
       $data_web_mobile = file_get_contents($paht_web_mobile);
-      $data_web_desktop = file_get_contents($paht_web_desktop);
+      $data_tablet_interactive = file_get_contents($paht_tablet_interactive);
       $data_kinect = file_get_contents($paht_kinect);
-      $data_interactive = file_get_contents($paht_interactive);
+      $data_arduino_interactive = file_get_contents($paht_arduino_interactive);
+      $data_ios_interactive = file_get_contents($paht_ios_interactive);
+      $data_iot = file_get_contents($paht_iot);
 
-      $ios_json = json_decode($data_ios, TRUE);
-      $android_json = json_decode($data_android, TRUE);
-      $web_mobile_json = json_decode($data_web_mobile, TRUE);
-      $web_desktop_json = json_decode($data_web_desktop, TRUE);
-      $kinect_json = json_decode($data_kinect, TRUE);
-      $interactive_json = json_decode($data_interactive, TRUE);
+      $ios_json = json_decode($data_ios, true);
+      $android_json = json_decode($data_android, true);
+      $web_mobile_json = json_decode($data_web_mobile, true);
+      $tablet_interactive_json = json_decode($data_tablet_interactive, true);
+      $kinect_json = json_decode($data_kinect, true);
+      $arduino_interactive_json = json_decode($data_arduino_interactive, true);
+      $ios_interactive_json = json_decode($data_ios_interactive, true);
+      $iot_json = json_decode($data_iot, true);
 
-      $data_m = $ios_json + $android_json + $web_mobile_json + $web_desktop_json + $kinect_json + $interactive_json;
+      $data_m = $ios_json + $android_json + $web_mobile_json + $tablet_interactive_json + $kinect_json + $arduino_interactive_json + $ios_interactive_json + $iot_json;
+
       rsort($data_m);
 
       return $data_m;

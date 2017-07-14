@@ -24,6 +24,9 @@
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <!-- Logo animation -->
     <script src="node_modules/walkway.js/walkway.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf">
 
     <!-- Creator count animation -->
     <link rel="stylesheet" href="stylesheet/css/odometer-theme-minimal.css" />
