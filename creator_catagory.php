@@ -11,22 +11,28 @@ $data_user = $conn->db_application_catagory($catagory_id);
 function name_catagory($catagory_id) {
 
   if($catagory_id === "1") {
-    $name_cat = "APPLICATION IOS";
+    $name_cat = "iOS APPLICATION";
   }
   if($catagory_id === "2") {
-    $name_cat = "ANDROID";
+    $name_cat = "ANDROID APPLICATION";
   }
   if($catagory_id === "3") {
-    $name_cat = "WEB MOBILE";
+    $name_cat = "WEB & MOBILE";
   }
   if($catagory_id === "4") {
-    $name_cat = "BASE ON DESKTOP";
+    $name_cat = "TABLET INTERACTIVE";
   }
   if($catagory_id === "5") {
     $name_cat = "UNITY KINECT";
   }
   if($catagory_id === "6") {
-    $name_cat = "INTERACTIVE";
+    $name_cat = "ARDUINO INTERACTIVE";
+  }
+  if($catagory_id === "7") {
+    $name_cat = "IOS INTERACTIVE";
+  }
+  if($catagory_id === "8") {
+    $name_cat = "IoT INTERACTIVE";
   }
 
   return $name_cat;
