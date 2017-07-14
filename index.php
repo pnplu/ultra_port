@@ -255,12 +255,12 @@
   <script type="text/javascript">
 
 
-  if($( window ).width() > 1000) {
+  if($( window ).width() > 1100) {
     document.location = 'new_index.php';
   }
 
   $(window).resize(function() {
-    if($( document ).width() > 1000) {
+    if($( document ).width() > 1100) {
       document.location = 'new_index.php';
     }
     else {

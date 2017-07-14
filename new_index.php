@@ -425,11 +425,11 @@ $('.c').addClass('animated flash');
 $('.f').addClass('animated flash');
 
 $(window).resize(function() {
-  if($( document ).width() > 1000) {
-    document.location = 'new_index.php';
+  if($( document ).width() < 1100) {
+    document.location = 'index.php';
   }
   else {
-    document.location = 'index.php';
+    document.location = 'new_index.php';
   }
 });
 
