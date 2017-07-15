@@ -8,6 +8,9 @@
   $conn = new Database();
   $json_data = $conn->db_application_user($stu_id);
   // var_dump($json_data["user_video_interview"]);
+
+  $random_user = $conn->db_application_random_user();
+  $rands = array_rand($random_user, 3);
  ?>
 
 <!DOCTYPE html>
@@ -358,6 +361,35 @@
           </article>
         </section>
       </section><!-- Develop by -->
+
+      <section class="row" style="margin-top: 30px;">
+        <article class="col-xs-12">
+          <h2 style="font-family: 'Titillium Web', sans-serif; color:#FFFFFF;">RELATED PROJECT</h2>
+          <?php
+          foreach ($rands as $value_rand) {
+              // echo $value_rand."<br>";
+              for($i = 0; $i < 1; $i++) {
+                $data_rand = $conn->db_application_user($value_rand);
+                // echo $data_rand["user_name"]."<br>";
+
+                ?>
+                <article class="col-xs-12 col-sm-4">
+                  <a href="project_detail.php?stu_id=<?php echo $data_rand["student_id"]; ?>">
+                  <article class="col-xs-12">
+                    <img src="image_user/function/<?php echo $data_rand["work_fn_img_a"]; ?>" alt="function" style="max-width: 100%;">
+                  </article>
+                  <article class="col-xs-12">
+                    <h4 style="font-family: 'Titillium Web', sans-serif; color:#FFFFFF;"><?php echo  $data_rand["project_name"];?></h4>
+                    <p style="font-family: 'Titillium Web', sans-serif; color:#FFFFFF;">by <?php echo $data_rand["user_name"]; ?></p>
+                  </article>
+                  </a>
+                </article>
+                <?php
+              }
+          }
+           ?>
+        </article>
+      </section> <!-- Related project-->
 
       <!-- footer -->
       <div id="myID" class="bottomMenu hide">

@@ -74,16 +74,16 @@
               <article class="wrap_img_cat">
                 <img src="image_user/avatar/avatar_13560100.jpg" alt="">
               </article>
-              <h4>APPLICATION <br>IOS</h4>
+              <h4>IOS <br>APPLICATION</h4>
               <article class="box_count_creator">
                 <p>8 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 1 -->
-            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=4"><article class="wrap_box_work">
+            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=3"><article class="wrap_box_work">
               <article class="wrap_img_cat">
                 <img src="image_user/avatar/avatar_13560147.jpg" alt="">
               </article>
-              <h4>BASE ON <br>DESKTOP</h4>
+              <h4>WEB &and; MOBILE</h4>
               <article class="box_count_creator">
                 <p>7 CREATOR</p>
               </article>
@@ -92,16 +92,16 @@
               <article class="wrap_img_cat">
                 <img src="image_user/avatar/avatar_13560098.jpg" alt="">
               </article>
-              <h4>ANDROID</h4>
-              <article class="box_count_creator p_wrok_pos">
+              <h4>ANDROID<br>APPLICATION</h4>
+              <article class="box_count_creator">
                 <p>9 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 3 -->
-            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=3"><article class="wrap_box_work">
+            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=4"><article class="wrap_box_work">
               <article class="wrap_img_cat">
                 <img src="image_user/avatar/avatar_13560220.jpg" alt="">
               </article>
-              <h4>WEB MOBILE</h4>
+              <h4>TABLET<br>INTERACTIVE</h4>
               <article class="box_count_creator p_wrok_pos">
                 <p>4 CREATOR</p>
               </article>
@@ -119,11 +119,29 @@
               <article class="wrap_img_cat">
                 <img src="image_user/avatar/avatar_13560181.jpg" alt="">
               </article>
-              <h4>INTERACTIVE</h4>
+              <h4>ARDUINO<br>INTERACTIVE</h4>
               <article class="box_count_creator p_wrok_pos">
                 <p>8 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 6 -->
+            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=6"><article class="wrap_box_work">
+              <article class="wrap_img_cat">
+                <img src="image_user/avatar/avatar_13560181.jpg" alt="">
+              </article>
+              <h4>INTERACTIVE</h4>
+              <article class="box_count_creator p_wrok_pos">
+                <p>8 CREATOR</p>
+              </article>
+            </article></a> <!-- wrap_box_work 7 -->
+            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=6"><article class="wrap_box_work">
+              <article class="wrap_img_cat">
+                <img src="image_user/avatar/avatar_13560181.jpg" alt="">
+              </article>
+              <h4>INTERACTIVE</h4>
+              <article class="box_count_creator p_wrok_pos">
+                <p>8 CREATOR</p>
+              </article>
+            </article></a> <!-- wrap_box_work 8 -->
 
           </article>
         </section> <!-- wrap_catagory -->
