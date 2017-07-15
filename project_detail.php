@@ -124,6 +124,12 @@
         color: white;
         font-size: 30px;
       }
+
+      .hover_related :hover{
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        transition: 0.3s;
+      }
      }
    </style>
   </head>
@@ -177,7 +183,7 @@
           <h3 class="heading">CREATOR</h3>
           <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
           <article class="wrap_sec_user_pin cate" style="margin-top: -30px;">
-                  <article class="wrap_user_pinterest">
+                  <article class="wrap_user_pinterest" style="width:280px;">
                     <span class="user_pinterest" style="text-transform: uppercase;"><?php echo $json_data["work_type"]; ?></span>
                   </article> <!-- wrap_user_footer -->
           </article>
@@ -193,6 +199,7 @@
       <span>VIDEO INTERVIEW</span><br>
 
         <br><br>
+
           <iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; height: auto;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           <br><br><br><br>
       <span>STUDENT ID</span>
@@ -375,7 +382,7 @@
                 ?>
                 <article class="col-xs-12 col-sm-4">
                   <a href="project_detail.php?stu_id=<?php echo $data_rand["student_id"]; ?>">
-                  <article class="col-xs-12">
+                  <article class="col-xs-12 hover_related">
                     <img src="image_user/function/<?php echo $data_rand["work_fn_img_a"]; ?>" alt="function" style="max-width: 100%;">
                   </article>
                   <article class="col-xs-12">
