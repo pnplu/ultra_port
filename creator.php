@@ -44,6 +44,7 @@ $data_user = $conn->db_application_all();
     <section class="container-fluid">
       <section class="row">
         <nav class="col-sm-12 wrap_nav_top">
+          <a href="index.php">
           <article class="col-xs-4 col-sm-2 box_nav_top_l" style="margin-left: 25px; margin-top: 20px;">
             <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
@@ -60,6 +61,7 @@ $data_user = $conn->db_application_all();
                   </g>
               </g>
           </svg><!-- logo-effect -->
+          </a>
           </article>
           <article class="col-sm-9 wrap_menu_top_text tablet animated fadeInDown">
             <ul>
