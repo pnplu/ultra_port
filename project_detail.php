@@ -2282,10 +2282,18 @@ var myScrollFunc = function () {
 
 window.addEventListener("scroll", myScrollFunc);
 
-if ($(this).scrollTop()>1200)
-     {
-        $('.wrap_footer').fadeOut();
-     }
+$(window).scroll(function() {
+
+ if ($(this).scrollTop()>2700)
+  {
+
+     $('.wrap_footer').fadeOut();
+  }
+ else
+  {
+        $('.wrap_footer').fadeIn();
+  }
+});
 
   </script>
   <!-- fancy box popup -->
