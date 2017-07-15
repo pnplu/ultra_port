@@ -1949,7 +1949,7 @@
                       <div class="popup__close"></div>
                       <h3 class="popup__heading">VIDEO INTERVIEW</h3>
                       <p class="popup__text"><iframe src="<?php echo $json_data["user_video_interview"]; ?>" style="border:none; height: auto;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                      
+
                   </div>
               </div>
           </div>
@@ -2281,6 +2281,11 @@ var myScrollFunc = function () {
 };
 
 window.addEventListener("scroll", myScrollFunc);
+
+if ($(this).scrollTop()>1200)
+     {
+        $('.wrap_footer').fadeOut();
+     }
 
   </script>
   <!-- fancy box popup -->
