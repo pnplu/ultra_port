@@ -148,7 +148,7 @@
               <a href="creator_catagory.php?cat_id=1">
                 <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
                   <div class="box_cate">
-                    <h4 class="title">APPLICATION IOS</h4>
+                    <h4 class="title">IOS APPLICATION</h4>
                     <span class="cover_index"></span>
                     <img id="db_application_ios" src="image_user/function/function_13560113_01.jpg" class="cat_profile">
                     <div class="box_count">
@@ -160,11 +160,11 @@
               <a href="creator_catagory.php?cat_id=4">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4 class="title">WEB BASE ON DESKTOP</h4>
+                <h4 class="title">WEB APPLICATION</h4>
                 <span class="cover_index"></span>
                 <img id="db_application_base_on_desktop" src="image_user/avatar/avatar_13560190.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">7 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">11 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -172,11 +172,11 @@
             <a href="creator_catagory.php?cat_id=3">
             <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
-                <h4 class="title">WEB MOBILE</h4>
+                <h4 class="title">ANDROID APPLICATION</h4>
                 <span class="cover_index"></span>
-                <img id="db_application_web_mobile" src="image_user/function/function_13550631_01.jpg" class="cat_profile">
+                <img id="db_application_web_mobile" src="image_user/function/function_13560259_01.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">4 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">7 CREATOR</p>
                 </div>
               </div>
             </article>
@@ -184,19 +184,19 @@
             <a href="creator_catagory.php?cat_id=2">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4 class="title">ANDROID</h4>
+                <h4 class="title">TABLET APPLICATION</h4>
                 <span class="cover_index"></span>
-                <img id="db_application_android" src="image_user/avatar/avatar_13540644.jpg" class="cat_profile">
+                <img id="db_application_android" src="image_user/avatar/avatar_13560171.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">9 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">2 CREATOR</p>
                 </div>
               </div>
             </article>
             </a>
             <a href="creator_catagory.php?cat_id=5">
-            <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
-                <h4 class="title">UNITY KINECT</h4>
+                <h4 class="title">INTERACTIVE WITH KINECT</h4>
                 <span class="cover_index"></span>
                 <img id="db_application_unity_kinect" src="image_user/function/function_13560120_01.jpg" class="cat_profile">
                 <div class="box_count">
@@ -206,13 +206,37 @@
             </article>
             </a>
             <a href="creator_catagory.php?cat_id=6">
-            <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4 class="title">INTERACTIVE</h4>
+                <h4 class="title">INTERACTIVE WITH ARDUINO</h4>
                 <span class="cover_index"></span>
                 <img id="db_application_interactive" src="image_user/avatar/avatar_13550255.jpg" class="cat_profile">
                 <div class="box_count">
-                  <p style="font-family: 'Titillium Web', sans-serif;">8 CREATOR</p>
+                  <p style="font-family: 'Titillium Web', sans-serif;">2 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            </a>
+            <a href="creator_catagory.php?cat_id=7">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
+              <div class="box_cate">
+                <h4 class="title">IOS INTERACTIVE</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_interactive" src="image_user/avatar/avatar_13560098.jpg" class="cat_profile">
+                <div class="box_count">
+                  <p style="font-family: 'Titillium Web', sans-serif;">4 CREATOR</p>
+                </div>
+              </div>
+            </article>
+            </a>
+            <a href="creator_catagory.php?cat_id=8">
+            <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
+              <div class="box_cate">
+                <h4 class="title">INTERNET OF THINGS</h4>
+                <span class="cover_index"></span>
+                <img id="db_application_interactive" src="image_user/avatar/avatar_13560178.jpg" class="cat_profile">
+                <div class="box_count">
+                  <p style="font-family: 'Titillium Web', sans-serif;">2 CREATOR</p>
                 </div>
               </div>
             </article>

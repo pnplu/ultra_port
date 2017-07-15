@@ -78,6 +78,80 @@
         p{
           text-align: center;
         }
+        a , a:hover , a::before , a::after , a:focus{
+          color: #FFFFFF;
+        }
+        .ictsu{
+          max-height: 120px;
+        }
+        .ictsu:hover{
+          background-color: #5F1B00;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .central:hover{
+          background-color: #c1001b;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .txp:hover{
+          background-color: #0b1d41;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .muze:hover{
+          background-color: #34abe1;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .uppercuz:hover{
+          background-color: #FFFFFF;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .uppercuz:hover img{
+          filter: invert();
+        }
+        .uppercuz:hover h5, .uppercuz:hover p{
+          color: #000000;
+        }
+        .apple:hover{
+          background-color: #FFFFFF;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .apple:hover img{
+          filter: invert();
+        }
+        .apple:hover h5, .apple:hover p{
+          color: #000000;
+        }
+        .page_qq:hover{
+          background-color: #2674bc;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .dek_d:hover{
+          background-color: #f1a42b;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .duck_lab:hover{
+          background-color: #FFFFFF;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .duck_lab:hover img{
+          filter: invert();
+        }
+        .duck_lab:hover h5, .duck_lab:hover p{
+          color: #000000;
+        }
+        .lactasoy:hover{
+          background-color: #0b7abf;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
       }
       @media screen and (min-width: 767px) {
         #box_top{
@@ -205,10 +279,10 @@
 
           <section class="row">
             <article class="col-xs-12">
-              <article id="logoict" class="col-xs-12">
+              <a target="_blank" href="http://www.ict.su.ac.th/"><article id="logoict" class="col-xs-12 ictsu">
                 <img src="img/sponsor/sponsor_02.png" alt="ICTSILPAKORN">
-              </article> <!-- logo ictsilpakorn -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- logo ictsilpakorn -->
+              <a target="_blank" href="http://www.centralworld.co.th/"><article class="col-xs-12 col-sm-4 col-md-4 central box_sponsor">
                 <img src="img/sponsor/sponsor_01.png" alt="Central World">
                 <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
                 <p>
@@ -217,8 +291,8 @@
                   facebook.com/CentralWorld<br>
                   Tel : 02-100-9999
                 </p>
-              </article> <!-- central -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- central -->
+              <a target="_blank" href="http://txppetro.com/"><article class="col-xs-12 col-sm-4 col-md-4 txp box_sponsor">
                 <img src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
                 <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
                 <p>
@@ -227,8 +301,8 @@
                   Tel : 02-287-3077<br>
                   Email : contact@txppetro.com
                 </p>
-              </article> <!-- txp -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- txp -->
+              <a target="_blank" href="https://muzeinnovation.com/"><article class="col-xs-12 col-sm-4 col-md-4 muze box_sponsor">
                 <img src="img/sponsor/sponsor_04.png" alt="MUZE">
                 <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
                 <p>
@@ -237,8 +311,8 @@
                   facebook.com/muzeinnovation<br>
                   Email : info@mymuze.me
                 </p>
-              </article> <!-- muze -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- muze -->
+              <a target="_blank" href="http://www.uppercuz.com/"><article class="col-xs-12 col-sm-4 col-md-4 uppercuz box_sponsor">
                 <img src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
                 <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
                 <p>
@@ -247,12 +321,12 @@
                   Tel : 087-378-6070 <br>
                   Email : contact@uppercuz.com
                 </p>
-              </article> <!-- uppercuz -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- uppercuz -->
+              <article class="col-xs-12 col-sm-4 col-md-4 apple box_sponsor">
                 <img src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
                 <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
               </article> <!-- Apple Thailand -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              <a target="_blank" href="https://www.facebook.com/PageQQ"><article class="col-xs-12 col-sm-4 col-md-4 page_qq box_sponsor">
                 <img src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
                 <h5>PAGE-QQ</h5>
                 <p>
@@ -261,8 +335,8 @@
                   Tel : 081-842-9422<br>
                   Email : support@pageqq.com
                 </p>
-              </article> <!-- PAGE-QQ -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- PAGE-QQ -->
+              <a target="_blank" href="https://www.dek-d.com/"><article class="col-xs-12 col-sm-4 col-md-4 dek_d box_sponsor">
                 <img src="img/sponsor/sponsor_08.png" alt="DEK D">
                 <h5>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด</h5>
                 <p>
@@ -271,8 +345,8 @@
                   Tel : 02-860-1142<br>
                   Email : contact@dek-d.com
                 </p>
-              </article> <!-- DEK D -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- DEK D -->
+              <a target="_blank" href="http://ducklab.co.th/"><article class="col-xs-12 col-sm-4 col-md-4 duck_lab box_sponsor">
                 <img src="img/sponsor/sponsor_09.png" alt="DUCK LAB">
                 <h5>บริษัท ดัค แล็บ จำกัด</h5>
                 <p>
@@ -280,8 +354,8 @@
                   Tel : 081-443-3618<br>
                   Email : manager@ducklab.co.th
                 </p>
-              </article> <!-- DUCK LAB -->
-              <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
+              </article></a> <!-- DUCK LAB -->
+              <a target="_blank" href="http://lactasoy.com/th/"><article class="col-xs-12 col-sm-4 col-md-4 lactasoy box_sponsor">
                 <img src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
                 <h5>LACTASOY</h5>
                 <p>
@@ -290,7 +364,7 @@
                   Tel : 02-396-0320-7<br>
                   Email : lactasoy@lactasoy.com
                 </p>
-              </article> <!-- LACTASOY -->
+              </article></a> <!-- LACTASOY -->
             </article>
           </section> <!-- Sponsor -->
         </section>

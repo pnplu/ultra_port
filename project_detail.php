@@ -18,7 +18,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
-    <title><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> ULTRA LINE 11.3 Graduate Exhibition</title>
+    <title><?php echo $json_data["project_name"]; ?> | <?php echo $json_data["work_name"]; ?> | <?php echo $json_data["user_name"] ?> | ULTRALINE 11.3 GRADUATE EXHIBITION</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_project_detail.css">
     <link rel="stylesheet" href="css/style_browse.css">
@@ -1714,6 +1714,17 @@
        color: #fff;
        letter-spacing: 2px;
      }
+     @media screen and (min-width: 1400px) {
+       #demo-canvas{
+         height: 880px;
+       }
+       #bnner_mar{
+         margin-top: 260px;
+       }
+       .hover_related img {
+         width: 500px;
+       }
+     }
    </style>
   </head>
   <body>
@@ -1958,7 +1969,7 @@
 
           <script src="js/index_popup_shtter.js"></script>
         </div>
-        <article class="col-xs-12 wrap_banner">
+        <article id="bnner_mar" class="col-xs-12 wrap_banner">
           <img src="image_user/head_preview/<?php echo $json_data["user_img_head"]; ?>" alt="banner_work">
         </article>
       </section> <!-- banner -->

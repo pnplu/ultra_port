@@ -83,65 +83,65 @@
               <article class="wrap_img_cat">
                 <img src="image_user/avatar/avatar_13560147.jpg" alt="">
               </article>
-              <h4>WEB &and; MOBILE</h4>
-              <article class="box_count_creator">
-                <p>7 CREATOR</p>
+              <h4>WEB APPLICATION</h4>
+              <article class="box_count_creator p_wrok_pos">
+                <p>11 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 2 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=2"><article class="wrap_box_work">
               <article class="wrap_img_cat">
-                <img src="image_user/avatar/avatar_13560098.jpg" alt="">
+                <img src="image_user/avatar/avatar_13560167.jpg" alt="">
               </article>
               <h4>ANDROID<br>APPLICATION</h4>
               <article class="box_count_creator">
-                <p>9 CREATOR</p>
+                <p>7 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 3 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=4"><article class="wrap_box_work">
               <article class="wrap_img_cat">
-                <img src="image_user/avatar/avatar_13560220.jpg" alt="">
+                <img src="image_user/avatar/avatar_13560171.jpg" alt="">
               </article>
               <h4>TABLET<br>INTERACTIVE</h4>
-              <article class="box_count_creator p_wrok_pos">
-                <p>4 CREATOR</p>
+              <article class="box_count_creator">
+                <p>2 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 4 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=5"><article class="wrap_box_work">
               <article class="wrap_img_cat">
-                <img src="image_user/avatar/avatar_13560178.jpg" alt="">
+                <img src="image_user/avatar/avatar_13560220.jpg" alt="">
               </article>
-              <h4>UNITY KINECT</h4>
-              <article class="box_count_creator p_wrok_pos">
+              <h4>INTERACTIVE<br>WITH KINECT</h4>
+              <article class="box_count_creator">
                 <p>4 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 5 -->
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=6"><article class="wrap_box_work">
               <article class="wrap_img_cat">
-                <img src="image_user/avatar/avatar_13560181.jpg" alt="">
+                <img src="image_user/avatar/avatar_13550255.jpg" alt="">
               </article>
-              <h4>ARDUINO<br>INTERACTIVE</h4>
-              <article class="box_count_creator p_wrok_pos">
-                <p>8 CREATOR</p>
+              <h4>INTERACTIVE<br> WITH ARDUINO</h4>
+              <article class="box_count_creator">
+                <p>2 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 6 -->
-            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=6"><article class="wrap_box_work">
+            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=7"><article class="wrap_box_work">
               <article class="wrap_img_cat">
-                <img src="image_user/avatar/avatar_13560181.jpg" alt="">
+                <img src="image_user/avatar/avatar_13560098.jpg" alt="">
               </article>
-              <h4>INTERACTIVE</h4>
-              <article class="box_count_creator p_wrok_pos">
-                <p>8 CREATOR</p>
+              <h4>IOS<br>INTERACTIVE</h4>
+              <article class="box_count_creator">
+                <p>4 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 7 -->
-            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=6"><article class="wrap_box_work">
+            <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=8"><article class="wrap_box_work">
               <article class="wrap_img_cat">
-                <img src="image_user/avatar/avatar_13560181.jpg" alt="">
+                <img src="image_user/avatar/avatar_13560178.jpg" alt="">
               </article>
-              <h4>INTERACTIVE</h4>
-              <article class="box_count_creator p_wrok_pos">
-                <p>8 CREATOR</p>
+              <h4>INTERNET OF<br>THINGS</h4>
+              <article class="box_count_creator">
+                <p>2 CREATOR</p>
               </article>
-            </article></a> <!-- wrap_box_work 8 -->
+            </article></a> <!-- wrap_box_work 2 -->
 
           </article>
         </section> <!-- wrap_catagory -->

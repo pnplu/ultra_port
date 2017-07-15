@@ -37,6 +37,25 @@ $data_user = $conn->db_application_all();
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap_xl.css">
+    <style media="screen">
+      @media screen and (min-width: 319px) {
+        .wrap_box_people{
+          min-height: 280px;
+          margin-bottom: 20px;
+        }
+      }
+      @media screen and (min-width: 319px) {
+        .wrap_box_people{
+          min-height: 320px;
+        }
+      }
+      @media screen and (min-width: 1400px) {
+        .wrap_box_people{
+          min-height: 350px;
+          /*margin-bottom: 20px;*/
+        }
+      }
+    </style>
   </head>
   <body>
 

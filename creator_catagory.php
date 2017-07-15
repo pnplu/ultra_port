@@ -11,22 +11,22 @@ $data_user = $conn->db_application_catagory($catagory_id);
 function name_catagory($catagory_id)
 {
     if ($catagory_id === "1") {
-        $name_cat = "iOS APPLICATION";
+        $name_cat = "IOS APPLICATION";
     }
     if ($catagory_id === "2") {
         $name_cat = "ANDROID APPLICATION";
     }
     if ($catagory_id === "3") {
-        $name_cat = "WEB & MOBILE";
+        $name_cat = "WEB APPLICATION";
     }
     if ($catagory_id === "4") {
         $name_cat = "TABLET INTERACTIVE";
     }
     if ($catagory_id === "5") {
-        $name_cat = "UNITY KINECT";
+        $name_cat = "INTERACTIVE WITH KINECT";
     }
     if ($catagory_id === "6") {
-        $name_cat = "ARDUINO INTERACTIVE";
+        $name_cat = "INTERACTIVE WITH ARDUINO";
     }
     if ($catagory_id === "7") {
         $name_cat = "IOS INTERACTIVE";
@@ -45,7 +45,7 @@ function name_catagory($catagory_id)
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
-    <title><?php echo $name_cat;?> | ULTRALINE 11.3 GRADUATE EXHIBITION</title>
+    <title><?php echo name_catagory($catagory_id);?> | ULTRALINE 11.3 GRADUATE EXHIBITION</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_port.css">
     <link rel="stylesheet" href="css/style_browse.css">
@@ -67,6 +67,25 @@ function name_catagory($catagory_id)
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap_xl.css">
+    <style media="screen">
+      @media screen and (min-width: 319px) {
+        .wrap_box_people{
+          min-height: 280px;
+          margin-bottom: 20px;
+        }
+      }
+      @media screen and (min-width: 319px) {
+        .wrap_box_people{
+          min-height: 320px;
+        }
+      }
+      @media screen and (min-width: 1400px) {
+        .wrap_box_people{
+          min-height: 350px;
+          /*margin-bottom: 20px;*/
+        }
+      }
+    </style>
   </head>
   <body>
 
