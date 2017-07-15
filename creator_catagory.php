@@ -8,34 +8,34 @@ $catagory_id = $_GET["cat_id"];
 $conn = new Database();
 $data_user = $conn->db_application_catagory($catagory_id);
 
-function name_catagory($catagory_id) {
+function name_catagory($catagory_id)
+{
+    if ($catagory_id === "1") {
+        $name_cat = "iOS APPLICATION";
+    }
+    if ($catagory_id === "2") {
+        $name_cat = "ANDROID APPLICATION";
+    }
+    if ($catagory_id === "3") {
+        $name_cat = "WEB & MOBILE";
+    }
+    if ($catagory_id === "4") {
+        $name_cat = "TABLET INTERACTIVE";
+    }
+    if ($catagory_id === "5") {
+        $name_cat = "UNITY KINECT";
+    }
+    if ($catagory_id === "6") {
+        $name_cat = "ARDUINO INTERACTIVE";
+    }
+    if ($catagory_id === "7") {
+        $name_cat = "IOS INTERACTIVE";
+    }
+    if ($catagory_id === "8") {
+        $name_cat = "IoT INTERACTIVE";
+    }
 
-  if($catagory_id === "1") {
-    $name_cat = "iOS APPLICATION";
-  }
-  if($catagory_id === "2") {
-    $name_cat = "ANDROID APPLICATION";
-  }
-  if($catagory_id === "3") {
-    $name_cat = "WEB & MOBILE";
-  }
-  if($catagory_id === "4") {
-    $name_cat = "TABLET INTERACTIVE";
-  }
-  if($catagory_id === "5") {
-    $name_cat = "UNITY KINECT";
-  }
-  if($catagory_id === "6") {
-    $name_cat = "ARDUINO INTERACTIVE";
-  }
-  if($catagory_id === "7") {
-    $name_cat = "IOS INTERACTIVE";
-  }
-  if($catagory_id === "8") {
-    $name_cat = "IoT INTERACTIVE";
-  }
-
-  return $name_cat;
+    return $name_cat;
 }
 
  ?>
@@ -45,7 +45,7 @@ function name_catagory($catagory_id) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
-    <title>Project Student</title>
+    <title><?php echo $name_cat;?> | ULTRALINE 11.3 GRADUATE EXHIBITION</title>
     <!-- css -->
     <link rel="stylesheet" href="stylesheet/css/style_port.css">
     <link rel="stylesheet" href="css/style_browse.css">
@@ -115,7 +115,7 @@ function name_catagory($catagory_id) {
         <section class="col-xs-12 col-sm-11 wrap_people">
           <?php
             foreach ($data_user as $key => $value) {
-           ?>
+                ?>
           <article class="col-xs-6 col-sm-4 col-md-3 col-xl-2 wrap_box_people">
             <!-- <article class="row"> -->
               <article class="image_people">
@@ -132,7 +132,8 @@ function name_catagory($catagory_id) {
 
           </article> <!-- wrap_box_people 1 -->
           <?php
-        }
+
+            }
            ?>
 
         </section> <!-- wrap_people -->

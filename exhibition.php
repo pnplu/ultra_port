@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width,initial-scale=1.0">
-    <title>Exhibition | ULTRA LINE 11.3 Graduate Exhibition </title>
+    <title>EXHIBITION | ULTRA LINE 11.3 Graduate Exhibition </title>
     <link rel="shortcut icon" href="image_web/favicon.ico">
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
