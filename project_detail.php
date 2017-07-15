@@ -178,7 +178,7 @@
           <h2 class="name_thai"><?php echo $json_data["user_name"]; ?></h2>
           <article class="wrap_sec_user_pin cate" style="margin-top: -30px;">
                   <article class="wrap_user_pinterest">
-                    <span class="user_pinterest"><?php echo $json_data["work_type"]; ?></span>
+                    <span class="user_pinterest" style="text-transform: uppercase;"><?php echo $json_data["work_type"]; ?></span>
                   </article> <!-- wrap_user_footer -->
           </article>
           </article>
@@ -368,8 +368,8 @@
           <?php
           foreach ($rands as $value_rand) {
               // echo $value_rand."<br>";
-              for($i = 0; $i < 1; $i++) {
-                $data_rand = $conn->db_application_user($value_rand);
+              for ($i = 0; $i < 1; $i++) {
+                  $data_rand = $conn->db_application_user($value_rand);
                 // echo $data_rand["user_name"]."<br>";
 
                 ?>
@@ -379,12 +379,13 @@
                     <img src="image_user/function/<?php echo $data_rand["work_fn_img_a"]; ?>" alt="function" style="max-width: 100%;">
                   </article>
                   <article class="col-xs-12">
-                    <h4 style="font-family: 'Titillium Web', sans-serif; color:#FFFFFF;"><?php echo  $data_rand["project_name"];?></h4>
+                    <h4 style="font-family: 'Titillium Web', sans-serif; color:#FFFFFF;"><?php echo  $data_rand["project_name"]; ?></h4>
                     <p style="font-family: 'Titillium Web', sans-serif; color:#FFFFFF;">by <?php echo $data_rand["user_name"]; ?></p>
                   </article>
                   </a>
                 </article>
                 <?php
+
               }
           }
            ?>
@@ -504,9 +505,11 @@
 
         $('.menu').addClass('animated fadeInDown');
         $('.heading').addClass('animated fadeInLeft');
-        $('.name_thai').addClass('animated flip');
+        $('.name_thai').addClass('animated fadeInLeft');
         $('.name_eng').addClass('animated fadeInLeft');
         $('.cate').addClass('animated flipInX');
+        $('.video_showreel').addClass('animated fadeInRight');
+
 
 //
 myID = document.getElementById("myID");

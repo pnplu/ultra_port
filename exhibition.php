@@ -76,10 +76,19 @@
         .video-wrapper {
                 margin-bottom: 40%;
         }
+        .cate_mobile{
+          display: block;
+        }
+        .cate_desktop{
+          display: none;
+        }
       }
       @media screen and (min-width: 767px) {
         #box_top{
           margin-top: 150px;
+        }
+        .cate_mobile{
+          display: none;
         }
         h5{
           text-align: center;
@@ -112,6 +121,10 @@
         .video-wrapper {
                 margin-bottom: 10%;
         }
+        .cate_mobile{
+          display: none;
+        }
+
       }
       .cover {
         font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -272,17 +285,21 @@
 *หมายเลข 11.3 มีนัยยะแฝงสองส่วนคือ สื่อถึงรุ่นที่ 11 และ 3 แสดงถึงเป็นปีที่ 3 สืบเนื่องจากงาน SURAROUND 9.1 และ OATHLON 10.2 ตามลำดับ
             </p>
           </article>
-
-
+            <div class="cate_desktop">
+            <img src="image_web/exhibition_section_05.jpg" width="100%" height="100%">
+          </div>
+          <div class="cate_mobile" style="margin-bottom:20px;">
+          <img src="image_web/exhibition_section_06.jpg" width="100%" height="100%">
+        </div>
 
       <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-        <img src="image_web/exhibition_section_02.jpg" width="100%" height="100%">
+        <img src="image_web/exhibition_section_02.jpg" width="100%" height="100%" style="object-fit: cover;">
       </article>
       <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-        <img src="image_web/exhibition_section_03.jpg" width="100%" height="100%">
+        <img src="image_web/exhibition_section_03.jpg" width="100%" height="100%" style="object-fit: cover;">
       </article>
       <article class="col-xs-12 col-sm-4 col-md-4 box_sponsor">
-        <img src="image_web/exhibition_section_04.jpg" width="100%" height="100%">
+        <img src="image_web/exhibition_section_04.jpg" width="100%" height="100%" style="object-fit: cover;">
       </article>
 
         <section id="box_top" class="row">
