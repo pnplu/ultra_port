@@ -67,7 +67,7 @@
         <section class="col-xs-12 col-sm-10 wrap_catagory">
           <article class="col-xs-7 box_head_catagory">
             <h3>40 CREATOR</h3>
-            <h4>SENOIR PROJECT<br>2017</h4>
+            <h4>SENIOR PROJECT<br>2017</h4>
           </article>
           <article class="col-xs-12 wrap_cat_box">
             <a href="https://ictsilpakorn.com/im11/portfolio/creator_catagory.php?cat_id=1"><article class="wrap_box_work">
@@ -84,7 +84,7 @@
                 <img src="image_user/avatar/avatar_13560147.jpg" alt="">
               </article>
               <h4>WEB APPLICATION</h4>
-              <article class="box_count_creator p_wrok_pos">
+              <article class="box_count_creator">
                 <p>11 CREATOR</p>
               </article>
             </article></a> <!-- wrap_box_work 2 -->

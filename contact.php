@@ -294,10 +294,10 @@
               </article></a> <!-- central -->
               <a target="_blank" href="http://txppetro.com/"><article class="col-xs-12 col-sm-4 col-md-4 txp box_sponsor">
                 <img src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
-                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
+                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
                 <p>
                   Thai petroleum support co. ltd<br>
-                  txppetro.com/our-company<br>
+                  txppetro.com<br>
                   Tel : 02-287-3077<br>
                   Email : contact@txppetro.com
                 </p>
@@ -307,25 +307,25 @@
                 <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
                 <p>
                   Muze innovation co. ltd<br>
-                  muzeinnovation.com/<br>
+                  muzeinnovation.com<br>
                   facebook.com/muzeinnovation<br>
                   Email : info@mymuze.me
                 </p>
               </article></a> <!-- muze -->
               <a target="_blank" href="http://www.uppercuz.com/"><article class="col-xs-12 col-sm-4 col-md-4 uppercuz box_sponsor">
                 <img src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
-                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
+                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
                 <p>
                   uppercuz.com<br>
-                  facebook.com/uppercuzcreative/<br>
+                  facebook.com/uppercuzcreative<br>
                   Tel : 087-378-6070 <br>
                   Email : contact@uppercuz.com
                 </p>
               </article></a> <!-- uppercuz -->
-              <article class="col-xs-12 col-sm-4 col-md-4 apple box_sponsor">
+              <a target="_blank" href="https://www.apple.com/th"><article class="col-xs-12 col-sm-4 col-md-4 apple box_sponsor">
                 <img src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
                 <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
-              </article> <!-- Apple Thailand -->
+              </article></a> <!-- Apple Thailand -->
               <a target="_blank" href="https://www.facebook.com/PageQQ"><article class="col-xs-12 col-sm-4 col-md-4 page_qq box_sponsor">
                 <img src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
                 <h5>PAGE-QQ</h5>
@@ -338,9 +338,9 @@
               </article></a> <!-- PAGE-QQ -->
               <a target="_blank" href="https://www.dek-d.com/"><article class="col-xs-12 col-sm-4 col-md-4 dek_d box_sponsor">
                 <img src="img/sponsor/sponsor_08.png" alt="DEK D">
-                <h5>บริษัทเด็กดี อินเตอรแอคทีฟ จำกัด</h5>
+                <h5>บริษัทเด็กดี อินเตอร์แอคทีฟ จำกัด</h5>
                 <p>
-                  dek-d.com/<br>
+                  dek-d.com<br>
                   facebook.com/DekDfc/<br>
                   Tel : 02-860-1142<br>
                   Email : contact@dek-d.com
@@ -359,7 +359,7 @@
                 <img src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
                 <h5>LACTASOY</h5>
                 <p>
-                  lactasoy.com/th/<br>
+                  lactasoy.com/th<br>
                   facebook.com/lactasoyclub<br>
                   Tel : 02-396-0320-7<br>
                   Email : lactasoy@lactasoy.com

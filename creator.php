@@ -40,11 +40,11 @@ $data_user = $conn->db_application_all();
     <style media="screen">
       @media screen and (min-width: 319px) {
         .wrap_box_people{
-          min-height: 280px;
-          margin-bottom: 20px;
+          min-height: 300px;
+          margin-bottom: 0px;
         }
       }
-      @media screen and (min-width: 319px) {
+      @media screen and (min-width: 768px) {
         .wrap_box_people{
           min-height: 320px;
         }
@@ -108,7 +108,7 @@ $data_user = $conn->db_application_all();
           <?php
             foreach ($data_user as $key => $value) {
                 ?>
-          <article class="col-xs-6 col-sm-4 col-md-3 col-xl-2 wrap_box_people">
+          <a href="project_detail.php?stu_id=<?php echo $value["student_id"]; ?>"><article class="col-xs-6 col-sm-4 col-md-3 col-xl-2 wrap_box_people">
             <!-- <article class="row"> -->
               <article class="image_people">
                 <img src="image_user/avatar/<?php echo $value["user"]["image"]["profile"]; ?>" alt="Ultraline 11.3 User">
@@ -116,13 +116,13 @@ $data_user = $conn->db_application_all();
               </article>
             <!-- </article> -->
             <!-- <article class="row"> -->
-              <article class="discription_people">
+              <a href="project_detail.php?stu_id=<?php echo $value["student_id"]; ?>"><article class="discription_people">
                 <p class="topic_user"><?php echo $value["work"]["project_name"]; ?></p>
                 <p class="name_user">by <?php echo $value["user"]["name"]; ?></p>
-              </article> <!-- discription_people -->
+              </article></a> <!-- discription_people -->
             <!-- </article> -->
 
-          </article> <!-- wrap_box_people 1 -->
+          </article></a> <!-- wrap_box_people 1 -->
           <?php
 
             }

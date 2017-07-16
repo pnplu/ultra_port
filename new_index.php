@@ -157,7 +157,7 @@
                   </div>
                 </article>
               </a>
-              <a href="creator_catagory.php?cat_id=4">
+              <a href="creator_catagory.php?cat_id=3">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">WEB APPLICATION</h4>
@@ -169,7 +169,7 @@
               </div>
             </article>
             </a>
-            <a href="creator_catagory.php?cat_id=3">
+            <a href="creator_catagory.php?cat_id=2">
             <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
               <div class="box_cate">
                 <h4 class="title">ANDROID APPLICATION</h4>
@@ -181,10 +181,10 @@
               </div>
             </article>
             </a>
-            <a href="creator_catagory.php?cat_id=2">
+            <a href="creator_catagory.php?cat_id=4">
             <article class="col-xs-6 col-sm-4 col-md-3 box_b" style="overflow:hidden;">
               <div class="box_cate">
-                <h4 class="title">TABLET APPLICATION</h4>
+                <h4 class="title">TABLET INTERACTIVE</h4>
                 <span class="cover_index"></span>
                 <img id="db_application_android" src="image_user/avatar/avatar_13560171.jpg" class="cat_profile">
                 <div class="box_count">
@@ -309,11 +309,6 @@
 
         </article> <!-- discription -->
       </section>
-      <section class="row">
-        <article class="col-sm-offset-8 col-sm-3" style="margin-top: -140px;">
-          <img src="banner/all.png" style="max-width: 100%;">
-        </article>
-      </section>
       <section class="row pos_fix">
         <article class="col-md-12 main_menu" style="border: none;">
           <article class="row">
@@ -323,15 +318,21 @@
               </article>
             </article>
               <article class="col-md-10 menu_r">
-                <ul style="color:#fff;">
-                  <li><a class="link link--kumya a" href="creator_catagory.php?cat_id=1" data-letters="APPLICATION IOS">APPLICATION iOS</a></li> /
-                  <li><a class="link link--kumya b" href="creator_catagory.php?cat_id=4" data-letters="WEB BASE ON DESKTOP">WEB BASE ON DESKTOP</a></li> /
-                  <li><a class="link link--kumya c" href="creator_catagory.php?cat_id=3" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
-                  <li><a class="link link--kumya d" href="creator_catagory.php?cat_id=2" data-letters="ANDRIOD">ANDROID</a></li> /
-                  <li><a class="link link--kumya f" href="creator_catagory.php?cat_id=5" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
-                  <li><a class="link link--kumya g" href="creator_catagory.php?cat_id=6" data-letters="UNITY ARDUINO">INTERACTIVE</a></li>
-                </ul>
+                <!-- <ul style="color:#fff;">
+                  <li><a class="link link-kumya a" href="creator_catagory.php?cat_id=1" data-letters="APPLICATION IOS">APPLICATION iOS</a></li> /
+                  <li><a class="link link-kumya b" href="creator_catagory.php?cat_id=4" data-letters="WEB BASE ON DESKTOP">WEB BASE ON DESKTOP</a></li> /
+                  <li><a class="link link-kumya c" href="creator_catagory.php?cat_id=3" data-letters="WEB MOBILE">WEB MOBILE</a></li> /
+                  <li><a class="link link-kumya d" href="creator_catagory.php?cat_id=2" data-letters="ANDRIOD">ANDROID</a></li> /
+                  <li><a class="link link-kumya f" href="creator_catagory.php?cat_id=5" data-letters="UNITY KINECT">UNITY KINECT</a></li> /
+                  <li><a class="link link-kumya g" href="creator_catagory.php?cat_id=6" data-letters="UNITY ARDUINO">INTERACTIVE</a></li>
+                </ul> -->
+                <img src="banner/all.png" style="float:right; max-width: 50%;">
               </article>
+              <!-- <section class="row"> -->
+                <!-- <article class="col-sm-offset-8 col-sm-3" style="margin-top: -140px;"> -->
+                  <!-- <img src="banner/all.png" style="max-width: 100%;"> -->
+                <!-- </article> -->
+              <!-- </section> -->
             </article>
 
         </article> <!-- main_menu -->
