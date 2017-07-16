@@ -39,7 +39,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet/css/linkstyles.css" />
     <!-- animate.css -->
     <link rel="stylesheet" href="stylesheet/css/animate.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf">
@@ -1948,7 +1948,7 @@
       </section>
       <!-- tool develop -->
       <section class="row">
-        <section class="col-xs-12 col-sm-offset-3 col-sm-6 wrap_tool">
+        <section class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-xl-4 wrap_tool">
           <h3>TOOL DEVELOP</h3>
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_a"]; ?> purple">
@@ -2190,7 +2190,7 @@ $(window).scroll(function() {
   <!-- fancy box popup -->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-  <script type="text/javascript" src="js/fancybox/jquery.easing-1.4.pack.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
   <!-- <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> -->
   <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
   <script type="text/javascript">

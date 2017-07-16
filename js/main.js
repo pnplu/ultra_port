@@ -1357,7 +1357,7 @@ $.getJSON("data/db_application_ios.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_ios').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_ios').addClass('animated fadeIn');
 		setTimeout(function(){
@@ -1381,7 +1381,7 @@ $.getJSON("data/db_application_web_mobile.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_web_mobile').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
 	$('#db_application_web_mobile').removeClass('animated fadeIn');
 		setTimeout(function(){
@@ -1405,7 +1405,7 @@ $.getJSON("data/db_application_android.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_android').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_android').addClass('animated fadeIn');
 		setTimeout(function(){
@@ -1429,7 +1429,7 @@ $.getJSON("data/db_application_tablet_interactive.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_tablet_interactive').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
 	$('#db_application_tablet_interactive').removeClass('animated fadeIn');
 		setTimeout(function(){
@@ -1454,7 +1454,7 @@ $.getJSON("data/db_application_unity_kinect.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_unity_kinect').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_unity_kinect').addClass('animated fadeIn');
 		setTimeout(function(){
@@ -1479,7 +1479,7 @@ $.getJSON("data/db_application_arduino_interactive.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_arduino_interactive').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
 	$('#db_application_arduino_interactive').removeClass('animated fadeIn');
 		setTimeout(function(){
@@ -1504,7 +1504,7 @@ $.getJSON("data/db_application_ios_interactive.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_ios_interactive').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_ios_interactive').addClass('animated fadeIn');
 		setTimeout(function(){
@@ -1529,7 +1529,7 @@ $.getJSON("data/db_application_iot.json", function(data) {
 
 	setInterval(function(){
 
-	if(i>=count) { i=0; }
+	if(i>=(count-1)) { i=0; }
 	$('#db_application_iot').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
 	$('#db_application_iot').removeClass('animated fadeIn');
 		setTimeout(function(){
