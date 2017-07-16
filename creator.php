@@ -46,13 +46,13 @@ $data_user = $conn->db_application_all();
       }
       @media screen and (min-width: 768px) {
         .wrap_box_people{
-          min-height: 320px;
+          min-height: 340px;
         }
       }
       @media screen and (min-width: 1400px) {
         .wrap_box_people{
-          min-height: 350px;
-          /*margin-bottom: 20px;*/
+          min-height: 390px;
+          margin-bottom: 20px;
         }
       }
     </style>

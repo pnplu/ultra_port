@@ -1360,30 +1360,10 @@ $.getJSON("data/db_application_ios.json", function(data) {
 	if(i>=count) { i=0; }
 	$('#db_application_ios').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_ios').addClass('animated fadeIn');
-		setTimeout(function(){ $('#db_application_ios').attr('src','image_user/function/function_'+items[i]+'_01.jpg'); }, 1000);
-		setTimeout(function(){ $('#db_application_ios').removeClass('animated fadeIn'); }, 1000);
-	i++;
-
-	}, 5000);
-});
-
-$.getJSON("data/db_application_base_on_desktop.json", function(data) {
-
-	var items = [];
-	var count = 0;
-	var i =0;
-	$.each(data, function(key) {
-		items.push(key);
-		count++;
-	});
-
-	setInterval(function(){
-
-	if(i>=count) { i=0; }
-	$('#db_application_base_on_desktop').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
-	$('#db_application_base_on_desktop').addClass('animated fadeIn');
-		setTimeout(function(){ $('#db_application_base_on_desktop').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg'); }, 1000);
-		setTimeout(function(){ $('#db_application_base_on_desktop').removeClass('animated fadeIn'); }, 1000);
+		setTimeout(function(){
+			$('#db_application_ios').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+			$('#db_application_ios').removeClass('animated fadeIn');
+		}, 2500);
 	i++;
 
 	}, 5000);
@@ -1402,10 +1382,12 @@ $.getJSON("data/db_application_web_mobile.json", function(data) {
 	setInterval(function(){
 
 	if(i>=count) { i=0; }
-	$('#db_application_web_mobile').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
-	$('#db_application_web_mobile').addClass('animated fadeIn');
-		setTimeout(function(){ $('#db_application_web_mobile').attr('src','image_user/function/function_'+items[i]+'_01.jpg'); }, 1000);
-		setTimeout(function(){ $('#db_application_web_mobile').removeClass('animated fadeIn'); }, 1000);
+	$('#db_application_web_mobile').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+	$('#db_application_web_mobile').removeClass('animated fadeIn');
+		setTimeout(function(){
+			$('#db_application_web_mobile').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
+			$('#db_application_web_mobile').addClass('animated fadeIn');
+		}, 2500);
 	i++;
 
 	}, 5000);
@@ -1424,10 +1406,36 @@ $.getJSON("data/db_application_android.json", function(data) {
 	setInterval(function(){
 
 	if(i>=count) { i=0; }
-	$('#db_application_android').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+	$('#db_application_android').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_android').addClass('animated fadeIn');
-		setTimeout(function(){ $('#db_application_android').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg'); }, 1000);
-		setTimeout(function(){ $('#db_application_android').removeClass('animated fadeIn'); }, 1000);
+		setTimeout(function(){
+			$('#db_application_android').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+			$('#db_application_android').removeClass('animated fadeIn');
+		}, 2500);
+	i++;
+
+	}, 5000);
+});
+
+$.getJSON("data/db_application_tablet_interactive.json", function(data) {
+
+	var items = [];
+	var count = 0;
+	var i =0;
+	$.each(data, function(key) {
+		items.push(key);
+		count++;
+	});
+
+	setInterval(function(){
+
+	if(i>=count) { i=0; }
+	$('#db_application_tablet_interactive').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+	$('#db_application_tablet_interactive').removeClass('animated fadeIn');
+		setTimeout(function(){
+			$('#db_application_tablet_interactive').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
+			$('#db_application_tablet_interactive').addClass('animated fadeIn');
+		}, 2500);
 	i++;
 
 	}, 5000);
@@ -1449,15 +1457,17 @@ $.getJSON("data/db_application_unity_kinect.json", function(data) {
 	if(i>=count) { i=0; }
 	$('#db_application_unity_kinect').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
 	$('#db_application_unity_kinect').addClass('animated fadeIn');
-		setTimeout(function(){ $('#db_application_unity_kinect').attr('src','image_user/function/function_'+items[i]+'_01.jpg'); }, 1000);
-		setTimeout(function(){ $('#db_application_unity_kinect').removeClass('animated fadeIn'); }, 1000);
+		setTimeout(function(){
+			$('#db_application_unity_kinect').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+			$('#db_application_unity_kinect').removeClass('animated fadeIn');
+		}, 2500);
 	i++;
 
 	}, 5000);
 
 });
 
-$.getJSON("data/db_application_interactive.json", function(data) {
+$.getJSON("data/db_application_arduino_interactive.json", function(data) {
 
 	var items = [];
 	var count = 0;
@@ -1470,10 +1480,62 @@ $.getJSON("data/db_application_interactive.json", function(data) {
 	setInterval(function(){
 
 	if(i>=count) { i=0; }
-	$('#db_application_interactive').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
-	$('#db_application_interactive').addClass('animated fadeIn');
-		setTimeout(function(){ $('#db_application_interactive').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg'); }, 1000);
-		setTimeout(function(){ $('#db_application_interactive').removeClass('animated fadeIn'); }, 1000);
+	$('#db_application_arduino_interactive').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+	$('#db_application_arduino_interactive').removeClass('animated fadeIn');
+		setTimeout(function(){
+			$('#db_application_arduino_interactive').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
+			$('#db_application_arduino_interactive').addClass('animated fadeIn');
+		}, 2500);
+	i++;
+
+	}, 5000);
+
+});
+
+$.getJSON("data/db_application_ios_interactive.json", function(data) {
+
+	var items = [];
+	var count = 0;
+	var i =0;
+	$.each(data, function(key) {
+		items.push(key);
+		count++;
+	});
+
+	setInterval(function(){
+
+	if(i>=count) { i=0; }
+	$('#db_application_ios_interactive').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
+	$('#db_application_ios_interactive').addClass('animated fadeIn');
+		setTimeout(function(){
+			$('#db_application_ios_interactive').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+			$('#db_application_ios_interactive').removeClass('animated fadeIn');
+		}, 2500);
+	i++;
+
+	}, 5000);
+
+});
+
+$.getJSON("data/db_application_iot.json", function(data) {
+
+	var items = [];
+	var count = 0;
+	var i =0;
+	$.each(data, function(key) {
+		items.push(key);
+		count++;
+	});
+
+	setInterval(function(){
+
+	if(i>=count) { i=0; }
+	$('#db_application_iot').attr('src','image_user/function/function_'+items[i]+'_01.jpg');
+	$('#db_application_iot').removeClass('animated fadeIn');
+		setTimeout(function(){
+			$('#db_application_iot').attr('src','image_user/avatar/avatar_'+items[i]+'.jpg');
+			$('#db_application_iot').addClass('animated fadeIn');
+		}, 2500);
 	i++;
 
 	}, 5000);

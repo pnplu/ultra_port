@@ -5,7 +5,7 @@
           <article class="col-xs-12">
             <!-- logo-effect -->
             <a href="index.php">
-              <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <svg class="logo_in_browse" width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
                   <desc>Created with Sketch.</desc>
                   <defs></defs>
@@ -41,14 +41,16 @@
             <p class="sponsor_mobile"><img src="banner/all.png"></p>
           </article>
           <article class="browse_right">
-            <!-- <article class="browse_album">
-              <a href="creator_catagory.php?cat_id=1"><div class="browse_list"><img src="image_user/function/function_13560113_01.jpg" id="db_application_ios"><span class="cover"></span><p class="title">APPLICATION iOS</p><span class="tag">12 CREATOR</span></div></a>
-              <a href="creator_catagory.php?cat_id=4"><div class="browse_list"><img src="image_user/function/function_13560190_01.jpg" id="db_application_base_on_desktop"><span class="cover"></span><p class="title">WEB BASE ON DESKTOP</p><span class="tag">12 CREATOR</span></div></a>
-              <a href="creator_catagory.php?cat_id=3"><div class="browse_list"><img src="image_user/function/function_13550631_01.jpg" id="db_application_web_mobile"><span class="cover"></span><p class="title">WEB MOBILE</p><span class="tag">12 CREATOR</span></div></a>
-              <a href="creator_catagory.php?cat_id=2"><div class="browse_list"><img src="image_user/function/function_13540644_01.jpg" id="db_application_android"><span class="cover"></span><p class="title">ANDROID</p><span class="tag">12 CREATOR</span></div></a>
-              <a href="creator_catagory.php?cat_id=5"><div class="browse_list"><img src="image_user/function/function_13560120_01.jpg" id="db_application_unity_kinect"><span class="cover"></span><p class="title">UNITY KINECT</p><span class="tag">12 CREATOR</span></div></a>
-              <a href="creator_catagory.php?cat_id=6"><div class="browse_list"><img src="image_user/function/function_13550255_01.jpg" id="db_application_interactive"><span class="cover"></span><p class="title">INTERACTIVE</p><span class="tag">12 CREATOR</span></div></a>
-            </article> -->
+            <article class="browse_album">
+              <a href="creator_catagory.php?cat_id=1"><div class="browse_list"><img src="image_user/function/function_13550119_01.jpg" id="db_application_ios"><span class="cover"></span><p class="title">IOS APPLICATION</p><span class="tag">8 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=3"><div class="browse_list"><img src="image_user/avatar/avatar_13550185.jpg" id="db_application_web_mobile"><span class="cover"></span><p class="title">WEB APPLICATION</p><span class="tag">11 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=3"><div class="browse_list"><img src="image_user/function/function_13540644_01.jpg" id="db_application_android"><span class="cover"></span><p class="title">ANDROID APPLICATION</p><span class="tag">7 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=2"><div class="browse_list"><img src="image_user/avatar/avatar_13560171.jpg" id="db_application_tablet_interactive"><span class="cover"></span><p class="title">TABLET INTERACTIVE</p><span class="tag">2 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=5"><div class="browse_list"><img src="image_user/function/function_13560120_01.jpg" id="db_application_unity_kinect"><span class="cover"></span><p class="title">INTERACTIVE WITH KINECT</p><span class="tag">4 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=6"><div class="browse_list"><img src="image_user/avatar/avatar_13550137.jpg" id="db_application_arduino_interactive"><span class="cover"></span><p class="title">INTERACTIVE WITH ARDUINO</p><span class="tag">2 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=7"><div class="browse_list"><img src="image_user/function/function_13560098_01.jpg" id="db_application_ios_interactive"><span class="cover"></span><p class="title">IOS INTERACTIVE</p><span class="tag">4 CREATOR</span></div></a>
+              <a href="creator_catagory.php?cat_id=8"><div class="browse_list"><img src="image_user/avatar/avatar_13560178.jpg" id="db_application_iot"><span class="cover"></span><p class="title">INTERNET OF THINGS</p><span class="tag">2 CREATOR</span></div></a>
+            </article>
           </article>
         </nav>
       </section>
@@ -70,19 +72,28 @@
                 <li><a class="a_footer_list link--kukuri" href="contact.php" data-letters="CONTACT">CONTACT</a></li>
               </ul>
               <style media="screen">
-              #wrap_box_men{
-                width: 55%;
-                overflow: hidden;
-              }
-              ul{
-                overflow-x: scroll;
-                overflow-y: hidden;
-                white-space: nowrap;
-              }
-                ul li{
-                  list-style-type: none;
-                  display: inline-block;
+              @media screen and (min-width: 319px) {
+                #wrap_box_men{
+                  width: 80%;
+                  overflow: hidden;
                 }
+                ul{
+                  overflow-x: scroll;
+                  overflow-y: hidden;
+                  white-space: nowrap;
+                }
+                  ul li{
+                    list-style-type: none;
+                    display: inline-block;
+                  }
+              }
+              @media screen and (min-width: 767px) {
+                #wrap_box_men{
+                  width: 55%;
+                  overflow: hidden;
+                }
+              }
+
               </style>
           </article>
           <article class="sponsor_desktop"><img src="banner/all.png"></article>

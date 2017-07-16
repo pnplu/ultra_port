@@ -52,7 +52,7 @@
     <script type="text/javascript">
     $(function() {
 
-   $("body").mousewheel(function(event, delta) {
+   $("#scroll_mouse").mousewheel(function(event, delta) {
 
       this.scrollLeft -= (delta * 1);
 
@@ -110,7 +110,7 @@
             <article class="col-xs-12 col-sm-12 col-md-12 topic_top">
               <article class="col-xs-12 col-sm-4 col-md-4 topic_box_l" style="padding-left: 144px;">
                 <p class="p_l_topic" style="float:left;">
-                  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                   <script src="js/odometer.js"></script>
                   <div class="odometer" style="font-size:78px;">11.3 </div>
 
@@ -140,11 +140,11 @@
           </article> <!-- row -->
 
           <!-- <article class="row"> -->
-          <article class="col-xs-12 scroll_mouse">
           <div class="desktop">
-            <!-- <article id="scroll_mouse"> -->
-
             <article class="col-xs-12 col-sm-12 box_wrap_work" style="padding-left: 144px;">
+              <article id="scroll_mouse">
+
+              </article>
               <a href="creator_catagory.php?cat_id=1">
                 <article class="col-xs-6 col-sm-4 col-md-3 box_a" style="overflow:hidden;">
                   <div class="box_cate">
@@ -243,10 +243,8 @@
             </a>
           </article>
           </article>
-            <!-- </article> -->
-            <!-- </article> -->
+            <!-- </article>-->
           </div>
-          </article>
 
           <!-- table -->
           <div class="tablet">
