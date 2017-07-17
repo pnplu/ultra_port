@@ -1748,6 +1748,38 @@
          background: transparent;
          height: 700px;
        }
+       .wrap_big_img_func img{
+         width: 100%;
+       }
+       .wrap_img_s_func img{
+         width: 100%;
+       }
+     }
+     @media screen and (min-width: 2000px) {
+       #demo-canvas{
+         height: 1020px;
+       }
+       #bnner_mar{
+         margin-top: 450px;
+       }
+       .wrap_dp_user{
+         min-height: 400px;
+       }
+       .middle_dp .text_ho_dp{
+         margin-top: 180px;
+       }
+       .wrap_tool .c100{
+         margin-left: 35px;
+       }
+       .wrap_tool .font_p_tools{
+         font-size: 1em;
+         margin-left: 0px;
+         text-align: center;
+       }
+       .wrap_dev_by .img_dev_user{
+         background: transparent;
+         height: 900px;
+       }
      }
    </style>
   </head>
@@ -1909,19 +1941,19 @@
         <section class="row col-xs-12 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-12 col-xl-offset-2 col-xl-8 wrap_function">
           <h3 class="col-md-offset-2 col-md-4">FUNCTIONS</h3>
           <div class="row col-md-12" style="margin-left:auto; margin-right:auto;">
-            <div class="col-md-offset-1 col-sm-10"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
+            <div class="col-md-offset-1 col-sm-10 col-md-10 wrap_big_img_func"><img src="image_user/function/<?php echo $json_data["work_fn_img_c"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_a"]; ?></h4>
                 <p style="font-family: 'Kanit', sans-serif; font-size:1em;"><?php echo $json_data["work_fn_disc_a"]; ?></p>
               </article>
             </div>
-            <div class="col-sm-5 col-md-offset-1"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
+            <div class="col-sm-5 col-md-offset-1 wrap_img_s_func"><img src="image_user/function/<?php echo $json_data["work_fn_img_a"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_b"]; ?></h4>
                 <p style="font-family: 'Kanit', sans-serif; font-size:1em;"><?php echo $json_data["work_fn_disc_b"]; ?></p>
               </article>
             </div>
-            <div class="col-sm-5"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
+            <div class="col-sm-5 wrap_img_s_func"><img src="image_user/function/<?php echo $json_data["work_fn_img_b"]; ?>" alt="" style="max-width:100%;">
               <article class="func_discription">
               <h4><?php echo $json_data["work_fn_name_c"]; ?></h4>
                 <p style="font-family: 'Kanit', sans-serif; font-size:1em;"><?php echo $json_data["work_fn_disc_c"]; ?></p>
@@ -1958,7 +1990,7 @@
                     <article class="fill"></article>
                 </article>
             </article>
-            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_a"]; ?></p>
+            <p class="font_p_tools"><?php echo $json_data["skill_name_a"]; ?></p>
           </article> <!--skill 1-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_b"]; ?> white">
@@ -1968,7 +2000,7 @@
                     <article class="fill"></article>
                 </article>
             </article>
-            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_b"]; ?></p>
+            <p class="font_p_tools"><?php echo $json_data["skill_name_b"]; ?></p>
           </article> <!--skill 2-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_c"]; ?> green_r">
@@ -1978,7 +2010,7 @@
                     <article class="fill"></article>
                 </article>
             </article>
-            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_c"]; ?></p>
+            <p class="font_p_tools"><?php echo $json_data["skill_name_c"]; ?></p>
           </article> <!--skill 3-->
           <article class="col-xs-3">
             <article class="c100 p<?php echo $json_data["skill_perc_d"]; ?> red_r">
@@ -1988,7 +2020,7 @@
                     <article class="fill"></article>
                 </article>
             </article>
-            <p style="text-align: center; font-size: 0.6em;"><?php echo $json_data["skill_name_d"]; ?></p>
+            <p class="font_p_tools"><?php echo $json_data["skill_name_d"]; ?></p>
           </article> <!--skill 4-->
         </section>
       </section> <!-- tool develop -->
