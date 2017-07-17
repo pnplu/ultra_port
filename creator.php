@@ -86,7 +86,7 @@ $data_user = $conn->db_application_all();
           <article class="col-sm-9 wrap_menu_top_text tablet animated fadeInDown">
             <ul>
               <span><a class="link link--kukuri" href="index.php" data-letters="HOME" onmouseover="playclip();">HOME</a></span>
-          <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
+          <span><a style="color:#04F3C4;" class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
           <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
           <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
           <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
