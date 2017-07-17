@@ -46,6 +46,7 @@ Class Database {
     $user_quote = $data_in_json_ios["user"]["motivation_quote"];
     $user_facebook = $data_in_json_ios["user"]["facebook"];
     $user_email = $data_in_json_ios["user"]["email"];
+    $user_motivation_credit = $data_in_json_ios["user"]["motivation_credit"];
     $user_img_lannding = $data_in_json_ios["user"]["image"]["landing_profile"];
     $user_img_avatar = $data_in_json_ios["user"]["image"]["profile"];
     $user_img_quote = $data_in_json_ios["user"]["image"]["quote"];
@@ -89,6 +90,7 @@ Class Database {
                             'user_img_lannding' => $user_img_lannding,
                             'user_img_avatar' => $user_img_avatar,
                             'user_img_quote' => $user_img_quote,
+                            'user_credit_quote' => $user_motivation_credit,
                             'user_img_head' => $user_img_head,
                             'user_video_showreel' => $user_video_showreel,
                             'user_video_interview' => $user_video_interview,

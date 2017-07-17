@@ -1819,7 +1819,7 @@
             <span><a class="link link--kukuri" href="creator.php" data-letters="CREATOR" onmouseover="playclip();">CREATOR</a></span>
             <span><a class="link link--kukuri" target="_blank" href="https://ictsilpakorn.com/im11/ultraline11-3-collection-book" data-letters="COLLECTIONBOOK" onmouseover="playclip();">COLLECTION BOOK</a></span>
             <span><a class="link link--kukuri" href="https://ictsilpakorn.com/im11/portfolio/exhibition.php" data-letters="EXHIBITION" onmouseover="playclip();">EXHIBITION</a></span>
-            <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANK YOU</a></span>
+            <span><a class="link link--kukuri" href="thankyou.php" data-letters="THANKYOU" onmouseover="playclip();">THANKYOU</a></span>
             <span><a class="link link--kukuri" href="contact.php" data-letters="CONTACT" onmouseover="playclip();">CONTACT</a></span>
           </article> <!-- menu -->
           <!-- <article class="col-xs-8 col-sm-3 box_nav_top_r">
@@ -2038,6 +2038,7 @@
             <p>
               	<?php echo $json_data["user_quote"]; ?>
             </p>
+            <p style="text-align: right;"><?php echo $json_data["user_credit_quote"]; ?></p>
           </article>
         </section>
       </section><!-- Develop by -->

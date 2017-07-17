@@ -3,7 +3,8 @@
     "student_id": "13560113",
     "user": {
       "name": "Kannapong Thanarattrakul",
-      "motivation_quote": "JJ Choice ทางเลือกใหม่ของการช้อป",
+      "motivation_quote": "Stay Hungry, Stay Foolish",
+      "motivation_credit": "Steve Jobs",
       "facebook": "sakooh",
       "email": "sakooh.tent@gmail.com",
       "image": {
@@ -62,6 +63,7 @@
     "user": {
       "name": "Chaiyachate Chidkratoke",
       "motivation_quote": "Don’t ask me why I run. Ask yourself why you don’t",
+      "motivation_credit": "Unknown",
       "facebook": "chaiyachat",
       "email": "mosshottest@gmail.com",
       "image": {
@@ -119,7 +121,8 @@
     "student_id": "13560285",
     "user": {
       "name": "Suppalak Changkwian",
-      "motivation_quote": "We don't grow when things are easy. We grow when we face challenges.",
+      "motivation_quote": "WE DON'T GROW WHEN THINGS ARE EASY. WE GROW WHEN WE FACE CHALLENGES.",
+      "motivation_credit": "Zig Ziglar",
       "facebook": "nansuju.suppalak",
       "email": "suppalak.ck@hotmail.com",
       "image": {
@@ -178,6 +181,7 @@
     "user": {
       "name": "Chisanupong Thanyapatthanan",
       "motivation_quote": "I will protect you until my heart stop beating.",
+      "motivation_credit": "Unknown",
       "facebook": "knot.thanyapatthanan",
       "email": "qwerty455467@gmail.com",
       "image": {
@@ -235,7 +239,8 @@
     "student_id": "13560314",
     "user": {
       "name": "Aukkaraya Buranajunyakul",
-      "motivation_quote": "Life doesn't have to be perfact to be wonderful",
+      "motivation_quote": "No one can make you feel inferior without your consent.",
+      "motivation_credit": "Eleanor Roosevelt, This is My Story",
       "facebook": "aigalodiis.penatas",
       "email": "arinofjung@gmail.com",
       "image": {
@@ -294,13 +299,14 @@
     "user": {
       "name": "Hataichanok Kamai",
       "motivation_quote": "Stop Wishing Start Doing",
+      "motivation_credit": "Unknown",
       "facebook": "fonhataichanok.kamai",
       "email": "hataichanok.km@gmail.com",
       "image": {
         "landing_profile": "landding_profile_13550249.jpg",
         "profile": "avatar_13550249.jpg",
         "quote": "quote_footer_13550249.jpg",
-        "head_preview": "head_preview_13560249.jpg"
+        "head_preview": "head_preview_13550249.jpg"
       },
       "video": {
         "showreel": "0wl8sIZucMA",
@@ -351,7 +357,8 @@
     "student_id": "13560276",
     "user": {
       "name": "Visarut Leelasatjarana",
-      "motivation_quote": "Live your life like there's no tomorrow.",
+      "motivation_quote": "You have no idea what's coming.",
+      "motivation_credit": "Movie: John Wick 2 by Winston",
       "facebook": "visarut.leelasatjarana",
       "email": "visarut.leelasatjarana@gmail.com",
       "image": {
@@ -410,6 +417,7 @@
     "user": {
       "name": "Kamon Sudapan",
       "motivation_quote": "When people put the environment first, development will last",
+      "motivation_credit": "Unknown",
       "facebook": "taa.sudapan",
       "email": "taasudapan@gmail.com",
       "image": {

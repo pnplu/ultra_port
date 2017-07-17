@@ -51,22 +51,25 @@
         color: #FFFFFF;
         margin-bottom: 100px;
       }
+      .li_in{
+        display: block;
+      }
       @media screen and (min-width: 319px) {
-        h5{
+        .text_h5{
           text-align: center;
         }
-        ul{
+        .ul_in{
           text-align: center;
           margin-top: 20px;
         }
-        img{
+        .img_in{
           display: block;
           margin-left: auto;
           margin-right: auto;
           margin-top: 20px;
           max-width: 100%;
         }
-        p{
+        .p_in{
           text-align: center;
         }
         a , a:hover , a::before , a::after , a:focus{
@@ -100,10 +103,10 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
-        .uppercuz:hover img{
+        .uppercuz:hover .img_in{
           filter: invert();
         }
-        .uppercuz:hover h5, .uppercuz:hover p{
+        .uppercuz:hover .text_h5, .uppercuz:hover .p_in{
           color: #000000;
         }
         .apple:hover{
@@ -111,10 +114,10 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
-        .apple:hover img{
+        .apple:hover .img_in{
           filter: invert();
         }
-        .apple:hover h5, .apple:hover p{
+        .apple:hover .text_h5, .apple:hover .p_in{
           color: #000000;
         }
         .page_qq:hover{
@@ -132,10 +135,10 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
-        .duck_lab:hover img{
+        .duck_lab:hover .img_in{
           filter: invert();
         }
-        .duck_lab:hover h5, .duck_lab:hover p{
+        .duck_lab:hover .text_h5, .duck_lab:hover .p_in{
           color: #000000;
         }
         .lactasoy:hover{
@@ -143,25 +146,51 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
+        .wrap_spon_big .mar_top30{
+          margin-top: 50px;
+        }
+        .footer_bt{
+          /*background-color: #FFCC00;*/
+          height: 100px;
+          position: fixed;
+          bottom: 0;
+        }
+        .footer_bt .wrap_btn{
+          /*background-color: #222222;*/
+          height: 100px;
+        }
+        .footer_bt .wrap_btn button{
+          height: 65px;
+          width: 65px;
+          border: none;
+          background-color: #04F3C4;
+          margin-top: 10px;
+        }
+        .footer_bt .wrap_btn button .img_in{
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-top: 0px;
+        }
       }
       @media screen and (min-width: 767px) {
         #box_top{
           margin-top: 150px;
         }
-        h5{
+        .text_h5{
           text-align: center;
         }
-        ul{
+        .ul_in{
           text-align: center;
           margin-top: 20px;
         }
-        img{
+        .img_in{
           display: block;
           margin-left: auto;
           margin-right: auto;
           margin-top: 20px;
         }
-        p{
+        .p_in{
           text-align: center;
         }
         .box_sponsor{
@@ -169,7 +198,7 @@
         }
       }
       @media screen and (min-width: 959px) {
-        #logoict img{
+        #logoict .img_in{
           max-width: 100%;
           margin-bottom: 100px;
         }
@@ -181,14 +210,23 @@
           margin-top: 20px;
         }
       }
+      @media screen and (min-width: 1600px) {
+        .wrap_list_name{
+          height: 600px;
+        }
+        .side_l_page{
+          height: 600px;
+        }
+        .wrap_spon_big{
+          height: auto;
+        }
+      }
     </style>
   </head>
   <body>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
-
-    <section id="browse_wrap"></section> <!-- section -->
-
+  <section id="browse_wrap"></section> <!-- section -->
     <section class="container-fluid">
       <section class="row">
         <article class="col-sm-1 col-md-2 side_l_page">
@@ -212,7 +250,7 @@
           </svg><!-- logo-effect -->
           </a>
           <p>
-            INTERACTIVE MEDIA DESIGN<br>
+            INTERACTIVE MEDIA<br>
             ICTSILPAKORN
           </p>
         </article> <!-- Side L -->
@@ -237,71 +275,71 @@
               คณบดีคณะเทคโนโลยีสารสนเทศและการสื่อสาร
             </p>
           </article>
-          <section class="row">
+          <section class="row wrap_list_name">
             <article class="col-xs-12 col-sm-10 col-md-9">
             <article class="col-xs-12" style="margin-top: 30px;">
-              <h5>คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
+              <h5 class="text_h5">คณะกรรมการตรวจจุลนิพนธ์ และอาจารย์ที่ปรึกษาจุลนิพนธ์</h5>
             </article>
             <article class="col-xs-12 col-sm-6 col-md-3 bor_r_col">
-              <ul>
-                <li>กลุ่มที่ 1</li>
-                <li>อาจารย์รักชนก สุขะกาลนันท์</li>
-                <li>อาจารย์อติเทพ แจ้ดนาลาว</li>
-                <li>ผศ. ดร. วรสิทธิ์ ชูชัยวัฒนา</li>
-                <li>อาจารย์ปัณณวิชญ์ อริยะธนกตวงศ์</li>
-                <li>อาจารย์ศรันยา มะระพฤกษ์วรรณ</li>
-                <li>อาจารย์ศรายุทธ ธิบดี</li>
-                <li>ผศ.ชัยชาญ ถาวรเวช</li>
+              <ul class="ul_in">
+                <li class="li_in">กลุ่มที่ 1</li>
+                <li class="li_in">อาจารย์รักชนก สุขะกาลนันท์</li>
+                <li class="li_in">อาจารย์อติเทพ แจ้ดนาลาว</li>
+                <li class="li_in">ผศ. ดร. วรสิทธิ์ ชูชัยวัฒนา</li>
+                <li class="li_in">อาจารย์ปัณณวิชญ์ อริยะธนกตวงศ์</li>
+                <li class="li_in">อาจารย์ศรันยา มะระพฤกษ์วรรณ</li>
+                <li class="li_in">อาจารย์ศรายุทธ ธิบดี</li>
+                <li class="li_in">ผศ.ชัยชาญ ถาวรเวช</li>
               </ul>
             </article> <!-- room 1 -->
             <article class="col-xs-12 col-sm-6 col-md-3 bor_r_col">
-              <ul>
-                <li>กลุ่มที่ 2</li>
-                <li>อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
-                <li>อาจารย์ลักษณ์นารา จันทรารมย์</li>
-                <li>อาจารย์ประธาน ด่านสกุลเจริญกิจ</li>
-                <li>อาจารย์อิทธิชัย ภูมิศิริวิไล</li>
-                <li>อาจารย์พิสิฐพงษ์ สืบพิลา</li>
-                <li>อาจารย์ถิราภา ใจเที่ยง</li>
+              <ul class="ul_in">
+                <li class="li_in">กลุ่มที่ 2</li>
+                <li class="li_in">อาจารย์ณัฐสรวงพร ทองเนื้อนวล</li>
+                <li class="li_in">อาจารย์ลักษณ์นารา จันทรารมย์</li>
+                <li class="li_in">อาจารย์ประธาน ด่านสกุลเจริญกิจ</li>
+                <li class="li_in">อาจารย์อิทธิชัย ภูมิศิริวิไล</li>
+                <li class="li_in">อาจารย์พิสิฐพงษ์ สืบพิลา</li>
+                <li class="li_in">อาจารย์ถิราภา ใจเที่ยง</li>
               </ul>
             </article> <!-- room 2 -->
             <article class="row col-sm-offset-1 col-sm-11 col-md-offset-0 col-md-6">
             <article class="col-xs-12 col-sm-5 col-md-6 bor_r_col">
-              <ul>
-                <li>กลุ่มที่ 3</li>
-                <li>อ. ดร.อรวรรณ ประพฤติดี</li>
-                <li>ผศ. ดร.ธีรพงศ์ ลีลานุภาพ</li>
-                <li>อาจารย์กิตตินนท์ อุ้ยวงค์ไพศาล</li>
-                <li>อาจารย์ณัฐธิดา แซ่แต้</li>
-                <li>อาจารย์ศุภณัฐ โกมลารชุน</li>
-                <li>อาจารย์ณัฐพงศ์ มาเสถียร</li>
-                <li>อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
+              <ul class="ul_in">
+                <li class="li_in">กลุ่มที่ 3</li>
+                <li class="li_in">อ. ดร.อรวรรณ ประพฤติดี</li>
+                <li class="li_in">ผศ. ดร.ธีรพงศ์ ลีลานุภาพ</li>
+                <li class="li_in">อาจารย์กิตตินนท์ อุ้ยวงค์ไพศาล</li>
+                <li class="li_in">อาจารย์ณัฐธิดา แซ่แต้</li>
+                <li class="li_in">อาจารย์ศุภณัฐ โกมลารชุน</li>
+                <li class="li_in">อาจารย์ณัฐพงศ์ มาเสถียร</li>
+                <li class="li_in">อาจารย์ณนันท์ฤทัย ธนะสุนทร</li>
               </ul>
             </article> <!-- room 3 -->
             <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6 bor_r_col2">
-              <ul>
-                <li>กลุ่ม 4</li>
-                <li>อาจารย์ขจรพล เชิญขวัญศรี</li>
-                <li>อาจารย์โกวิท มีบุญ</li>
-                <li>อาจารย์ปานรวี พุ่มเข็ม</li>
-                <li>อาจารย์จุลดิษฐ์ สันติธรณี</li>
-                <li>อาจารย์พสุพงษ์ ประเสริฐรุ่งเรือง</li>
-                <li>อาจารย์ปกรณ์ สันติสุนทรกุล</li>
+              <ul class="ul_in">
+                <li class="li_in">กลุ่ม 4</li>
+                <li class="li_in">อาจารย์ขจรพล เชิญขวัญศรี</li>
+                <li class="li_in">อาจารย์โกวิท มีบุญ</li>
+                <li class="li_in">อาจารย์ปานรวี พุ่มเข็ม</li>
+                <li class="li_in">อาจารย์จุลดิษฐ์ สันติธรณี</li>
+                <li class="li_in">อาจารย์พสุพงษ์ ประเสริฐรุ่งเรือง</li>
+                <li class="li_in">อาจารย์ปกรณ์ สันติสุนทรกุล</li>
               </ul>
             </article> <!-- room 4 -->
             </article>
             </article>
           </section> <!-- Teacher -->
 
-          <section class="row">
+          <section class="row wrap_spon_big">
             <article class="col-xs-12">
               <a target="_blank" href="http://www.ict.su.ac.th/"><article id="logoict" class="col-xs-12 ictsu">
-                <img src="img/sponsor/sponsor_02.png" alt="ICTSILPAKORN">
+                <img class="img_in" src="img/sponsor/sponsor_02.png" alt="ICTSILPAKORN">
               </article></a> <!-- logo ictsilpakorn -->
               <a target="_blank" href="http://www.centralworld.co.th/"><article class="col-xs-12 col-sm-4 col-md-4 central box_sponsor">
-                <img src="img/sponsor/sponsor_01.png" alt="Central World">
-                <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_01.png" alt="Central World">
+                <h5 class="text_h5">ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
+                <p class="p_in">
                   Central Pattana Public Company Limited<br>
                   centralworld.co.th<br>
                   facebook.com/CentralWorld<br>
@@ -309,9 +347,9 @@
                 </p>
               </article></a> <!-- central -->
               <a target="_blank" href="http://txppetro.com/"><article class="col-xs-12 col-sm-4 col-md-4 txp box_sponsor">
-                <img src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
-                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
+                <h5 class="text_h5">บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
+                <p class="p_in">
                   Thai petroleum support co. ltd<br>
                   txppetro.com<br>
                   Tel : 02-287-3077<br>
@@ -319,9 +357,9 @@
                 </p>
               </article></a> <!-- txp -->
               <a target="_blank" href="https://muzeinnovation.com/"><article class="col-xs-12 col-sm-4 col-md-4 muze box_sponsor">
-                <img src="img/sponsor/sponsor_04.png" alt="MUZE">
-                <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_04.png" alt="MUZE">
+                <h5 class="text_h5">บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
+                <p class="p_in">
                   Muze innovation co. ltd<br>
                   muzeinnovation.com<br>
                   facebook.com/muzeinnovation<br>
@@ -329,23 +367,23 @@
                 </p>
               </article></a> <!-- muze -->
               <a target="_blank" href="http://www.uppercuz.com/"><article class="col-xs-12 col-sm-4 col-md-4 uppercuz box_sponsor">
-                <img src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
-                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
+                <h5 class="text_h5">บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
+                <p class="p_in">
                   uppercuz.com<br>
                   facebook.com/uppercuzcreative<br>
                   Tel : 087-378-6070 <br>
                   Email : contact@uppercuz.com
                 </p>
               </article></a> <!-- uppercuz -->
-              <article class="col-xs-12 col-sm-4 col-md-4 apple box_sponsor">
-                <img src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
-                <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
-              </article> <!-- Apple Thailand -->
+              <a target="_blank" href="https://www.apple.com/th"><article class="col-xs-12 col-sm-4 col-md-4 apple box_sponsor">
+                <img class="img_in" src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
+                <h5 class="text_h5">บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
+              </article></a> <!-- Apple Thailand -->
               <a target="_blank" href="https://www.facebook.com/PageQQ"><article class="col-xs-12 col-sm-4 col-md-4 page_qq box_sponsor">
-                <img src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
-                <h5>PAGE-QQ</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
+                <h5 class="text_h5">PAGE-QQ</h5>
+                <p class="p_in">
                   บริษัท SERV 4 BIZ จำกัด<br>
                   facebook.com/PageQQ<br>
                   Tel : 081-842-9422<br>
@@ -353,9 +391,9 @@
                 </p>
               </article></a> <!-- PAGE-QQ -->
               <a target="_blank" href="https://www.dek-d.com/"><article class="col-xs-12 col-sm-4 col-md-4 dek_d box_sponsor">
-                <img src="img/sponsor/sponsor_08.png" alt="DEK D">
-                <h5>บริษัทเด็กดี อินเตอร์แอคทีฟ จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_08.png" alt="DEK D">
+                <h5 class="text_h5">บริษัทเด็กดี อินเตอร์แอคทีฟ จำกัด</h5>
+                <p class="p_in">
                   dek-d.com<br>
                   facebook.com/DekDfc/<br>
                   Tel : 02-860-1142<br>
@@ -363,18 +401,18 @@
                 </p>
               </article></a> <!-- DEK D -->
               <a target="_blank" href="http://ducklab.co.th/"><article class="col-xs-12 col-sm-4 col-md-4 duck_lab box_sponsor">
-                <img src="img/sponsor/sponsor_09.png" alt="DUCK LAB">
-                <h5>บริษัท ดัค แล็บ จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_09.png" alt="DUCK LAB">
+                <h5 class="text_h5">บริษัท ดัค แล็บ จำกัด</h5>
+                <p class="p_in">
                   ducklab.co.th<br>
                   Tel : 081-443-3618<br>
                   Email : manager@ducklab.co.th
                 </p>
               </article></a> <!-- DUCK LAB -->
               <a target="_blank" href="http://lactasoy.com/th/"><article class="col-xs-12 col-sm-4 col-md-4 lactasoy box_sponsor">
-                <img src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
-                <h5>LACTASOY</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
+                <h5 class="text_h5">LACTASOY</h5>
+                <p class="p_in">
                   lactasoy.com/th<br>
                   facebook.com/lactasoyclub<br>
                   Tel : 02-396-0320-7<br>
@@ -382,8 +420,31 @@
                 </p>
               </article></a> <!-- LACTASOY -->
             </article>
+            <section class="row">
+              <article class="col-xs-12 col-sm-4 mar_top30">
+                <h5 class="text_h5">คุณสถิรยุทธ แสงสุวรรณ</h5>
+              </article>
+              <article class="col-xs-12 col-sm-4 mar_top30">
+                <h5 class="text_h5">คุณอาริยพัชร แจ่มวราสวัสดิ์</h5>
+              </article>
+              <article class="col-xs-12 col-sm-4 mar_top30">
+                <h5 class="text_h5">ICTSUWEB12</h5>
+                <p class="p_in">นักศึกษาวิชาเอกสื่อปฏิสัมพันธ์รุ่นที่ 12</p>
+              </article>
+            </section>
           </section> <!-- Sponsor -->
         </section>
+      </section>
+      <footer>
+        <article class="col-xs-12 footer_bt">
+          <article class="col-xs-4 col-sm-2 col-md-1 wrap_btn">
+            <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
+          </article>
+        </article>
+      </footer>
+    </section>
+    <section id="browse_wrap"></section> <!-- section -->
+    <script src="js/main.js"></script>
 
 <script>
 // logo

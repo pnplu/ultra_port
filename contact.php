@@ -60,22 +60,28 @@
       a:hover{
         color: #FFFFFF;
       }
+      .logo_svg{
+        display: block;
+      }
+      .li_in{
+        display: block;
+      }
       @media screen and (min-width: 319px) {
-        h5{
+        .h5_in{
           text-align: center;
         }
-        ul{
+        .ul_in{
           text-align: left;
           margin-top: 20px;
         }
-        img{
+        .img_in{
           display: block;
           margin-left: auto;
           margin-right: auto;
           margin-top: 20px;
           max-width: 80%;
         }
-        p{
+        .p_in{
           text-align: center;
         }
         a , a:hover , a::before , a::after , a:focus{
@@ -109,10 +115,10 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
-        .uppercuz:hover img{
+        .uppercuz:hover .img_in{
           filter: invert();
         }
-        .uppercuz:hover h5, .uppercuz:hover p{
+        .uppercuz:hover .h5_in, .uppercuz:hover .p_in{
           color: #000000;
         }
         .apple:hover{
@@ -120,10 +126,10 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
-        .apple:hover img{
+        .apple:hover .img_in{
           filter: invert();
         }
-        .apple:hover h5, .apple:hover p{
+        .apple:hover .h5_in, .apple:hover .p_in{
           color: #000000;
         }
         .page_qq:hover{
@@ -141,10 +147,10 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
-        .duck_lab:hover img{
+        .duck_lab:hover .img_in{
           filter: invert();
         }
-        .duck_lab:hover h5, .duck_lab:hover p{
+        .duck_lab:hover .h5_in, .duck_lab:hover .p_in{
           color: #000000;
         }
         .lactasoy:hover{
@@ -152,25 +158,51 @@
           transition: 0.3s ease-in-out;
           cursor: pointer;
         }
+        .mar_top30{
+          margin-top: 50px;
+        }
+        .footer_bt{
+          /*background-color: #FFCC00;*/
+          height: 100px;
+          position: fixed;
+          bottom: 0;
+        }
+        .footer_bt .wrap_btn{
+          /*background-color: #222222;*/
+          height: 100px;
+        }
+        .footer_bt .wrap_btn button{
+          height: 65px;
+          width: 65px;
+          border: none;
+          background-color: #04F3C4;
+          margin-top: 10px;
+        }
+        .footer_bt .wrap_btn button .img_in{
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-top: 0px;
+        }
       }
       @media screen and (min-width: 767px) {
         #box_top{
           margin-top: 150px;
         }
-        h5{
+        .h5_in{
           text-align: center;
         }
-        ul{
+        .ul_in{
           text-align: left;
           margin-top: 20px;
         }
-        img{
+        .img_in{
           display: block;
           margin-left: auto;
           margin-right: auto;
           margin-top: 20px;
         }
-        p{
+        .p_in{
           text-align: center;
         }
         .box_sponsor{
@@ -178,9 +210,20 @@
         }
       }
       @media screen and (min-width: 959px) {
-        #logoict img{
+        #logoict .img_in{
           max-width: 100%;
           margin-bottom: 100px;
+        }
+      }
+      @media screen and (min-width: 1600px) {
+        .wrap_list_name{
+          height: 600px;
+        }
+        .side_l_page{
+          height: 600px;
+        }
+        .wrap_spon_big{
+          height: auto;
         }
       }
     </style>
@@ -188,16 +231,14 @@
   <body>
     <div id="large-header" class="large-header">
   <canvas id="demo-canvas"></canvas>
-
-    <section id="browse_wrap"></section> <!-- section -->
-
+  <section id="browse_wrap"></section> <!-- section -->
     <section class="container-fluid">
       <section class="row">
         <article class="col-sm-1 col-md-2 side_l_page">
 
           <a href="index.php">
           <!-- logo-effect -->
-          <svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg class="logo_svg" width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
               <desc>Created with Sketch.</desc>
               <defs></defs>
@@ -214,7 +255,7 @@
           </svg><!-- logo-effect -->
           </a>
           <p>
-            INTERACTIVE MEDIA DESIGN<br>
+            INTERACTIVE MEDIA<br>
             ICTSILPAKORN
           </p>
         </article> <!-- Side L -->
@@ -231,46 +272,46 @@
 
         <section id="box_top" class="row">
           <section class="row">
-            <article class="col-xs-offset-1 col-xs-10 col-sm-10 col-md-offset-0 col-md-9">
+            <article class="col-xs-offset-1 col-xs-10 col-sm-10 col-md-offset-0 col-md-6">
             <article class="col-xs-12 col-sm-6 col-md-6">
-              <ul>
-                <li><h3>ข้อมูลหลักสูตร</h3></li>
-                <li><a target="_blank" href="http://www.ict.su.ac.th/academic-it-business.php">หลักสูตรเทคโนโลยีสารสนเทศธุรกิจ</a></li>
-                <li><a target="_blank" href="http://www.ict.su.ac.th/academic-it-design.php">หลักสูตรเทคโนโลยีสารสนเทศเพื่อการออกแบบ</a></li>
-                <li><a target="_blank" href="http://www.ict.su.ac.th/academic-communication.php">หลักสูตรเทคโนโลยีสารสนเทศนิเทศศาสตร์</a></li>
-                <li><a target="_blank" href="http://www.ict.su.ac.th/journal/">ICT Silpakorn Journal</a></li>
-                <li><a target="_blank" href="http://www.ict.su.ac.th/contact.php">ติดต่อคณะ</a></li>
-                <li><a target="_blank" href="http://www.ict.su.ac.th/showcase.php">ไอซีทีศิลปากรโชว์เคส(ICT Showcase)</a></li>
+              <ul class="ul_in">
+                <li class="li_in"><h3>ข้อมูลหลักสูตร</h3></li>
+                <li class="li_in"><a target="_blank" href="http://www.ict.su.ac.th/academic-it-business.php">หลักสูตรเทคโนโลยีสารสนเทศธุรกิจ</a></li>
+                <li class="li_in"><a target="_blank" href="http://www.ict.su.ac.th/academic-it-design.php">หลักสูตรเทคโนโลยีสารสนเทศเพื่อการออกแบบ</a></li>
+                <li class="li_in"><a target="_blank" href="http://www.ict.su.ac.th/academic-communication.php">หลักสูตรเทคโนโลยีสารสนเทศนิเทศศาสตร์</a></li>
+                <li class="li_in"><a target="_blank" href="http://www.ict.su.ac.th/journal/">ICT Silpakorn Journal</a></li>
+                <li class="li_in"><a target="_blank" href="http://www.ict.su.ac.th/contact.php">ติดต่อคณะ</a></li>
+                <li class="li_in"><a target="_blank" href="http://www.ict.su.ac.th/showcase.php">ไอซีทีศิลปากรโชว์เคส(ICT Showcase)</a></li>
               </ul>
             </article> <!-- room 1 -->
             <article class="col-xs-12 col-sm-6 col-md-6">
-              <ul>
-                <li><h3>ผลงานของนิทรรศการ <br>Ultra-Line 11.3</h3></li>
-                <li><i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ultraline11.3" target="_blank">facebook.com/Ultra-Line 11.3/</a></li>
+              <ul class="ul_in">
+                <li class="li_in"><h3>ผลงานของนิทรรศการ <br>Ultra-Line 11.3</h3></li>
+                <li class="li_in"><i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ultraline11.3" target="_blank">facebook.com/Ultra-Line 11.3/</a></li>
               </ul>
             </article> <!-- room 2 -->
             <article class="row col-sm-offset-1 col-sm-11 col-md-offset-0 col-md-12">
             <article class="col-xs-12 col-sm-5 col-md-6">
-              <ul>
-                <li><h3>รวมผลงานจุลนิพนธ์</h3></li>
-                <li><a target="_blank" href="http://web05.ictsilpakorn.com/">ICTSUWEB#05</a> </li>
-                <li><a target="_blank" href="http://web06.ictsilpakorn.com/">ICTSUWEB#06</a> </li>
-                <li><a target="_blank" href="http://web07.ictsilpakorn.com/">ICTSUWEB#07</a> </li>
-                <li><a target="_blank" href="http://web08.ictsilpakorn.com/">ICTSUWEB#08</a> </li>
-                <li><a target="_blank" href="http://web09.ictsilpakorn.com/">ICTSUWEB#09 - SURAROUND 9.1</a> </li>
-                <li><a target="_blank" href="http://web10.ictsilpakorn.com/">ICTSUWEB#10 - OATHLON 10.2</a></li>
-                <li><a target="_blank" href="http://ictsilpakorn.com/im11/">ICTSUWEB#11 - Ultra-Line 11.3</a></li>
+              <ul class="ul_in">
+                <li class="li_in"><h3>รวมผลงานจุลนิพนธ์</h3></li>
+                <li class="li_in"><a target="_blank" href="http://web05.ictsilpakorn.com/">ICTSUWEB#05</a> </li>
+                <li class="li_in"><a target="_blank" href="http://web06.ictsilpakorn.com/">ICTSUWEB#06</a> </li>
+                <li class="li_in"><a target="_blank" href="http://web07.ictsilpakorn.com/">ICTSUWEB#07</a> </li>
+                <li class="li_in"><a target="_blank" href="http://web08.ictsilpakorn.com/">ICTSUWEB#08</a> </li>
+                <li class="li_in"><a target="_blank" href="http://web09.ictsilpakorn.com/">ICTSUWEB#09 - SURAROUND 9.1</a> </li>
+                <li class="li_in"><a target="_blank" href="http://web10.ictsilpakorn.com/">ICTSUWEB#10 - OATHLON 10.2</a></li>
+                <li class="li_in"><a target="_blank" href="http://ictsilpakorn.com/im11/">ICTSUWEB#11 - Ultra-Line 11.3</a></li>
               </ul>
             </article> <!-- room 3 -->
             <article class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-6">
-              <ul>
-                <li><h3>ผลงานของ ICT:SILPAKORN</h3></li>
-                <li><i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ictsilpakorn" target="_blank">facebook.com/ictsilpakorn/</a></li>
-                <li><i class="fa fa-twitter-square" aria-hidden="true"></i>  <a href="http://www.twitter.com/ictsilpakorn" target="_blank">twitter.com/ictsilpakorn/</a></li>
-                <li><i class="fa fa-instagram" aria-hidden="true"></i>  <a href="http://www.instagram.com/ictsilpakorn" target="_blank">instagram.com/ictsilpakorn/</a></li>
-                <li><i class="fa fa-youtube-play" aria-hidden="true"></i>  <a href="http://www.youtube.com/ictsilpakorn" target="_blank">youtube.com/ictsilpakorn/</a></li>
-                <li><i class="fa fa-vimeo-square" aria-hidden="true"></i>  <a href="http://www.vimeo.com/ictsilpakorn" target="_blank">vimeo.com/ictsilpakorn</a></li>
-                <li><a href="http://ict.su.ac.th">ict.su.ac.th</a></li>
+              <ul class="ul_in">
+                <li class="li_in"><h3>ผลงานของ ICT:SILPAKORN</h3></li>
+                <li class="li_in"><i class="fa fa-facebook-square" aria-hidden="true"></i>  <a href="http://www.facebook.com/ictsilpakorn" target="_blank">facebook.com/ictsilpakorn/</a></li>
+                <li class="li_in"><i class="fa fa-twitter-square" aria-hidden="true"></i>  <a href="http://www.twitter.com/ictsilpakorn" target="_blank">twitter.com/ictsilpakorn/</a></li>
+                <li class="li_in"><i class="fa fa-instagram" aria-hidden="true"></i>  <a href="http://www.instagram.com/ictsilpakorn" target="_blank">instagram.com/ictsilpakorn/</a></li>
+                <li class="li_in"><i class="fa fa-youtube-play" aria-hidden="true"></i>  <a href="http://www.youtube.com/ictsilpakorn" target="_blank">youtube.com/ictsilpakorn/</a></li>
+                <li class="li_in"><i class="fa fa-vimeo-square" aria-hidden="true"></i>  <a href="http://www.vimeo.com/ictsilpakorn" target="_blank">vimeo.com/ictsilpakorn</a></li>
+                <li class="li_in"><a href="http://ict.su.ac.th">ict.su.ac.th</a></li>
               </ul>
             </article> <!-- room 4 -->
             </article>
@@ -280,12 +321,12 @@
           <section class="row">
             <article class="col-xs-12">
               <a target="_blank" href="http://www.ict.su.ac.th/"><article id="logoict" class="col-xs-12 ictsu">
-                <img src="img/sponsor/sponsor_02.png" alt="ICTSILPAKORN">
+                <img class="img_in" src="img/sponsor/sponsor_02.png" alt="ICTSILPAKORN">
               </article></a> <!-- logo ictsilpakorn -->
               <a target="_blank" href="http://www.centralworld.co.th/"><article class="col-xs-12 col-sm-4 col-md-4 central box_sponsor">
-                <img src="img/sponsor/sponsor_01.png" alt="Central World">
-                <h5>ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_01.png" alt="Central World">
+                <h5 class="h5_in">ศูนย์การค้าเซ็นทรัลเวิลด์</h5>
+                <p class="p_in">
                   Central Pattana Public Company Limited<br>
                   centralworld.co.th<br>
                   facebook.com/CentralWorld<br>
@@ -293,9 +334,9 @@
                 </p>
               </article></a> <!-- central -->
               <a target="_blank" href="http://txppetro.com/"><article class="col-xs-12 col-sm-4 col-md-4 txp box_sponsor">
-                <img src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
-                <h5>บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_03.png" alt="TXP" style="max-width: 40%;">
+                <h5 class="h5_in">บริษัท ไทยปิโตรเลี่ยมซัพพอร์ท จำกัด</h5>
+                <p class="p_in">
                   Thai petroleum support co. ltd<br>
                   txppetro.com<br>
                   Tel : 02-287-3077<br>
@@ -303,9 +344,9 @@
                 </p>
               </article></a> <!-- txp -->
               <a target="_blank" href="https://muzeinnovation.com/"><article class="col-xs-12 col-sm-4 col-md-4 muze box_sponsor">
-                <img src="img/sponsor/sponsor_04.png" alt="MUZE">
-                <h5>บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_04.png" alt="MUZE">
+                <h5 class="h5_in">บริษัท มิวซ์ อินโนเวชั่น จำกัด</h5>
+                <p class="p_in">
                   Muze innovation co. ltd<br>
                   muzeinnovation.com<br>
                   facebook.com/muzeinnovation<br>
@@ -313,9 +354,9 @@
                 </p>
               </article></a> <!-- muze -->
               <a target="_blank" href="http://www.uppercuz.com/"><article class="col-xs-12 col-sm-4 col-md-4 uppercuz box_sponsor">
-                <img src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
-                <h5>บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_05.png" alt="UPPERCUZ">
+                <h5 class="h5_in">บริษัท อัปเปอร์คัซ ครีเอทีฟ จำกัด</h5>
+                <p class="p_in">
                   uppercuz.com<br>
                   facebook.com/uppercuzcreative<br>
                   Tel : 087-378-6070 <br>
@@ -323,13 +364,13 @@
                 </p>
               </article></a> <!-- uppercuz -->
               <a target="_blank" href="https://www.apple.com/th"><article class="col-xs-12 col-sm-4 col-md-4 apple box_sponsor">
-                <img src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
-                <h5>บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
+                <img class="img_in" src="img/sponsor/sponsor_06.png" alt="APPLE THAILAND">
+                <h5 class="h5_in">บริษัท แอปเปิ้ล เซาท์ เอเชีย<br> (ประเทศไทย) จํากัด</h5>
               </article></a> <!-- Apple Thailand -->
               <a target="_blank" href="https://www.facebook.com/PageQQ"><article class="col-xs-12 col-sm-4 col-md-4 page_qq box_sponsor">
-                <img src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
-                <h5>PAGE-QQ</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_07.png" alt="PAGE-QQ">
+                <h5 class="h5_in">PAGE-QQ</h5>
+                <p class="p_in">
                   บริษัท SERV 4 BIZ จำกัด<br>
                   facebook.com/PageQQ<br>
                   Tel : 081-842-9422<br>
@@ -337,9 +378,9 @@
                 </p>
               </article></a> <!-- PAGE-QQ -->
               <a target="_blank" href="https://www.dek-d.com/"><article class="col-xs-12 col-sm-4 col-md-4 dek_d box_sponsor">
-                <img src="img/sponsor/sponsor_08.png" alt="DEK D">
-                <h5>บริษัทเด็กดี อินเตอร์แอคทีฟ จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_08.png" alt="DEK D">
+                <h5 class="h5_in">บริษัทเด็กดี อินเตอร์แอคทีฟ จำกัด</h5>
+                <p class="p_in">
                   dek-d.com<br>
                   facebook.com/DekDfc/<br>
                   Tel : 02-860-1142<br>
@@ -347,18 +388,18 @@
                 </p>
               </article></a> <!-- DEK D -->
               <a target="_blank" href="http://ducklab.co.th/"><article class="col-xs-12 col-sm-4 col-md-4 duck_lab box_sponsor">
-                <img src="img/sponsor/sponsor_09.png" alt="DUCK LAB">
-                <h5>บริษัท ดัค แล็บ จำกัด</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_09.png" alt="DUCK LAB">
+                <h5 class="h5_in">บริษัท ดัค แล็บ จำกัด</h5>
+                <p class="p_in">
                   ducklab.co.th<br>
                   Tel : 081-443-3618<br>
                   Email : manager@ducklab.co.th
                 </p>
               </article></a> <!-- DUCK LAB -->
               <a target="_blank" href="http://lactasoy.com/th/"><article class="col-xs-12 col-sm-4 col-md-4 lactasoy box_sponsor">
-                <img src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
-                <h5>LACTASOY</h5>
-                <p>
+                <img class="img_in" src="img/sponsor/sponsor_10.png" alt="PAGE-LACTASOY" style="filter: none;">
+                <h5 class="h5_in">LACTASOY</h5>
+                <p class="p_in">
                   lactasoy.com/th<br>
                   facebook.com/lactasoyclub<br>
                   Tel : 02-396-0320-7<br>
@@ -366,9 +407,34 @@
                 </p>
               </article></a> <!-- LACTASOY -->
             </article>
+            <section class="row">
+              <article class="col-xs-12 col-sm-4 mar_top30">
+                <h5 class="h5_in">คุณสถิรยุทธ แสงสุวรรณ</h5>
+              </article>
+              <article class="col-xs-12 col-sm-4 mar_top30">
+                <h5 class="h5_in">คุณอาริยพัชร แจ่มวราสวัสดิ์</h5>
+              </article>
+              <article class="col-xs-12 col-sm-4 mar_top30">
+                <h5 class="h5_in">ICTSUWEB12</h5>
+                <p class="p_in">นักศึกษาวิชาเอกสื่อปฏิสัมพันธ์รุ่นที่ 12</p>
+              </article>
+            </section>
           </section> <!-- Sponsor -->
         </section>
+      </section>
+      <footer>
+        <article class="col-xs-11 footer_bt">
+          <article class="col-xs-4 col-sm-2 col-md-1 wrap_btn">
+            <button id="browse_icon" type="button" name="button"><img src="image_web/btn_hamberger.png"></button>
+          </article>
+        </article>
+      </footer>
+    </section>
+    <section id="browse_wrap"></section> <!-- section -->
 
+  <!-- Creator hover -->
+  <script src="js/anime.min.js"></script>
+  <script src="js/main.js"></script>
 <script>
 // logo
 var a=0;

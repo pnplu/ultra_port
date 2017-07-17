@@ -4,6 +4,7 @@
     "user": {
       "name": "Nattapol Kaewsuwan",
       "motivation_quote": "What doesn't kill you makes you stronger.",
+      "motivation_credit": "Unknown",
       "facebook": "kaewhisper",
       "email": "kaew.nattapol@gmail.com",
       "image": {
@@ -61,7 +62,8 @@
     "student_id": "13560167",
     "user": {
       "name": "Dara Manirattanachot",
-      "motivation_quote": "Life is like riding a bicycle. To keep your balance, you must keep moving ― Albert Einstein",
+      "motivation_quote": "Life is like riding a bicycle. To keep your balance, you must keep moving",
+      "motivation_credit": "Albert Einstein",
       "facebook": "benzene9119",
       "email": "benbencrt@gmail.com",
       "image": {
@@ -120,6 +122,7 @@
     "user": {
       "name": "Laksamon Choonukulwong",
       "motivation_quote": "Bookshelf for Yourself",
+      "motivation_credit": "Laksamon Choonukulwong",
       "facebook": "cookie.vanyo",
       "email": "cookievanyo@gmail.com",
       "image": {
@@ -178,6 +181,7 @@
     "user": {
       "name": "Nutnicha Beawsiri",
       "motivation_quote": "You always have a choice.",
+      "motivation_credit": "Every km km",
       "facebook": "nutnichabsr",
       "email": "nutnichabsr@gmail.com",
       "image": {
@@ -236,6 +240,7 @@
     "user": {
       "name": "Natthakan Thongweera",
       "motivation_quote": "Glory in life is not in never failing, But rising each time we fail.",
+      "motivation_credit": "confucius",
       "facebook": "natthakan.thongweera",
       "email": "nthongweera@gmail.com",
       "image": {
@@ -293,7 +298,8 @@
     "student_id": "13560232",
     "user": {
       "name": "Fasai Khosittecho",
-      "motivation_quote": "Safe heart,Safe life.",
+      "motivation_quote": "The only man who never makes mistakes is the man who never does anything.",
+      "motivation_credit": "T.Roosevelt",
       "facebook": "kammsaii.khosittesho",
       "email": "fasai.khosit@gmail.com",
       "image": {
@@ -352,6 +358,7 @@
     "user": {
       "name": "Suwalak Norakit",
       "motivation_quote": "Effort and time never betray sweat.",
+      "motivation_credit": "Super Junior - Leeteuk",
       "facebook": "dream.srkm",
       "email": "norakit_s@silpakorn.edu",
       "image": {
@@ -371,13 +378,13 @@
       "type": "Application Android",
       "concept": "แอปพลิเคชันสำหรับค้นหาเพื่อนร่วมแชร์ค่าอาหาร สำหรับคนที่รักการทานอาหารแต่ไม่มีเพื่อนที่จะไปทานด้วยกัน ผู้ใช้งานสามารถสร้างอีเว้นท์และชวนเพื่อนให้มาร่วมทานอาหารด้วยกัน โดยระบุร้านอาหารและสถานที่ที่ต้องการได้ รวมทั้งระบบคำนวณค่าใช้จ่ายสำหรับแต่ละอีเว้นท์",
       "function": {
-        "function_name_a": "Create Event",
-        "function_name_b": "Calculate",
-        "function_name_c": "Join Event",
+        "function_name_a": "Join Event ",
+        "function_name_b": " Create Event",
+        "function_name_c": "Calculate",
         "discription": {
-          "fuction_dis_a": "สร้างอีเว้นท์เพื่อเชิญเพื่อนเข้าร่วมทานอาหาร",
-          "fuction_dis_b": "คำนวณค่าอาหารสำหรับแต่ละอีเว้นท์",
-          "fuction_dis_c": "เมื่อไหร่รับคำเชิญจากเพื่อน สามารถเข้าร่วมหรือปฏิเสธได้"
+          "fuction_dis_a": "เมื่อไหร่รับคำเชิญจากเพื่อน สามารถเข้าร่วมหรือปฏิเสธได้",
+          "fuction_dis_b": "สร้างอีเว้นท์เพื่อเชิญเพื่อนเข้าร่วมทานอาหาร",
+          "fuction_dis_c": "คำนวณค่าอาหารสำหรับแต่ละอีเว้นท์"
         },
         "image": {
           "function_img_a": "function_13560301_01.jpg",

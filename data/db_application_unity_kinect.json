@@ -4,6 +4,7 @@
     "user": {
       "name": "Kanitta Youngpuerksa",
       "motivation_quote": "Good days give you happiness Bad days give you experiences Both are essential to life.",
+      "motivation_credit": "Unknown",
       "facebook": "k.smallyoung",
       "email": "kanitta.youngpuerksa@gmail.com",
       "image": {
@@ -61,7 +62,8 @@
     "student_id": "13560181",
     "user": {
       "name": "Tamonwan Seangpairoh",
-      "motivation_quote": "Don’t be afraid to be different",
+      "motivation_quote": "Don’t be afraid to be someone, when you date to be different",
+      "motivation_credit": "Unknown",
       "facebook": "tamonwan.seangpairoh.3",
       "email": "tamon.new@gmail.com",
       "image": {
@@ -120,6 +122,7 @@
     "user": {
       "name": "Pakakol Sanevong Na Ayuthaya",
       "motivation_quote": "Good things can come From unexpected places.",
+      "motivation_credit": "Unknown",
       "facebook": "pakul.k",
       "email": "pakakol.s@gmail.com",
       "image": {
@@ -178,6 +181,7 @@
     "user": {
       "name": "Pasit Niyomthong",
       "motivation_quote": "Be thankful for the hard times, for they have made you",
+      "motivation_credit": "Movie: The man in the iron mask",
       "facebook": "enqueteplu",
       "email": "pasit.niyom@gmail.com",
       "image": {

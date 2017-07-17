@@ -4,6 +4,7 @@
     "user": {
       "name": "Thanakit Kaopom",
       "motivation_quote": "The best feeling in the world is to know that your family are smiling because of you.",
+      "motivation_credit": "Marquis de condorcet",
       "facebook": "tongthana",
       "email": "thanakit_tong@hotmail.com",
       "image": {
@@ -61,7 +62,8 @@
     "student_id": "13550222",
     "user": {
       "name": "Saranya Khanjanalekha",
-      "motivation_quote": "มีดบาดอารมณ์ไม่คมเท่าจุลนิพนธ์ที่บาดใจ",
+      "motivation_quote": "I don't care if you're black, white, short, tall, skinny, rich or poor. If you respect me, I'll respect you.",
+      "motivation_credit": "Unknown",
       "facebook": "ZAPROY",
       "email": "misty.social@gmail.com",
       "image": {
@@ -72,7 +74,7 @@
       },
       "video": {
         "showreel": "i-DJSSxsPCw",
-        "interview": ".."
+        "interview": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultraline11.3%2Fvideos%2F992356020800869%2F&show_text=0&width=560"
       }
     },
     "work": {

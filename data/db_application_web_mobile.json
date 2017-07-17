@@ -4,6 +4,7 @@
     "user": {
       "name": "Jenjira Srikeaw",
       "motivation_quote": "Don’t stop when you are tired. Stop when you are done.",
+      "motivation_credit": "David Goggins",
       "facebook": "snowwhite.jen",
       "email": "jenji14nb@gmail.com",
       "image": {
@@ -62,6 +63,7 @@
     "user": {
       "name": "Patcharaporn Tummajun",
       "motivation_quote": "I am slow walker, but I never walk back",
+      "motivation_credit": "Abraham lincoln",
       "facebook": "TH3.MiNd",
       "email": "i.mind.ling.o@gmail.com",
       "image": {
@@ -120,6 +122,7 @@
     "user": {
       "name": "Nuttha Lohajoti",
       "motivation_quote": "Today is a gift. That’s why we call it the present",
+      "motivation_credit": "Kung fu panda",
       "facebook": "NowaNowaday",
       "email": "lohajoti_n@gmail.com",
       "image": {
@@ -178,6 +181,7 @@
     "user": {
       "name": "Ekkrit Foonngern",
       "motivation_quote": "I never lose. I either win or learn.",
+      "motivation_credit": "Unknown",
       "facebook": "ekkritishappy",
       "email": "ekkritishappy@gmail.com",
       "image": {
@@ -197,12 +201,12 @@
       "type": "Web Application",
       "concept": "ส่งเสริมการใช้ทรัพยากรร่วมกันเพื่อให้เกิดประโยชน์สูงสุดตามแนวคิดเศรษฐกิจแบบแบ่งปัน (Sharing Economy) โดยการหยิบยกหนังสือซึ่งเป็นวัตถุดิบทางความคิดที่จะช่วยพัฒนาคุณภาพของมนุษย์ได้ จึงเกิดเป็นเว็บไซต์ตัวกลางที่ทำให้ผู้ใช้ที่ต้องการแลกหนังสือระหว่างกันได้มาเจอกัน",
       "function": {
-        "function_name_a": "Browse",
-        "function_name_b": "Chatting",
+        "function_name_a": "Chatting",
+        "function_name_b": "Browse",
         "function_name_c": "Matching",
         "discription": {
-          "fuction_dis_a": "สำรวจรายการแลกเปลี่ยนหนังสือจากผู้ใช้ในระบบ",
-          "fuction_dis_b": "พูดคุย แลกเปลี่ยนความสนใจ หรือส่งคำร้องขอแลกหนังสือผ่านระบบสนทนา",
+          "fuction_dis_a": "พูดคุย แลกเปลี่ยนความสนใจ หรือส่งคำร้องขอแลกหนังสือผ่านระบบสนทนา",
+          "fuction_dis_b": "สำรวจรายการแลกเปลี่ยนหนังสือจากผู้ใช้ในระบบ",
           "fuction_dis_c": "จับคู่หนังสือระหว่างผู้ใช้และแจ้งความคืบหน้าการจัดส่ง"
         },
         "image": {
@@ -222,12 +226,12 @@
       "skill_a_name": "PHP",
       "skill_b_name": "JAVASCRIPT",
       "skill_c_name": "MYSQL",
-      "skill_d_name": "",
+      "skill_d_name": "AI/PSD",
       "percent": {
-        "skill_a_percent": "40",
-        "skill_b_percent": "40",
+        "skill_a_percent": "30",
+        "skill_b_percent": "30",
         "skill_c_percent": "20",
-        "skill_d_percent": ""
+        "skill_d_percent": "20"
       }
     }
   },
@@ -235,7 +239,8 @@
     "student_id": "13560190",
     "user": {
       "name": "Nonthawach Kongcharern",
-      "motivation_quote": "The only wrong thing would be to deny what your heart truly feels",
+      "motivation_quote": "BE TO DENY WHAT YOUR HEART TRULY FEELS",
+      "motivation_credit": "Movie: The mask of Zorro",
       "facebook": "KwanPhawa",
       "email": "nonthawach.kwan@gmail.com",
       "image": {
@@ -293,7 +298,8 @@
     "student_id": "13560122",
     "user": {
       "name": "Kunakorn Achcha",
-      "motivation_quote": "ชีวิตยังมีพรุ่งนี้เสมอแต่ถ้าไม่ส่งจุลเย็นนี้ชีวิตจะไม่มี",
+      "motivation_quote": "Time wounds all heals",
+      "motivation_credit": "Someone like you",
       "facebook": "daviss122",
       "email": "shendelzara@gmail.com",
       "image": {
@@ -352,6 +358,7 @@
     "user": {
       "name": "Sukontha Phonboon",
       "motivation_quote": "Life doesn't have to be perfect to be wonderful.",
+      "motivation_credit": "Unknown",
       "facebook": "Mameaw.Sukontha",
       "email": "sukontha.phonboon@gmail.com",
       "image": {
@@ -409,7 +416,8 @@
     "student_id": "13560253",
     "user": {
       "name": "Rungtiwa Saeleaw",
-      "motivation_quote": "With stout heart,a mouse can lift an elephant.",
+      "motivation_quote": "Life doesn't require that we be the best, only that we try our best",
+      "motivation_credit": "H. Jackson Brown, Jr.",
       "facebook": "jun2euneun",
       "email": "saeleawrungtiwa@gmail.com",
       "image": {
@@ -467,7 +475,8 @@
     "student_id": "13560300",
     "user": {
       "name": "Supakin Thongchu",
-      "motivation_quote": "มากกว่าแค่ดูวิดีโอแคสเกมเล่นเกม",
+      "motivation_quote": "The castgame don't possible .",
+      "motivation_credit": "Xcozs",
       "facebook": "got.returnwind",
       "email": "Tsupakin@gmail.com",
       "image": {
@@ -525,7 +534,8 @@
     "student_id": "13560275",
     "user": {
       "name": "Witsarut Ketnarin",
-      "motivation_quote": "Artbook แหล่งรวมซื้อขายผลงานภาพวาดที่ตอบโจทย์คนรุ่นใหม่ได้ดีที่สุด",
+      "motivation_quote": "Success is a lousy teacher. I seduces smart people into thinking they can't lose.",
+      "motivation_credit": "Bill Gates",
       "facebook": "witsarut.ketnarin",
       "email": "witsarut.sk@gmail.com",
       "image": {
@@ -584,6 +594,7 @@
     "user": {
       "name": "Worawalun Khantee",
       "motivation_quote": "You can be everything you want to be.",
+      "motivation_credit": "Unknown",
       "facebook": "worawaluns",
       "email": "worawaluns.k@gmail.com",
       "image": {

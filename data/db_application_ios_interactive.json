@@ -4,6 +4,7 @@
     "user": {
       "name": "Kochakorn Chabklinhom",
       "motivation_quote": "No one is too old too learn.",
+      "motivation_credit": "Unknown",
       "facebook": "kkochh",
       "email": "koch.may@gmail.com",
       "image": {
@@ -62,6 +63,7 @@
     "user": {
       "name": "Pawinee Noychaya",
       "motivation_quote": "Failure is not an option.",
+      "motivation_credit": "Gene Kranz",
       "facebook": "bunniebonnie",
       "email": "bonnie.still@hotmail.com",
       "image": {
@@ -120,6 +122,7 @@
     "user": {
       "name": "Thananan Jongwiriyawong",
       "motivation_quote": "Enjoy your own life without comparing it with that of another.",
+      "motivation_credit": "Marquis de Condorcet",
       "facebook": "m.mtnnz",
       "email": "smz.mtnn@gmail.com",
       "image": {
@@ -178,6 +181,7 @@
     "user": {
       "name": "Duangkamol Jongsujarit",
       "motivation_quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "motivation_credit": "Eleanor Roosevelt",
       "facebook": "gibbgiftgive.bbearsnvi",
       "email": "athena31101994@gmail.com",
       "image": {
@@ -192,7 +196,7 @@
       }
     },
     "work": {
-      "name": "..",
+      "name": "เกมแอปพลิเคชัน การดูแลสัตว์เลี้ยงในที่พักอาศัยขนาดเล็ก",
       "project_name": "BOKBOKBOX",
       "type": "Interactive with Application IOS",
       "concept": "เกม BOKBOKBOX เป็นเกมแอปพิลเคชันดูแลสัตว์เลี้ยงในที่พักอาศัยขนาดเล็กแนวคิดคือให้สามารถเลี้ยงสุนัขในพื้นที่มีจำกัดได้ ปัจจุบันผู้คนอาศัยในพื้นที่จำกัดมากขึ้น การเลี้ยงสุนัขทีมีขนาดเล็กจึงเป็นที่นิยม ",
